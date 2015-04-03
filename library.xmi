@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:org.eclipse.epf.uma.resourcemanager="http:///org/eclipse/epf/uma/resourcemanager.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1">
+  <org.eclipse.epf.uma.resourcemanager:ResourceManager xmi:id="_SCEpsdjpEeSxv6-DbQ1krQ" guid="_SCEpsdjpEeSxv6-DbQ1krQ">
+    <subManagers xmi:id="_f3_im9jnEeSxwK-DbQ1krQ" href="uma://_f3z8YdjnEeSxwK-DbQ1krQ#_f3_im9jnEeSxwK-DbQ1krQ"/>
+    <resourceDescriptors xmi:id="_SCEpstjpEeSxv6-DbQ1krQ" id="_SCEpsNjpEeSxv6-DbQ1krQ" uri=""/>
+    <resourceDescriptors xmi:id="_f3_inNjnEeSxwK-DbQ1krQ" id="_f3z8YdjnEeSxwK-DbQ1krQ" uri="pardus_plugin/plugin.xmi"/>
+  </org.eclipse.epf.uma.resourcemanager:ResourceManager>
+  <org.eclipse.epf.uma:MethodLibrary xmi:id="_SCEpsNjpEeSxv6-DbQ1krQ" name="Pardus" guid="_SCEpsNjpEeSxv6-DbQ1krQ">
+    <methodElementProperty xmi:id="_SEAjYNjpEeSxv6-DbQ1krQ" name="library_synFree" value="true"/>
+    <methodPlugins xmi:id="_f3z8YdjnEeSxwK-DbQ1krQ" href="uma://_f3z8YdjnEeSxwK-DbQ1krQ#_f3z8YdjnEeSxwK-DbQ1krQ"/>
+  </org.eclipse.epf.uma:MethodLibrary>
+</xmi:XMI>

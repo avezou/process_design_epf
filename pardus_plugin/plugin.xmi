@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:org.eclipse.epf.uma.resourcemanager="http:///org/eclipse/epf/uma/resourcemanager.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1">
+  <org.eclipse.epf.uma.resourcemanager:ResourceManager xmi:id="_f3_im9jnEeSxwK-DbQ1krQ" guid="_f3_im9jnEeSxwK-DbQ1krQ"/>
+  <org.eclipse.epf.uma:MethodPlugin xmi:id="_f3z8YdjnEeSxwK-DbQ1krQ" name="pardus_plugin" guid="_f3z8YdjnEeSxwK-DbQ1krQ" presentationName="Pardus Plugin" changeDate="2015-04-01T20:22:51.381-0700">
+    <methodElementProperty xmi:id="_f4LIwNjnEeSxwK-DbQ1krQ" name="plugin_synFree" value="true"/>
+    <methodElementProperty xmi:id="_i09C8NjnEeSxwK-DbQ1krQ" name="me_edited" value="true"/>
+    <methodPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_f3z8YtjnEeSxwK-DbQ1krQ" name="Content" guid="_f3z8YtjnEeSxwK-DbQ1krQ">
+      <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_f3z8Y9jnEeSxwK-DbQ1krQ" name="Categories" guid="_f3z8Y9jnEeSxwK-DbQ1krQ">
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_f3z8ZNjnEeSxwK-DbQ1krQ" name="Domains" guid="_f3z8ZNjnEeSxwK-DbQ1krQ"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_f3z8ZdjnEeSxwK-DbQ1krQ" name="Disciplines" guid="_f3z8ZdjnEeSxwK-DbQ1krQ"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_f3z8ZtjnEeSxwK-DbQ1krQ" name="RoleSets" guid="_f3z8ZtjnEeSxwK-DbQ1krQ"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_f3_ikNjnEeSxwK-DbQ1krQ" name="WP Types" guid="_f3_ikNjnEeSxwK-DbQ1krQ"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_f3_ikdjnEeSxwK-DbQ1krQ" name="Tools" guid="_f3_ikdjnEeSxwK-DbQ1krQ"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_f3_iktjnEeSxwK-DbQ1krQ" name="StandardCategories" guid="_f3_iktjnEeSxwK-DbQ1krQ"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_f3_ik9jnEeSxwK-DbQ1krQ" name="CustomCategories" guid="_f3_ik9jnEeSxwK-DbQ1krQ">
+          <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_f3_ilNjnEeSxwK-DbQ1krQ" name="Hidden" guid="_f3_ilNjnEeSxwK-DbQ1krQ">
+            <contentElements xsi:type="org.eclipse.epf.uma:CustomCategory" xmi:id="_f3_ildjnEeSxwK-DbQ1krQ" name="Custom Categories" guid="_f3_ildjnEeSxwK-DbQ1krQ"/>
+          </childPackages>
+        </childPackages>
+      </childPackages>
+      <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_f3_iltjnEeSxwK-DbQ1krQ" name="CoreContent" guid="_f3_iltjnEeSxwK-DbQ1krQ">
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_wIumINjnEeSxwK-DbQ1krQ" name="pardus_content_package" guid="_wIumINjnEeSxwK-DbQ1krQ">
+          <methodElementProperty xmi:id="_wIumIdjnEeSxwK-DbQ1krQ" name="pkg_loadCheck" value="true"/>
+          <methodElementProperty xmi:id="_z1bhYNjnEeSxwK-DbQ1krQ" name="me_edited" value="true"/>
+        </childPackages>
+      </childPackages>
+      <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_f3_il9jnEeSxwK-DbQ1krQ" name="CapabilityPatterns" guid="_f3_il9jnEeSxwK-DbQ1krQ"/>
+    </methodPackages>
+    <methodPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_f3_imNjnEeSxwK-DbQ1krQ" name="DeliveryProcesses" guid="_f3_imNjnEeSxwK-DbQ1krQ"/>
+    <methodPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_f3_imdjnEeSxwK-DbQ1krQ" name="ProcessContributions" guid="_f3_imdjnEeSxwK-DbQ1krQ"/>
+  </org.eclipse.epf.uma:MethodPlugin>
+</xmi:XMI>
