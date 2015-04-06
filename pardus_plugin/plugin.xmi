@@ -1,7 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:org.eclipse.epf.uma.resourcemanager="http:///org/eclipse/epf/uma/resourcemanager.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1">
-  <org.eclipse.epf.uma.resourcemanager:ResourceManager xmi:id="_f3_im9jnEeSxwK-DbQ1krQ" guid="_f3_im9jnEeSxwK-DbQ1krQ"/>
-  <org.eclipse.epf.uma:MethodPlugin xmi:id="_f3z8YdjnEeSxwK-DbQ1krQ" name="pardus_plugin" guid="_f3z8YdjnEeSxwK-DbQ1krQ" presentationName="Pardus Plugin" changeDate="2015-04-01T20:22:51.381-0700">
+  <org.eclipse.epf.uma.resourcemanager:ResourceManager xmi:id="_f3_im9jnEeSxwK-DbQ1krQ" guid="_f3_im9jnEeSxwK-DbQ1krQ">
+    <subManagers xmi:id="_H1NNkdyNEeSzq8GkfEmYEA" href="uma://_H0whoNyNEeSzq8GkfEmYEA#_H1NNkdyNEeSzq8GkfEmYEA"/>
+    <subManagers xmi:id="_hSoDINyNEeSzq8GkfEmYEA" href="uma://_hSLXMNyNEeSzq8GkfEmYEA#_hSoDINyNEeSzq8GkfEmYEA"/>
+    <resourceDescriptors xmi:id="_vj8ekNyLEeSzq8GkfEmYEA" id="-soTN4kc097Zy9pbEWynkCQ" uri="roles/process_owner.xmi"/>
+    <resourceDescriptors xmi:id="_H06SoNyNEeSzq8GkfEmYEA" id="_H0whoNyNEeSzq8GkfEmYEA" uri="capabilitypatterns/requirements_phase_iteration/model.xmi"/>
+    <resourceDescriptors xmi:id="_hSLXNNyNEeSzq8GkfEmYEA" id="_hSLXMNyNEeSzq8GkfEmYEA" uri="deliveryprocesses/pardus_process/model.xmi"/>
+    <resourceDescriptors xmi:id="_mDFsANyOEeSzq8GkfEmYEA" id="-eO09KuP0Fg9enpqAcNsjeQ" uri="roles/technical_coordinator.xmi"/>
+    <resourceDescriptors xmi:id="_wtHlwtyOEeSzq8GkfEmYEA" id="-z8WfmErbxwq8vJlD1Hiyjg" uri="roles/operational_coordinator.xmi"/>
+    <resourceDescriptors xmi:id="_1g3ootyOEeSzq8GkfEmYEA" id="-B-dEMRKoBhy7gwakTxU4zw" uri="roles/project_leader.xmi"/>
+    <resourceDescriptors xmi:id="_8r-kctyOEeSzq8GkfEmYEA" id="-0W8JRN8gbA8s3OU2a0B6oA" uri="roles/developer.xmi"/>
+  </org.eclipse.epf.uma.resourcemanager:ResourceManager>
+  <org.eclipse.epf.uma:MethodPlugin xmi:id="_f3z8YdjnEeSxwK-DbQ1krQ" name="pardus_plugin" guid="_f3z8YdjnEeSxwK-DbQ1krQ" presentationName="Pardus Plugin" changeDate="2015-04-01T23:22:51.381-0400">
     <methodElementProperty xmi:id="_f4LIwNjnEeSxwK-DbQ1krQ" name="plugin_synFree" value="true"/>
     <methodElementProperty xmi:id="_i09C8NjnEeSxwK-DbQ1krQ" name="me_edited" value="true"/>
     <methodPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_f3z8YtjnEeSxwK-DbQ1krQ" name="Content" guid="_f3z8YtjnEeSxwK-DbQ1krQ">
@@ -14,19 +24,52 @@
         <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_f3_iktjnEeSxwK-DbQ1krQ" name="StandardCategories" guid="_f3_iktjnEeSxwK-DbQ1krQ"/>
         <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_f3_ik9jnEeSxwK-DbQ1krQ" name="CustomCategories" guid="_f3_ik9jnEeSxwK-DbQ1krQ">
           <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_f3_ilNjnEeSxwK-DbQ1krQ" name="Hidden" guid="_f3_ilNjnEeSxwK-DbQ1krQ">
-            <contentElements xsi:type="org.eclipse.epf.uma:CustomCategory" xmi:id="_f3_ildjnEeSxwK-DbQ1krQ" name="Custom Categories" guid="_f3_ildjnEeSxwK-DbQ1krQ"/>
+            <contentElements xsi:type="org.eclipse.epf.uma:CustomCategory" xmi:id="_f3_ildjnEeSxwK-DbQ1krQ" name="Custom Categories" guid="_f3_ildjnEeSxwK-DbQ1krQ" categorizedElements="_IOd3kNyMEeSzq8GkfEmYEA"/>
           </childPackages>
+          <contentElements xsi:type="org.eclipse.epf.uma:CustomCategory" xmi:id="_IOd3kNyMEeSzq8GkfEmYEA" name="pardus_custom_category" guid="_IOd3kNyMEeSzq8GkfEmYEA" presentationName="Custom Category" briefDescription="Basic category to hold info about this process" categorizedElements="_d47OUNyLEeSzq8GkfEmYEA _xyyUsNyLEeSzq8GkfEmYEA _zFjSMNyNEeSzq8GkfEmYEA">
+            <methodElementProperty xmi:id="_NAomENyMEeSzq8GkfEmYEA" name="me_edited" value="true"/>
+          </contentElements>
         </childPackages>
       </childPackages>
       <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_f3_iltjnEeSxwK-DbQ1krQ" name="CoreContent" guid="_f3_iltjnEeSxwK-DbQ1krQ">
         <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_wIumINjnEeSxwK-DbQ1krQ" name="pardus_content_package" guid="_wIumINjnEeSxwK-DbQ1krQ">
           <methodElementProperty xmi:id="_wIumIdjnEeSxwK-DbQ1krQ" name="pkg_loadCheck" value="true"/>
           <methodElementProperty xmi:id="_z1bhYNjnEeSxwK-DbQ1krQ" name="me_edited" value="true"/>
+          <contentElements xsi:type="org.eclipse.epf.uma:Role" xmi:id="_d47OUNyLEeSzq8GkfEmYEA" name="process_owner" guid="_d47OUNyLEeSzq8GkfEmYEA" presentationName="Process Owner" briefDescription="Responsible for the process&#x9;">
+            <methodElementProperty xmi:id="_vj6pYNyLEeSzq8GkfEmYEA" name="me_edited" value="true"/>
+            <presentation xmi:id="-soTN4kc097Zy9pbEWynkCQ" href="uma://-soTN4kc097Zy9pbEWynkCQ#-soTN4kc097Zy9pbEWynkCQ"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_xyyUsNyLEeSzq8GkfEmYEA" name="project_plan" guid="_xyyUsNyLEeSzq8GkfEmYEA" presentationName="Project Plan">
+            <methodElementProperty xmi:id="_mC6F0NyOEeSzq8GkfEmYEA" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_zFjSMNyNEeSzq8GkfEmYEA" name="sample_task" guid="_zFjSMNyNEeSzq8GkfEmYEA" presentationName="Define Requirements" briefDescription="I will delete (or edit) this to reflect the Pardus proces, this is for illustration purpose. So I can have a skeleton of the process." performedBy="_d47OUNyLEeSzq8GkfEmYEA" output="_xyyUsNyLEeSzq8GkfEmYEA">
+            <methodElementProperty xmi:id="_71CK0NyNEeSzq8GkfEmYEA" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Role" xmi:id="_YxHfoNyOEeSzq8GkfEmYEA" name="technical_coordinator" guid="_YxHfoNyOEeSzq8GkfEmYEA" presentationName="Technical Coordinator" briefDescription="Responsible for coordianting the project">
+            <methodElementProperty xmi:id="_mD-c0NyOEeSzq8GkfEmYEA" name="me_edited" value="true"/>
+            <presentation xmi:id="-eO09KuP0Fg9enpqAcNsjeQ" href="uma://-eO09KuP0Fg9enpqAcNsjeQ#-eO09KuP0Fg9enpqAcNsjeQ"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Role" xmi:id="_mhWVUNyOEeSzq8GkfEmYEA" name="operational_coordinator" guid="_mhWVUNyOEeSzq8GkfEmYEA" presentationName="Operational Coordinator" briefDescription="Responsible for coorinating projects priorities&#x9;">
+            <methodElementProperty xmi:id="_wtHlwNyOEeSzq8GkfEmYEA" name="me_edited" value="true"/>
+            <presentation xmi:id="-z8WfmErbxwq8vJlD1Hiyjg" href="uma://-z8WfmErbxwq8vJlD1Hiyjg#-z8WfmErbxwq8vJlD1Hiyjg"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Role" xmi:id="_xWaaYNyOEeSzq8GkfEmYEA" name="project_leader" guid="_xWaaYNyOEeSzq8GkfEmYEA" presentationName="Project Leader" briefDescription="Project Leader, is choosen by the “T echnical Coordinator and Operational Coordinator based&#xD;&#xA;on the content of the job.">
+            <methodElementProperty xmi:id="_1g3ooNyOEeSzq8GkfEmYEA" name="me_edited" value="true"/>
+            <presentation xmi:id="-B-dEMRKoBhy7gwakTxU4zw" href="uma://-B-dEMRKoBhy7gwakTxU4zw#-B-dEMRKoBhy7gwakTxU4zw"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Role" xmi:id="_2BdNMNyOEeSzq8GkfEmYEA" name="developer" guid="_2BdNMNyOEeSzq8GkfEmYEA" presentationName="Developer" briefDescription="Developers involved in the project, are choosen in conjunction with the Operational&#xD;&#xA;Coordinator at the request of Project Leader.">
+            <methodElementProperty xmi:id="_8r-kcNyOEeSzq8GkfEmYEA" name="me_edited" value="true"/>
+            <presentation xmi:id="-0W8JRN8gbA8s3OU2a0B6oA" href="uma://-0W8JRN8gbA8s3OU2a0B6oA#-0W8JRN8gbA8s3OU2a0B6oA"/>
+          </contentElements>
         </childPackages>
       </childPackages>
-      <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_f3_il9jnEeSxwK-DbQ1krQ" name="CapabilityPatterns" guid="_f3_il9jnEeSxwK-DbQ1krQ"/>
+      <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_f3_il9jnEeSxwK-DbQ1krQ" name="CapabilityPatterns" guid="_f3_il9jnEeSxwK-DbQ1krQ">
+        <childPackages xsi:type="org.eclipse.epf.uma:ProcessComponent" xmi:id="_H0whoNyNEeSzq8GkfEmYEA" href="uma://_H0whoNyNEeSzq8GkfEmYEA#_H0whoNyNEeSzq8GkfEmYEA"/>
+      </childPackages>
     </methodPackages>
-    <methodPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_f3_imNjnEeSxwK-DbQ1krQ" name="DeliveryProcesses" guid="_f3_imNjnEeSxwK-DbQ1krQ"/>
+    <methodPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_f3_imNjnEeSxwK-DbQ1krQ" name="DeliveryProcesses" guid="_f3_imNjnEeSxwK-DbQ1krQ">
+      <childPackages xsi:type="org.eclipse.epf.uma:ProcessComponent" xmi:id="_hSLXMNyNEeSzq8GkfEmYEA" href="uma://_hSLXMNyNEeSzq8GkfEmYEA#_hSLXMNyNEeSzq8GkfEmYEA"/>
+    </methodPackages>
     <methodPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_f3_imdjnEeSxwK-DbQ1krQ" name="ProcessContributions" guid="_f3_imdjnEeSxwK-DbQ1krQ"/>
   </org.eclipse.epf.uma:MethodPlugin>
 </xmi:XMI>
