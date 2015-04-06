@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:org.eclipse.epf.uma.resourcemanager="http:///org/eclipse/epf/uma/resourcemanager.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1">
+  <org.eclipse.epf.uma.resourcemanager:ResourceManager xmi:id="_hSoDINyNEeSzq8GkfEmYEA" guid="_hSoDINyNEeSzq8GkfEmYEA">
+    <resourceDescriptors xmi:id="_hSoDIdyNEeSzq8GkfEmYEA" id="-w1NctG1g600tXOaZFnwoiw" uri="content.xmi"/>
+    <resourceDescriptors xmi:id="_mDrh4dyOEeSzq8GkfEmYEA" id="-v5dL7iQEBDZpVTKnQlEGuA" uri="content.xmi"/>
+  </org.eclipse.epf.uma.resourcemanager:ResourceManager>
+  <org.eclipse.epf.uma:ProcessComponent xmi:id="_hSLXMNyNEeSzq8GkfEmYEA" name="pardus_process" guid="_hSLXMNyNEeSzq8GkfEmYEA">
+    <methodElementProperty xmi:id="_hSLXMtyNEeSzq8GkfEmYEA" name="pkg_loadCheck" value="true"/>
+    <methodElementProperty xmi:id="_mp4bsNyNEeSzq8GkfEmYEA" name="me_edited" value="true"/>
+    <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_sh9pYNyNEeSzq8GkfEmYEA" name="Requirements Phase" guid="_sh9pYNyNEeSzq8GkfEmYEA">
+      <processElements xsi:type="org.eclipse.epf.uma:Phase" xmi:id="_sh9pYdyNEeSzq8GkfEmYEA" name="Requirements Phase" guid="_sh9pYdyNEeSzq8GkfEmYEA" presentationName="Requirements Phase" superActivities="_hSLXMdyNEeSzq8GkfEmYEA" breakdownElements="_CbF40NyOEeSzq8GkfEmYEA _CbF40dyOEeSzq8GkfEmYEA _CbF409yOEeSzq8GkfEmYEA"/>
+      <processElements xsi:type="org.eclipse.epf.uma:TaskDescriptor" xmi:id="_CbF40NyOEeSzq8GkfEmYEA" name="sample_task" guid="_CbF40NyOEeSzq8GkfEmYEA" presentationName="Define Requirements" briefDescription="I will delete (or edit) this to reflect the Pardus proces, this is for illustration purpose. So I can have a skeleton of the process." superActivities="_sh9pYdyNEeSzq8GkfEmYEA" output="_CbF409yOEeSzq8GkfEmYEA" performedPrimarilyBy="_CbF40dyOEeSzq8GkfEmYEA">
+        <methodElementProperty xmi:id="_CbPCwNyOEeSzq8GkfEmYEA" name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
+        <Task href="uma://_f3z8YdjnEeSxwK-DbQ1krQ#_zFjSMNyNEeSzq8GkfEmYEA"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:RoleDescriptor" xmi:id="_CbF40dyOEeSzq8GkfEmYEA" name="process_owner" guid="_CbF40dyOEeSzq8GkfEmYEA" presentationName="Process Owner" briefDescription="Responsible for the process&#x9;" isPlanned="false" superActivities="_sh9pYdyNEeSzq8GkfEmYEA" modifies="_CbF409yOEeSzq8GkfEmYEA">
+        <methodElementProperty xmi:id="_CbF40tyOEeSzq8GkfEmYEA" name="descriptor_createdByReference" value="true"/>
+        <methodElementProperty xmi:id="_CbPCwtyOEeSzq8GkfEmYEA" name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
+        <presentation xmi:id="-v5dL7iQEBDZpVTKnQlEGuA" href="uma://-w1NctG1g600tXOaZFnwoiw#-v5dL7iQEBDZpVTKnQlEGuA"/>
+        <Role href="uma://_f3z8YdjnEeSxwK-DbQ1krQ#_d47OUNyLEeSzq8GkfEmYEA"/>
+      </processElements>
+      <processElements xsi:type="org.eclipse.epf.uma:WorkProductDescriptor" xmi:id="_CbF409yOEeSzq8GkfEmYEA" name="project_plan" guid="_CbF409yOEeSzq8GkfEmYEA" presentationName="Project Plan" isPlanned="false" superActivities="_sh9pYdyNEeSzq8GkfEmYEA">
+        <methodElementProperty xmi:id="_CbF41NyOEeSzq8GkfEmYEA" name="descriptor_createdByReference" value="true"/>
+        <methodElementProperty xmi:id="_CbPCwdyOEeSzq8GkfEmYEA" name="me_references" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?>&lt;me_references udtList=&quot;&quot;/>"/>
+        <WorkProduct href="uma://_f3z8YdjnEeSxwK-DbQ1krQ#_xyyUsNyLEeSzq8GkfEmYEA"/>
+      </processElements>
+    </childPackages>
+    <process xsi:type="org.eclipse.epf.uma:DeliveryProcess" xmi:id="_hSLXMdyNEeSzq8GkfEmYEA" name="pardus_process" guid="_hSLXMdyNEeSzq8GkfEmYEA" presentationName="Pardus Process" breakdownElements="_sh9pYdyNEeSzq8GkfEmYEA">
+      <presentation xmi:id="-w1NctG1g600tXOaZFnwoiw" href="uma://-w1NctG1g600tXOaZFnwoiw#-w1NctG1g600tXOaZFnwoiw"/>
+      <defaultContext href="uma://_SCEpsNjpEeSxv6-DbQ1krQ#_n9seYNjnEeSxwK-DbQ1krQ"/>
+      <validContext href="uma://_SCEpsNjpEeSxv6-DbQ1krQ#_n9seYNjnEeSxwK-DbQ1krQ"/>
+    </process>
+  </org.eclipse.epf.uma:ProcessComponent>
+</xmi:XMI>

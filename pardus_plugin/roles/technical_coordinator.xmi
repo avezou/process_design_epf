@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:RoleDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-eO09KuP0Fg9enpqAcNsjeQ" name="new_role,_YxHfoNyOEeSzq8GkfEmYEA" guid="-eO09KuP0Fg9enpqAcNsjeQ" changeDate="2015-04-06T14:56:12.344-0400">
+  <mainDescription>Technical Coordinator is responsible for giving final approval for the technical infrastruscture and giving the technology&#xD;
+direction for the related project.</mainDescription>
+</org.eclipse.epf.uma:RoleDescription>
