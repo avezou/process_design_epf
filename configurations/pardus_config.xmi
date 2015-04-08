@@ -18,7 +18,6 @@
   <methodPackageSelection xsi:type="org.eclipse.epf.uma:ContentPackage" href="uma://_f3z8YdjnEeSxwK-DbQ1krQ#_f3_ik9jnEeSxwK-DbQ1krQ"/>
   <methodPackageSelection xsi:type="org.eclipse.epf.uma:ContentPackage" href="uma://_f3z8YdjnEeSxwK-DbQ1krQ#_f3_iktjnEeSxwK-DbQ1krQ"/>
   <methodPackageSelection xsi:type="org.eclipse.epf.uma:ContentPackage" href="uma://_f3z8YdjnEeSxwK-DbQ1krQ#_f3_ilNjnEeSxwK-DbQ1krQ"/>
-  <methodPackageSelection xsi:type="org.eclipse.epf.uma:ProcessComponent" href="uma://_H0whoNyNEeSzq8GkfEmYEA#_H0whoNyNEeSzq8GkfEmYEA"/>
   <methodPackageSelection xsi:type="org.eclipse.epf.uma:ProcessComponent" href="uma://_hSLXMNyNEeSzq8GkfEmYEA#_hSLXMNyNEeSzq8GkfEmYEA"/>
   <processViews xsi:type="org.eclipse.epf.uma:CustomCategory" href="uma://_f3z8YdjnEeSxwK-DbQ1krQ#_IOd3kNyMEeSzq8GkfEmYEA"/>
 </org.eclipse.epf.uma:MethodConfiguration>
