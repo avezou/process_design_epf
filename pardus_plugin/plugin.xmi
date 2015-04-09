@@ -9,6 +9,7 @@
     <resourceDescriptors xmi:id="_1g3ootyOEeSzq8GkfEmYEA" id="-B-dEMRKoBhy7gwakTxU4zw" uri="roles/project_leader.xmi"/>
     <resourceDescriptors xmi:id="_8r-kctyOEeSzq8GkfEmYEA" id="-0W8JRN8gbA8s3OU2a0B6oA" uri="roles/developer.xmi"/>
     <resourceDescriptors xmi:id="_FxBWIN17EeS39PBh5U4ZFw" id="-zHiqS1ko8sBBOekErxQuVw" uri="guidances/checklists/external_dependency.xmi"/>
+    <resourceDescriptors xmi:id="_spfXQN8KEeSjzcwJrOc3nw" id="-kHXpH7XhPLiUuKAd7qfjzg" uri="tasks/project_initialization.xmi"/>
   </org.eclipse.epf.uma.resourcemanager:ResourceManager>
   <org.eclipse.epf.uma:MethodPlugin xmi:id="_f3z8YdjnEeSxwK-DbQ1krQ" name="pardus_plugin" guid="_f3z8YdjnEeSxwK-DbQ1krQ" presentationName="Pardus Plugin" changeDate="2015-04-01T23:22:51.381-0400">
     <methodElementProperty xmi:id="_f4LIwNjnEeSxwK-DbQ1krQ" name="plugin_synFree" value="true"/>
@@ -25,7 +26,7 @@
           <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_f3_ilNjnEeSxwK-DbQ1krQ" name="Hidden" guid="_f3_ilNjnEeSxwK-DbQ1krQ">
             <contentElements xsi:type="org.eclipse.epf.uma:CustomCategory" xmi:id="_f3_ildjnEeSxwK-DbQ1krQ" name="Custom Categories" guid="_f3_ildjnEeSxwK-DbQ1krQ" categorizedElements="_IOd3kNyMEeSzq8GkfEmYEA"/>
           </childPackages>
-          <contentElements xsi:type="org.eclipse.epf.uma:CustomCategory" xmi:id="_IOd3kNyMEeSzq8GkfEmYEA" name="pardus_custom_category" guid="_IOd3kNyMEeSzq8GkfEmYEA" presentationName="Custom Category" briefDescription="Basic category to hold info about this process" categorizedElements="_d47OUNyLEeSzq8GkfEmYEA _xyyUsNyLEeSzq8GkfEmYEA _zFjSMNyNEeSzq8GkfEmYEA _J_CLgN13EeS39PBh5U4ZFw _WBDL4N13EeS39PBh5U4ZFw _mkE5UN13EeS39PBh5U4ZFw _diXoQN13EeS39PBh5U4ZFw _x2rO8N13EeS39PBh5U4ZFw _3Gs-IN13EeS39PBh5U4ZFw _Jp8P0N14EeS39PBh5U4ZFw _hIalEN17EeS39PBh5U4ZFw _lcQY0N17EeS39PBh5U4ZFw">
+          <contentElements xsi:type="org.eclipse.epf.uma:CustomCategory" xmi:id="_IOd3kNyMEeSzq8GkfEmYEA" name="pardus_custom_category" guid="_IOd3kNyMEeSzq8GkfEmYEA" presentationName="Custom Category" briefDescription="Basic category to hold info about this process" categorizedElements="_d47OUNyLEeSzq8GkfEmYEA _xyyUsNyLEeSzq8GkfEmYEA _zFjSMNyNEeSzq8GkfEmYEA _J_CLgN13EeS39PBh5U4ZFw _WBDL4N13EeS39PBh5U4ZFw _mkE5UN13EeS39PBh5U4ZFw _diXoQN13EeS39PBh5U4ZFw _x2rO8N13EeS39PBh5U4ZFw _3Gs-IN13EeS39PBh5U4ZFw _Jp8P0N14EeS39PBh5U4ZFw _hIalEN17EeS39PBh5U4ZFw _lcQY0N17EeS39PBh5U4ZFw _F1NOQN8KEeSjzcwJrOc3nw">
             <methodElementProperty xmi:id="_NAomENyMEeSzq8GkfEmYEA" name="me_edited" value="true"/>
           </contentElements>
         </childPackages>
@@ -119,6 +120,10 @@
           </contentElements>
           <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_lcQY0N17EeS39PBh5U4ZFw" name="maintenance_doc" guid="_lcQY0N17EeS39PBh5U4ZFw" presentationName="Maintenance Document">
             <methodElementProperty xmi:id="_oJSm0N17EeS39PBh5U4ZFw" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_F1NOQN8KEeSjzcwJrOc3nw" name="project_initialization" guid="_F1NOQN8KEeSjzcwJrOc3nw" presentationName="Project Initialization" briefDescription="Initial gathering of project requirements" performedBy="_Jp8P0N14EeS39PBh5U4ZFw" output="_WBDL4N13EeS39PBh5U4ZFw" additionallyPerformedBy="_mhWVUNyOEeSzq8GkfEmYEA _YxHfoNyOEeSzq8GkfEmYEA">
+            <methodElementProperty xmi:id="_so_A8N8KEeSjzcwJrOc3nw" name="me_edited" value="true"/>
+            <presentation xmi:id="-kHXpH7XhPLiUuKAd7qfjzg" href="uma://-kHXpH7XhPLiUuKAd7qfjzg#-kHXpH7XhPLiUuKAd7qfjzg"/>
           </contentElements>
         </childPackages>
       </childPackages>

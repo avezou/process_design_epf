@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:TaskDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-kHXpH7XhPLiUuKAd7qfjzg" name=",_F1NOQN8KEeSjzcwJrOc3nw" guid="-kHXpH7XhPLiUuKAd7qfjzg" changeDate="2015-04-09T18:46:10.553-0400">
+  <mainDescription>Project initialization starts with the statement of requirement description includes the main function of the software with&#xD;
+one or two sentences made by the person or people who requested the software.</mainDescription>
+  <purpose>Gather and define the main requirements of the system</purpose>
+</org.eclipse.epf.uma:TaskDescription>

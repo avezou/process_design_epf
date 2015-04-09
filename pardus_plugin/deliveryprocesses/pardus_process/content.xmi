@@ -1,5 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<org.eclipse.epf.uma:DeliveryProcessDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-w1NctG1g600tXOaZFnwoiw" name="requirements_phase,_hSLXMdyNEeSzq8GkfEmYEA" guid="-w1NctG1g600tXOaZFnwoiw">
-  <mainDescription>Analysing, designing, developing and testing the requirements to bring out the software product that is demanded by the&#xD;
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1">
+  <org.eclipse.epf.uma:DeliveryProcessDescription xmi:id="-w1NctG1g600tXOaZFnwoiw" name="requirements_phase,_hSLXMdyNEeSzq8GkfEmYEA" guid="-w1NctG1g600tXOaZFnwoiw">
+    <mainDescription>Analysing, designing, developing and testing the requirements to bring out the software product that is demanded by the&#xD;
 users or customers.</mainDescription>
-</org.eclipse.epf.uma:DeliveryProcessDescription>
+  </org.eclipse.epf.uma:DeliveryProcessDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-HRGO4ZMl0V2GZM3cotdTIg" name="project_initialization,_Gj84sN8MEeSjzcwJrOc3nw" guid="-HRGO4ZMl0V2GZM3cotdTIg">
+    <refinedDescription>Project initialization starts with the statement of requirement description includes the main function of the software with&#xD;
+one or two sentences made by the person or people who requested the software.</refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-kaKFH_fTRZPJvgqQsrE5oQ" name="operational_coordinator,_Gj9fwt8MEeSjzcwJrOc3nw" guid="-kaKFH_fTRZPJvgqQsrE5oQ">
+    <refinedDescription>Operational Coordinator is responsible for balancing and controlling the appropriateness of&lt;br />&#xD;
+the project to software processes and progress and timing of the work with other projects&lt;br />&#xD;
+and releases.</refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-yf9497ZCfZkoRJ3iXjYV2Q" name="technical_coordinator,_Gj9fxN8MEeSjzcwJrOc3nw" guid="-yf9497ZCfZkoRJ3iXjYV2Q">
+    <refinedDescription>Technical Coordinator is responsible for giving final approval for the technical infrastruscture and giving the technology&#xD;
+direction for the related project.</refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+</xmi:XMI>
