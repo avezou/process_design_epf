@@ -10,6 +10,7 @@
     <resourceDescriptors xmi:id="_8r-kctyOEeSzq8GkfEmYEA" id="-0W8JRN8gbA8s3OU2a0B6oA" uri="roles/developer.xmi"/>
     <resourceDescriptors xmi:id="_FxBWIN17EeS39PBh5U4ZFw" id="-zHiqS1ko8sBBOekErxQuVw" uri="guidances/checklists/external_dependency.xmi"/>
     <resourceDescriptors xmi:id="_spfXQN8KEeSjzcwJrOc3nw" id="-kHXpH7XhPLiUuKAd7qfjzg" uri="tasks/project_initialization.xmi"/>
+    <resourceDescriptors xmi:id="_dcbFoOkaEeSG5bNJ0CPeeA" id="-qIp1Jt3PC5Fw2-kjMOufrw" uri="tasks/establishment_of_the_system_requirements.xmi"/>
   </org.eclipse.epf.uma.resourcemanager:ResourceManager>
   <org.eclipse.epf.uma:MethodPlugin xmi:id="_f3z8YdjnEeSxwK-DbQ1krQ" name="pardus_plugin" guid="_f3z8YdjnEeSxwK-DbQ1krQ" presentationName="Pardus Plugin" changeDate="2015-04-01T23:22:51.381-0400">
     <methodElementProperty xmi:id="_f4LIwNjnEeSxwK-DbQ1krQ" name="plugin_synFree" value="true"/>
@@ -124,6 +125,13 @@
           <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_F1NOQN8KEeSjzcwJrOc3nw" name="project_initialization" guid="_F1NOQN8KEeSjzcwJrOc3nw" presentationName="Project Initialization" briefDescription="Initial gathering of project requirements" performedBy="_Jp8P0N14EeS39PBh5U4ZFw" output="_WBDL4N13EeS39PBh5U4ZFw" additionallyPerformedBy="_mhWVUNyOEeSzq8GkfEmYEA _YxHfoNyOEeSzq8GkfEmYEA">
             <methodElementProperty xmi:id="_so_A8N8KEeSjzcwJrOc3nw" name="me_edited" value="true"/>
             <presentation xmi:id="-kHXpH7XhPLiUuKAd7qfjzg" href="uma://-kHXpH7XhPLiUuKAd7qfjzg#-kHXpH7XhPLiUuKAd7qfjzg"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_RVQxcOkYEeSG5bNJ0CPeeA" name="establishment_of_the_system_requirements" guid="_RVQxcOkYEeSG5bNJ0CPeeA" presentationName="Establishment of the System Requirements" briefDescription="Convey, prioritize and review system requirements" performedBy="_Jp8P0N14EeS39PBh5U4ZFw _mhWVUNyOEeSzq8GkfEmYEA _xWaaYNyOEeSzq8GkfEmYEA _vbFjQOkdEeSG5bNJ0CPeeA" mandatoryInput="_WBDL4N13EeS39PBh5U4ZFw" output="_WBDL4N13EeS39PBh5U4ZFw">
+            <methodElementProperty xmi:id="_Iymh8OkaEeSG5bNJ0CPeeA" name="me_edited" value="true"/>
+            <presentation xmi:id="-qIp1Jt3PC5Fw2-kjMOufrw" href="uma://-qIp1Jt3PC5Fw2-kjMOufrw#-qIp1Jt3PC5Fw2-kjMOufrw"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Role" xmi:id="_vbFjQOkdEeSG5bNJ0CPeeA" name="system_engineer" guid="_vbFjQOkdEeSG5bNJ0CPeeA" presentationName="System Engineer">
+            <methodElementProperty xmi:id="_zkdzcOkdEeSG5bNJ0CPeeA" name="me_edited" value="true"/>
           </contentElements>
         </childPackages>
       </childPackages>
