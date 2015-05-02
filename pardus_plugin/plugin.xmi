@@ -21,7 +21,11 @@
         <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_f3z8ZdjnEeSxwK-DbQ1krQ" name="Disciplines" guid="_f3z8ZdjnEeSxwK-DbQ1krQ"/>
         <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_f3z8ZtjnEeSxwK-DbQ1krQ" name="RoleSets" guid="_f3z8ZtjnEeSxwK-DbQ1krQ"/>
         <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_f3_ikNjnEeSxwK-DbQ1krQ" name="WP Types" guid="_f3_ikNjnEeSxwK-DbQ1krQ"/>
-        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_f3_ikdjnEeSxwK-DbQ1krQ" name="Tools" guid="_f3_ikdjnEeSxwK-DbQ1krQ"/>
+        <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_f3_ikdjnEeSxwK-DbQ1krQ" name="Tools" guid="_f3_ikdjnEeSxwK-DbQ1krQ">
+          <contentElements xsi:type="org.eclipse.epf.uma:Tool" xmi:id="_xkZAkPEJEeSo7OaKxdsfLQ" name="buildbot" guid="_xkZAkPEJEeSo7OaKxdsfLQ" presentationName="BuildBot" briefDescription="BuildBot is a unit testing framework that will automatically run UI tests for a specified software project.">
+            <methodElementProperty xmi:id="_49hxUPEJEeSo7OaKxdsfLQ" name="me_edited" value="true"/>
+          </contentElements>
+        </childPackages>
         <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_f3_iktjnEeSxwK-DbQ1krQ" name="StandardCategories" guid="_f3_iktjnEeSxwK-DbQ1krQ"/>
         <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_f3_ik9jnEeSxwK-DbQ1krQ" name="CustomCategories" guid="_f3_ik9jnEeSxwK-DbQ1krQ">
           <childPackages xsi:type="org.eclipse.epf.uma:ContentPackage" xmi:id="_f3_ilNjnEeSxwK-DbQ1krQ" name="Hidden" guid="_f3_ilNjnEeSxwK-DbQ1krQ">
@@ -126,12 +130,41 @@
             <methodElementProperty xmi:id="_so_A8N8KEeSjzcwJrOc3nw" name="me_edited" value="true"/>
             <presentation xmi:id="-kHXpH7XhPLiUuKAd7qfjzg" href="uma://-kHXpH7XhPLiUuKAd7qfjzg#-kHXpH7XhPLiUuKAd7qfjzg"/>
           </contentElements>
-          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_RVQxcOkYEeSG5bNJ0CPeeA" name="establishment_of_the_system_requirements" guid="_RVQxcOkYEeSG5bNJ0CPeeA" presentationName="Establishment of the System Requirements" briefDescription="Convey, prioritize and review system requirements" performedBy="_Jp8P0N14EeS39PBh5U4ZFw _mhWVUNyOEeSzq8GkfEmYEA _xWaaYNyOEeSzq8GkfEmYEA _vbFjQOkdEeSG5bNJ0CPeeA" mandatoryInput="_WBDL4N13EeS39PBh5U4ZFw" output="_WBDL4N13EeS39PBh5U4ZFw">
-            <methodElementProperty xmi:id="_Iymh8OkaEeSG5bNJ0CPeeA" name="me_edited" value="true"/>
-            <presentation xmi:id="-qIp1Jt3PC5Fw2-kjMOufrw" href="uma://-qIp1Jt3PC5Fw2-kjMOufrw#-qIp1Jt3PC5Fw2-kjMOufrw"/>
-          </contentElements>
           <contentElements xsi:type="org.eclipse.epf.uma:Role" xmi:id="_vbFjQOkdEeSG5bNJ0CPeeA" name="system_engineer" guid="_vbFjQOkdEeSG5bNJ0CPeeA" presentationName="System Engineer">
             <methodElementProperty xmi:id="_zkdzcOkdEeSG5bNJ0CPeeA" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_kB4TQPEIEeSo7OaKxdsfLQ" name="establishment_of_the_software_requirements" guid="_kB4TQPEIEeSo7OaKxdsfLQ" presentationName="Establishment of the Software Requirements" briefDescription="1.  Based on the system requirements and competitor analysis, the information is shared between a group consisted of experienced developers related to the issues and the software requirements are begined to be constituted.&#xD;&#xA;2.  T he first version of the software requirements is reviewed and refined by the Project Leader, system engineer and T echnical Coordinator&#xD;&#xA;">
+            <methodElementProperty xmi:id="_peE2MPEIEeSo7OaKxdsfLQ" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_sROTQPEIEeSo7OaKxdsfLQ" name="determination_of_the_project_team" guid="_sROTQPEIEeSo7OaKxdsfLQ" presentationName="Determination of the Project Team">
+            <methodElementProperty xmi:id="_Fdj_4PEJEeSo7OaKxdsfLQ" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_wXwDwPEIEeSo7OaKxdsfLQ" name="technical_analysis" guid="_wXwDwPEIEeSo7OaKxdsfLQ" presentationName="Technical Analysis">
+            <methodElementProperty xmi:id="_FeWqEPEJEeSo7OaKxdsfLQ" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_za_LQPEIEeSo7OaKxdsfLQ" name="work_tracking" guid="_za_LQPEIEeSo7OaKxdsfLQ" presentationName="Work Tracking">
+            <methodElementProperty xmi:id="_FfwYQPEJEeSo7OaKxdsfLQ" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_PWvrgPEJEeSo7OaKxdsfLQ" name="create_the_high_level_design" guid="_PWvrgPEJEeSo7OaKxdsfLQ" presentationName="Create the High Level Design">
+            <methodElementProperty xmi:id="_tZM9EPEKEeSo7OaKxdsfLQ" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_ShDEUPEJEeSo7OaKxdsfLQ" name="create_the_low_level_design" guid="_ShDEUPEJEeSo7OaKxdsfLQ" presentationName="Create the Low Level Design">
+            <methodElementProperty xmi:id="_Upn6YPEJEeSo7OaKxdsfLQ" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_Wz4ygPEJEeSo7OaKxdsfLQ" name="implement_the_solution" guid="_Wz4ygPEJEeSo7OaKxdsfLQ" presentationName="Implement the Solution">
+            <methodElementProperty xmi:id="_ta3xAPEKEeSo7OaKxdsfLQ" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_mylD0PEJEeSo7OaKxdsfLQ" name="implement_the_unit_tests" guid="_mylD0PEJEeSo7OaKxdsfLQ" presentationName="Implement the Unit Tests">
+            <methodElementProperty xmi:id="_tcLYkPEKEeSo7OaKxdsfLQ" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_65CbwPEJEeSo7OaKxdsfLQ" name="implement_alpha_tests" guid="_65CbwPEJEeSo7OaKxdsfLQ" presentationName="Implement Alpha Tests">
+            <methodElementProperty xmi:id="_tcT7cPEKEeSo7OaKxdsfLQ" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_-sQOsPEJEeSo7OaKxdsfLQ" name="implement_the_beta_tests" guid="_-sQOsPEJEeSo7OaKxdsfLQ" presentationName="Implement the Beta Tests">
+            <methodElementProperty xmi:id="_tcbQMPEKEeSo7OaKxdsfLQ" name="me_edited" value="true"/>
+          </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_ytb20PEKEeSo7OaKxdsfLQ" name="establishment_of_system_requirements" guid="_ytb20PEKEeSo7OaKxdsfLQ" presentationName="Establishment of the System Requirements">
+            <methodElementProperty xmi:id="_-DvAsPEKEeSo7OaKxdsfLQ" name="me_edited" value="true"/>
           </contentElements>
         </childPackages>
       </childPackages>
