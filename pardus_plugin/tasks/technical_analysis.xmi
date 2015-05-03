@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:TaskDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-j2JRI1TpuzVNV8byn02A5g" name="technical_analysis,_wXwDwPEIEeSo7OaKxdsfLQ" guid="-j2JRI1TpuzVNV8byn02A5g">
+  <mainDescription>The steps after this stage are in the responsibility of the team that will carry out the project. The process begins with&#xD;
+the technical analysis and decision of the probable operation(s)/algorithm(s) could be applied made by the project team. At&#xD;
+the end of this process, it should be expressed definitely the method(s), library or the other application(s) decided to be&#xD;
+used, covers the user requirements completely. The requirements table could be used as a check list for this process. The&#xD;
+planning should also be done about the module(s) or additional software(s) that will be rewritten or making suitable for&#xD;
+use in necessary conditions.</mainDescription>
+</org.eclipse.epf.uma:TaskDescription>
