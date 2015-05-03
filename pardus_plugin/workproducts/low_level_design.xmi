@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:ArtifactDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-V1FEjgyQL77BmPg9_LL68w" name="new_artifact,_ulM-cPHAEeSMu6QOYZJYaQ" guid="-V1FEjgyQL77BmPg9_LL68w" changeDate="2015-05-03T11:18:54.239-0700">
+  <mainDescription>&lt;p>&#xD;
+    Low level design includes:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        Classes&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Associations between classes&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Member and non-member functions&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Member variable&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></mainDescription>
+</org.eclipse.epf.uma:ArtifactDescription>

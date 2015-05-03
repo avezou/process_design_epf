@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:ArtifactDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-JfOx7Vuomb1hpsVMIu1H-Q" name=",_PRlGUPHHEeSMu6QOYZJYaQ" guid="-JfOx7Vuomb1hpsVMIu1H-Q" changeDate="2015-05-03T12:05:39.712-0700">
+  <mainDescription>&lt;span&#xD;
+style=&quot;WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FLOAT: none; COLOR: rgb(0,0,0); TEXT-ALIGN: left; FONT: 13px arial, helvetica, sans-serif, kanji2; WIDOWS: 1; DISPLAY: inline !important; LETTER-SPACING: normal; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; -webkit-text-stroke-width: 0px&quot;>&#xD;
+This artifact covers all of the steps to validate a specific aspect of an implementation element.&lt;/span></mainDescription>
+  <purpose>&lt;span&#xD;
+style=&quot;WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FLOAT: none; COLOR: rgb(0,0,0); TEXT-ALIGN: left; FONT: 13px arial, helvetica, sans-serif, kanji2; WIDOWS: 1; DISPLAY: inline !important; LETTER-SPACING: normal; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; -webkit-text-stroke-width: 0px&quot;>&#xD;
+This artifact is used to evaluate whether an implementation element performs as specified.&lt;/span></purpose>
+  <representationOptions>&lt;h4&#xD;
+style=&quot;FONT-SIZE: 13px; FONT-FAMILY: arial, helvetica, sans-serif, kanji2; FONT-VARIANT: normal; WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; COLOR: rgb(0,0,0); FONT-STYLE: normal; TEXT-ALIGN: left; WIDOWS: 1; LETTER-SPACING: normal; LINE-HEIGHT: normal; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; -webkit-text-stroke-width: 0px&quot;>&#xD;
+    Suggestion: Automated code unit&#xD;
+&lt;/h4>&#xD;
+&lt;p&#xD;
+style=&quot;WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; COLOR: rgb(0,0,0); TEXT-ALIGN: left; FONT: 13px arial, helvetica, sans-serif, kanji2; WIDOWS: 1; LETTER-SPACING: normal; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; -webkit-text-stroke-width: 0px&quot;>&#xD;
+    The most appropriate technique for running these tests is to use code that tests the implementation element scenarios&#xD;
+    and that you can run regularly as you update the system during development.&#xD;
+&lt;/p>&#xD;
+&lt;p&#xD;
+style=&quot;WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; COLOR: rgb(0,0,0); TEXT-ALIGN: left; FONT: 13px arial, helvetica, sans-serif, kanji2; WIDOWS: 1; LETTER-SPACING: normal; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; -webkit-text-stroke-width: 0px&quot;>&#xD;
+    When code is the sole form of the tests, ensure that the code is self-documenting. The code should document the&#xD;
+    specifications of the conditions you are testing and the setup or clean-up that is required for the test to run&#xD;
+    properly.&#xD;
+&lt;/p>&#xD;
+&lt;h4&#xD;
+style=&quot;FONT-SIZE: 13px; FONT-FAMILY: arial, helvetica, sans-serif, kanji2; FONT-VARIANT: normal; WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; COLOR: rgb(0,0,0); FONT-STYLE: normal; TEXT-ALIGN: left; WIDOWS: 1; LETTER-SPACING: normal; LINE-HEIGHT: normal; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; -webkit-text-stroke-width: 0px&quot;>&#xD;
+    Option: Manual instructions&#xD;
+&lt;/h4>&#xD;
+&lt;p&#xD;
+style=&quot;WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; COLOR: rgb(0,0,0); TEXT-ALIGN: left; FONT: 13px arial, helvetica, sans-serif, kanji2; WIDOWS: 1; LETTER-SPACING: normal; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; -webkit-text-stroke-width: 0px&quot;>&#xD;
+    In some cases, you can use manual instructions. For example, when testing a user interface, a developer might follow a&#xD;
+    script, explaining the implementation element. In this case, it is still valuable to create a test harness that goes&#xD;
+    straight to the user interface. That way, the developer can follow the script without having to follow a complicated&#xD;
+    set of instructions to find a particular screen or page.&#xD;
+&lt;/p>&#xD;
+&lt;h4&#xD;
+style=&quot;FONT-SIZE: 13px; FONT-FAMILY: arial, helvetica, sans-serif, kanji2; FONT-VARIANT: normal; WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; COLOR: rgb(0,0,0); FONT-STYLE: normal; TEXT-ALIGN: left; WIDOWS: 1; LETTER-SPACING: normal; LINE-HEIGHT: normal; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; -webkit-text-stroke-width: 0px&quot;>&#xD;
+    Option: Embedded code&#xD;
+&lt;/h4>&#xD;
+&lt;p&#xD;
+style=&quot;WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; COLOR: rgb(0,0,0); TEXT-ALIGN: left; FONT: 13px arial, helvetica, sans-serif, kanji2; WIDOWS: 1; LETTER-SPACING: normal; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; -webkit-text-stroke-width: 0px&quot;>&#xD;
+    You can use certain technologies (such as Java(TM)5 Test Annotation) to embed tests in the implementation. In these&#xD;
+    cases, there will be a logical work product, but it will be assimilated into the code that you are testing. When you&#xD;
+    use this option, ensure that the code is self-documenting.&#xD;
+&lt;/p></representationOptions>
+</org.eclipse.epf.uma:ArtifactDescription>

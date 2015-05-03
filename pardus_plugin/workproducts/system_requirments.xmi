@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:ArtifactDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-gFdcnGvikYVxRi7yfAyWOA" name=",_cKK5cPGzEeSMu6QOYZJYaQ" guid="-gFdcnGvikYVxRi7yfAyWOA" changeDate="2015-05-03T09:43:41.419-0700">
+  <purpose>&lt;p&#xD;
+style=&quot;WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; COLOR: rgb(0,0,0); TEXT-ALIGN: left; FONT: 13px arial, helvetica, sans-serif, kanji2; WIDOWS: 1; LETTER-SPACING: normal; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; -webkit-text-stroke-width: 0px&quot;>&#xD;
+    This artifact is used for the following purposes:&#xD;
+&lt;/p>&#xD;
+&lt;ul&#xD;
+style=&quot;LIST-STYLE-TYPE: disc; MARGIN-BOTTOM: 0px; WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; COLOR: rgb(0,0,0); TEXT-ALIGN: left; FONT: 13px arial, helvetica, sans-serif, kanji2; PADDING-LEFT: 0px; MARGIN-LEFT: 30px; WIDOWS: 1; MARGIN-TOP: 0px; LETTER-SPACING: normal; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; -webkit-text-stroke-width: 0px&quot;>&#xD;
+    &lt;li style=&quot;FONT-SIZE: 10pt; FONT-FAMILY: arial, helvetica, sans-serif, kanji2; TEXT-ALIGN: left&quot;>&#xD;
+        To describe the quality attributes of the system, and the constraints that the design options must satisfy to&#xD;
+        deliver the business goals, objectives, or capabilities&#xD;
+    &lt;/li>&#xD;
+    &lt;li style=&quot;FONT-SIZE: 10pt; FONT-FAMILY: arial, helvetica, sans-serif, kanji2; TEXT-ALIGN: left&quot;>&#xD;
+        To capture functional requirements that are not expressed as use cases&#xD;
+    &lt;/li>&#xD;
+    &lt;li style=&quot;FONT-SIZE: 10pt; FONT-FAMILY: arial, helvetica, sans-serif, kanji2; TEXT-ALIGN: left&quot;>&#xD;
+        To negotiate between, and select from, competing design options&#xD;
+    &lt;/li>&#xD;
+    &lt;li style=&quot;FONT-SIZE: 10pt; FONT-FAMILY: arial, helvetica, sans-serif, kanji2; TEXT-ALIGN: left&quot;>&#xD;
+        To assess the sizing, cost, and viability of the proposed system&#xD;
+    &lt;/li>&#xD;
+    &lt;li style=&quot;FONT-SIZE: 10pt; FONT-FAMILY: arial, helvetica, sans-serif, kanji2; TEXT-ALIGN: left&quot;>&#xD;
+        To understand the service-level requirements for operational management of the solution&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></purpose>
+</org.eclipse.epf.uma:ArtifactDescription>

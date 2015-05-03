@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:ArtifactDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-xdhU5DYH8wC8nrZGnWVbEQ" name="requirements_specifications_document,_g9_fsPGxEeSMu6QOYZJYaQ" guid="-xdhU5DYH8wC8nrZGnWVbEQ" changeDate="2015-05-03T09:37:43.826-0700">
+  <keyConsiderations>&lt;ul&#xD;
+style=&quot;LIST-STYLE-TYPE: disc; MARGIN-BOTTOM: 0px; WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; COLOR: rgb(0,0,0); TEXT-ALIGN: left; FONT: 13px arial, helvetica, sans-serif, kanji2; PADDING-LEFT: 0px; MARGIN-LEFT: 30px; WIDOWS: 1; MARGIN-TOP: 0px; LETTER-SPACING: normal; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; -webkit-text-stroke-width: 0px&quot;>&#xD;
+    &lt;li style=&quot;FONT-SIZE: 10pt; FONT-FAMILY: arial, helvetica, sans-serif, kanji2; TEXT-ALIGN: left&quot;>&#xD;
+        When you document system-wide requirements, ensure that the needs of all of the stakeholders are represented. In&#xD;
+        particular, include the needs of those who are responsible for maintaining or supporting the system after it is&#xD;
+        delivered.&#xD;
+    &lt;/li>&#xD;
+    &lt;li style=&quot;FONT-SIZE: 10pt; FONT-FAMILY: arial, helvetica, sans-serif, kanji2; TEXT-ALIGN: left&quot;>&#xD;
+        Typically, there are some overlaps and gray areas between system-wide requirements and other requirements work&#xD;
+        products. For example, the authorization behavior of a system can be specified as use cases or as statements within&#xD;
+        system-wide requirements. The overall driving need is that no important requirements are missed or duplicated, and&#xD;
+        that there is an agreed upon approach for capturing and processing every type of requirement.&#xD;
+    &lt;/li>&#xD;
+    &lt;li style=&quot;FONT-SIZE: 10pt; FONT-FAMILY: arial, helvetica, sans-serif, kanji2; TEXT-ALIGN: left&quot;>&#xD;
+        System-wide requirements originate from many places. Documenting the source of the requirement is particularly&#xD;
+        important when you separate externally mandated requirements.&#xD;
+    &lt;/li>&#xD;
+    &lt;li style=&quot;FONT-SIZE: 10pt; FONT-FAMILY: arial, helvetica, sans-serif, kanji2; TEXT-ALIGN: left&quot;>&#xD;
+        Requirements are often thought of as &quot;Qualitative&quot; (specifying a quality or desirable characteristic) versus&#xD;
+        &quot;Quantitative&quot; (specifying a quantity). Qualitative requirements can sometimes be elaborated into quantitative&#xD;
+        requirements.&#xD;
+    &lt;/li>&#xD;
+    &lt;li style=&quot;FONT-SIZE: 10pt; FONT-FAMILY: arial, helvetica, sans-serif, kanji2; TEXT-ALIGN: left&quot;>&#xD;
+        A good quality requirement is one that you can verify, either through testing or some other objective evaluation.&#xD;
+    &lt;/li>&#xD;
+    &lt;li style=&quot;FONT-SIZE: 10pt; FONT-FAMILY: arial, helvetica, sans-serif, kanji2; TEXT-ALIGN: left&quot;>&#xD;
+        You must evaluate system-wide requirements for cost, schedule impact, and level of contribution to business goals.&#xD;
+        Based on your evaluation, the system-wide requirements should be iteratively challenged, defended, and amended.&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></keyConsiderations>
+  <purpose>&lt;p&#xD;
+style=&quot;WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; COLOR: rgb(0,0,0); TEXT-ALIGN: left; FONT: 13px arial, helvetica, sans-serif, kanji2; WIDOWS: 1; LETTER-SPACING: normal; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; -webkit-text-stroke-width: 0px&quot;>&#xD;
+    This artifact is used for the following purposes:&#xD;
+&lt;/p>&#xD;
+&lt;ul&#xD;
+style=&quot;LIST-STYLE-TYPE: disc; MARGIN-BOTTOM: 0px; WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; COLOR: rgb(0,0,0); TEXT-ALIGN: left; FONT: 13px arial, helvetica, sans-serif, kanji2; PADDING-LEFT: 0px; MARGIN-LEFT: 30px; WIDOWS: 1; MARGIN-TOP: 0px; LETTER-SPACING: normal; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; -webkit-text-stroke-width: 0px&quot;>&#xD;
+    &lt;li style=&quot;FONT-SIZE: 10pt; FONT-FAMILY: arial, helvetica, sans-serif, kanji2; TEXT-ALIGN: left&quot;>&#xD;
+        To describe the quality attributes of the system, and the constraints that the design options must satisfy to&#xD;
+        deliver the business goals, objectives, or capabilities&#xD;
+    &lt;/li>&#xD;
+    &lt;li style=&quot;FONT-SIZE: 10pt; FONT-FAMILY: arial, helvetica, sans-serif, kanji2; TEXT-ALIGN: left&quot;>&#xD;
+        To capture functional requirements that are not expressed as use cases&#xD;
+    &lt;/li>&#xD;
+    &lt;li style=&quot;FONT-SIZE: 10pt; FONT-FAMILY: arial, helvetica, sans-serif, kanji2; TEXT-ALIGN: left&quot;>&#xD;
+        To negotiate between, and select from, competing design options&#xD;
+    &lt;/li>&#xD;
+    &lt;li style=&quot;FONT-SIZE: 10pt; FONT-FAMILY: arial, helvetica, sans-serif, kanji2; TEXT-ALIGN: left&quot;>&#xD;
+        To assess the sizing, cost, and viability of the proposed system&#xD;
+    &lt;/li>&#xD;
+    &lt;li style=&quot;FONT-SIZE: 10pt; FONT-FAMILY: arial, helvetica, sans-serif, kanji2; TEXT-ALIGN: left&quot;>&#xD;
+        To understand the service-level requirements for operational management of the solution&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></purpose>
+  <briefOutline>&lt;span&#xD;
+style=&quot;WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FLOAT: none; COLOR: rgb(0,0,0); TEXT-ALIGN: left; FONT: 13px arial, helvetica, sans-serif, kanji2; WIDOWS: 1; DISPLAY: inline !important; LETTER-SPACING: normal; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; -webkit-text-stroke-width: 0px&quot;>&#xD;
+Organize system-wide requirements by a number of common themes or subcategories: the areas of performance and capacity,&#xD;
+availability, usability, security and privacy, maintainability, manageability, and flexibility. See the supporting guidance&#xD;
+for a description of the recommended categorization approach.&lt;/span></briefOutline>
+</org.eclipse.epf.uma:ArtifactDescription>
