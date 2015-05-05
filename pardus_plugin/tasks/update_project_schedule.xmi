@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:TaskDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-XLFo45P-bOtoF8pvWaAZxQ" name="work_tracking,_za_LQPEIEeSo7OaKxdsfLQ" guid="-XLFo45P-bOtoF8pvWaAZxQ" changeDate="2015-05-03T14:47:33.358-0400">
+  <mainDescription>The project schedule should be updated in each of every technical meetings with the participation of the person or people&#xD;
+responsible for coding, if necessary the date shifting or postponing conditions should be comitted to the calendar with the&#xD;
+approval of the person or people claiming the project. T his processes are performed by the project leader. This calendar&#xD;
+should be operated on Pardus Project Tracking System (tracker.pardus.org.tr) and it should be known that the entire&#xD;
+development team will continue to the task sharing through this calendar. T he responsibility of the unspecified conditions&#xD;
+in project tracking system belong to the person who have been on that part of the task. The person/people who demands the&#xD;
+project also could get the project status information from the system instantaneously.</mainDescription>
+</org.eclipse.epf.uma:TaskDescription>
