@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:TaskDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-IV9YptnwuopzycXTTIj89w" name=",_cCGQoPG1EeS-f_dn7e1erw" guid="-IV9YptnwuopzycXTTIj89w">
+  <sections xmi:id="_qbKn8PG1EeS-f_dn7e1erw" name="Determine Competitors" guid="_qbKn8PG1EeS-f_dn7e1erw">
+    <sectionDescription>Project Leader determines the competitors that will be analyzed with the approval of&lt;br />&#xD;
+T echnical Coordinator.&lt;br /></sectionDescription>
+  </sections>
+  <sections xmi:id="_ueR4EPG1EeS-f_dn7e1erw" name="Determine the team" guid="_ueR4EPG1EeS-f_dn7e1erw">
+    <sectionDescription>Project Leader determines a team related to the issue with the approval of “Operational Coordinator” for the competitor&#xD;
+analysis. (T his team is the probable development team of the project, then it could be additions or ommisions to this&#xD;
+team)</sectionDescription>
+  </sections>
+  <sections xmi:id="_x8C_cPG1EeS-f_dn7e1erw" name="Proof of Concept" guid="_x8C_cPG1EeS-f_dn7e1erw">
+    <sectionDescription>On behalf of obtaining certain results from the Competitor Analysis, proof of concept could be performed by the&#xD;
+person/people related to the issue and the results of these processes will shape the software requirements substantially.</sectionDescription>
+  </sections>
+  <sections xmi:id="_1eekYPG1EeS-f_dn7e1erw" name="Apply technical constraints" guid="_1eekYPG1EeS-f_dn7e1erw">
+    <sectionDescription>In addition, in this process, the technical constraints are stated by the team that will perform the project and the&#xD;
+software requirements could be changed based on these constraints.</sectionDescription>
+  </sections>
+</org.eclipse.epf.uma:TaskDescription>
