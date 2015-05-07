@@ -403,6 +403,9 @@
           <contentElements xsi:type="org.eclipse.epf.uma:Artifact" xmi:id="_NUeU4PHREeSkm_PC-n3cGQ" name="test_results" guid="_NUeU4PHREeSkm_PC-n3cGQ" presentationName="Test Results">
             <methodElementProperty xmi:id="_LUcG0PTyEeSy76zCpYLP9Q" name="me_edited" value="true"/>
           </contentElements>
+          <contentElements xsi:type="org.eclipse.epf.uma:Task" xmi:id="_dErbAPUCEeSTdOKYqDx6gQ" name="create_user_doc" guid="_dErbAPUCEeSTdOKYqDx6gQ" presentationName="Create User Documentation" briefDescription="Create user documentation for the project">
+            <methodElementProperty xmi:id="_iIQpoPUCEeSTdOKYqDx6gQ" name="me_edited" value="true"/>
+          </contentElements>
         </childPackages>
       </childPackages>
       <childPackages xsi:type="org.eclipse.epf.uma:ProcessPackage" xmi:id="_f3_il9jnEeSxwK-DbQ1krQ" name="CapabilityPatterns" guid="_f3_il9jnEeSxwK-DbQ1krQ"/>

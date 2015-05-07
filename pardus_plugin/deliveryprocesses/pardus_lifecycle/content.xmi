@@ -5,245 +5,390 @@
 cycles specialized for Pardus.</mainDescription>
   </org.eclipse.epf.uma:DeliveryProcessDescription>
   <org.eclipse.epf.uma:DescriptorDescription xmi:id="-WTb5ugRpOrn18eAs6VsA5w" name="project_initialization,_RIsfUPHPEeSkm_PC-n3cGQ" guid="-WTb5ugRpOrn18eAs6VsA5w">
-    <refinedDescription>Project initialization starts with the statement of requirement description includes the main function of the software with&#xD;
-one or two sentences made by the person or people who requested the software. This explanation could be illustrated as&#xD;
-below:&lt;br />&#xD;
-&lt;br />&#xD;
-“It is necessary a graphical user interface for the user management in the system.”&lt;br />&#xD;
-&lt;br />&#xD;
-A Project leader is determined after the person who requested the software convey this information to the Operational&#xD;
-Coordinator.&lt;br />&#xD;
-&lt;br />&#xD;
-After the Project Leader is determined, a representational code name is determined for the project and with this name a&#xD;
-project is opened under Pardus Project T racking System (tracker.pardus.org.tr). It could be expressed as a sub-project of&#xD;
-another project in accordance with the project requirements. It will be appropriate the participation of the responsable of&#xD;
-the superior project -even as a consultant- to the project in question in this condition. Furthermore, depending on the&#xD;
-privacy status of the project, it is created a working directory at one of the code repositories “internal” or “uludag”&#xD;
-under the subdirectory related to the topic. T he information and documents related to all the studies should be stored&#xD;
-under this directory. All progress should be carried out over the Project T racking System and all the information and&#xD;
-documents should be stores under the project’s working directory. Even if it has become absolute that a document put&lt;br />&#xD;
-in the directory is not necessary anymore, it should not be removed for the purpose of recording; it should be presented to&#xD;
-the required units within the “Project Final Report” when the project at available version or the project is at the end. In&#xD;
-addition, an e-mail list could be opened for the purpose of the project issues’ discussion, in the circumstance of the need&#xD;
-for the project.&lt;br />&#xD;
-&lt;br />&#xD;
-The working repository should be opened under “internal” or “projects” repositories together with the specified code name&#xD;
+    <refinedDescription>Project initialization starts with the statement of requirement description includes the main function of the software with
+one or two sentences made by the person or people who requested the software. This explanation could be illustrated as
+below:&lt;br />
+&lt;br />
+“It is necessary a graphical user interface for the user management in the system.”&lt;br />
+&lt;br />
+A Project leader is determined after the person who requested the software convey this information to the Operational
+Coordinator.&lt;br />
+&lt;br />
+After the Project Leader is determined, a representational code name is determined for the project and with this name a
+project is opened under Pardus Project T racking System (tracker.pardus.org.tr). It could be expressed as a sub-project of
+another project in accordance with the project requirements. It will be appropriate the participation of the responsable of
+the superior project -even as a consultant- to the project in question in this condition. Furthermore, depending on the
+privacy status of the project, it is created a working directory at one of the code repositories “internal” or “uludag”
+under the subdirectory related to the topic. T he information and documents related to all the studies should be stored
+under this directory. All progress should be carried out over the Project T racking System and all the information and
+documents should be stores under the project’s working directory. Even if it has become absolute that a document put&lt;br />
+in the directory is not necessary anymore, it should not be removed for the purpose of recording; it should be presented to
+the required units within the “Project Final Report” when the project at available version or the project is at the end. In
+addition, an e-mail list could be opened for the purpose of the project issues’ discussion, in the circumstance of the need
+for the project.&lt;br />
+&lt;br />
+The working repository should be opened under “internal” or “projects” repositories together with the specified code name
 depending on the privacy status of the project.&lt;br /></refinedDescription>
   </org.eclipse.epf.uma:DescriptorDescription>
   <org.eclipse.epf.uma:DescriptorDescription xmi:id="-oGF9D0YeaFb-t6b2WbAgzg" name="operational_coordinator,_u6_DYfHPEeSkm_PC-n3cGQ" guid="-oGF9D0YeaFb-t6b2WbAgzg">
-    <refinedDescription>Operational Coordinator is responsible for balancing and controlling the appropriateness of&lt;br />&#xD;
-the project to software processes and progress and timing of the work with other projects&lt;br />&#xD;
+    <refinedDescription>Operational Coordinator is responsible for balancing and controlling the appropriateness of&lt;br />
+the project to software processes and progress and timing of the work with other projects&lt;br />
 and releases.</refinedDescription>
   </org.eclipse.epf.uma:DescriptorDescription>
   <org.eclipse.epf.uma:DescriptorDescription xmi:id="-QaBY009kBS45KjPrySEnIQ" name="project_leader,_u6_DZPHPEeSkm_PC-n3cGQ" guid="-QaBY009kBS45KjPrySEnIQ">
-    <refinedDescription>&lt;p>&#xD;
-    Project Leader is the follower of these works and the reporter to the upper unit (Operational&lt;br />&#xD;
-    Coordinator ve T echnical Coordinator) at the same time.&#xD;
-&lt;/p>&#xD;
-&lt;p>&#xD;
-    The Project Leader is responsible for determining the software requirements of the project and making competitor&#xD;
-    analysis, software design, software development, unit testing, system intergration and packaging.&#xD;
+    <refinedDescription>&lt;p>
+    Project Leader is the follower of these works and the reporter to the upper unit (Operational&lt;br />
+    Coordinator ve T echnical Coordinator) at the same time.
+&lt;/p>
+&lt;p>
+    The Project Leader is responsible for determining the software requirements of the project and making competitor
+    analysis, software design, software development, unit testing, system intergration and packaging.
 &lt;/p></refinedDescription>
   </org.eclipse.epf.uma:DescriptorDescription>
   <org.eclipse.epf.uma:DescriptorDescription xmi:id="-PNbi7C35cm_TKPql64vDaQ" name="technical_coordinator,_u6_DZ_HPEeSkm_PC-n3cGQ" guid="-PNbi7C35cm_TKPql64vDaQ">
-    <refinedDescription>Technical Coordinator is responsible for giving final approval for the technical infrastruscture and giving the technology&#xD;
+    <refinedDescription>Technical Coordinator is responsible for giving final approval for the technical infrastruscture and giving the technology
 direction for the related project.</refinedDescription>
   </org.eclipse.epf.uma:DescriptorDescription>
   <org.eclipse.epf.uma:DescriptorDescription xmi:id="-r7l430L-jTBc3sxRXYJj2g" name="establishment_of_software_requirements,_ZWpYMPHPEeSkm_PC-n3cGQ" guid="-r7l430L-jTBc3sxRXYJj2g">
-    <refinedDescription>Based on the system requirements and competitor analysis, the information is shared between a group consisted of&#xD;
+    <refinedDescription>Based on the system requirements and competitor analysis, the information is shared between a group consisted of
 experienced developers related to the issues and the software requirements are begined to be constituted.</refinedDescription>
   </org.eclipse.epf.uma:DescriptorDescription>
   <org.eclipse.epf.uma:DescriptorDescription xmi:id="-AMOfD9btd0BLYhX96JX1ZQ" name="review_the_software_requirements,_edq8YPHPEeSkm_PC-n3cGQ" guid="-AMOfD9btd0BLYhX96JX1ZQ">
-    <refinedDescription>The first version of the software requirements is reviewed and refined by the Project Leader, system engineer and Technical&#xD;
+    <refinedDescription>The first version of the software requirements is reviewed and refined by the Project Leader, system engineer and Technical
 Coordinator&lt;br /></refinedDescription>
   </org.eclipse.epf.uma:DescriptorDescription>
   <org.eclipse.epf.uma:DescriptorDescription xmi:id="-I8l1oGaH4qZ-qf9LaGuZmA" name="review_the_system_requirements,_hLplkPHPEeSkm_PC-n3cGQ" guid="-I8l1oGaH4qZ-qf9LaGuZmA">
-    <refinedDescription>System requirements are reviewed and refined by Project Leader, system engineer, External&lt;br />&#xD;
+    <refinedDescription>System requirements are reviewed and refined by Project Leader, system engineer, External&lt;br />
 Project Coordinator (in the condition of external project) and Operational Coordinator&lt;br /></refinedDescription>
   </org.eclipse.epf.uma:DescriptorDescription>
   <org.eclipse.epf.uma:DescriptorDescription xmi:id="-kKBpAOgIg7tpf3RDmjVPag" name="developer,_0xdHgfHPEeSkm_PC-n3cGQ" guid="-kKBpAOgIg7tpf3RDmjVPag">
-    <refinedDescription>Developers are responsible for the software requirements fo the project, sofware design, software develoment, unit testing,&#xD;
+    <refinedDescription>Developers are responsible for the software requirements fo the project, sofware design, software develoment, unit testing,
 system integration, and packaging.</refinedDescription>
   </org.eclipse.epf.uma:DescriptorDescription>
   <org.eclipse.epf.uma:DescriptorDescription xmi:id="-ydk0cooJDDWv87o8SZ21Lg" name="operational_coordinator,_2TNOJPHPEeSkm_PC-n3cGQ" guid="-ydk0cooJDDWv87o8SZ21Lg">
-    <refinedDescription>Operational Coordinator is responsible for balancing and controlling the appropriateness of&lt;br />&#xD;
-the project to software processes and progress and timing of the work with other projects&lt;br />&#xD;
+    <refinedDescription>Operational Coordinator is responsible for balancing and controlling the appropriateness of&lt;br />
+the project to software processes and progress and timing of the work with other projects&lt;br />
 and releases.</refinedDescription>
   </org.eclipse.epf.uma:DescriptorDescription>
   <org.eclipse.epf.uma:DescriptorDescription xmi:id="-wfAxFmKDplXUe9tWIaIs-A" name="project_leader,_3hj3ofHPEeSkm_PC-n3cGQ" guid="-wfAxFmKDplXUe9tWIaIs-A">
-    <refinedDescription>&lt;p>&#xD;
-    Project Leader is the follower of these works and the reporter to the upper unit (Operational&lt;br />&#xD;
-    Coordinator ve T echnical Coordinator) at the same time.&#xD;
-&lt;/p>&#xD;
-&lt;p>&#xD;
-    The Project Leader is responsible for determining the software requirements of the project and making competitor&#xD;
-    analysis, software design, software development, unit testing, system intergration and packaging.&#xD;
+    <refinedDescription>&lt;p>
+    Project Leader is the follower of these works and the reporter to the upper unit (Operational&lt;br />
+    Coordinator ve T echnical Coordinator) at the same time.
+&lt;/p>
+&lt;p>
+    The Project Leader is responsible for determining the software requirements of the project and making competitor
+    analysis, software design, software development, unit testing, system intergration and packaging.
 &lt;/p></refinedDescription>
   </org.eclipse.epf.uma:DescriptorDescription>
   <org.eclipse.epf.uma:DescriptorDescription xmi:id="-o7g4BO5hZitAMre8QPxzlw" name="technical_coordinator,_3hlFwfHPEeSkm_PC-n3cGQ" guid="-o7g4BO5hZitAMre8QPxzlw">
-    <refinedDescription>Technical Coordinator is responsible for giving final approval for the technical infrastruscture and giving the technology&#xD;
+    <refinedDescription>Technical Coordinator is responsible for giving final approval for the technical infrastruscture and giving the technology
 direction for the related project.</refinedDescription>
   </org.eclipse.epf.uma:DescriptorDescription>
   <org.eclipse.epf.uma:DescriptorDescription xmi:id="-4rdzTwj5vn2zioGLxKjIFA" name="prioritize_the_requirements,_l-JrQPHPEeSkm_PC-n3cGQ" guid="-4rdzTwj5vn2zioGLxKjIFA">
-    <refinedDescription>After filling the requirements table, a process related to prioritization of requirements begins with the participation of&#xD;
-project leader, the demander(s) of the project and the team performed the competitor analysis. T his process bases the&#xD;
-ranking of the stages have to be done to reach the condition that performs the first sentence of the demand in the most&#xD;
+    <refinedDescription>After filling the requirements table, a process related to prioritization of requirements begins with the participation of
+project leader, the demander(s) of the project and the team performed the competitor analysis. T his process bases the
+ranking of the stages have to be done to reach the condition that performs the first sentence of the demand in the most
 basic sense.</refinedDescription>
   </org.eclipse.epf.uma:DescriptorDescription>
   <org.eclipse.epf.uma:DescriptorDescription xmi:id="-vBWBj91feAjp8F69hZP39w" name="technical_analysis,_osNM8PHPEeSkm_PC-n3cGQ" guid="-vBWBj91feAjp8F69hZP39w">
-    <refinedDescription>The steps after this stage are in the responsibility of the team that will carry out the project. The process begins with&#xD;
-the technical analysis and decision of the probable operation(s)/algorithm(s) could be applied made by the project team. At&#xD;
-the end of this process, it should be expressed definitely the method(s), library or the other application(s) decided to be&#xD;
-used, covers the user requirements completely. The requirements table could be used as a check list for this process. The&#xD;
-planning should also be done about the module(s) or additional software(s) that will be rewritten or making suitable for&#xD;
+    <refinedDescription>The steps after this stage are in the responsibility of the team that will carry out the project. The process begins with
+the technical analysis and decision of the probable operation(s)/algorithm(s) could be applied made by the project team. At
+the end of this process, it should be expressed definitely the method(s), library or the other application(s) decided to be
+used, covers the user requirements completely. The requirements table could be used as a check list for this process. The
+planning should also be done about the module(s) or additional software(s) that will be rewritten or making suitable for
 use in necessary conditions.</refinedDescription>
   </org.eclipse.epf.uma:DescriptorDescription>
   <org.eclipse.epf.uma:DescriptorDescription xmi:id="-V2b26Vx54G30O4WXqyDVcg" name="update_project_schedule,_qjoBkPHPEeSkm_PC-n3cGQ" guid="-V2b26Vx54G30O4WXqyDVcg">
-    <refinedDescription>The project schedule should be updated in each of every technical meetings with the participation of the person or people&#xD;
-responsible for coding, if necessary the date shifting or postponing conditions should be comitted to the calendar with the&#xD;
-approval of the person or people claiming the project. T his processes are performed by the project leader. This calendar&#xD;
-should be operated on Pardus Project Tracking System (tracker.pardus.org.tr) and it should be known that the entire&#xD;
-development team will continue to the task sharing through this calendar. T he responsibility of the unspecified conditions&#xD;
-in project tracking system belong to the person who have been on that part of the task. The person/people who demands the&#xD;
+    <refinedDescription>The project schedule should be updated in each of every technical meetings with the participation of the person or people
+responsible for coding, if necessary the date shifting or postponing conditions should be comitted to the calendar with the
+approval of the person or people claiming the project. T his processes are performed by the project leader. This calendar
+should be operated on Pardus Project Tracking System (tracker.pardus.org.tr) and it should be known that the entire
+development team will continue to the task sharing through this calendar. T he responsibility of the unspecified conditions
+in project tracking system belong to the person who have been on that part of the task. The person/people who demands the
 project also could get the project status information from the system instantaneously.</refinedDescription>
   </org.eclipse.epf.uma:DescriptorDescription>
   <org.eclipse.epf.uma:DescriptorDescription xmi:id="-c1LJIUAcR1IwV_79dkavow" name="project_leader,_6sF58fHPEeSkm_PC-n3cGQ" guid="-c1LJIUAcR1IwV_79dkavow">
-    <refinedDescription>&lt;p>&#xD;
-    Project Leader is the follower of these works and the reporter to the upper unit (Operational&lt;br />&#xD;
-    Coordinator ve T echnical Coordinator) at the same time.&#xD;
-&lt;/p>&#xD;
-&lt;p>&#xD;
-    The Project Leader is responsible for determining the software requirements of the project and making competitor&#xD;
-    analysis, software design, software development, unit testing, system intergration and packaging.&#xD;
+    <refinedDescription>&lt;p>
+    Project Leader is the follower of these works and the reporter to the upper unit (Operational&lt;br />
+    Coordinator ve T echnical Coordinator) at the same time.
+&lt;/p>
+&lt;p>
+    The Project Leader is responsible for determining the software requirements of the project and making competitor
+    analysis, software design, software development, unit testing, system intergration and packaging.
 &lt;/p></refinedDescription>
   </org.eclipse.epf.uma:DescriptorDescription>
   <org.eclipse.epf.uma:DescriptorDescription xmi:id="-yPDQvA2v9b4VPfxsYvlVrw" name="operational_coordinator,_6sF5-vHPEeSkm_PC-n3cGQ" guid="-yPDQvA2v9b4VPfxsYvlVrw">
-    <refinedDescription>Operational Coordinator is responsible for balancing and controlling the appropriateness of&lt;br />&#xD;
-the project to software processes and progress and timing of the work with other projects&lt;br />&#xD;
+    <refinedDescription>Operational Coordinator is responsible for balancing and controlling the appropriateness of&lt;br />
+the project to software processes and progress and timing of the work with other projects&lt;br />
 and releases.</refinedDescription>
   </org.eclipse.epf.uma:DescriptorDescription>
   <org.eclipse.epf.uma:DescriptorDescription xmi:id="-XlCDmkjMkpe2nYs0OZ07kQ" name="technical_coordinator,_7uaSkfHPEeSkm_PC-n3cGQ" guid="-XlCDmkjMkpe2nYs0OZ07kQ">
-    <refinedDescription>Technical Coordinator is responsible for giving final approval for the technical infrastruscture and giving the technology&#xD;
+    <refinedDescription>Technical Coordinator is responsible for giving final approval for the technical infrastruscture and giving the technology
 direction for the related project.</refinedDescription>
   </org.eclipse.epf.uma:DescriptorDescription>
   <org.eclipse.epf.uma:DescriptorDescription xmi:id="-75SODSVAWedXrRB46MDbhQ" name="developer,_7uaSlPHPEeSkm_PC-n3cGQ" guid="-75SODSVAWedXrRB46MDbhQ">
-    <refinedDescription>Developers are responsible for the software requirements fo the project, sofware design, software develoment, unit testing,&#xD;
+    <refinedDescription>Developers are responsible for the software requirements fo the project, sofware design, software develoment, unit testing,
 system integration, and packaging.</refinedDescription>
   </org.eclipse.epf.uma:DescriptorDescription>
   <org.eclipse.epf.uma:DescriptorDescription xmi:id="-j2zcZpeCQFuysr9XIuDkSw" name="process_owner,_8810lPHPEeSkm_PC-n3cGQ" guid="-j2zcZpeCQFuysr9XIuDkSw">
-    <refinedDescription>The Project Leader who takes the responsibility of the software's development and the software development team with whom&#xD;
+    <refinedDescription>The Project Leader who takes the responsibility of the software's development and the software development team with whom
 to work with.</refinedDescription>
   </org.eclipse.epf.uma:DescriptorDescription>
   <org.eclipse.epf.uma:DescriptorDescription xmi:id="-d4tC4T_HWALucuvu0xQ0cg" name="prioritize_the_requirements,_l-JrQPHPEeSkm_PC-n3cGQ" guid="-d4tC4T_HWALucuvu0xQ0cg">
-    <refinedDescription>After filling the requirements table, a process related to prioritization of requirements begins with the participation of&#xD;
-project leader, the demander(s) of the project and the team performed the competitor analysis. T his process bases the&#xD;
-ranking of the stages have to be done to reach the condition that performs the first sentence of the demand in the most&#xD;
+    <refinedDescription>After filling the requirements table, a process related to prioritization of requirements begins with the participation of
+project leader, the demander(s) of the project and the team performed the competitor analysis. T his process bases the
+ranking of the stages have to be done to reach the condition that performs the first sentence of the demand in the most
 basic sense.</refinedDescription>
   </org.eclipse.epf.uma:DescriptorDescription>
   <org.eclipse.epf.uma:DescriptorDescription xmi:id="-9-QU3ai41P0cf4y2mz0bVQ" name="technical_analysis,_osNM8PHPEeSkm_PC-n3cGQ" guid="-9-QU3ai41P0cf4y2mz0bVQ">
-    <refinedDescription>The steps after this stage are in the responsibility of the team that will carry out the project. The process begins with&#xD;
-the technical analysis and decision of the probable operation(s)/algorithm(s) could be applied made by the project team. At&#xD;
-the end of this process, it should be expressed definitely the method(s), library or the other application(s) decided to be&#xD;
-used, covers the user requirements completely. The requirements table could be used as a check list for this process. The&#xD;
-planning should also be done about the module(s) or additional software(s) that will be rewritten or making suitable for&#xD;
+    <refinedDescription>The steps after this stage are in the responsibility of the team that will carry out the project. The process begins with
+the technical analysis and decision of the probable operation(s)/algorithm(s) could be applied made by the project team. At
+the end of this process, it should be expressed definitely the method(s), library or the other application(s) decided to be
+used, covers the user requirements completely. The requirements table could be used as a check list for this process. The
+planning should also be done about the module(s) or additional software(s) that will be rewritten or making suitable for
 use in necessary conditions.</refinedDescription>
   </org.eclipse.epf.uma:DescriptorDescription>
   <org.eclipse.epf.uma:DescriptorDescription xmi:id="-HYR_j61vRH1GF2uGk0iFbA" name="update_project_schedule,_qjoBkPHPEeSkm_PC-n3cGQ" guid="-HYR_j61vRH1GF2uGk0iFbA">
-    <refinedDescription>The project schedule should be updated in each of every technical meetings with the participation of the person or people&#xD;
-responsible for coding, if necessary the date shifting or postponing conditions should be comitted to the calendar with the&#xD;
-approval of the person or people claiming the project. T his processes are performed by the project leader. This calendar&#xD;
-should be operated on Pardus Project Tracking System (tracker.pardus.org.tr) and it should be known that the entire&#xD;
-development team will continue to the task sharing through this calendar. T he responsibility of the unspecified conditions&#xD;
-in project tracking system belong to the person who have been on that part of the task. The person/people who demands the&#xD;
+    <refinedDescription>The project schedule should be updated in each of every technical meetings with the participation of the person or people
+responsible for coding, if necessary the date shifting or postponing conditions should be comitted to the calendar with the
+approval of the person or people claiming the project. T his processes are performed by the project leader. This calendar
+should be operated on Pardus Project Tracking System (tracker.pardus.org.tr) and it should be known that the entire
+development team will continue to the task sharing through this calendar. T he responsibility of the unspecified conditions
+in project tracking system belong to the person who have been on that part of the task. The person/people who demands the
 project also could get the project status information from the system instantaneously.</refinedDescription>
   </org.eclipse.epf.uma:DescriptorDescription>
-  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-c_yEUIbwHo45I20xFA-SQA" name="establishment_of_software_requirements,_ZWpYMPHPEeSkm_PC-n3cGQ" guid="-c_yEUIbwHo45I20xFA-SQA"/>
-  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-LCob3cE8ngj391MKOsf6KA" name="review_the_software_requirements,_edq8YPHPEeSkm_PC-n3cGQ" guid="-LCob3cE8ngj391MKOsf6KA"/>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-c_yEUIbwHo45I20xFA-SQA" name="establishment_of_software_requirements,_ZWpYMPHPEeSkm_PC-n3cGQ" guid="-c_yEUIbwHo45I20xFA-SQA">
+    <refinedDescription>Based on the system requirements and competitor analysis, the information is shared between a group consisted of
+experienced developers related to the issues and the software requirements are begined to be constituted.</refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-LCob3cE8ngj391MKOsf6KA" name="review_the_software_requirements,_edq8YPHPEeSkm_PC-n3cGQ" guid="-LCob3cE8ngj391MKOsf6KA">
+    <refinedDescription>The first version of the software requirements is reviewed and refined by the Project Leader, system engineer and Technical
+Coordinator&lt;br /></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
   <org.eclipse.epf.uma:DescriptorDescription xmi:id="-AM7tutUyvRM6iWkQJ_RT1Q" name="developer,_Se9cw_HREeSkm_PC-n3cGQ" guid="-AM7tutUyvRM6iWkQJ_RT1Q">
-    <refinedDescription>Developers are responsible for the software requirements fo the project, sofware design, software develoment, unit testing,&#xD;
+    <refinedDescription>Developers are responsible for the software requirements fo the project, sofware design, software develoment, unit testing,
 system integration, and packaging.</refinedDescription>
   </org.eclipse.epf.uma:DescriptorDescription>
   <org.eclipse.epf.uma:DescriptorDescription xmi:id="-l3IC7U0ZRcbWWH-MCR-mLg" name="prioritize_the_requirements,_l-JrQPHPEeSkm_PC-n3cGQ" guid="-l3IC7U0ZRcbWWH-MCR-mLg">
-    <refinedDescription>After filling the requirements table, a process related to prioritization of requirements begins with the participation of&#xD;
-project leader, the demander(s) of the project and the team performed the competitor analysis. T his process bases the&#xD;
-ranking of the stages have to be done to reach the condition that performs the first sentence of the demand in the most&#xD;
+    <refinedDescription>After filling the requirements table, a process related to prioritization of requirements begins with the participation of
+project leader, the demander(s) of the project and the team performed the competitor analysis. T his process bases the
+ranking of the stages have to be done to reach the condition that performs the first sentence of the demand in the most
 basic sense.</refinedDescription>
   </org.eclipse.epf.uma:DescriptorDescription>
   <org.eclipse.epf.uma:DescriptorDescription xmi:id="-fnxuw1YdRxLigbfYaiUGHw" name="technical_analysis,_osNM8PHPEeSkm_PC-n3cGQ" guid="-fnxuw1YdRxLigbfYaiUGHw">
-    <refinedDescription>The steps after this stage are in the responsibility of the team that will carry out the project. The process begins with&#xD;
-the technical analysis and decision of the probable operation(s)/algorithm(s) could be applied made by the project team. At&#xD;
-the end of this process, it should be expressed definitely the method(s), library or the other application(s) decided to be&#xD;
-used, covers the user requirements completely. The requirements table could be used as a check list for this process. The&#xD;
-planning should also be done about the module(s) or additional software(s) that will be rewritten or making suitable for&#xD;
+    <refinedDescription>The steps after this stage are in the responsibility of the team that will carry out the project. The process begins with
+the technical analysis and decision of the probable operation(s)/algorithm(s) could be applied made by the project team. At
+the end of this process, it should be expressed definitely the method(s), library or the other application(s) decided to be
+used, covers the user requirements completely. The requirements table could be used as a check list for this process. The
+planning should also be done about the module(s) or additional software(s) that will be rewritten or making suitable for
 use in necessary conditions.</refinedDescription>
   </org.eclipse.epf.uma:DescriptorDescription>
   <org.eclipse.epf.uma:DescriptorDescription xmi:id="-bfPmoqAVrf2VGbz9q9doew" name="update_project_schedule,_qjoBkPHPEeSkm_PC-n3cGQ" guid="-bfPmoqAVrf2VGbz9q9doew">
-    <refinedDescription>The project schedule should be updated in each of every technical meetings with the participation of the person or people&#xD;
-responsible for coding, if necessary the date shifting or postponing conditions should be comitted to the calendar with the&#xD;
-approval of the person or people claiming the project. T his processes are performed by the project leader. This calendar&#xD;
-should be operated on Pardus Project Tracking System (tracker.pardus.org.tr) and it should be known that the entire&#xD;
-development team will continue to the task sharing through this calendar. T he responsibility of the unspecified conditions&#xD;
-in project tracking system belong to the person who have been on that part of the task. The person/people who demands the&#xD;
+    <refinedDescription>The project schedule should be updated in each of every technical meetings with the participation of the person or people
+responsible for coding, if necessary the date shifting or postponing conditions should be comitted to the calendar with the
+approval of the person or people claiming the project. T his processes are performed by the project leader. This calendar
+should be operated on Pardus Project Tracking System (tracker.pardus.org.tr) and it should be known that the entire
+development team will continue to the task sharing through this calendar. T he responsibility of the unspecified conditions
+in project tracking system belong to the person who have been on that part of the task. The person/people who demands the
 project also could get the project status information from the system instantaneously.</refinedDescription>
   </org.eclipse.epf.uma:DescriptorDescription>
-  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-vublXtoL8zNrIKCigw5YoQ" name="establishment_of_software_requirements,_ZWpYMPHPEeSkm_PC-n3cGQ" guid="-vublXtoL8zNrIKCigw5YoQ"/>
-  <org.eclipse.epf.uma:DescriptorDescription xmi:id="--qotifv8JoZghyvK8OBKAg" name="review_the_software_requirements,_edq8YPHPEeSkm_PC-n3cGQ" guid="--qotifv8JoZghyvK8OBKAg"/>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-vublXtoL8zNrIKCigw5YoQ" name="establishment_of_software_requirements,_ZWpYMPHPEeSkm_PC-n3cGQ" guid="-vublXtoL8zNrIKCigw5YoQ">
+    <refinedDescription>Based on the system requirements and competitor analysis, the information is shared between a group consisted of
+experienced developers related to the issues and the software requirements are begined to be constituted.</refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="--qotifv8JoZghyvK8OBKAg" name="review_the_software_requirements,_edq8YPHPEeSkm_PC-n3cGQ" guid="--qotifv8JoZghyvK8OBKAg">
+    <refinedDescription>The first version of the software requirements is reviewed and refined by the Project Leader, system engineer and Technical
+Coordinator&lt;br /></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
   <org.eclipse.epf.uma:DescriptorDescription xmi:id="-aVhZR-WdkG3kZtRc732dMQ" name="developer,_SezrwfHREeSkm_PC-n3cGQ" guid="-aVhZR-WdkG3kZtRc732dMQ">
-    <refinedDescription>Developers are responsible for the software requirements fo the project, sofware design, software develoment, unit testing,&#xD;
+    <refinedDescription>Developers are responsible for the software requirements fo the project, sofware design, software develoment, unit testing,
 system integration, and packaging.</refinedDescription>
   </org.eclipse.epf.uma:DescriptorDescription>
   <org.eclipse.epf.uma:DescriptorDescription xmi:id="-HyeDjEnjqaMTbn1oJF9qLg" name="prioritize_the_requirements,_l-JrQPHPEeSkm_PC-n3cGQ" guid="-HyeDjEnjqaMTbn1oJF9qLg">
-    <refinedDescription>After filling the requirements table, a process related to prioritization of requirements begins with the participation of&#xD;
-project leader, the demander(s) of the project and the team performed the competitor analysis. T his process bases the&#xD;
-ranking of the stages have to be done to reach the condition that performs the first sentence of the demand in the most&#xD;
+    <refinedDescription>After filling the requirements table, a process related to prioritization of requirements begins with the participation of
+project leader, the demander(s) of the project and the team performed the competitor analysis. T his process bases the
+ranking of the stages have to be done to reach the condition that performs the first sentence of the demand in the most
 basic sense.</refinedDescription>
   </org.eclipse.epf.uma:DescriptorDescription>
   <org.eclipse.epf.uma:DescriptorDescription xmi:id="-EMukryJjHUQ8knt2NERLmg" name="technical_analysis,_osNM8PHPEeSkm_PC-n3cGQ" guid="-EMukryJjHUQ8knt2NERLmg">
-    <refinedDescription>The steps after this stage are in the responsibility of the team that will carry out the project. The process begins with&#xD;
-the technical analysis and decision of the probable operation(s)/algorithm(s) could be applied made by the project team. At&#xD;
-the end of this process, it should be expressed definitely the method(s), library or the other application(s) decided to be&#xD;
-used, covers the user requirements completely. The requirements table could be used as a check list for this process. The&#xD;
-planning should also be done about the module(s) or additional software(s) that will be rewritten or making suitable for&#xD;
+    <refinedDescription>The steps after this stage are in the responsibility of the team that will carry out the project. The process begins with
+the technical analysis and decision of the probable operation(s)/algorithm(s) could be applied made by the project team. At
+the end of this process, it should be expressed definitely the method(s), library or the other application(s) decided to be
+used, covers the user requirements completely. The requirements table could be used as a check list for this process. The
+planning should also be done about the module(s) or additional software(s) that will be rewritten or making suitable for
 use in necessary conditions.</refinedDescription>
   </org.eclipse.epf.uma:DescriptorDescription>
   <org.eclipse.epf.uma:DescriptorDescription xmi:id="-GYGpz5bW_max0BS4SxHgxA" name="update_project_schedule,_qjoBkPHPEeSkm_PC-n3cGQ" guid="-GYGpz5bW_max0BS4SxHgxA">
-    <refinedDescription>The project schedule should be updated in each of every technical meetings with the participation of the person or people&#xD;
-responsible for coding, if necessary the date shifting or postponing conditions should be comitted to the calendar with the&#xD;
-approval of the person or people claiming the project. T his processes are performed by the project leader. This calendar&#xD;
-should be operated on Pardus Project Tracking System (tracker.pardus.org.tr) and it should be known that the entire&#xD;
-development team will continue to the task sharing through this calendar. T he responsibility of the unspecified conditions&#xD;
-in project tracking system belong to the person who have been on that part of the task. The person/people who demands the&#xD;
+    <refinedDescription>The project schedule should be updated in each of every technical meetings with the participation of the person or people
+responsible for coding, if necessary the date shifting or postponing conditions should be comitted to the calendar with the
+approval of the person or people claiming the project. T his processes are performed by the project leader. This calendar
+should be operated on Pardus Project Tracking System (tracker.pardus.org.tr) and it should be known that the entire
+development team will continue to the task sharing through this calendar. T he responsibility of the unspecified conditions
+in project tracking system belong to the person who have been on that part of the task. The person/people who demands the
 project also could get the project status information from the system instantaneously.</refinedDescription>
   </org.eclipse.epf.uma:DescriptorDescription>
-  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-2ECkxtAvaor_1Tt_xlGg1Q" name="establishment_of_software_requirements,_ZWpYMPHPEeSkm_PC-n3cGQ" guid="-2ECkxtAvaor_1Tt_xlGg1Q"/>
-  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-kZw-a6v1XGp9TqdQPAh7iQ" name="review_the_software_requirements,_edq8YPHPEeSkm_PC-n3cGQ" guid="-kZw-a6v1XGp9TqdQPAh7iQ"/>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-2ECkxtAvaor_1Tt_xlGg1Q" name="establishment_of_software_requirements,_ZWpYMPHPEeSkm_PC-n3cGQ" guid="-2ECkxtAvaor_1Tt_xlGg1Q">
+    <refinedDescription>Based on the system requirements and competitor analysis, the information is shared between a group consisted of
+experienced developers related to the issues and the software requirements are begined to be constituted.</refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-kZw-a6v1XGp9TqdQPAh7iQ" name="review_the_software_requirements,_edq8YPHPEeSkm_PC-n3cGQ" guid="-kZw-a6v1XGp9TqdQPAh7iQ">
+    <refinedDescription>The first version of the software requirements is reviewed and refined by the Project Leader, system engineer and Technical
+Coordinator&lt;br /></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
   <org.eclipse.epf.uma:DescriptorDescription xmi:id="-nkKJMA759lgipv-2Dctk6A" name="developer,_W7bBAfHREeSkm_PC-n3cGQ" guid="-nkKJMA759lgipv-2Dctk6A">
-    <refinedDescription>Developers are responsible for the software requirements fo the project, sofware design, software develoment, unit testing,&#xD;
+    <refinedDescription>Developers are responsible for the software requirements fo the project, sofware design, software develoment, unit testing,
 system integration, and packaging.</refinedDescription>
   </org.eclipse.epf.uma:DescriptorDescription>
   <org.eclipse.epf.uma:DescriptorDescription xmi:id="-mHBa4yD6F0FrJNn2ePpF4Q" name="prioritize_the_requirements,_l-JrQPHPEeSkm_PC-n3cGQ" guid="-mHBa4yD6F0FrJNn2ePpF4Q">
-    <refinedDescription>After filling the requirements table, a process related to prioritization of requirements begins with the participation of&#xD;
-project leader, the demander(s) of the project and the team performed the competitor analysis. T his process bases the&#xD;
-ranking of the stages have to be done to reach the condition that performs the first sentence of the demand in the most&#xD;
+    <refinedDescription>After filling the requirements table, a process related to prioritization of requirements begins with the participation of
+project leader, the demander(s) of the project and the team performed the competitor analysis. T his process bases the
+ranking of the stages have to be done to reach the condition that performs the first sentence of the demand in the most
 basic sense.</refinedDescription>
   </org.eclipse.epf.uma:DescriptorDescription>
   <org.eclipse.epf.uma:DescriptorDescription xmi:id="-AQc-g5TVyU21cRe5rHqoRw" name="technical_analysis,_osNM8PHPEeSkm_PC-n3cGQ" guid="-AQc-g5TVyU21cRe5rHqoRw">
-    <refinedDescription>The steps after this stage are in the responsibility of the team that will carry out the project. The process begins with&#xD;
-the technical analysis and decision of the probable operation(s)/algorithm(s) could be applied made by the project team. At&#xD;
-the end of this process, it should be expressed definitely the method(s), library or the other application(s) decided to be&#xD;
-used, covers the user requirements completely. The requirements table could be used as a check list for this process. The&#xD;
-planning should also be done about the module(s) or additional software(s) that will be rewritten or making suitable for&#xD;
+    <refinedDescription>The steps after this stage are in the responsibility of the team that will carry out the project. The process begins with
+the technical analysis and decision of the probable operation(s)/algorithm(s) could be applied made by the project team. At
+the end of this process, it should be expressed definitely the method(s), library or the other application(s) decided to be
+used, covers the user requirements completely. The requirements table could be used as a check list for this process. The
+planning should also be done about the module(s) or additional software(s) that will be rewritten or making suitable for
 use in necessary conditions.</refinedDescription>
   </org.eclipse.epf.uma:DescriptorDescription>
   <org.eclipse.epf.uma:DescriptorDescription xmi:id="-fc4wVDaJnqegFANs9zOcYg" name="update_project_schedule,_qjoBkPHPEeSkm_PC-n3cGQ" guid="-fc4wVDaJnqegFANs9zOcYg">
-    <refinedDescription>The project schedule should be updated in each of every technical meetings with the participation of the person or people&#xD;
-responsible for coding, if necessary the date shifting or postponing conditions should be comitted to the calendar with the&#xD;
-approval of the person or people claiming the project. T his processes are performed by the project leader. This calendar&#xD;
-should be operated on Pardus Project Tracking System (tracker.pardus.org.tr) and it should be known that the entire&#xD;
-development team will continue to the task sharing through this calendar. T he responsibility of the unspecified conditions&#xD;
-in project tracking system belong to the person who have been on that part of the task. The person/people who demands the&#xD;
+    <refinedDescription>The project schedule should be updated in each of every technical meetings with the participation of the person or people
+responsible for coding, if necessary the date shifting or postponing conditions should be comitted to the calendar with the
+approval of the person or people claiming the project. T his processes are performed by the project leader. This calendar
+should be operated on Pardus Project Tracking System (tracker.pardus.org.tr) and it should be known that the entire
+development team will continue to the task sharing through this calendar. T he responsibility of the unspecified conditions
+in project tracking system belong to the person who have been on that part of the task. The person/people who demands the
 project also could get the project status information from the system instantaneously.</refinedDescription>
   </org.eclipse.epf.uma:DescriptorDescription>
-  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-ieQHCp0rwY1o6OyRAKBTrQ" name="establishment_of_software_requirements,_ZWpYMPHPEeSkm_PC-n3cGQ" guid="-ieQHCp0rwY1o6OyRAKBTrQ"/>
-  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-8eK9W2UW2kS5NFkfVMIqXA" name="review_the_software_requirements,_edq8YPHPEeSkm_PC-n3cGQ" guid="-8eK9W2UW2kS5NFkfVMIqXA"/>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-ieQHCp0rwY1o6OyRAKBTrQ" name="establishment_of_software_requirements,_ZWpYMPHPEeSkm_PC-n3cGQ" guid="-ieQHCp0rwY1o6OyRAKBTrQ">
+    <refinedDescription>Based on the system requirements and competitor analysis, the information is shared between a group consisted of
+experienced developers related to the issues and the software requirements are begined to be constituted.</refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-8eK9W2UW2kS5NFkfVMIqXA" name="review_the_software_requirements,_edq8YPHPEeSkm_PC-n3cGQ" guid="-8eK9W2UW2kS5NFkfVMIqXA">
+    <refinedDescription>The first version of the software requirements is reviewed and refined by the Project Leader, system engineer and Technical
+Coordinator&lt;br /></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-7ZFXGU4XlsAHbpXbGAgYpQ" name="implement_solution,_MPuFgPUBEeSTdOKYqDx6gQ" guid="-7ZFXGU4XlsAHbpXbGAgYpQ">
+    <refinedDescription>&lt;span&#xD;
+style=&quot;WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FLOAT: none; COLOR: rgb(0,0,0); TEXT-ALIGN: left; FONT: 13px arial, helvetica, sans-serif, kanji2; WIDOWS: 1; DISPLAY: inline !important; LETTER-SPACING: normal; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; -webkit-text-stroke-width: 0px&quot;>&#xD;
+Usually, this task is focused on a specific implementation&amp;nbsp;element, such as a class or component, but it does not need&#xD;
+to be.&lt;/span></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-yRlYtNO2QJo-Rl3cqNgBwg" name="developer,_MP5EoPUBEeSTdOKYqDx6gQ" guid="-yRlYtNO2QJo-Rl3cqNgBwg">
+    <refinedDescription>Developers are responsible for the software requirements fo the project, sofware design, software develoment, unit testing,
+system integration, and packaging.</refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-f5dZI_ElY9MfFCnTBVQ3aQ" name="project_leader,_MP5EovUBEeSTdOKYqDx6gQ" guid="-f5dZI_ElY9MfFCnTBVQ3aQ">
+    <refinedDescription>&lt;p>
+    Project Leader is the follower of these works and the reporter to the upper unit (Operational&lt;br />
+    Coordinator ve T echnical Coordinator) at the same time.
+&lt;/p>
+&lt;p>
+    The Project Leader is responsible for determining the software requirements of the project and making competitor
+    analysis, software design, software development, unit testing, system intergration and packaging.
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-r-5CDlWTdnKfC1LDrd_6Bw" name="low_level_design,_MP5EqPUBEeSTdOKYqDx6gQ" guid="-r-5CDlWTdnKfC1LDrd_6Bw">
+    <refinedDescription>&lt;p>&#xD;
+    Low level design includes:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        Classes&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Associations between classes&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Member and non-member functions&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Member variable&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-JFQVOk0PQSfnLsQTfNWQrA" name="high_level_design,_MP5ErvUBEeSTdOKYqDx6gQ" guid="-JFQVOk0PQSfnLsQTfNWQrA">
+    <refinedDescription>&lt;p>&#xD;
+    High level design includes:&lt;br />&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        Architecture&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Components&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Interfaces&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Networks&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        High level data flow&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Optional: Classes&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-IH3X8rO5IHkqzv8XqAOJGA" name="requirements_specifications_document,_MP5EsPUBEeSTdOKYqDx6gQ" guid="-IH3X8rO5IHkqzv8XqAOJGA">
+    <keyConsiderations>&lt;ul&#xD;
+style=&quot;LIST-STYLE-TYPE: disc; MARGIN-BOTTOM: 0px; WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; COLOR: rgb(0,0,0); TEXT-ALIGN: left; FONT: 13px arial, helvetica, sans-serif, kanji2; PADDING-LEFT: 0px; MARGIN-LEFT: 30px; WIDOWS: 1; MARGIN-TOP: 0px; LETTER-SPACING: normal; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; -webkit-text-stroke-width: 0px&quot;>&#xD;
+    &lt;li style=&quot;FONT-SIZE: 10pt; FONT-FAMILY: arial, helvetica, sans-serif, kanji2; TEXT-ALIGN: left&quot;>&#xD;
+        When you document system-wide requirements, ensure that the needs of all of the stakeholders are represented. In&#xD;
+        particular, include the needs of those who are responsible for maintaining or supporting the system after it is&#xD;
+        delivered.&#xD;
+    &lt;/li>&#xD;
+    &lt;li style=&quot;FONT-SIZE: 10pt; FONT-FAMILY: arial, helvetica, sans-serif, kanji2; TEXT-ALIGN: left&quot;>&#xD;
+        Typically, there are some overlaps and gray areas between system-wide requirements and other requirements work&#xD;
+        products. For example, the authorization behavior of a system can be specified as use cases or as statements within&#xD;
+        system-wide requirements. The overall driving need is that no important requirements are missed or duplicated, and&#xD;
+        that there is an agreed upon approach for capturing and processing every type of requirement.&#xD;
+    &lt;/li>&#xD;
+    &lt;li style=&quot;FONT-SIZE: 10pt; FONT-FAMILY: arial, helvetica, sans-serif, kanji2; TEXT-ALIGN: left&quot;>&#xD;
+        System-wide requirements originate from many places. Documenting the source of the requirement is particularly&#xD;
+        important when you separate externally mandated requirements.&#xD;
+    &lt;/li>&#xD;
+    &lt;li style=&quot;FONT-SIZE: 10pt; FONT-FAMILY: arial, helvetica, sans-serif, kanji2; TEXT-ALIGN: left&quot;>&#xD;
+        Requirements are often thought of as &quot;Qualitative&quot; (specifying a quality or desirable characteristic) versus&#xD;
+        &quot;Quantitative&quot; (specifying a quantity). Qualitative requirements can sometimes be elaborated into quantitative&#xD;
+        requirements.&#xD;
+    &lt;/li>&#xD;
+    &lt;li style=&quot;FONT-SIZE: 10pt; FONT-FAMILY: arial, helvetica, sans-serif, kanji2; TEXT-ALIGN: left&quot;>&#xD;
+        A good quality requirement is one that you can verify, either through testing or some other objective evaluation.&#xD;
+    &lt;/li>&#xD;
+    &lt;li style=&quot;FONT-SIZE: 10pt; FONT-FAMILY: arial, helvetica, sans-serif, kanji2; TEXT-ALIGN: left&quot;>&#xD;
+        You must evaluate system-wide requirements for cost, schedule impact, and level of contribution to business goals.&#xD;
+        Based on your evaluation, the system-wide requirements should be iteratively challenged, defended, and amended.&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></keyConsiderations>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-wGXON65FlV2EJYvQm4RGHA" name="implementation,_MP5EsvUBEeSTdOKYqDx6gQ" guid="-wGXON65FlV2EJYvQm4RGHA">
+    <refinedDescription>&lt;p&#xD;
+style=&quot;WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; COLOR: rgb(0,0,0); TEXT-ALIGN: left; FONT: 13px arial, helvetica, sans-serif, kanji2; WIDOWS: 1; LETTER-SPACING: normal; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; -webkit-text-stroke-width: 0px&quot;>&#xD;
+    This artifact is the collection of one or more of these elements:&#xD;
+&lt;/p>&#xD;
+&lt;ul&#xD;
+style=&quot;LIST-STYLE-TYPE: disc; MARGIN-BOTTOM: 0px; WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; COLOR: rgb(0,0,0); TEXT-ALIGN: left; FONT: 13px arial, helvetica, sans-serif, kanji2; PADDING-LEFT: 0px; MARGIN-LEFT: 30px; WIDOWS: 1; MARGIN-TOP: 0px; LETTER-SPACING: normal; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; -webkit-text-stroke-width: 0px&quot;>&#xD;
+    &lt;li style=&quot;FONT-SIZE: 10pt; FONT-FAMILY: arial, helvetica, sans-serif, kanji2; TEXT-ALIGN: left&quot;>&#xD;
+        Source code files&#xD;
+    &lt;/li>&#xD;
+    &lt;li style=&quot;FONT-SIZE: 10pt; FONT-FAMILY: arial, helvetica, sans-serif, kanji2; TEXT-ALIGN: left&quot;>&#xD;
+        Data files&#xD;
+    &lt;/li>&#xD;
+    &lt;li style=&quot;FONT-SIZE: 10pt; FONT-FAMILY: arial, helvetica, sans-serif, kanji2; TEXT-ALIGN: left&quot;>&#xD;
+        Build scripts&#xD;
+    &lt;/li>&#xD;
+    &lt;li style=&quot;FONT-SIZE: 10pt; FONT-FAMILY: arial, helvetica, sans-serif, kanji2; TEXT-ALIGN: left&quot;>&#xD;
+        Other files that are transformed into the executable system&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-9bmryHvrEjGCYm1ob7OeuA" name="developer,_MB72QPUDEeSTdOKYqDx6gQ" guid="-9bmryHvrEjGCYm1ob7OeuA">
+    <refinedDescription>Developers are responsible for the software requirements fo the project, sofware design, software develoment, unit testing,
+system integration, and packaging.</refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
 </xmi:XMI>
