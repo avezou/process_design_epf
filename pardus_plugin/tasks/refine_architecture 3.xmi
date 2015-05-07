@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:TaskDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-VUTPPVfQ5xGogFVGNnF6JA" name=",_qA8eMPHCEeSMu6QOYZJYaQ" guid="-VUTPPVfQ5xGogFVGNnF6JA" changeDate="2015-05-03T02:32:50.000-0400">
+  <keyConsiderations>&lt;span
+style=&quot;WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FLOAT: none; COLOR: rgb(0,0,0); TEXT-ALIGN: left; FONT: 13px arial, helvetica, sans-serif, kanji2; WIDOWS: 1; DISPLAY: inline !important; LETTER-SPACING: normal; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; -webkit-text-stroke-width: 0px&quot;>
+Continue the collaboration with the whole&amp;nbsp;team on the refining of the architecture in order to promote consensus and a
+common understanding of the overall solution.&lt;span class=&quot;Apple-converted-space&quot;>&amp;nbsp;&lt;/span>&lt;/span></keyConsiderations>
+  <sections xmi:id="_DnTNUPHDEeSMu6QOYZJYaQ" name="Refine the architectural goals and architecturally-significant requirements" guid="_DnTNUPHDEeSMu6QOYZJYaQ">
+    <sectionDescription>&lt;span style=&quot;WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FLOAT: none; COLOR: rgb(0,0,0); TEXT-ALIGN: left; FONT: 13px arial, helvetica, sans-serif, kanji2; WIDOWS: 1; DISPLAY: inline !important; LETTER-SPACING: normal; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; -webkit-text-stroke-width: 0px&quot;>&#xD;
+Work with the team, especially the stakeholders and the requirements team, to review the status of the&lt;/span>&lt;a class=&quot;elementLink&quot; style=&quot;TEXT-DECORATION: none; WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; COLOR: rgb(0,51,153); TEXT-ALIGN: left; FONT: 13px arial, helvetica, sans-serif, kanji2; WIDOWS: 1; LETTER-SPACING: normal; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; -webkit-text-stroke-width: 0px&quot; href=&quot;resources/arch_goals_CB41D8AE.html&quot; guid=&quot;_HlRqANpbEdyP58ppo1Ieaw&quot;>Architectural Goals&lt;/a>&lt;span style=&quot;WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FLOAT: none; COLOR: rgb(0,0,0); TEXT-ALIGN: left; FONT: 13px arial, helvetica, sans-serif, kanji2; WIDOWS: 1; DISPLAY: inline !important; LETTER-SPACING: normal; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; -webkit-text-stroke-width: 0px&quot;>&#xD;
+&amp;nbsp;and&lt;span class=&quot;Apple-converted-space&quot;>&amp;nbsp;&lt;/span>&lt;/span>&lt;a class=&quot;elementLink&quot; style=&quot;TEXT-DECORATION: none; WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; COLOR: rgb(0,51,153); TEXT-ALIGN: left; FONT: 13px arial, helvetica, sans-serif, kanji2; WIDOWS: 1; LETTER-SPACING: normal; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; -webkit-text-stroke-width: 0px&quot; href=&quot;resources/arch_significant_requirements_1EE5D757.html&quot; guid=&quot;_HrZGIA4MEduibvKwrGxWxA&quot;>Architecturally Significant&#xD;
+Requirements&lt;/a>&lt;span style=&quot;WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FLOAT: none; COLOR: rgb(0,0,0); TEXT-ALIGN: left; FONT: 13px arial, helvetica, sans-serif, kanji2; WIDOWS: 1; DISPLAY: inline !important; LETTER-SPACING: normal; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; -webkit-text-stroke-width: 0px&quot;>&#xD;
+&amp;nbsp;and refine them as needed. It may be that some new architecturally-significant requirements have been introduced or&#xD;
+your architectural goals and priorities may have changed.&lt;/span></sectionDescription>
+  </sections>
+  <sections xmi:id="_H9CegPHDEeSMu6QOYZJYaQ" name="Identify architecturally significant design elements" guid="_H9CegPHDEeSMu6QOYZJYaQ">
+    <sectionDescription>&lt;p style=&quot;WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; COLOR: rgb(0,0,0); FONT: 13px arial, helvetica, sans-serif, kanji2; WIDOWS: 1; LETTER-SPACING: normal; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; -webkit-text-stroke-width: 0px&quot;  align=&quot;left&quot;>&#xD;
+    Identify concrete&amp;nbsp;design elements (such as&lt;span class=&quot;Apple-converted-space&quot;>&amp;nbsp;&lt;/span>&lt;a class=&quot;elementLink&quot; style=&quot;FONT-SIZE: 10pt; TEXT-DECORATION: none; FONT-FAMILY: arial, helvetica, sans-serif, kanji2; COLOR: rgb(0,51,153)&quot; href=&quot;resources/component_CB167D48.html&quot; guid=&quot;_0YP18MlgEdmt3adZL5Dmdw&quot;>Component&lt;/a>s, classes&#xD;
+    and&amp;nbsp;subsystems)&amp;nbsp;and provide at least a name and brief description for each.&#xD;
+&lt;/p>&#xD;
+&lt;p style=&quot;WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; COLOR: rgb(0,0,0); FONT: 13px arial, helvetica, sans-serif, kanji2; WIDOWS: 1; LETTER-SPACING: normal; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; -webkit-text-stroke-width: 0px&quot;  align=&quot;left&quot;>&#xD;
+    The following are some good sources for design elements:&#xD;
+&lt;/p>&#xD;
+&lt;ul style=&quot;LIST-STYLE-TYPE: disc; MARGIN-BOTTOM: 0px; WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; COLOR: rgb(0,0,0); TEXT-ALIGN: left; FONT: 13px arial, helvetica, sans-serif, kanji2; PADDING-LEFT: 0px; MARGIN-LEFT: 30px; WIDOWS: 1; MARGIN-TOP: 0px; LETTER-SPACING: normal; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; -webkit-text-stroke-width: 0px&quot;>&#xD;
+    &lt;li style=&quot;FONT-SIZE: 10pt; FONT-FAMILY: arial, helvetica, sans-serif, kanji2; TEXT-ALIGN: left&quot;>&#xD;
+        &lt;div align=&quot;left&quot;>&#xD;
+            &lt;div align=&quot;left&quot;>&#xD;
+                &lt;a class=&quot;elementLink&quot; style=&quot;FONT-SIZE: 10pt; TEXT-DECORATION: none; FONT-FAMILY: arial, helvetica, sans-serif, kanji2; COLOR: rgb(0,51,153)&quot; href=&quot;resources/arch_significant_requirements_1EE5D757.html&quot; guid=&quot;_HrZGIA4MEduibvKwrGxWxA&quot;>Architecturally Significant Requirements&lt;/a>. Highlight the areas of the&#xD;
+                architecture that participate in realizing, or implementing, the requirements.&#xD;
+            &lt;/div>&#xD;
+        &lt;/div>&#xD;
+    &lt;/li>&#xD;
+    &lt;li style=&quot;FONT-SIZE: 10pt; FONT-FAMILY: arial, helvetica, sans-serif, kanji2; TEXT-ALIGN: left&quot;>&#xD;
+        &lt;div align=&quot;left&quot;>&#xD;
+            &lt;div align=&quot;left&quot;>&#xD;
+                &lt;a class=&quot;elementLink&quot; style=&quot;FONT-SIZE: 10pt; TEXT-DECORATION: none; FONT-FAMILY: arial, helvetica, sans-serif, kanji2; COLOR: rgb(0,51,153)&quot; href=&quot;resources/key_abstractions_1474DBF2.html&quot; guid=&quot;_pLEGUNqGEdy88NBoQgfGyg&quot;>Key Abstractions&lt;/a>&#xD;
+            &lt;/div>&#xD;
+        &lt;/div>&#xD;
+    &lt;/li>&#xD;
+    &lt;li style=&quot;FONT-SIZE: 10pt; FONT-FAMILY: arial, helvetica, sans-serif, kanji2; TEXT-ALIGN: left&quot;>&#xD;
+        &lt;div align=&quot;left&quot;>&#xD;
+            &lt;div align=&quot;left&quot;>&#xD;
+                Components that encapsulate the system's interface with external systems.&amp;nbsp; For more information,&#xD;
+                see&lt;span class=&quot;Apple-converted-space&quot;>&amp;nbsp;&lt;/span>&lt;a class=&quot;elementLinkWithType&quot; style=&quot;FONT-SIZE: 10pt; TEXT-DECORATION: none; FONT-FAMILY: arial, helvetica, sans-serif, kanji2; COLOR: rgb(0,51,153)&quot; href=&quot;resources/repres_interfaces_to_ext_systems_51A34F6E.html&quot; guid=&quot;_0gjdYMlgEdmt3adZL5Dmdw&quot;>Guideline: Representing Interfaces to External Systems&lt;/a>&#xD;
+            &lt;/div>&#xD;
+        &lt;/div>&#xD;
+    &lt;/li>&#xD;
+    &lt;li style=&quot;FONT-SIZE: 10pt; FONT-FAMILY: arial, helvetica, sans-serif, kanji2; TEXT-ALIGN: left&quot;>&#xD;
+        Components that implement the&lt;span class=&quot;Apple-converted-space&quot;>&amp;nbsp;&lt;/span>&lt;a class=&quot;elementLink&quot; style=&quot;FONT-SIZE: 10pt; TEXT-DECORATION: none; FONT-FAMILY: arial, helvetica, sans-serif, kanji2; COLOR: rgb(0,51,153)&quot; href=&quot;resources/arch_mechanism_2932DFB6.html&quot; guid=&quot;_mzxI0A4LEduibvKwrGxWxA&quot;>Architectural Mechanism&lt;/a>s&#xD;
+    &lt;/li>&#xD;
+    &lt;li style=&quot;FONT-SIZE: 10pt; FONT-FAMILY: arial, helvetica, sans-serif, kanji2; TEXT-ALIGN: left&quot;>&#xD;
+        Architectural and key design&lt;span class=&quot;Apple-converted-space&quot;>&amp;nbsp;&lt;/span>&lt;a class=&quot;elementLink&quot; style=&quot;FONT-SIZE: 10pt; TEXT-DECORATION: none; FONT-FAMILY: arial, helvetica, sans-serif, kanji2; COLOR: rgb(0,51,153)&quot; href=&quot;resources/pattern_10BE6D96.html&quot; guid=&quot;_0YJvUMlgEdmt3adZL5Dmdw&quot;>Pattern&lt;/a>s. Apply the chosen patterns to&#xD;
+        define a new set of elements that conform to the patterns.&#xD;
+    &lt;/li>&#xD;
+&lt;/ul>&#xD;
+&lt;p style=&quot;WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; COLOR: rgb(0,0,0); TEXT-ALIGN: left; FONT: 13px arial, helvetica, sans-serif, kanji2; WIDOWS: 1; LETTER-SPACING: normal; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; -webkit-text-stroke-width: 0px&quot;>&#xD;
+    Identifying components will help hide the complexity of the system and help you work at a higher level. Components need&#xD;
+    to be internally cohesive and to provide external services through a limited interface.&amp;nbsp; At this point, interfaces&#xD;
+    do not need to be as detailed as a signature, but they do need to document what the elements need, what they can use,&#xD;
+    and what they can depend on.&#xD;
+&lt;/p>&#xD;
+&lt;p style=&quot;WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; COLOR: rgb(0,0,0); TEXT-ALIGN: left; FONT: 13px arial, helvetica, sans-serif, kanji2; WIDOWS: 1; LETTER-SPACING: normal; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; -webkit-text-stroke-width: 0px&quot;>&#xD;
+    Component identification can be&amp;nbsp;based on architectural layers, deployment choices, or key abstractions. Ask&#xD;
+    yourself these questions:&#xD;
+&lt;/p>&#xD;
+&lt;ul style=&quot;LIST-STYLE-TYPE: disc; MARGIN-BOTTOM: 0px; WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; COLOR: rgb(0,0,0); TEXT-ALIGN: left; FONT: 13px arial, helvetica, sans-serif, kanji2; PADDING-LEFT: 0px; MARGIN-LEFT: 30px; WIDOWS: 1; MARGIN-TOP: 0px; LETTER-SPACING: normal; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; -webkit-text-stroke-width: 0px&quot;>&#xD;
+    &lt;li style=&quot;FONT-SIZE: 10pt; FONT-FAMILY: arial, helvetica, sans-serif, kanji2; TEXT-ALIGN: left&quot;>&#xD;
+        What is logically or functionally related (same use case or service, for example)?&#xD;
+    &lt;/li>&#xD;
+    &lt;li style=&quot;FONT-SIZE: 10pt; FONT-FAMILY: arial, helvetica, sans-serif, kanji2; TEXT-ALIGN: left&quot;>&#xD;
+        What entities provide services to multiple others?&#xD;
+    &lt;/li>&#xD;
+    &lt;li style=&quot;FONT-SIZE: 10pt; FONT-FAMILY: arial, helvetica, sans-serif, kanji2; TEXT-ALIGN: left&quot;>&#xD;
+        What entities depend on each other? Strongly or weakly?&#xD;
+    &lt;/li>&#xD;
+    &lt;li style=&quot;FONT-SIZE: 10pt; FONT-FAMILY: arial, helvetica, sans-serif, kanji2; TEXT-ALIGN: left&quot;>&#xD;
+        What entities should you be able to exchange independently from others?&#xD;
+    &lt;/li>&#xD;
+    &lt;li style=&quot;FONT-SIZE: 10pt; FONT-FAMILY: arial, helvetica, sans-serif, kanji2; TEXT-ALIGN: left&quot;>&#xD;
+        What will run on the same processor or network node?&#xD;
+    &lt;/li>&#xD;
+    &lt;li style=&quot;FONT-SIZE: 10pt; FONT-FAMILY: arial, helvetica, sans-serif, kanji2; TEXT-ALIGN: left&quot;>&#xD;
+        What parts are constrained by similar performance requirements?&#xD;
+    &lt;/li>&#xD;
+&lt;/ul>&#xD;
+&lt;p style=&quot;WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; COLOR: rgb(0,0,0); TEXT-ALIGN: left; FONT: 13px arial, helvetica, sans-serif, kanji2; WIDOWS: 1; LETTER-SPACING: normal; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; -webkit-text-stroke-width: 0px&quot;>&#xD;
+    When you identify a component be sure to briefly describe the functionality that should be allocated to the components.&#xD;
+&lt;/p></sectionDescription>
+  </sections>
+  <sections xmi:id="_O6QIQPHDEeSMu6QOYZJYaQ" name="Refine architectural mechanisms" guid="_O6QIQPHDEeSMu6QOYZJYaQ">
+    <sectionDescription>&lt;span style=&quot;WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FLOAT: none; COLOR: rgb(0,0,0); TEXT-ALIGN: left; FONT: 13px arial, helvetica, sans-serif, kanji2; WIDOWS: 1; DISPLAY: inline !important; LETTER-SPACING: normal; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; -webkit-text-stroke-width: 0px&quot;>&#xD;
+Refine&amp;nbsp;the applicable&lt;span class=&quot;Apple-converted-space&quot;>&amp;nbsp;&lt;/span>&lt;/span>&lt;a class=&quot;elementLink&quot; style=&quot;TEXT-DECORATION: none; WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; COLOR: rgb(0,51,153); TEXT-ALIGN: left; FONT: 13px arial, helvetica, sans-serif, kanji2; WIDOWS: 1; LETTER-SPACING: normal; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; -webkit-text-stroke-width: 0px&quot; href=&quot;resources/arch_mechanism_2932DFB6.html&quot; guid=&quot;_mzxI0A4LEduibvKwrGxWxA&quot;>Architectural Mechanism&lt;/a>&lt;span style=&quot;WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FLOAT: none; COLOR: rgb(0,0,0); TEXT-ALIGN: left; FONT: 13px arial, helvetica, sans-serif, kanji2; WIDOWS: 1; DISPLAY: inline !important; LETTER-SPACING: normal; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; -webkit-text-stroke-width: 0px&quot;>&#xD;
+s, as needed to support the design.&amp;nbsp; For example, refining an analysis mechanism into a design mechanism and/or&#xD;
+refining a design mechanism into an implementation mechanism.&amp;nbsp;&lt;/span></sectionDescription>
+  </sections>
+  <sections xmi:id="_R0UFoPHDEeSMu6QOYZJYaQ" name="Define development architecture and test architecture" guid="_R0UFoPHDEeSMu6QOYZJYaQ">
+    <sectionDescription>&lt;span style=&quot;WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FLOAT: none; COLOR: rgb(0,0,0); TEXT-ALIGN: left; FONT: 13px arial, helvetica, sans-serif, kanji2; WIDOWS: 1; DISPLAY: inline !important; LETTER-SPACING: normal; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; -webkit-text-stroke-width: 0px&quot;>&#xD;
+Ensure that the development and test architectures are defined. Note any architecturally significant differences between&#xD;
+these environments and work with the team to devise strategies to mitigate any risks these may introduce.&lt;/span></sectionDescription>
+  </sections>
+  <sections xmi:id="_UQJ18PHDEeSMu6QOYZJYaQ" name="Validate the architecture" guid="_UQJ18PHDEeSMu6QOYZJYaQ">
+    <sectionDescription>&lt;span style=&quot;WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FLOAT: none; COLOR: rgb(0,0,0); TEXT-ALIGN: left; FONT: 13px arial, helvetica, sans-serif, kanji2; WIDOWS: 1; DISPLAY: inline !important; LETTER-SPACING: normal; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; -webkit-text-stroke-width: 0px&quot;>&#xD;
+Make sure that the architecture supports the requirements and the needs of the team.&lt;span class=&quot;Apple-converted-space&quot;>&amp;nbsp;&lt;/span>&lt;/span></sectionDescription>
+  </sections>
+  <sections xmi:id="_W8VIUPHDEeSMu6QOYZJYaQ" name="Communicate decisions" guid="_W8VIUPHDEeSMu6QOYZJYaQ">
+    <sectionDescription>&lt;span&#xD;
+style=&quot;WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FLOAT: none; COLOR: rgb(0,0,0); TEXT-ALIGN: left; FONT: 13px arial, helvetica, sans-serif, kanji2; WIDOWS: 1; DISPLAY: inline !important; LETTER-SPACING: normal; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; -webkit-text-stroke-width: 0px&quot;>&#xD;
+nsure that those who need to act upon the architectural work understand it and are able to work with it. Make sure that the&#xD;
+description of the architecture clearly conveys not only the solution but also the motivation and objectives related to the&#xD;
+decisions that have been made in shaping the architecture. This will make it easier for others to understand the&#xD;
+architecture and to adapt it over time.&lt;/span></sectionDescription>
+  </sections>
+  <purpose>&lt;span
+style=&quot;WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FLOAT: none; COLOR: rgb(0,0,0); TEXT-ALIGN: left; FONT: 13px arial, helvetica, sans-serif, kanji2; WIDOWS: 1; DISPLAY: inline !important; LETTER-SPACING: normal; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; -webkit-text-stroke-width: 0px&quot;>
+To make and document the architectural decisions necessary to support development.&lt;/span></purpose>
+</org.eclipse.epf.uma:TaskDescription>

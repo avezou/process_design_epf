@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:TaskDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-c-OIdTwg1Xd6rk0Qeq8I6Q" name=",_GzWlgPG2EeSMu6QOYZJYaQ" guid="-c-OIdTwg1Xd6rk0Qeq8I6Q" changeDate="2015-05-03T01:03:29.000-0400">
+  <sections xmi:id="_YTSAEPG2EeSMu6QOYZJYaQ" name="Gather Information" guid="_YTSAEPG2EeSMu6QOYZJYaQ">
+    <sectionDescription>&lt;span style=&quot;WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FLOAT: none; COLOR: rgb(0,0,0); TEXT-ALIGN: left; FONT: 13px arial, helvetica, sans-serif, kanji2; WIDOWS: 1; DISPLAY: inline !important; LETTER-SPACING: normal; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; -webkit-text-stroke-width: 0px&quot;>&#xD;
+Use various techniques to make gathering requirements easier. Face-to-face meetings with stakeholders is the most effective&#xD;
+way to understand stakeholder needs and to gather and validate requirements, but you must prepare in order for these&#xD;
+meetings to run efficiently.&lt;/span></sectionDescription>
+  </sections>
+  <sections xmi:id="_Z48WUPG2EeSMu6QOYZJYaQ" name="Identify Types of Requirements Relevant to the System" guid="_Z48WUPG2EeSMu6QOYZJYaQ">
+    <sectionDescription>&lt;span style=&quot;WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FLOAT: none; COLOR: rgb(0,0,0); TEXT-ALIGN: left; FONT: 13px arial, helvetica, sans-serif, kanji2; WIDOWS: 1; DISPLAY: inline !important; LETTER-SPACING: normal; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; -webkit-text-stroke-width: 0px&quot;>&#xD;
+Requirements can be broadly classified as either functional or non-functional requirements. The former specify what the&#xD;
+system must do. The latter specify constraints on the solution such as usability, reliability, performance, supportability,&#xD;
+interfaces with legacy systems, etc. Depending upon the domain there&amp;nbsp;might be regulatory requirements that&#xD;
+apply.&lt;/span></sectionDescription>
+  </sections>
+  <sections xmi:id="_flsdwPG2EeSMu6QOYZJYaQ" name="Identify and capture Use Cases and Actors in a Use-Case Model" guid="_flsdwPG2EeSMu6QOYZJYaQ">
+    <sectionDescription>&lt;span style=&quot;WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FLOAT: none; COLOR: rgb(0,0,0); TEXT-ALIGN: left; FONT: 13px arial, helvetica, sans-serif, kanji2; WIDOWS: 1; DISPLAY: inline !important; LETTER-SPACING: normal; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; -webkit-text-stroke-width: 0px&quot;>&#xD;
+Find and define the line that divides the solution and the real world that surrounds the solution. Collaborate with the&#xD;
+project manager&amp;nbsp;and architect, because decisions concerning system boundaries will have a major impact on cost,&#xD;
+schedule and system architecture.&lt;/span></sectionDescription>
+  </sections>
+  <sections xmi:id="_pj5MQPG2EeSMu6QOYZJYaQ" name="Identify and capture use cases and scenarios" guid="_pj5MQPG2EeSMu6QOYZJYaQ">
+    <sectionDescription>&lt;span style=&quot;WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FLOAT: none; COLOR: rgb(0,0,0); TEXT-ALIGN: left; FONT: 13px arial, helvetica, sans-serif, kanji2; WIDOWS: 1; DISPLAY: inline !important; LETTER-SPACING: normal; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; -webkit-text-stroke-width: 0px&quot;>&#xD;
+Collaborate with stakeholders to identify and capture&amp;nbsp;the use cases and scenarios relevant&amp;nbsp;to your system.&#xD;
+Capture references to these requirements with other project to-do items&amp;nbsp;in the&lt;span class=&quot;Apple-converted-space&quot;>&amp;nbsp;&lt;/span>&lt;/span>&lt;a class=&quot;elementLink&quot; style=&quot;TEXT-DECORATION: none; WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; COLOR: rgb(0,51,153); TEXT-ALIGN: left; FONT: 13px arial, helvetica, sans-serif, kanji2; WIDOWS: 1; LETTER-SPACING: normal; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; -webkit-text-stroke-width: 0px&quot; href=&quot;resources/work_items_list_39D03CC8.html&quot; guid=&quot;_rGNWsCbSEdqh1LYUOGRh2A&quot;>Work Items List&lt;/a>&lt;span style=&quot;WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FLOAT: none; COLOR: rgb(0,0,0); TEXT-ALIGN: left; FONT: 13px arial, helvetica, sans-serif, kanji2; WIDOWS: 1; DISPLAY: inline !important; LETTER-SPACING: normal; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; -webkit-text-stroke-width: 0px&quot;>&#xD;
+&amp;nbsp;so that you can prioritize the work.&lt;/span></sectionDescription>
+  </sections>
+  <sections xmi:id="_r2dr0PG2EeSMu6QOYZJYaQ" name="Identify and capture system-wide requirements" guid="_r2dr0PG2EeSMu6QOYZJYaQ">
+    <sectionDescription>&lt;span style=&quot;WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FLOAT: none; COLOR: rgb(0,0,0); TEXT-ALIGN: left; FONT: 13px arial, helvetica, sans-serif, kanji2; WIDOWS: 1; DISPLAY: inline !important; LETTER-SPACING: normal; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; -webkit-text-stroke-width: 0px&quot;>&#xD;
+Collaborate with stakeholders to identify and capture&amp;nbsp;the system-wide requirements relevant&amp;nbsp;to your system.&#xD;
+Capture references to these requirements with other project to-do items in the&amp;nbsp;&lt;/span>&lt;a class=&quot;elementLink&quot; style=&quot;TEXT-DECORATION: none; WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; COLOR: rgb(0,51,153); TEXT-ALIGN: left; FONT: 13px arial, helvetica, sans-serif, kanji2; WIDOWS: 1; LETTER-SPACING: normal; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; -webkit-text-stroke-width: 0px&quot; href=&quot;resources/work_items_list_39D03CC8.html&quot; guid=&quot;_rGNWsCbSEdqh1LYUOGRh2A&quot;>Work Items List&lt;/a>&lt;span style=&quot;WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FLOAT: none; COLOR: rgb(0,0,0); TEXT-ALIGN: left; FONT: 13px arial, helvetica, sans-serif, kanji2; WIDOWS: 1; DISPLAY: inline !important; LETTER-SPACING: normal; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; -webkit-text-stroke-width: 0px&quot;>&#xD;
+&lt;span class=&quot;Apple-converted-space&quot;>&amp;nbsp;&lt;/span>so that you can prioritize the work.&lt;/span></sectionDescription>
+  </sections>
+  <purpose>&lt;span
+style=&quot;WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FLOAT: none; COLOR: rgb(0,0,0); TEXT-ALIGN: left; FONT: 13px arial, helvetica, sans-serif, kanji2; WIDOWS: 1; DISPLAY: inline !important; LETTER-SPACING: normal; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; -webkit-text-stroke-width: 0px&quot;>
+The purpose of this task is to identify and capture functional and non-functional requirements for the system. These
+requirements form the basis of communication and agreement between the stakeholders and the development team on what the
+system must do to satisfy stakeholder needs. The goal is to understand the requirements at a high-level so that the initial
+scope of work can be determined.&amp;nbsp;Further analysis will be performed to detail these requirements prior to
+implementation.&lt;/span></purpose>
+</org.eclipse.epf.uma:TaskDescription>

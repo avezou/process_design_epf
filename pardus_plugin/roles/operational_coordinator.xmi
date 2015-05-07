@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<org.eclipse.epf.uma:RoleDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-z8WfmErbxwq8vJlD1Hiyjg" name="new_role,_mhWVUNyOEeSzq8GkfEmYEA" guid="-z8WfmErbxwq8vJlD1Hiyjg" changeDate="2015-04-06T14:57:23.910-0400">
-  <mainDescription>Operational Coordinator is responsible for balancing and controlling the appropriateness of&lt;br />&#xD;
-the project to software processes and progress and timing of the work with other projects&lt;br />&#xD;
+<org.eclipse.epf.uma:RoleDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-z8WfmErbxwq8vJlD1Hiyjg" name="new_role,_mhWVUNyOEeSzq8GkfEmYEA" guid="-z8WfmErbxwq8vJlD1Hiyjg" changeDate="2015-04-06T02:57:23.000-0400">
+  <mainDescription>Operational Coordinator is responsible for balancing and controlling the appropriateness of&lt;br />
+the project to software processes and progress and timing of the work with other projects&lt;br />
 and releases.</mainDescription>
 </org.eclipse.epf.uma:RoleDescription>

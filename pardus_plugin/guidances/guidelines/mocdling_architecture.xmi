@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:ContentDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-MbilQ4Pai1bmo3kGd6s_9w" name="new_guideline,_b7YRsPHCEeSMu6QOYZJYaQ" guid="-MbilQ4Pai1bmo3kGd6s_9w" changeDate="2015-05-03T02:31:03.000-0400">
+  <mainDescription>&lt;span
+style=&quot;WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FLOAT: none; COLOR: rgb(0,0,0); TEXT-ALIGN: left; FONT: 13px arial, helvetica, sans-serif, kanji2; WIDOWS: 1; DISPLAY: inline !important; LETTER-SPACING: normal; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; -webkit-text-stroke-width: 0px&quot;>
+When architecting a system, developing visual models of the architecture can be quite helpful as such models provide an
+excellent high-level picture of the system, its&lt;span class=&quot;Apple-converted-space&quot;>&amp;nbsp;&lt;/span>&lt;/span>&lt;a
+class=&quot;elementLink&quot;
+style=&quot;TEXT-DECORATION: none; WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; COLOR: rgb(0,51,153); TEXT-ALIGN: left; FONT: 13px arial, helvetica, sans-serif, kanji2; WIDOWS: 1; LETTER-SPACING: normal; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; -webkit-text-stroke-width: 0px&quot;
+ href=&quot;resources/component_CB167D48.html&quot; guid=&quot;_0YP18MlgEdmt3adZL5Dmdw&quot;>Component&lt;/a> &lt;span
+style=&quot;WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FLOAT: none; COLOR: rgb(0,0,0); TEXT-ALIGN: left; FONT: 13px arial, helvetica, sans-serif, kanji2; WIDOWS: 1; DISPLAY: inline !important; LETTER-SPACING: normal; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; -webkit-text-stroke-width: 0px&quot;>
+s and their relationships.&lt;/span></mainDescription>
+</org.eclipse.epf.uma:ContentDescription>

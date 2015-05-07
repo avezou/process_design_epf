@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:TaskDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-SDT4hsv4GrTJPqD__c7Ofw" name=",_qIKPkPG5EeSMu6QOYZJYaQ" guid="-SDT4hsv4GrTJPqD__c7Ofw">
+  <sections xmi:id="_4c314PG6EeSMu6QOYZJYaQ" name="Statement of Requirement" guid="_4c314PG6EeSMu6QOYZJYaQ">
+    <sectionDescription>&lt;p>&#xD;
+    The person/people who requested the software state a requirement description.&#xD;
+&lt;/p></sectionDescription>
+  </sections>
+  <sections xmi:id="_El1y0PG7EeSMu6QOYZJYaQ" name="Determine Project Leader" guid="_El1y0PG7EeSMu6QOYZJYaQ">
+    <sectionDescription>A project leader is determined after the customer conveys this information to the operational coordination.</sectionDescription>
+  </sections>
+  <sections xmi:id="_Mj5OgPG7EeSMu6QOYZJYaQ" name="Project Codename" guid="_Mj5OgPG7EeSMu6QOYZJYaQ">
+    <sectionDescription>After the project leader is determined, a representational codename is determined for the project.</sectionDescription>
+  </sections>
+  <sections xmi:id="_mTmG4PG7EeSMu6QOYZJYaQ" name="Create Pardus Project" guid="_mTmG4PG7EeSMu6QOYZJYaQ">
+    <sectionDescription>With thie codename a project is opened under Pardus Project Tracking System.</sectionDescription>
+  </sections>
+</org.eclipse.epf.uma:TaskDescription>

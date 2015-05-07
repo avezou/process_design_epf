@@ -6,7 +6,10 @@
     <resourceDescriptors xmi:id="_f3_inNjnEeSxwK-DbQ1krQ" id="_f3z8YdjnEeSxwK-DbQ1krQ" uri="pardus_plugin/plugin.xmi"/>
   </org.eclipse.epf.uma.resourcemanager:ResourceManager>
   <org.eclipse.epf.uma:MethodLibrary xmi:id="_SCEpsNjpEeSxv6-DbQ1krQ" name="Pardus" guid="_SCEpsNjpEeSxv6-DbQ1krQ">
-    <methodElementProperty xmi:id="_SEAjYNjpEeSxv6-DbQ1krQ" name="library_synFree" value="true"/>
+    <methodElementProperty xmi:id="_acytNPTKEeSu_qrSDlYS5Q" name="library_synFree" value="true"/>
+    <methodElementProperty xmi:id="_acytNfTKEeSu_qrSDlYS5Q" value="0"/>
+    <methodElementProperty xmi:id="_acytNvTKEeSu_qrSDlYS5Q" value="_f3z8YdjnEeSxwK-DbQ1krQ"/>
+    <methodElementProperty xmi:id="_acytN_TKEeSu_qrSDlYS5Q" value="pardus_plugin"/>
     <methodPlugins xmi:id="_f3z8YdjnEeSxwK-DbQ1krQ" href="uma://_f3z8YdjnEeSxwK-DbQ1krQ#_f3z8YdjnEeSxwK-DbQ1krQ"/>
   </org.eclipse.epf.uma:MethodLibrary>
 </xmi:XMI>

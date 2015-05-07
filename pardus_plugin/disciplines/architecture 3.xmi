@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:ContentDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-zVF25LB2R9U9G1jgSwDJ8Q" name="new_discipline,_OnmZYPHAEeSMu6QOYZJYaQ" guid="-zVF25LB2R9U9G1jgSwDJ8Q" changeDate="2015-05-03T02:16:24.000-0400">
+  <mainDescription>&lt;p
+style=&quot;WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; COLOR: rgb(0,0,0); TEXT-ALIGN: left; FONT: 13px arial, helvetica, sans-serif, kanji2; WIDOWS: 1; LETTER-SPACING: normal; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; -webkit-text-stroke-width: 0px&quot;>
+    The purpose of this discipline is to evolve a robust architecture for the system.
+&lt;/p>
+&lt;p
+style=&quot;WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; COLOR: rgb(0,0,0); TEXT-ALIGN: left; FONT: 13px arial, helvetica, sans-serif, kanji2; WIDOWS: 1; LETTER-SPACING: normal; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; -webkit-text-stroke-width: 0px&quot;>
+    The Architecture discipline is related to these other disciplines:
+&lt;/p>
+&lt;ul
+style=&quot;LIST-STYLE-TYPE: disc; MARGIN-BOTTOM: 0px; WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; COLOR: rgb(0,0,0); TEXT-ALIGN: left; FONT: 13px arial, helvetica, sans-serif, kanji2; PADDING-LEFT: 0px; MARGIN-LEFT: 30px; WIDOWS: 1; MARGIN-TOP: 0px; LETTER-SPACING: normal; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; -webkit-text-stroke-width: 0px&quot;>
+    &lt;li style=&quot;FONT-SIZE: 10pt; FONT-FAMILY: arial, helvetica, sans-serif, kanji2; TEXT-ALIGN: left&quot;>
+        The&lt;span class=&quot;Apple-converted-space&quot;>&amp;nbsp;&lt;/span>&lt;a class=&quot;elementLink&quot;
+        style=&quot;FONT-SIZE: 10pt; TEXT-DECORATION: none; FONT-FAMILY: arial, helvetica, sans-serif, kanji2; COLOR: rgb(0,51,153)&quot;
+         href=&quot;resources/requirements_discipline_9520664.html&quot;
+        guid=&quot;_iGSHtVZ-EdyIUdvDLLUdeg&quot;>Requirements&lt;/a>&amp;nbsp;discipline provides the architecturally significant
+        requirements.
+    &lt;/li>
+    &lt;li style=&quot;FONT-SIZE: 10pt; FONT-FAMILY: arial, helvetica, sans-serif, kanji2; TEXT-ALIGN: left&quot;>
+        The&lt;span class=&quot;Apple-converted-space&quot;>&amp;nbsp;&lt;/span>&lt;a class=&quot;elementLink&quot;
+        style=&quot;FONT-SIZE: 10pt; TEXT-DECORATION: none; FONT-FAMILY: arial, helvetica, sans-serif, kanji2; COLOR: rgb(0,51,153)&quot;
+         href=&quot;resources/development_discipline_44C02445.html&quot;
+        guid=&quot;_iGSHsVZ-EdyIUdvDLLUdeg&quot;>Development&lt;/a>&amp;nbsp;discipline designs and implements the architecture.
+    &lt;/li>
+    &lt;li style=&quot;FONT-SIZE: 10pt; FONT-FAMILY: arial, helvetica, sans-serif, kanji2; TEXT-ALIGN: left&quot;>
+        The&lt;span class=&quot;Apple-converted-space&quot;>&amp;nbsp;&lt;/span>&lt;a class=&quot;elementLink&quot;
+        style=&quot;FONT-SIZE: 10pt; TEXT-DECORATION: none; FONT-FAMILY: arial, helvetica, sans-serif, kanji2; COLOR: rgb(0,51,153)&quot;
+         href=&quot;resources/test_discipline_F7EB1A7A.html&quot; guid=&quot;_iGSHtlZ-EdyIUdvDLLUdeg&quot;>Test&lt;/a>&amp;nbsp;discipline verifies
+        the stability and correctness of the architecture.
+    &lt;/li>
+    &lt;li style=&quot;FONT-SIZE: 10pt; FONT-FAMILY: arial, helvetica, sans-serif, kanji2; TEXT-ALIGN: left&quot;>
+        The&lt;span class=&quot;Apple-converted-space&quot;>&amp;nbsp;&lt;/span>&lt;a class=&quot;elementLink&quot;
+        style=&quot;FONT-SIZE: 10pt; TEXT-DECORATION: none; FONT-FAMILY: arial, helvetica, sans-serif, kanji2; COLOR: rgb(0,51,153)&quot;
+         href=&quot;resources/project_management_discipline_FEB42654.html&quot; guid=&quot;_iGSHtFZ-EdyIUdvDLLUdeg&quot;>Project
+        Management&lt;/a>&amp;nbsp;discipline plans the project and each iteration.
+    &lt;/li>
+&lt;/ul></mainDescription>
+</org.eclipse.epf.uma:ContentDescription>

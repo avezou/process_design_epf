@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<org.eclipse.epf.uma:TaskDescription xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:org.eclipse.epf.uma="http://www.eclipse.org/epf/uma/1.0.6/uma.ecore" xmlns:epf="http://www.eclipse.org/epf" epf:version="1.5.1" xmi:id="-PLmLBoE6eVdUQOIrodloHQ" name=",_J5qxAPHIEeSMu6QOYZJYaQ" guid="-PLmLBoE6eVdUQOIrodloHQ" changeDate="2015-05-03T03:12:06.000-0400">
+  <mainDescription>&lt;span
+style=&quot;WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FLOAT: none; COLOR: rgb(0,0,0); TEXT-ALIGN: left; FONT: 13px arial, helvetica, sans-serif, kanji2; WIDOWS: 1; DISPLAY: inline !important; LETTER-SPACING: normal; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; -webkit-text-stroke-width: 0px&quot;>
+Developer testing is different from other forms of testing in that it is based on the expected behavior of code units
+rather than being directly based on the system requirements.&lt;/span></mainDescription>
+  <sections xmi:id="_UPvM8PHIEeSMu6QOYZJYaQ" name="Write the test setup" guid="_UPvM8PHIEeSMu6QOYZJYaQ">
+    <sectionDescription>&lt;span style=&quot;WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FLOAT: none; COLOR: rgb(0,0,0); TEXT-ALIGN: left; FONT: 13px arial, helvetica, sans-serif, kanji2; WIDOWS: 1; DISPLAY: inline !important; LETTER-SPACING: normal; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; -webkit-text-stroke-width: 0px&quot;>&#xD;
+To successfully run a test the system must be in a known state so that the correct behavior can be defined. Implement the&#xD;
+setup logic that must be performed as part of the developer test.&lt;/span></sectionDescription>
+  </sections>
+  <sections xmi:id="_XSfMQPHIEeSMu6QOYZJYaQ" name="Define the expected results" guid="_XSfMQPHIEeSMu6QOYZJYaQ">
+    <sectionDescription>&lt;p style=&quot;WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; COLOR: rgb(0,0,0); TEXT-ALIGN: left; FONT: 13px arial, helvetica, sans-serif, kanji2; WIDOWS: 1; LETTER-SPACING: normal; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; -webkit-text-stroke-width: 0px&quot;>&#xD;
+    Define the expected results of each test so that it can be verified.&#xD;
+&lt;/p>&#xD;
+&lt;p style=&quot;WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; COLOR: rgb(0,0,0); TEXT-ALIGN: left; FONT: 13px arial, helvetica, sans-serif, kanji2; WIDOWS: 1; LETTER-SPACING: normal; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; -webkit-text-stroke-width: 0px&quot;>&#xD;
+    After a test runs, you need to be able to compare the results of running the test against what was expected to happen.&#xD;
+    The test is successful when the actual results match the expected results.&#xD;
+&lt;/p></sectionDescription>
+  </sections>
+  <sections xmi:id="_dAl-kPHIEeSMu6QOYZJYaQ" name="Write the test logic" guid="_dAl-kPHIEeSMu6QOYZJYaQ">
+    <sectionDescription>&lt;span style=&quot;WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FLOAT: none; COLOR: rgb(0,0,0); TEXT-ALIGN: left; FONT: 13px arial, helvetica, sans-serif, kanji2; WIDOWS: 1; DISPLAY: inline !important; LETTER-SPACING: normal; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; -webkit-text-stroke-width: 0px&quot;>&#xD;
+Write the steps that perform the actual test(s).&lt;/span></sectionDescription>
+  </sections>
+  <sections xmi:id="_fbM_0PHIEeSMu6QOYZJYaQ" name="Define the test response" guid="_fbM_0PHIEeSMu6QOYZJYaQ">
+    <sectionDescription>&lt;span style=&quot;WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FLOAT: none; COLOR: rgb(0,0,0); TEXT-ALIGN: left; FONT: 13px arial, helvetica, sans-serif, kanji2; WIDOWS: 1; DISPLAY: inline !important; LETTER-SPACING: normal; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; -webkit-text-stroke-width: 0px&quot;>&#xD;
+Define the information the test(s) must produce to successfully indicate success or failure. Consider if a response of True&#xD;
+or False is sufficient, or if a detailed message should be logged as well.&lt;/span></sectionDescription>
+  </sections>
+  <sections xmi:id="_i_V08PHIEeSMu6QOYZJYaQ" name="Write clean-up code" guid="_i_V08PHIEeSMu6QOYZJYaQ">
+    <sectionDescription>&lt;span style=&quot;WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FLOAT: none; COLOR: rgb(0,0,0); TEXT-ALIGN: left; FONT: 13px arial, helvetica, sans-serif, kanji2; WIDOWS: 1; DISPLAY: inline !important; LETTER-SPACING: normal; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; -webkit-text-stroke-width: 0px&quot;>&#xD;
+Identify, and then implement, the steps to be followed in order to restore the environment to the original state for each&#xD;
+test. The goal is to ensure that there are no side effects from running the tests.&lt;/span></sectionDescription>
+  </sections>
+  <sections xmi:id="_k82DcPHIEeSMu6QOYZJYaQ" name="Test the test" guid="_k82DcPHIEeSMu6QOYZJYaQ">
+    <sectionDescription>&lt;p&#xD;
+style=&quot;WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; COLOR: rgb(0,0,0); TEXT-ALIGN: left; FONT: 13px arial, helvetica, sans-serif, kanji2; WIDOWS: 1; LETTER-SPACING: normal; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; -webkit-text-stroke-width: 0px&quot;>&#xD;
+    Verify that each developer test works correctly. To do this:&#xD;
+&lt;/p>&#xD;
+&lt;ul&#xD;
+style=&quot;LIST-STYLE-TYPE: disc; MARGIN-BOTTOM: 0px; WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; COLOR: rgb(0,0,0); TEXT-ALIGN: left; FONT: 13px arial, helvetica, sans-serif, kanji2; PADDING-LEFT: 0px; MARGIN-LEFT: 30px; WIDOWS: 1; MARGIN-TOP: 0px; LETTER-SPACING: normal; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; -webkit-text-stroke-width: 0px&quot;>&#xD;
+    &lt;li style=&quot;FONT-SIZE: 10pt; FONT-FAMILY: arial, helvetica, sans-serif, kanji2; TEXT-ALIGN: left&quot;>&#xD;
+        Run the test(s), observe their behavior, and fix any defects in the tests.&#xD;
+    &lt;/li>&#xD;
+    &lt;li style=&quot;FONT-SIZE: 10pt; FONT-FAMILY: arial, helvetica, sans-serif, kanji2; TEXT-ALIGN: left&quot;>&#xD;
+        Ensure that the expected results are defined properly and that they're being checked correctly.&#xD;
+    &lt;/li>&#xD;
+    &lt;li style=&quot;FONT-SIZE: 10pt; FONT-FAMILY: arial, helvetica, sans-serif, kanji2; TEXT-ALIGN: left&quot;>&#xD;
+        Check the clean-up logic for each test.&#xD;
+    &lt;/li>&#xD;
+    &lt;li style=&quot;FONT-SIZE: 10pt; FONT-FAMILY: arial, helvetica, sans-serif, kanji2; TEXT-ALIGN: left&quot;>&#xD;
+        Ensure that each developer test works within your test suite framework.&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></sectionDescription>
+  </sections>
+  <purpose>&lt;span
+style=&quot;WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FLOAT: none; COLOR: rgb(0,0,0); TEXT-ALIGN: left; FONT: 13px arial, helvetica, sans-serif, kanji2; WIDOWS: 1; DISPLAY: inline !important; LETTER-SPACING: normal; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; -webkit-text-stroke-width: 0px&quot;>
+Prepare to validate an implementation element (e.g. an operation, a class, a stored procedure) through unit testing. The
+result is one or more new developer tests.&lt;/span></purpose>
+  <alternatives>&lt;span
+style=&quot;WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FLOAT: none; COLOR: rgb(0,0,0); TEXT-ALIGN: left; FONT: 13px arial, helvetica, sans-serif, kanji2; WIDOWS: 1; DISPLAY: inline !important; LETTER-SPACING: normal; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; -webkit-text-stroke-width: 0px&quot;>
+Rely on acceptance tests to validate your software. This will likely be time consuming, late, and not as effective as
+developer testing in identifying bugs and finding their location in the code.&lt;/span></alternatives>
+</org.eclipse.epf.uma:TaskDescription>
