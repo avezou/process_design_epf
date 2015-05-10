@@ -391,4 +391,1030 @@ style=&quot;LIST-STYLE-TYPE: disc; MARGIN-BOTTOM: 0px; WHITE-SPACE: normal; WORD
     <refinedDescription>Developers are responsible for the software requirements fo the project, sofware design, software develoment, unit testing,
 system integration, and packaging.</refinedDescription>
   </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-okENjyh5XAvKwnfG0ehSWw" name="determination_of_the_project_team,_NbZHIPHPEeSkm_PC-n3cGQ" guid="-okENjyh5XAvKwnfG0ehSWw">
+    <refinedDescription>&lt;span&#xD;
+style=&quot;WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FLOAT: none; COLOR: rgb(0,0,0); TEXT-ALIGN: left; FONT: 13px arial, helvetica, sans-serif, kanji2; WIDOWS: 1; DISPLAY: inline !important; LETTER-SPACING: normal; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; -webkit-text-stroke-width: 0px&quot;>&#xD;
+Revisit the resourcing for the project.&amp;nbsp;Identify gaps and initiate hiring or re-allocation of resources as needed.&#xD;
+Discuss with the team who plays which roles, and have them agree on their responsibilities.&lt;/span></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-buSbVs124jD9pNHYtFUXEQ" name="high_level_design,_oygW6fctEeSgqoqR646M7Q" guid="-buSbVs124jD9pNHYtFUXEQ">
+    <refinedDescription>&lt;p>&#xD;
+    High level design includes:&lt;br />&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        Architecture&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Components&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Interfaces&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Networks&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        High level data flow&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Optional: Classes&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-xQA6QZkOGcMRNP65UTmJVw" name="low_level_design,_oygW7PctEeSgqoqR646M7Q" guid="-xQA6QZkOGcMRNP65UTmJVw">
+    <refinedDescription>&lt;p>&#xD;
+    Low level design includes:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        Classes&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Associations between classes&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Member and non-member functions&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Member variable&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-JMRCLt7YtBR4Pol-uNL7Jw" name="requirements_specifications_document,_oygW9fctEeSgqoqR646M7Q" guid="-JMRCLt7YtBR4Pol-uNL7Jw">
+    <keyConsiderations>&lt;ul&#xD;
+style=&quot;LIST-STYLE-TYPE: disc; MARGIN-BOTTOM: 0px; WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; COLOR: rgb(0,0,0); TEXT-ALIGN: left; FONT: 13px arial, helvetica, sans-serif, kanji2; PADDING-LEFT: 0px; MARGIN-LEFT: 30px; WIDOWS: 1; MARGIN-TOP: 0px; LETTER-SPACING: normal; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; -webkit-text-stroke-width: 0px&quot;>&#xD;
+    &lt;li style=&quot;FONT-SIZE: 10pt; FONT-FAMILY: arial, helvetica, sans-serif, kanji2; TEXT-ALIGN: left&quot;>&#xD;
+        When you document system-wide requirements, ensure that the needs of all of the stakeholders are represented. In&#xD;
+        particular, include the needs of those who are responsible for maintaining or supporting the system after it is&#xD;
+        delivered.&#xD;
+    &lt;/li>&#xD;
+    &lt;li style=&quot;FONT-SIZE: 10pt; FONT-FAMILY: arial, helvetica, sans-serif, kanji2; TEXT-ALIGN: left&quot;>&#xD;
+        Typically, there are some overlaps and gray areas between system-wide requirements and other requirements work&#xD;
+        products. For example, the authorization behavior of a system can be specified as use cases or as statements within&#xD;
+        system-wide requirements. The overall driving need is that no important requirements are missed or duplicated, and&#xD;
+        that there is an agreed upon approach for capturing and processing every type of requirement.&#xD;
+    &lt;/li>&#xD;
+    &lt;li style=&quot;FONT-SIZE: 10pt; FONT-FAMILY: arial, helvetica, sans-serif, kanji2; TEXT-ALIGN: left&quot;>&#xD;
+        System-wide requirements originate from many places. Documenting the source of the requirement is particularly&#xD;
+        important when you separate externally mandated requirements.&#xD;
+    &lt;/li>&#xD;
+    &lt;li style=&quot;FONT-SIZE: 10pt; FONT-FAMILY: arial, helvetica, sans-serif, kanji2; TEXT-ALIGN: left&quot;>&#xD;
+        Requirements are often thought of as &quot;Qualitative&quot; (specifying a quality or desirable characteristic) versus&#xD;
+        &quot;Quantitative&quot; (specifying a quantity). Qualitative requirements can sometimes be elaborated into quantitative&#xD;
+        requirements.&#xD;
+    &lt;/li>&#xD;
+    &lt;li style=&quot;FONT-SIZE: 10pt; FONT-FAMILY: arial, helvetica, sans-serif, kanji2; TEXT-ALIGN: left&quot;>&#xD;
+        A good quality requirement is one that you can verify, either through testing or some other objective evaluation.&#xD;
+    &lt;/li>&#xD;
+    &lt;li style=&quot;FONT-SIZE: 10pt; FONT-FAMILY: arial, helvetica, sans-serif, kanji2; TEXT-ALIGN: left&quot;>&#xD;
+        You must evaluate system-wide requirements for cost, schedule impact, and level of contribution to business goals.&#xD;
+        Based on your evaluation, the system-wide requirements should be iteratively challenged, defended, and amended.&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></keyConsiderations>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-XHOkz9tgkE5wi41rCxOSLQ" name="software_architect,_oyqH4fctEeSgqoqR646M7Q" guid="-XHOkz9tgkE5wi41rCxOSLQ">
+    <refinedDescription>&lt;p&#xD;
+style=&quot;WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; COLOR: rgb(0,0,0); TEXT-ALIGN: left; FONT: 13px arial, helvetica, sans-serif, kanji2; WIDOWS: 1; LETTER-SPACING: normal; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; -webkit-text-stroke-width: 0px&quot;>&#xD;
+    The person in this role leads or coordinates the technical design of the system and has overall responsibility for&#xD;
+    facilitating the major technical decisions expressed as software architecture. This typically includes identifying and&#xD;
+    documenting the architecturally significant aspects of the system as views that describe requirements, design,&#xD;
+    implementation, and deployment.&#xD;
+&lt;/p>&#xD;
+&lt;p&#xD;
+style=&quot;WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; COLOR: rgb(0,0,0); TEXT-ALIGN: left; FONT: 13px arial, helvetica, sans-serif, kanji2; WIDOWS: 1; LETTER-SPACING: normal; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; -webkit-text-stroke-width: 0px&quot;>&#xD;
+    This role is also responsible for providing the rationale for these decisions, balancing the concerns of the various&#xD;
+    stakeholders, reducing technical risks, and ensuring that decisions are effectively communicated, validated, and&#xD;
+    followed.&#xD;
+&lt;/p>&#xD;
+&lt;p&#xD;
+style=&quot;WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; COLOR: rgb(0,0,0); TEXT-ALIGN: left; FONT: 13px arial, helvetica, sans-serif, kanji2; WIDOWS: 1; LETTER-SPACING: normal; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; -webkit-text-stroke-width: 0px&quot;>&#xD;
+    This role works closely with project managers in staffing and planning the project, because it is recommended that the&#xD;
+    team be organized around the architecture.&#xD;
+&lt;/p>&#xD;
+&lt;p&#xD;
+style=&quot;WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; COLOR: rgb(0,0,0); TEXT-ALIGN: left; FONT: 13px arial, helvetica, sans-serif, kanji2; WIDOWS: 1; LETTER-SPACING: normal; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; -webkit-text-stroke-width: 0px&quot;>&#xD;
+    This role also works closely with analysts and developers to make sure that the architecturally significant&#xD;
+    requirements are assigned to the proper components of the system.&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-kuMdbcKetVCRc3mfr8qx1g" name="dev_test,_oyz44fctEeSgqoqR646M7Q" guid="-kuMdbcKetVCRc3mfr8qx1g">
+    <refinedDescription>&lt;span&#xD;
+style=&quot;WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FLOAT: none; COLOR: rgb(0,0,0); TEXT-ALIGN: left; FONT: 13px arial, helvetica, sans-serif, kanji2; WIDOWS: 1; DISPLAY: inline !important; LETTER-SPACING: normal; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; -webkit-text-stroke-width: 0px&quot;>&#xD;
+This artifact covers all of the steps to validate a specific aspect of an implementation element.&lt;/span></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-MqriW-Mhci08mwJOYbJ8Ew" name="implementation,_oyz45PctEeSgqoqR646M7Q" guid="-MqriW-Mhci08mwJOYbJ8Ew">
+    <refinedDescription>&lt;p&#xD;
+style=&quot;WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; COLOR: rgb(0,0,0); TEXT-ALIGN: left; FONT: 13px arial, helvetica, sans-serif, kanji2; WIDOWS: 1; LETTER-SPACING: normal; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; -webkit-text-stroke-width: 0px&quot;>&#xD;
+    This artifact is the collection of one or more of these elements:&#xD;
+&lt;/p>&#xD;
+&lt;ul&#xD;
+style=&quot;LIST-STYLE-TYPE: disc; MARGIN-BOTTOM: 0px; WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; COLOR: rgb(0,0,0); TEXT-ALIGN: left; FONT: 13px arial, helvetica, sans-serif, kanji2; PADDING-LEFT: 0px; MARGIN-LEFT: 30px; WIDOWS: 1; MARGIN-TOP: 0px; LETTER-SPACING: normal; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; -webkit-text-stroke-width: 0px&quot;>&#xD;
+    &lt;li style=&quot;FONT-SIZE: 10pt; FONT-FAMILY: arial, helvetica, sans-serif, kanji2; TEXT-ALIGN: left&quot;>&#xD;
+        Source code files&#xD;
+    &lt;/li>&#xD;
+    &lt;li style=&quot;FONT-SIZE: 10pt; FONT-FAMILY: arial, helvetica, sans-serif, kanji2; TEXT-ALIGN: left&quot;>&#xD;
+        Data files&#xD;
+    &lt;/li>&#xD;
+    &lt;li style=&quot;FONT-SIZE: 10pt; FONT-FAMILY: arial, helvetica, sans-serif, kanji2; TEXT-ALIGN: left&quot;>&#xD;
+        Build scripts&#xD;
+    &lt;/li>&#xD;
+    &lt;li style=&quot;FONT-SIZE: 10pt; FONT-FAMILY: arial, helvetica, sans-serif, kanji2; TEXT-ALIGN: left&quot;>&#xD;
+        Other files that are transformed into the executable system&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-ufYN9GShy7RJkpxFEIQkSA" name="high_level_design,_oyz47fctEeSgqoqR646M7Q" guid="-ufYN9GShy7RJkpxFEIQkSA">
+    <refinedDescription>&lt;p>&#xD;
+    High level design includes:&lt;br />&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        Architecture&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Components&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Interfaces&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Networks&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        High level data flow&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Optional: Classes&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-LcwDUT6hElnxo4pQJafaww" name="low_level_design,_oyz48PctEeSgqoqR646M7Q" guid="-LcwDUT6hElnxo4pQJafaww">
+    <refinedDescription>&lt;p>&#xD;
+    Low level design includes:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        Classes&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Associations between classes&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Member and non-member functions&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Member variable&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-3W30b6i0NAnaHMm84IuUQA" name="architecture_notebook,_oyz48_ctEeSgqoqR646M7Q" guid="-3W30b6i0NAnaHMm84IuUQA">
+    <refinedDescription>&lt;p>&#xD;
+    This artifact&amp;nbsp;describes the &lt;a class=&quot;elementLink&quot;&#xD;
+    href=&quot;./../../core.tech.common.extend_supp/guidances/concepts/software_architecture_59A08DE0.html&quot;&#xD;
+    guid=&quot;__O7tAMVvEduLYZUGfgZrkQ&quot;>Software Architecture&lt;/a>.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    It provides a place for maintaining the list of architectural issues, along with the associated architectural&#xD;
+    decisions, designs, patterns, code documented (or pointed to), and so forth -- all at appropriate levels to make it&#xD;
+    easy to understand what architectural decisions have been made and remain to be made.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    It is helpful for architects to use this artifact to collaborate with other team members in developing the architecture&#xD;
+    and to help team members understand the motivation behind architectural decisions so that those decisions can be&#xD;
+    robustly implemented. For example, the architect may put constraints on how data is packaged and communicated between&#xD;
+    different parts of the system. This may appear to be a burden, but the justification in the Architecture Notebook can&#xD;
+    explain that there is a significant performance bottleneck when communicating with a legacy system. The rest of the&#xD;
+    system must adapt to this bottleneck by following a specific data packaging scheme.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    This artifact should also inform the team members how the system is partitioned or organized so that the team can adapt&#xD;
+    to the needs of the system. It also gives a first glimpse of the system and its technical motivations to whoever must&#xD;
+    maintain and change the architecture later.&lt;br />&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-u1IVGHOy2-I-ZEm6LtKOzA" name="requirements_specifications_document,_ozB7UfctEeSgqoqR646M7Q" guid="-u1IVGHOy2-I-ZEm6LtKOzA">
+    <keyConsiderations>&lt;ul&#xD;
+style=&quot;LIST-STYLE-TYPE: disc; MARGIN-BOTTOM: 0px; WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; COLOR: rgb(0,0,0); TEXT-ALIGN: left; FONT: 13px arial, helvetica, sans-serif, kanji2; PADDING-LEFT: 0px; MARGIN-LEFT: 30px; WIDOWS: 1; MARGIN-TOP: 0px; LETTER-SPACING: normal; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; -webkit-text-stroke-width: 0px&quot;>&#xD;
+    &lt;li style=&quot;FONT-SIZE: 10pt; FONT-FAMILY: arial, helvetica, sans-serif, kanji2; TEXT-ALIGN: left&quot;>&#xD;
+        When you document system-wide requirements, ensure that the needs of all of the stakeholders are represented. In&#xD;
+        particular, include the needs of those who are responsible for maintaining or supporting the system after it is&#xD;
+        delivered.&#xD;
+    &lt;/li>&#xD;
+    &lt;li style=&quot;FONT-SIZE: 10pt; FONT-FAMILY: arial, helvetica, sans-serif, kanji2; TEXT-ALIGN: left&quot;>&#xD;
+        Typically, there are some overlaps and gray areas between system-wide requirements and other requirements work&#xD;
+        products. For example, the authorization behavior of a system can be specified as use cases or as statements within&#xD;
+        system-wide requirements. The overall driving need is that no important requirements are missed or duplicated, and&#xD;
+        that there is an agreed upon approach for capturing and processing every type of requirement.&#xD;
+    &lt;/li>&#xD;
+    &lt;li style=&quot;FONT-SIZE: 10pt; FONT-FAMILY: arial, helvetica, sans-serif, kanji2; TEXT-ALIGN: left&quot;>&#xD;
+        System-wide requirements originate from many places. Documenting the source of the requirement is particularly&#xD;
+        important when you separate externally mandated requirements.&#xD;
+    &lt;/li>&#xD;
+    &lt;li style=&quot;FONT-SIZE: 10pt; FONT-FAMILY: arial, helvetica, sans-serif, kanji2; TEXT-ALIGN: left&quot;>&#xD;
+        Requirements are often thought of as &quot;Qualitative&quot; (specifying a quality or desirable characteristic) versus&#xD;
+        &quot;Quantitative&quot; (specifying a quantity). Qualitative requirements can sometimes be elaborated into quantitative&#xD;
+        requirements.&#xD;
+    &lt;/li>&#xD;
+    &lt;li style=&quot;FONT-SIZE: 10pt; FONT-FAMILY: arial, helvetica, sans-serif, kanji2; TEXT-ALIGN: left&quot;>&#xD;
+        A good quality requirement is one that you can verify, either through testing or some other objective evaluation.&#xD;
+    &lt;/li>&#xD;
+    &lt;li style=&quot;FONT-SIZE: 10pt; FONT-FAMILY: arial, helvetica, sans-serif, kanji2; TEXT-ALIGN: left&quot;>&#xD;
+        You must evaluate system-wide requirements for cost, schedule impact, and level of contribution to business goals.&#xD;
+        Based on your evaluation, the system-wide requirements should be iteratively challenged, defended, and amended.&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></keyConsiderations>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-WsZnrMonBoJ5bV5p3w5D4A" name="requirements_specifications_document,_ozVdUfctEeSgqoqR646M7Q" guid="-WsZnrMonBoJ5bV5p3w5D4A">
+    <keyConsiderations>&lt;ul&#xD;
+style=&quot;LIST-STYLE-TYPE: disc; MARGIN-BOTTOM: 0px; WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; COLOR: rgb(0,0,0); TEXT-ALIGN: left; FONT: 13px arial, helvetica, sans-serif, kanji2; PADDING-LEFT: 0px; MARGIN-LEFT: 30px; WIDOWS: 1; MARGIN-TOP: 0px; LETTER-SPACING: normal; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; -webkit-text-stroke-width: 0px&quot;>&#xD;
+    &lt;li style=&quot;FONT-SIZE: 10pt; FONT-FAMILY: arial, helvetica, sans-serif, kanji2; TEXT-ALIGN: left&quot;>&#xD;
+        When you document system-wide requirements, ensure that the needs of all of the stakeholders are represented. In&#xD;
+        particular, include the needs of those who are responsible for maintaining or supporting the system after it is&#xD;
+        delivered.&#xD;
+    &lt;/li>&#xD;
+    &lt;li style=&quot;FONT-SIZE: 10pt; FONT-FAMILY: arial, helvetica, sans-serif, kanji2; TEXT-ALIGN: left&quot;>&#xD;
+        Typically, there are some overlaps and gray areas between system-wide requirements and other requirements work&#xD;
+        products. For example, the authorization behavior of a system can be specified as use cases or as statements within&#xD;
+        system-wide requirements. The overall driving need is that no important requirements are missed or duplicated, and&#xD;
+        that there is an agreed upon approach for capturing and processing every type of requirement.&#xD;
+    &lt;/li>&#xD;
+    &lt;li style=&quot;FONT-SIZE: 10pt; FONT-FAMILY: arial, helvetica, sans-serif, kanji2; TEXT-ALIGN: left&quot;>&#xD;
+        System-wide requirements originate from many places. Documenting the source of the requirement is particularly&#xD;
+        important when you separate externally mandated requirements.&#xD;
+    &lt;/li>&#xD;
+    &lt;li style=&quot;FONT-SIZE: 10pt; FONT-FAMILY: arial, helvetica, sans-serif, kanji2; TEXT-ALIGN: left&quot;>&#xD;
+        Requirements are often thought of as &quot;Qualitative&quot; (specifying a quality or desirable characteristic) versus&#xD;
+        &quot;Quantitative&quot; (specifying a quantity). Qualitative requirements can sometimes be elaborated into quantitative&#xD;
+        requirements.&#xD;
+    &lt;/li>&#xD;
+    &lt;li style=&quot;FONT-SIZE: 10pt; FONT-FAMILY: arial, helvetica, sans-serif, kanji2; TEXT-ALIGN: left&quot;>&#xD;
+        A good quality requirement is one that you can verify, either through testing or some other objective evaluation.&#xD;
+    &lt;/li>&#xD;
+    &lt;li style=&quot;FONT-SIZE: 10pt; FONT-FAMILY: arial, helvetica, sans-serif, kanji2; TEXT-ALIGN: left&quot;>&#xD;
+        You must evaluate system-wide requirements for cost, schedule impact, and level of contribution to business goals.&#xD;
+        Based on your evaluation, the system-wide requirements should be iteratively challenged, defended, and amended.&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></keyConsiderations>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-rkFJdnMJUapME0QVYsSF9A" name="high_level_design,_ozfOUfctEeSgqoqR646M7Q" guid="-rkFJdnMJUapME0QVYsSF9A">
+    <refinedDescription>&lt;p>&#xD;
+    High level design includes:&lt;br />&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        Architecture&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Components&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Interfaces&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Networks&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        High level data flow&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Optional: Classes&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-HBoeHaJAv2Oneb_oa1pYkg" name="low_level_design,_ozfOVPctEeSgqoqR646M7Q" guid="-HBoeHaJAv2Oneb_oa1pYkg">
+    <refinedDescription>&lt;p>&#xD;
+    Low level design includes:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        Classes&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Associations between classes&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Member and non-member functions&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Member variable&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-CHc5-_EazBsQuR05nPBvSA" name="dev_test,_ozfOWfctEeSgqoqR646M7Q" guid="-CHc5-_EazBsQuR05nPBvSA">
+    <refinedDescription>&lt;span&#xD;
+style=&quot;WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FLOAT: none; COLOR: rgb(0,0,0); TEXT-ALIGN: left; FONT: 13px arial, helvetica, sans-serif, kanji2; WIDOWS: 1; DISPLAY: inline !important; LETTER-SPACING: normal; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; -webkit-text-stroke-width: 0px&quot;>&#xD;
+This artifact covers all of the steps to validate a specific aspect of an implementation element.&lt;/span></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-8cCOCcHHkI_i1G_qlJiIlA" name="implementation,_ozfOXPctEeSgqoqR646M7Q" guid="-8cCOCcHHkI_i1G_qlJiIlA">
+    <refinedDescription>&lt;p&#xD;
+style=&quot;WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; COLOR: rgb(0,0,0); TEXT-ALIGN: left; FONT: 13px arial, helvetica, sans-serif, kanji2; WIDOWS: 1; LETTER-SPACING: normal; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; -webkit-text-stroke-width: 0px&quot;>&#xD;
+    This artifact is the collection of one or more of these elements:&#xD;
+&lt;/p>&#xD;
+&lt;ul&#xD;
+style=&quot;LIST-STYLE-TYPE: disc; MARGIN-BOTTOM: 0px; WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; COLOR: rgb(0,0,0); TEXT-ALIGN: left; FONT: 13px arial, helvetica, sans-serif, kanji2; PADDING-LEFT: 0px; MARGIN-LEFT: 30px; WIDOWS: 1; MARGIN-TOP: 0px; LETTER-SPACING: normal; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; -webkit-text-stroke-width: 0px&quot;>&#xD;
+    &lt;li style=&quot;FONT-SIZE: 10pt; FONT-FAMILY: arial, helvetica, sans-serif, kanji2; TEXT-ALIGN: left&quot;>&#xD;
+        Source code files&#xD;
+    &lt;/li>&#xD;
+    &lt;li style=&quot;FONT-SIZE: 10pt; FONT-FAMILY: arial, helvetica, sans-serif, kanji2; TEXT-ALIGN: left&quot;>&#xD;
+        Data files&#xD;
+    &lt;/li>&#xD;
+    &lt;li style=&quot;FONT-SIZE: 10pt; FONT-FAMILY: arial, helvetica, sans-serif, kanji2; TEXT-ALIGN: left&quot;>&#xD;
+        Build scripts&#xD;
+    &lt;/li>&#xD;
+    &lt;li style=&quot;FONT-SIZE: 10pt; FONT-FAMILY: arial, helvetica, sans-serif, kanji2; TEXT-ALIGN: left&quot;>&#xD;
+        Other files that are transformed into the executable system&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-Cz7R8w-eIcNrvMttNMAq4A" name="software_architect,_ozoYQvctEeSgqoqR646M7Q" guid="-Cz7R8w-eIcNrvMttNMAq4A">
+    <refinedDescription>&lt;p&#xD;
+style=&quot;WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; COLOR: rgb(0,0,0); TEXT-ALIGN: left; FONT: 13px arial, helvetica, sans-serif, kanji2; WIDOWS: 1; LETTER-SPACING: normal; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; -webkit-text-stroke-width: 0px&quot;>&#xD;
+    The person in this role leads or coordinates the technical design of the system and has overall responsibility for&#xD;
+    facilitating the major technical decisions expressed as software architecture. This typically includes identifying and&#xD;
+    documenting the architecturally significant aspects of the system as views that describe requirements, design,&#xD;
+    implementation, and deployment.&#xD;
+&lt;/p>&#xD;
+&lt;p&#xD;
+style=&quot;WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; COLOR: rgb(0,0,0); TEXT-ALIGN: left; FONT: 13px arial, helvetica, sans-serif, kanji2; WIDOWS: 1; LETTER-SPACING: normal; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; -webkit-text-stroke-width: 0px&quot;>&#xD;
+    This role is also responsible for providing the rationale for these decisions, balancing the concerns of the various&#xD;
+    stakeholders, reducing technical risks, and ensuring that decisions are effectively communicated, validated, and&#xD;
+    followed.&#xD;
+&lt;/p>&#xD;
+&lt;p&#xD;
+style=&quot;WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; COLOR: rgb(0,0,0); TEXT-ALIGN: left; FONT: 13px arial, helvetica, sans-serif, kanji2; WIDOWS: 1; LETTER-SPACING: normal; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; -webkit-text-stroke-width: 0px&quot;>&#xD;
+    This role works closely with project managers in staffing and planning the project, because it is recommended that the&#xD;
+    team be organized around the architecture.&#xD;
+&lt;/p>&#xD;
+&lt;p&#xD;
+style=&quot;WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; COLOR: rgb(0,0,0); TEXT-ALIGN: left; FONT: 13px arial, helvetica, sans-serif, kanji2; WIDOWS: 1; LETTER-SPACING: normal; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; -webkit-text-stroke-width: 0px&quot;>&#xD;
+    This role also works closely with analysts and developers to make sure that the architecturally significant&#xD;
+    requirements are assigned to the proper components of the system.&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-pyslf5wGA273l-6uWqqa8w" name="high_level_design,_ozyJRvctEeSgqoqR646M7Q" guid="-pyslf5wGA273l-6uWqqa8w">
+    <refinedDescription>&lt;p>&#xD;
+    High level design includes:&lt;br />&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        Architecture&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Components&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Interfaces&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Networks&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        High level data flow&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Optional: Classes&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-d-ebMlI6jBxznNKB54306A" name="low_level_design,_ozyJUvctEeSgqoqR646M7Q" guid="-d-ebMlI6jBxznNKB54306A">
+    <refinedDescription>&lt;p>&#xD;
+    Low level design includes:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        Classes&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Associations between classes&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Member and non-member functions&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Member variable&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-ieGqlvGGDilDrw3-jSYE5Q" name="architecture_notebook,_ozyJVfctEeSgqoqR646M7Q" guid="-ieGqlvGGDilDrw3-jSYE5Q">
+    <refinedDescription>&lt;p>&#xD;
+    This artifact&amp;nbsp;describes the &lt;a class=&quot;elementLink&quot;&#xD;
+    href=&quot;./../../core.tech.common.extend_supp/guidances/concepts/software_architecture_59A08DE0.html&quot;&#xD;
+    guid=&quot;__O7tAMVvEduLYZUGfgZrkQ&quot;>Software Architecture&lt;/a>.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    It provides a place for maintaining the list of architectural issues, along with the associated architectural&#xD;
+    decisions, designs, patterns, code documented (or pointed to), and so forth -- all at appropriate levels to make it&#xD;
+    easy to understand what architectural decisions have been made and remain to be made.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    It is helpful for architects to use this artifact to collaborate with other team members in developing the architecture&#xD;
+    and to help team members understand the motivation behind architectural decisions so that those decisions can be&#xD;
+    robustly implemented. For example, the architect may put constraints on how data is packaged and communicated between&#xD;
+    different parts of the system. This may appear to be a burden, but the justification in the Architecture Notebook can&#xD;
+    explain that there is a significant performance bottleneck when communicating with a legacy system. The rest of the&#xD;
+    system must adapt to this bottleneck by following a specific data packaging scheme.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    This artifact should also inform the team members how the system is partitioned or organized so that the team can adapt&#xD;
+    to the needs of the system. It also gives a first glimpse of the system and its technical motivations to whoever must&#xD;
+    maintain and change the architecture later.&lt;br />&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-7B6mj2xud0_vwO8_2thKtQ" name="software_architect,_o0J8sfctEeSgqoqR646M7Q" guid="-7B6mj2xud0_vwO8_2thKtQ">
+    <refinedDescription>&lt;p&#xD;
+style=&quot;WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; COLOR: rgb(0,0,0); TEXT-ALIGN: left; FONT: 13px arial, helvetica, sans-serif, kanji2; WIDOWS: 1; LETTER-SPACING: normal; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; -webkit-text-stroke-width: 0px&quot;>&#xD;
+    The person in this role leads or coordinates the technical design of the system and has overall responsibility for&#xD;
+    facilitating the major technical decisions expressed as software architecture. This typically includes identifying and&#xD;
+    documenting the architecturally significant aspects of the system as views that describe requirements, design,&#xD;
+    implementation, and deployment.&#xD;
+&lt;/p>&#xD;
+&lt;p&#xD;
+style=&quot;WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; COLOR: rgb(0,0,0); TEXT-ALIGN: left; FONT: 13px arial, helvetica, sans-serif, kanji2; WIDOWS: 1; LETTER-SPACING: normal; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; -webkit-text-stroke-width: 0px&quot;>&#xD;
+    This role is also responsible for providing the rationale for these decisions, balancing the concerns of the various&#xD;
+    stakeholders, reducing technical risks, and ensuring that decisions are effectively communicated, validated, and&#xD;
+    followed.&#xD;
+&lt;/p>&#xD;
+&lt;p&#xD;
+style=&quot;WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; COLOR: rgb(0,0,0); TEXT-ALIGN: left; FONT: 13px arial, helvetica, sans-serif, kanji2; WIDOWS: 1; LETTER-SPACING: normal; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; -webkit-text-stroke-width: 0px&quot;>&#xD;
+    This role works closely with project managers in staffing and planning the project, because it is recommended that the&#xD;
+    team be organized around the architecture.&#xD;
+&lt;/p>&#xD;
+&lt;p&#xD;
+style=&quot;WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; COLOR: rgb(0,0,0); TEXT-ALIGN: left; FONT: 13px arial, helvetica, sans-serif, kanji2; WIDOWS: 1; LETTER-SPACING: normal; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; -webkit-text-stroke-width: 0px&quot;>&#xD;
+    This role also works closely with analysts and developers to make sure that the architecturally significant&#xD;
+    requirements are assigned to the proper components of the system.&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-Uv3HpQvSm6zYI2LSvwNKQw" name="high_level_design,_o0J8tPctEeSgqoqR646M7Q" guid="-Uv3HpQvSm6zYI2LSvwNKQw">
+    <refinedDescription>&lt;p>&#xD;
+    High level design includes:&lt;br />&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        Architecture&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Components&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Interfaces&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Networks&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        High level data flow&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Optional: Classes&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-6d9o5CP74zQyftDFQeY8TQ" name="low_level_design,_o0J8t_ctEeSgqoqR646M7Q" guid="-6d9o5CP74zQyftDFQeY8TQ">
+    <refinedDescription>&lt;p>&#xD;
+    Low level design includes:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        Classes&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Associations between classes&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Member and non-member functions&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Member variable&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-bhMMn_uJCWby3h-GQMdRzA" name="architecture_notebook,_o0J8uvctEeSgqoqR646M7Q" guid="-bhMMn_uJCWby3h-GQMdRzA">
+    <refinedDescription>&lt;p>&#xD;
+    This artifact&amp;nbsp;describes the &lt;a class=&quot;elementLink&quot;&#xD;
+    href=&quot;./../../core.tech.common.extend_supp/guidances/concepts/software_architecture_59A08DE0.html&quot;&#xD;
+    guid=&quot;__O7tAMVvEduLYZUGfgZrkQ&quot;>Software Architecture&lt;/a>.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    It provides a place for maintaining the list of architectural issues, along with the associated architectural&#xD;
+    decisions, designs, patterns, code documented (or pointed to), and so forth -- all at appropriate levels to make it&#xD;
+    easy to understand what architectural decisions have been made and remain to be made.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    It is helpful for architects to use this artifact to collaborate with other team members in developing the architecture&#xD;
+    and to help team members understand the motivation behind architectural decisions so that those decisions can be&#xD;
+    robustly implemented. For example, the architect may put constraints on how data is packaged and communicated between&#xD;
+    different parts of the system. This may appear to be a burden, but the justification in the Architecture Notebook can&#xD;
+    explain that there is a significant performance bottleneck when communicating with a legacy system. The rest of the&#xD;
+    system must adapt to this bottleneck by following a specific data packaging scheme.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    This artifact should also inform the team members how the system is partitioned or organized so that the team can adapt&#xD;
+    to the needs of the system. It also gives a first glimpse of the system and its technical motivations to whoever must&#xD;
+    maintain and change the architecture later.&lt;br />&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-vnlzEUNhV9ftJjLWm9wSPA" name="dev_test,_o0hwIfctEeSgqoqR646M7Q" guid="-vnlzEUNhV9ftJjLWm9wSPA">
+    <refinedDescription>&lt;span&#xD;
+style=&quot;WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FLOAT: none; COLOR: rgb(0,0,0); TEXT-ALIGN: left; FONT: 13px arial, helvetica, sans-serif, kanji2; WIDOWS: 1; DISPLAY: inline !important; LETTER-SPACING: normal; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; -webkit-text-stroke-width: 0px&quot;>&#xD;
+This artifact covers all of the steps to validate a specific aspect of an implementation element.&lt;/span></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-R0Ll0fjzKDQQcqm4ASa5mQ" name="implementation,_o0hwJPctEeSgqoqR646M7Q" guid="-R0Ll0fjzKDQQcqm4ASa5mQ">
+    <refinedDescription>&lt;p&#xD;
+style=&quot;WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; COLOR: rgb(0,0,0); TEXT-ALIGN: left; FONT: 13px arial, helvetica, sans-serif, kanji2; WIDOWS: 1; LETTER-SPACING: normal; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; -webkit-text-stroke-width: 0px&quot;>&#xD;
+    This artifact is the collection of one or more of these elements:&#xD;
+&lt;/p>&#xD;
+&lt;ul&#xD;
+style=&quot;LIST-STYLE-TYPE: disc; MARGIN-BOTTOM: 0px; WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; COLOR: rgb(0,0,0); TEXT-ALIGN: left; FONT: 13px arial, helvetica, sans-serif, kanji2; PADDING-LEFT: 0px; MARGIN-LEFT: 30px; WIDOWS: 1; MARGIN-TOP: 0px; LETTER-SPACING: normal; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; -webkit-text-stroke-width: 0px&quot;>&#xD;
+    &lt;li style=&quot;FONT-SIZE: 10pt; FONT-FAMILY: arial, helvetica, sans-serif, kanji2; TEXT-ALIGN: left&quot;>&#xD;
+        Source code files&#xD;
+    &lt;/li>&#xD;
+    &lt;li style=&quot;FONT-SIZE: 10pt; FONT-FAMILY: arial, helvetica, sans-serif, kanji2; TEXT-ALIGN: left&quot;>&#xD;
+        Data files&#xD;
+    &lt;/li>&#xD;
+    &lt;li style=&quot;FONT-SIZE: 10pt; FONT-FAMILY: arial, helvetica, sans-serif, kanji2; TEXT-ALIGN: left&quot;>&#xD;
+        Build scripts&#xD;
+    &lt;/li>&#xD;
+    &lt;li style=&quot;FONT-SIZE: 10pt; FONT-FAMILY: arial, helvetica, sans-serif, kanji2; TEXT-ALIGN: left&quot;>&#xD;
+        Other files that are transformed into the executable system&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-RchzHZMFky9YrjHFQXYkmQ" name="dev_test,_o0qTBPctEeSgqoqR646M7Q" guid="-RchzHZMFky9YrjHFQXYkmQ">
+    <refinedDescription>&lt;span&#xD;
+style=&quot;WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FLOAT: none; COLOR: rgb(0,0,0); TEXT-ALIGN: left; FONT: 13px arial, helvetica, sans-serif, kanji2; WIDOWS: 1; DISPLAY: inline !important; LETTER-SPACING: normal; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; -webkit-text-stroke-width: 0px&quot;>&#xD;
+This artifact covers all of the steps to validate a specific aspect of an implementation element.&lt;/span></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-mVxdLa2RrwRNbeuG9W5l_A" name="software_architect,_o1G-8fctEeSgqoqR646M7Q" guid="-mVxdLa2RrwRNbeuG9W5l_A">
+    <refinedDescription>&lt;p&#xD;
+style=&quot;WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; COLOR: rgb(0,0,0); TEXT-ALIGN: left; FONT: 13px arial, helvetica, sans-serif, kanji2; WIDOWS: 1; LETTER-SPACING: normal; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; -webkit-text-stroke-width: 0px&quot;>&#xD;
+    The person in this role leads or coordinates the technical design of the system and has overall responsibility for&#xD;
+    facilitating the major technical decisions expressed as software architecture. This typically includes identifying and&#xD;
+    documenting the architecturally significant aspects of the system as views that describe requirements, design,&#xD;
+    implementation, and deployment.&#xD;
+&lt;/p>&#xD;
+&lt;p&#xD;
+style=&quot;WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; COLOR: rgb(0,0,0); TEXT-ALIGN: left; FONT: 13px arial, helvetica, sans-serif, kanji2; WIDOWS: 1; LETTER-SPACING: normal; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; -webkit-text-stroke-width: 0px&quot;>&#xD;
+    This role is also responsible for providing the rationale for these decisions, balancing the concerns of the various&#xD;
+    stakeholders, reducing technical risks, and ensuring that decisions are effectively communicated, validated, and&#xD;
+    followed.&#xD;
+&lt;/p>&#xD;
+&lt;p&#xD;
+style=&quot;WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; COLOR: rgb(0,0,0); TEXT-ALIGN: left; FONT: 13px arial, helvetica, sans-serif, kanji2; WIDOWS: 1; LETTER-SPACING: normal; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; -webkit-text-stroke-width: 0px&quot;>&#xD;
+    This role works closely with project managers in staffing and planning the project, because it is recommended that the&#xD;
+    team be organized around the architecture.&#xD;
+&lt;/p>&#xD;
+&lt;p&#xD;
+style=&quot;WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; COLOR: rgb(0,0,0); TEXT-ALIGN: left; FONT: 13px arial, helvetica, sans-serif, kanji2; WIDOWS: 1; LETTER-SPACING: normal; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; -webkit-text-stroke-width: 0px&quot;>&#xD;
+    This role also works closely with analysts and developers to make sure that the architecturally significant&#xD;
+    requirements are assigned to the proper components of the system.&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-xJYzAnOEd2vEhdiU3JHdxg" name="high_level_design,_o1Qv8fctEeSgqoqR646M7Q" guid="-xJYzAnOEd2vEhdiU3JHdxg">
+    <refinedDescription>&lt;p>&#xD;
+    High level design includes:&lt;br />&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        Architecture&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Components&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Interfaces&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Networks&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        High level data flow&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Optional: Classes&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-UsyyMCg3uzz3pJg72fbssQ" name="low_level_design,_o1Qv9PctEeSgqoqR646M7Q" guid="-UsyyMCg3uzz3pJg72fbssQ">
+    <refinedDescription>&lt;p>&#xD;
+    Low level design includes:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        Classes&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Associations between classes&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Member and non-member functions&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Member variable&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="--ZbIpz5HQW7Xm-mItCXMXQ" name="architecture_notebook,_o1Qv9_ctEeSgqoqR646M7Q" guid="--ZbIpz5HQW7Xm-mItCXMXQ">
+    <refinedDescription>&lt;p>&#xD;
+    This artifact&amp;nbsp;describes the &lt;a class=&quot;elementLink&quot;&#xD;
+    href=&quot;./../../core.tech.common.extend_supp/guidances/concepts/software_architecture_59A08DE0.html&quot;&#xD;
+    guid=&quot;__O7tAMVvEduLYZUGfgZrkQ&quot;>Software Architecture&lt;/a>.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    It provides a place for maintaining the list of architectural issues, along with the associated architectural&#xD;
+    decisions, designs, patterns, code documented (or pointed to), and so forth -- all at appropriate levels to make it&#xD;
+    easy to understand what architectural decisions have been made and remain to be made.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    It is helpful for architects to use this artifact to collaborate with other team members in developing the architecture&#xD;
+    and to help team members understand the motivation behind architectural decisions so that those decisions can be&#xD;
+    robustly implemented. For example, the architect may put constraints on how data is packaged and communicated between&#xD;
+    different parts of the system. This may appear to be a burden, but the justification in the Architecture Notebook can&#xD;
+    explain that there is a significant performance bottleneck when communicating with a legacy system. The rest of the&#xD;
+    system must adapt to this bottleneck by following a specific data packaging scheme.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    This artifact should also inform the team members how the system is partitioned or organized so that the team can adapt&#xD;
+    to the needs of the system. It also gives a first glimpse of the system and its technical motivations to whoever must&#xD;
+    maintain and change the architecture later.&lt;br />&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-ZBdwe1bkmEo2efo83CH0Bg" name="dev_test,_o1ag8fctEeSgqoqR646M7Q" guid="-ZBdwe1bkmEo2efo83CH0Bg">
+    <refinedDescription>&lt;span&#xD;
+style=&quot;WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FLOAT: none; COLOR: rgb(0,0,0); TEXT-ALIGN: left; FONT: 13px arial, helvetica, sans-serif, kanji2; WIDOWS: 1; DISPLAY: inline !important; LETTER-SPACING: normal; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; -webkit-text-stroke-width: 0px&quot;>&#xD;
+This artifact covers all of the steps to validate a specific aspect of an implementation element.&lt;/span></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-rfyCxAcsGo_8E8sXHfH-CA" name="implementation,_o1ag9PctEeSgqoqR646M7Q" guid="-rfyCxAcsGo_8E8sXHfH-CA">
+    <refinedDescription>&lt;p&#xD;
+style=&quot;WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; COLOR: rgb(0,0,0); TEXT-ALIGN: left; FONT: 13px arial, helvetica, sans-serif, kanji2; WIDOWS: 1; LETTER-SPACING: normal; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; -webkit-text-stroke-width: 0px&quot;>&#xD;
+    This artifact is the collection of one or more of these elements:&#xD;
+&lt;/p>&#xD;
+&lt;ul&#xD;
+style=&quot;LIST-STYLE-TYPE: disc; MARGIN-BOTTOM: 0px; WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; COLOR: rgb(0,0,0); TEXT-ALIGN: left; FONT: 13px arial, helvetica, sans-serif, kanji2; PADDING-LEFT: 0px; MARGIN-LEFT: 30px; WIDOWS: 1; MARGIN-TOP: 0px; LETTER-SPACING: normal; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; -webkit-text-stroke-width: 0px&quot;>&#xD;
+    &lt;li style=&quot;FONT-SIZE: 10pt; FONT-FAMILY: arial, helvetica, sans-serif, kanji2; TEXT-ALIGN: left&quot;>&#xD;
+        Source code files&#xD;
+    &lt;/li>&#xD;
+    &lt;li style=&quot;FONT-SIZE: 10pt; FONT-FAMILY: arial, helvetica, sans-serif, kanji2; TEXT-ALIGN: left&quot;>&#xD;
+        Data files&#xD;
+    &lt;/li>&#xD;
+    &lt;li style=&quot;FONT-SIZE: 10pt; FONT-FAMILY: arial, helvetica, sans-serif, kanji2; TEXT-ALIGN: left&quot;>&#xD;
+        Build scripts&#xD;
+    &lt;/li>&#xD;
+    &lt;li style=&quot;FONT-SIZE: 10pt; FONT-FAMILY: arial, helvetica, sans-serif, kanji2; TEXT-ALIGN: left&quot;>&#xD;
+        Other files that are transformed into the executable system&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-B8e6fO5NZqQDSWna3wDDkg" name="software_architect,_o12l0fctEeSgqoqR646M7Q" guid="-B8e6fO5NZqQDSWna3wDDkg">
+    <refinedDescription>&lt;p&#xD;
+style=&quot;WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; COLOR: rgb(0,0,0); TEXT-ALIGN: left; FONT: 13px arial, helvetica, sans-serif, kanji2; WIDOWS: 1; LETTER-SPACING: normal; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; -webkit-text-stroke-width: 0px&quot;>&#xD;
+    The person in this role leads or coordinates the technical design of the system and has overall responsibility for&#xD;
+    facilitating the major technical decisions expressed as software architecture. This typically includes identifying and&#xD;
+    documenting the architecturally significant aspects of the system as views that describe requirements, design,&#xD;
+    implementation, and deployment.&#xD;
+&lt;/p>&#xD;
+&lt;p&#xD;
+style=&quot;WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; COLOR: rgb(0,0,0); TEXT-ALIGN: left; FONT: 13px arial, helvetica, sans-serif, kanji2; WIDOWS: 1; LETTER-SPACING: normal; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; -webkit-text-stroke-width: 0px&quot;>&#xD;
+    This role is also responsible for providing the rationale for these decisions, balancing the concerns of the various&#xD;
+    stakeholders, reducing technical risks, and ensuring that decisions are effectively communicated, validated, and&#xD;
+    followed.&#xD;
+&lt;/p>&#xD;
+&lt;p&#xD;
+style=&quot;WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; COLOR: rgb(0,0,0); TEXT-ALIGN: left; FONT: 13px arial, helvetica, sans-serif, kanji2; WIDOWS: 1; LETTER-SPACING: normal; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; -webkit-text-stroke-width: 0px&quot;>&#xD;
+    This role works closely with project managers in staffing and planning the project, because it is recommended that the&#xD;
+    team be organized around the architecture.&#xD;
+&lt;/p>&#xD;
+&lt;p&#xD;
+style=&quot;WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; COLOR: rgb(0,0,0); TEXT-ALIGN: left; FONT: 13px arial, helvetica, sans-serif, kanji2; WIDOWS: 1; LETTER-SPACING: normal; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; -webkit-text-stroke-width: 0px&quot;>&#xD;
+    This role also works closely with analysts and developers to make sure that the architecturally significant&#xD;
+    requirements are assigned to the proper components of the system.&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-tIK0SkuhvTmm2ivoYjOUhw" name="high_level_design,_o12l1PctEeSgqoqR646M7Q" guid="-tIK0SkuhvTmm2ivoYjOUhw">
+    <refinedDescription>&lt;p>&#xD;
+    High level design includes:&lt;br />&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        Architecture&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Components&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Interfaces&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Networks&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        High level data flow&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Optional: Classes&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-YkmdiMq3TtwDoFcQGbHoSg" name="low_level_design,_o12l1_ctEeSgqoqR646M7Q" guid="-YkmdiMq3TtwDoFcQGbHoSg">
+    <refinedDescription>&lt;p>&#xD;
+    Low level design includes:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        Classes&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Associations between classes&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Member and non-member functions&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Member variable&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-D9xoXI8j7gjH5nKnM1WQlA" name="architecture_notebook,_o12l2vctEeSgqoqR646M7Q" guid="-D9xoXI8j7gjH5nKnM1WQlA">
+    <refinedDescription>&lt;p>&#xD;
+    This artifact&amp;nbsp;describes the &lt;a class=&quot;elementLink&quot;&#xD;
+    href=&quot;./../../core.tech.common.extend_supp/guidances/concepts/software_architecture_59A08DE0.html&quot;&#xD;
+    guid=&quot;__O7tAMVvEduLYZUGfgZrkQ&quot;>Software Architecture&lt;/a>.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    It provides a place for maintaining the list of architectural issues, along with the associated architectural&#xD;
+    decisions, designs, patterns, code documented (or pointed to), and so forth -- all at appropriate levels to make it&#xD;
+    easy to understand what architectural decisions have been made and remain to be made.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    It is helpful for architects to use this artifact to collaborate with other team members in developing the architecture&#xD;
+    and to help team members understand the motivation behind architectural decisions so that those decisions can be&#xD;
+    robustly implemented. For example, the architect may put constraints on how data is packaged and communicated between&#xD;
+    different parts of the system. This may appear to be a burden, but the justification in the Architecture Notebook can&#xD;
+    explain that there is a significant performance bottleneck when communicating with a legacy system. The rest of the&#xD;
+    system must adapt to this bottleneck by following a specific data packaging scheme.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    This artifact should also inform the team members how the system is partitioned or organized so that the team can adapt&#xD;
+    to the needs of the system. It also gives a first glimpse of the system and its technical motivations to whoever must&#xD;
+    maintain and change the architecture later.&lt;br />&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-iixzAWKChZnex9WrUAtUZw" name="dev_test,_o0pE4fctEeSgqoqR646M7Q" guid="-iixzAWKChZnex9WrUAtUZw">
+    <refinedDescription>&lt;span&#xD;
+style=&quot;WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FLOAT: none; COLOR: rgb(0,0,0); TEXT-ALIGN: left; FONT: 13px arial, helvetica, sans-serif, kanji2; WIDOWS: 1; DISPLAY: inline !important; LETTER-SPACING: normal; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; -webkit-text-stroke-width: 0px&quot;>&#xD;
+This artifact covers all of the steps to validate a specific aspect of an implementation element.&lt;/span></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-GlbKpI9jdtIf_Vo3DFCmNw" name="implementation,_o0pE5PctEeSgqoqR646M7Q" guid="-GlbKpI9jdtIf_Vo3DFCmNw">
+    <refinedDescription>&lt;p&#xD;
+style=&quot;WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; COLOR: rgb(0,0,0); TEXT-ALIGN: left; FONT: 13px arial, helvetica, sans-serif, kanji2; WIDOWS: 1; LETTER-SPACING: normal; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; -webkit-text-stroke-width: 0px&quot;>&#xD;
+    This artifact is the collection of one or more of these elements:&#xD;
+&lt;/p>&#xD;
+&lt;ul&#xD;
+style=&quot;LIST-STYLE-TYPE: disc; MARGIN-BOTTOM: 0px; WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; COLOR: rgb(0,0,0); TEXT-ALIGN: left; FONT: 13px arial, helvetica, sans-serif, kanji2; PADDING-LEFT: 0px; MARGIN-LEFT: 30px; WIDOWS: 1; MARGIN-TOP: 0px; LETTER-SPACING: normal; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; -webkit-text-stroke-width: 0px&quot;>&#xD;
+    &lt;li style=&quot;FONT-SIZE: 10pt; FONT-FAMILY: arial, helvetica, sans-serif, kanji2; TEXT-ALIGN: left&quot;>&#xD;
+        Source code files&#xD;
+    &lt;/li>&#xD;
+    &lt;li style=&quot;FONT-SIZE: 10pt; FONT-FAMILY: arial, helvetica, sans-serif, kanji2; TEXT-ALIGN: left&quot;>&#xD;
+        Data files&#xD;
+    &lt;/li>&#xD;
+    &lt;li style=&quot;FONT-SIZE: 10pt; FONT-FAMILY: arial, helvetica, sans-serif, kanji2; TEXT-ALIGN: left&quot;>&#xD;
+        Build scripts&#xD;
+    &lt;/li>&#xD;
+    &lt;li style=&quot;FONT-SIZE: 10pt; FONT-FAMILY: arial, helvetica, sans-serif, kanji2; TEXT-ALIGN: left&quot;>&#xD;
+        Other files that are transformed into the executable system&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-vgVr1EjYzQFvwVPlRqz_fA" name="operational_coordinator,_o2KH0fctEeSgqoqR646M7Q" guid="-vgVr1EjYzQFvwVPlRqz_fA">
+    <refinedDescription>Operational Coordinator is responsible for balancing and controlling the appropriateness of&lt;br />
+the project to software processes and progress and timing of the work with other projects&lt;br />
+and releases.</refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-wQLDCZWWziUkXOV-cc1CSQ" name="high_level_design,_o2KH1PctEeSgqoqR646M7Q" guid="-wQLDCZWWziUkXOV-cc1CSQ">
+    <refinedDescription>&lt;p>&#xD;
+    High level design includes:&lt;br />&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        Architecture&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Components&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Interfaces&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Networks&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        High level data flow&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Optional: Classes&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-KbOFD94eOeqMfmS5D3zaLw" name="implementation,_o2KH1_ctEeSgqoqR646M7Q" guid="-KbOFD94eOeqMfmS5D3zaLw">
+    <refinedDescription>&lt;p&#xD;
+style=&quot;WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; COLOR: rgb(0,0,0); TEXT-ALIGN: left; FONT: 13px arial, helvetica, sans-serif, kanji2; WIDOWS: 1; LETTER-SPACING: normal; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; -webkit-text-stroke-width: 0px&quot;>&#xD;
+    This artifact is the collection of one or more of these elements:&#xD;
+&lt;/p>&#xD;
+&lt;ul&#xD;
+style=&quot;LIST-STYLE-TYPE: disc; MARGIN-BOTTOM: 0px; WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; COLOR: rgb(0,0,0); TEXT-ALIGN: left; FONT: 13px arial, helvetica, sans-serif, kanji2; PADDING-LEFT: 0px; MARGIN-LEFT: 30px; WIDOWS: 1; MARGIN-TOP: 0px; LETTER-SPACING: normal; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; -webkit-text-stroke-width: 0px&quot;>&#xD;
+    &lt;li style=&quot;FONT-SIZE: 10pt; FONT-FAMILY: arial, helvetica, sans-serif, kanji2; TEXT-ALIGN: left&quot;>&#xD;
+        Source code files&#xD;
+    &lt;/li>&#xD;
+    &lt;li style=&quot;FONT-SIZE: 10pt; FONT-FAMILY: arial, helvetica, sans-serif, kanji2; TEXT-ALIGN: left&quot;>&#xD;
+        Data files&#xD;
+    &lt;/li>&#xD;
+    &lt;li style=&quot;FONT-SIZE: 10pt; FONT-FAMILY: arial, helvetica, sans-serif, kanji2; TEXT-ALIGN: left&quot;>&#xD;
+        Build scripts&#xD;
+    &lt;/li>&#xD;
+    &lt;li style=&quot;FONT-SIZE: 10pt; FONT-FAMILY: arial, helvetica, sans-serif, kanji2; TEXT-ALIGN: left&quot;>&#xD;
+        Other files that are transformed into the executable system&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-OGlvWBLmodLSKB8JThJ1HQ" name="low_level_design,_o2KH2vctEeSgqoqR646M7Q" guid="-OGlvWBLmodLSKB8JThJ1HQ">
+    <refinedDescription>&lt;p>&#xD;
+    Low level design includes:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        Classes&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Associations between classes&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Member and non-member functions&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Member variable&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-v3W466LA-AYJ4tpbGHEfVQ" name="developer,_o2KH3fctEeSgqoqR646M7Q" guid="-v3W466LA-AYJ4tpbGHEfVQ">
+    <refinedDescription>Developers are responsible for the software requirements fo the project, sofware design, software develoment, unit testing,
+system integration, and packaging.</refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-Oudm3H5DGK1BeKwTKlfrAQ" name="requirements_specifications_document,_o2TRxPctEeSgqoqR646M7Q" guid="-Oudm3H5DGK1BeKwTKlfrAQ">
+    <keyConsiderations>&lt;ul&#xD;
+style=&quot;LIST-STYLE-TYPE: disc; MARGIN-BOTTOM: 0px; WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; COLOR: rgb(0,0,0); TEXT-ALIGN: left; FONT: 13px arial, helvetica, sans-serif, kanji2; PADDING-LEFT: 0px; MARGIN-LEFT: 30px; WIDOWS: 1; MARGIN-TOP: 0px; LETTER-SPACING: normal; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; -webkit-text-stroke-width: 0px&quot;>&#xD;
+    &lt;li style=&quot;FONT-SIZE: 10pt; FONT-FAMILY: arial, helvetica, sans-serif, kanji2; TEXT-ALIGN: left&quot;>&#xD;
+        When you document system-wide requirements, ensure that the needs of all of the stakeholders are represented. In&#xD;
+        particular, include the needs of those who are responsible for maintaining or supporting the system after it is&#xD;
+        delivered.&#xD;
+    &lt;/li>&#xD;
+    &lt;li style=&quot;FONT-SIZE: 10pt; FONT-FAMILY: arial, helvetica, sans-serif, kanji2; TEXT-ALIGN: left&quot;>&#xD;
+        Typically, there are some overlaps and gray areas between system-wide requirements and other requirements work&#xD;
+        products. For example, the authorization behavior of a system can be specified as use cases or as statements within&#xD;
+        system-wide requirements. The overall driving need is that no important requirements are missed or duplicated, and&#xD;
+        that there is an agreed upon approach for capturing and processing every type of requirement.&#xD;
+    &lt;/li>&#xD;
+    &lt;li style=&quot;FONT-SIZE: 10pt; FONT-FAMILY: arial, helvetica, sans-serif, kanji2; TEXT-ALIGN: left&quot;>&#xD;
+        System-wide requirements originate from many places. Documenting the source of the requirement is particularly&#xD;
+        important when you separate externally mandated requirements.&#xD;
+    &lt;/li>&#xD;
+    &lt;li style=&quot;FONT-SIZE: 10pt; FONT-FAMILY: arial, helvetica, sans-serif, kanji2; TEXT-ALIGN: left&quot;>&#xD;
+        Requirements are often thought of as &quot;Qualitative&quot; (specifying a quality or desirable characteristic) versus&#xD;
+        &quot;Quantitative&quot; (specifying a quantity). Qualitative requirements can sometimes be elaborated into quantitative&#xD;
+        requirements.&#xD;
+    &lt;/li>&#xD;
+    &lt;li style=&quot;FONT-SIZE: 10pt; FONT-FAMILY: arial, helvetica, sans-serif, kanji2; TEXT-ALIGN: left&quot;>&#xD;
+        A good quality requirement is one that you can verify, either through testing or some other objective evaluation.&#xD;
+    &lt;/li>&#xD;
+    &lt;li style=&quot;FONT-SIZE: 10pt; FONT-FAMILY: arial, helvetica, sans-serif, kanji2; TEXT-ALIGN: left&quot;>&#xD;
+        You must evaluate system-wide requirements for cost, schedule impact, and level of contribution to business goals.&#xD;
+        Based on your evaluation, the system-wide requirements should be iteratively challenged, defended, and amended.&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></keyConsiderations>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-UHonWAU-CqGNRbgWOxwqgQ" name="dev_test,_o2TRzfctEeSgqoqR646M7Q" guid="-UHonWAU-CqGNRbgWOxwqgQ">
+    <refinedDescription>&lt;span&#xD;
+style=&quot;WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FLOAT: none; COLOR: rgb(0,0,0); TEXT-ALIGN: left; FONT: 13px arial, helvetica, sans-serif, kanji2; WIDOWS: 1; DISPLAY: inline !important; LETTER-SPACING: normal; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; -webkit-text-stroke-width: 0px&quot;>&#xD;
+This artifact covers all of the steps to validate a specific aspect of an implementation element.&lt;/span></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-P615McbOY2x0pm2XfrkSlg" name="software_architect,_o2mzwfctEeSgqoqR646M7Q" guid="-P615McbOY2x0pm2XfrkSlg">
+    <refinedDescription>&lt;p&#xD;
+style=&quot;WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; COLOR: rgb(0,0,0); TEXT-ALIGN: left; FONT: 13px arial, helvetica, sans-serif, kanji2; WIDOWS: 1; LETTER-SPACING: normal; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; -webkit-text-stroke-width: 0px&quot;>&#xD;
+    The person in this role leads or coordinates the technical design of the system and has overall responsibility for&#xD;
+    facilitating the major technical decisions expressed as software architecture. This typically includes identifying and&#xD;
+    documenting the architecturally significant aspects of the system as views that describe requirements, design,&#xD;
+    implementation, and deployment.&#xD;
+&lt;/p>&#xD;
+&lt;p&#xD;
+style=&quot;WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; COLOR: rgb(0,0,0); TEXT-ALIGN: left; FONT: 13px arial, helvetica, sans-serif, kanji2; WIDOWS: 1; LETTER-SPACING: normal; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; -webkit-text-stroke-width: 0px&quot;>&#xD;
+    This role is also responsible for providing the rationale for these decisions, balancing the concerns of the various&#xD;
+    stakeholders, reducing technical risks, and ensuring that decisions are effectively communicated, validated, and&#xD;
+    followed.&#xD;
+&lt;/p>&#xD;
+&lt;p&#xD;
+style=&quot;WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; COLOR: rgb(0,0,0); TEXT-ALIGN: left; FONT: 13px arial, helvetica, sans-serif, kanji2; WIDOWS: 1; LETTER-SPACING: normal; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; -webkit-text-stroke-width: 0px&quot;>&#xD;
+    This role works closely with project managers in staffing and planning the project, because it is recommended that the&#xD;
+    team be organized around the architecture.&#xD;
+&lt;/p>&#xD;
+&lt;p&#xD;
+style=&quot;WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; COLOR: rgb(0,0,0); TEXT-ALIGN: left; FONT: 13px arial, helvetica, sans-serif, kanji2; WIDOWS: 1; LETTER-SPACING: normal; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; -webkit-text-stroke-width: 0px&quot;>&#xD;
+    This role also works closely with analysts and developers to make sure that the architecturally significant&#xD;
+    requirements are assigned to the proper components of the system.&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-PGRFVJQXH0N139KjzT2ACA" name="high_level_design,_o2mzxPctEeSgqoqR646M7Q" guid="-PGRFVJQXH0N139KjzT2ACA">
+    <refinedDescription>&lt;p>&#xD;
+    High level design includes:&lt;br />&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        Architecture&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Components&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Interfaces&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Networks&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        High level data flow&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Optional: Classes&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-8PyJwW_pgVuLfractUK7MA" name="low_level_design,_o2mzx_ctEeSgqoqR646M7Q" guid="-8PyJwW_pgVuLfractUK7MA">
+    <refinedDescription>&lt;p>&#xD;
+    Low level design includes:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        Classes&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Associations between classes&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Member and non-member functions&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Member variable&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-mTRLvBaxKpJN6qK-CznXEw" name="architecture_notebook,_o2mzyvctEeSgqoqR646M7Q" guid="-mTRLvBaxKpJN6qK-CznXEw">
+    <refinedDescription>&lt;p>&#xD;
+    This artifact&amp;nbsp;describes the &lt;a class=&quot;elementLink&quot;&#xD;
+    href=&quot;./../../core.tech.common.extend_supp/guidances/concepts/software_architecture_59A08DE0.html&quot;&#xD;
+    guid=&quot;__O7tAMVvEduLYZUGfgZrkQ&quot;>Software Architecture&lt;/a>.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    It provides a place for maintaining the list of architectural issues, along with the associated architectural&#xD;
+    decisions, designs, patterns, code documented (or pointed to), and so forth -- all at appropriate levels to make it&#xD;
+    easy to understand what architectural decisions have been made and remain to be made.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    It is helpful for architects to use this artifact to collaborate with other team members in developing the architecture&#xD;
+    and to help team members understand the motivation behind architectural decisions so that those decisions can be&#xD;
+    robustly implemented. For example, the architect may put constraints on how data is packaged and communicated between&#xD;
+    different parts of the system. This may appear to be a burden, but the justification in the Architecture Notebook can&#xD;
+    explain that there is a significant performance bottleneck when communicating with a legacy system. The rest of the&#xD;
+    system must adapt to this bottleneck by following a specific data packaging scheme.&#xD;
+&lt;/p>&#xD;
+&lt;p>&#xD;
+    This artifact should also inform the team members how the system is partitioned or organized so that the team can adapt&#xD;
+    to the needs of the system. It also gives a first glimpse of the system and its technical motivations to whoever must&#xD;
+    maintain and change the architecture later.&lt;br />&#xD;
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-n2mbmawECkoYUNFJrpAKuQ" name="dev_test,_o25usfctEeSgqoqR646M7Q" guid="-n2mbmawECkoYUNFJrpAKuQ">
+    <refinedDescription>&lt;span&#xD;
+style=&quot;WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FLOAT: none; COLOR: rgb(0,0,0); TEXT-ALIGN: left; FONT: 13px arial, helvetica, sans-serif, kanji2; WIDOWS: 1; DISPLAY: inline !important; LETTER-SPACING: normal; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; -webkit-text-stroke-width: 0px&quot;>&#xD;
+This artifact covers all of the steps to validate a specific aspect of an implementation element.&lt;/span></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-nNRZOIw1mcWXEPbJpj-rew" name="implementation,_o25utPctEeSgqoqR646M7Q" guid="-nNRZOIw1mcWXEPbJpj-rew">
+    <refinedDescription>&lt;p&#xD;
+style=&quot;WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; COLOR: rgb(0,0,0); TEXT-ALIGN: left; FONT: 13px arial, helvetica, sans-serif, kanji2; WIDOWS: 1; LETTER-SPACING: normal; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; -webkit-text-stroke-width: 0px&quot;>&#xD;
+    This artifact is the collection of one or more of these elements:&#xD;
+&lt;/p>&#xD;
+&lt;ul&#xD;
+style=&quot;LIST-STYLE-TYPE: disc; MARGIN-BOTTOM: 0px; WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; COLOR: rgb(0,0,0); TEXT-ALIGN: left; FONT: 13px arial, helvetica, sans-serif, kanji2; PADDING-LEFT: 0px; MARGIN-LEFT: 30px; WIDOWS: 1; MARGIN-TOP: 0px; LETTER-SPACING: normal; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; -webkit-text-stroke-width: 0px&quot;>&#xD;
+    &lt;li style=&quot;FONT-SIZE: 10pt; FONT-FAMILY: arial, helvetica, sans-serif, kanji2; TEXT-ALIGN: left&quot;>&#xD;
+        Source code files&#xD;
+    &lt;/li>&#xD;
+    &lt;li style=&quot;FONT-SIZE: 10pt; FONT-FAMILY: arial, helvetica, sans-serif, kanji2; TEXT-ALIGN: left&quot;>&#xD;
+        Data files&#xD;
+    &lt;/li>&#xD;
+    &lt;li style=&quot;FONT-SIZE: 10pt; FONT-FAMILY: arial, helvetica, sans-serif, kanji2; TEXT-ALIGN: left&quot;>&#xD;
+        Build scripts&#xD;
+    &lt;/li>&#xD;
+    &lt;li style=&quot;FONT-SIZE: 10pt; FONT-FAMILY: arial, helvetica, sans-serif, kanji2; TEXT-ALIGN: left&quot;>&#xD;
+        Other files that are transformed into the executable system&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
 </xmi:XMI>
