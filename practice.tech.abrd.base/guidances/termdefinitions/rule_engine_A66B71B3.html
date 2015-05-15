@@ -1,0 +1,129 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="en" xml:lang="en" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<head>
+<META http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>Term Definition: Rule engine</title>
+<meta name="uma.type" content="TermDefinition">
+<meta name="uma.name" content="rule_engine">
+<meta name="uma.presentationName" content="Rule engine">
+<meta name="element_type" content="other">
+<meta name="filetype" content="description">
+<meta name="role" content="none">
+<link rel="StyleSheet" href="./../../../css/default.css" type="text/css">
+<script src="./../../../scripts/ContentPageResource.js" type="text/javascript" language="JavaScript"></script><script src="./../../../scripts/ContentPageSection.js" type="text/javascript" language="JavaScript"></script><script src="./../../../scripts/ContentPageSubSection.js" type="text/javascript" language="JavaScript"></script><script src="./../../../scripts/ContentPageToolbar.js" type="text/javascript" language="JavaScript"></script><script src="./../../../scripts/contentPage.js" type="text/javascript" language="JavaScript"></script><script type="text/javascript" language="JavaScript">
+					var backPath = './../../../';
+					var imgPath = './../../../images/';
+					var nodeInfo=null;
+					contentPage.preload(imgPath, backPath, nodeInfo,  '', false, false, false);
+				</script>
+</head>
+<body>
+<div id="breadcrumbs"></div>
+<table border="0" cellpadding="0" cellspacing="0" width="100%">
+<tr>
+<td valign="top"><a name="Top"></a>
+<div id="page-guid" value="_QQcSoEXXEdy14e5PT9v3HQ"></div>
+<table border="0" cellspacing="0" cellpadding="0" width="100%">
+<tr>
+<td class="pageTitle" nowrap="true">Term Definition: Rule engine</td><td width="100%">
+<div align="right" id="contentPageToolbar"></div>
+</td><td width="100%" class="expandCollapseLink" align="right"><a name="mainIndex" href="./../../../index.htm"></a><script language="JavaScript" type="text/javascript" src="./../../../scripts/treebrowser.js"></script></td>
+</tr>
+</table>
+<table width="100%" border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td class="pageTitleSeparator"><img src="./../../../images/shim.gif" alt="" title="" height="1"></td>
+</tr>
+</table>
+<div class="overview">
+<table width="97%" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td width="50"><img src="./../../../images/termdefinition.gif" alt="" title=""></td><td>
+<table class="overviewTable" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td valign="top"></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</div>
+<div class="sectionHeading">Main Description</div>
+<div class="sectionContent">
+<table class="sectionTable" border="0" cellspacing="0" cellpadding="0">
+<tr valign="top">
+<td class="sectionTableSingleCell"><a id="XE_rule_engine" name="XE_rule_engine"></a> 
+<p class="MsoNormal" style="MARGIN: 3pt 0cm">
+    Software component used to execute business rule. The rule engine uses two major entities:
+</p>
+<ul>
+    <li>
+        <div class="MsoNormal" style="MARGIN: 3pt 0cm; mso-list: l0 level1 lfo1; tab-stops: list 36.0pt">
+            a <a class="elementLink" href="./../../../practice.tech.abrd.base/guidances/termdefinitions/rule_set_4D4C8DB1.html" guid="_DdvcwBCQEdyJtJ3PbfdVDw">Rule Set</a>: The set of rules that are processed by the rule engine, and rule
+            execution flow information.
+        </div>
+    </li>
+    <li>
+        <div class="MsoNormal" style="MARGIN: 3pt 0cm; mso-list: l0 level1 lfo1; tab-stops: list 36.0pt">
+            an object set: The set of objects to be treated by rules.
+        </div>
+    </li>
+</ul>
+<p class="MsoNormal" style="MARGIN: 3pt 0cm">
+    A rule engine is executing a cycle consisting of three action states: <span style="mso-bidi-font-style: italic">match
+    rules</span>, <span style="mso-bidi-font-style: italic">select rules</span>, and <span     style="mso-bidi-font-style: italic">execute rules until there is no more rule to execute.</span>
+</p>
+<p class="MsoNormal" style="MARGIN: 3pt 0cm">
+    The rule engine evaluates the conditions of rules in the ruleset against the objects to determine (match) which rules
+    are eligible to be executed. During execution, the engine collects all eligible rules in an “agenda”.
+</p>
+<p class="MsoNormal" style="MARGIN: 3pt 0cm">
+    The object set is referenced in the engine's working memory, which also contains the current state of the objects which
+    lead to the current rules in the agenda.
+</p>
+<p class="MsoNormal" style="MARGIN: 3pt 0cm">
+    All objects are examined by all rules. The effects of the execution are to create new data, or to modify existing
+    ones.<br />
+    <span style="mso-bidi-language: HE">The agenda</span> <a id="6838" name="6838"><span lang="EN"     style="mso-ansi-language: EN"><span style="mso-spacerun: yes">&nbsp;</span>is a logical workspace where rule instances
+    that have conditions matching objects in the working memory are put. There can be several rule instances for the same
+    rule</span></a><span lang="EN" style="mso-ansi-language: EN">.</span> <span style="mso-bidi-language: HE">When all the
+    candidate rule are matched the engine turns to the agenda for rule execution.</span>
+</p>
+<p class="MsoNormal" style="MARGIN: 3pt 0cm">
+    <span style="mso-bidi-language: HE">One execution mode is the RetePlus algorithm used to match many patterns with many
+    objects, it helps to minimize the number of rules and conditions that need to be evaluated,</span> <a id="5021" name="5021"><span lang="EN" style="mso-ansi-language: EN">computes which rules should be executed, and identifies in
+    which order these rules should be fired</span></a><span lang="EN" style="mso-ansi-language: EN">.</span>
+</p>
+<p class="MsoNormal" style="MARGIN: 3pt 0cm">
+    <span style="mso-bidi-language: HE">Rules engine is designed to be complete, and ensures that the effects of one rule
+    execution (or firing) is propagated so that everything that can be inferred is done in one run.</span>
+</p><span style="FONT-SIZE: 10pt; FONT-FAMILY: Arial; mso-bidi-language: HE; mso-ansi-language: EN-US; mso-bidi-font-size: 12.0pt; mso-fareast-font-family: 'Times New Roman'; mso-bidi-font-family: 'Times New Roman'; mso-fareast-language: EN-US">The
+power of rule engines comes from the fact that complex behaviors result from simple rules, this is known as rule chaining.
+This is a major change in the programming model developer used to have.There is no more static control structure of the
+program where function is calling one another, rules are "communicating" with other rule only by way of the data. This is a
+data change that trigger potential rule execution. Rules are not executed</span> <span style="FONT-SIZE: 10pt; FONT-FAMILY: Arial; mso-bidi-language: AR-SA; mso-ansi-language: EN-US; mso-bidi-font-size: 12.0pt; mso-fareast-font-family: 'Times New Roman'; mso-bidi-font-family: 'Times New Roman'; mso-fareast-language: EN-US">sequentially
+and it is not always possible to determine through inspection of a set of rules which rule will be executed first or cause
+the inference engine to terminate.</span></td>
+</tr>
+</table>
+</div>
+<table class="copyright" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td class="copyright"><p>
+    This program and the accompanying materials are made available under the<br />
+    <a href="http://www.eclipse.org/org/documents/epl-v10.php" target="_blank">Eclipse Public License V1.0</a>, which
+    accompanies this distribution.
+</p>
+<p>
+    <a class="elementLink" href="./../../../core.default.release_copyright.base/guidances/supportingmaterials/epf_copyright_C3031062.html" guid="_UaGfECcTEduSX6N2jUafGA">EPF Copyright</a>.
+</p></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</body>
+<script type="text/javascript" language="JavaScript">
+				contentPage.onload();
+			</script>
+</html>

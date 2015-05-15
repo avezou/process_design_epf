@@ -1,0 +1,464 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="en" xml:lang="en" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<head>
+<META http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>Template: Rule Template for Workflow Project</title>
+<meta name="uma.type" content="Template">
+<meta name="uma.name" content="rule_template_for_workflow_project">
+<meta name="uma.presentationName" content="Rule Template for Workflow Project">
+<meta name="element_type" content="other">
+<meta name="filetype" content="description">
+<meta name="role" content="none">
+<link rel="StyleSheet" href="./../../../css/default.css" type="text/css">
+<script src="./../../../scripts/ContentPageResource.js" type="text/javascript" language="JavaScript"></script><script src="./../../../scripts/ContentPageSection.js" type="text/javascript" language="JavaScript"></script><script src="./../../../scripts/ContentPageSubSection.js" type="text/javascript" language="JavaScript"></script><script src="./../../../scripts/ContentPageToolbar.js" type="text/javascript" language="JavaScript"></script><script src="./../../../scripts/contentPage.js" type="text/javascript" language="JavaScript"></script><script type="text/javascript" language="JavaScript">
+					var backPath = './../../../';
+					var imgPath = './../../../images/';
+					var nodeInfo=null;
+					contentPage.preload(imgPath, backPath, nodeInfo,  '', false, false, false);
+				</script>
+</head>
+<body>
+<div id="breadcrumbs"></div>
+<table border="0" cellpadding="0" cellspacing="0" width="100%">
+<tr>
+<td valign="top"><a name="Top"></a>
+<div id="page-guid" value="_srklxAjqEdyj5bYZ0eCR5g"></div>
+<table border="0" cellspacing="0" cellpadding="0" width="100%">
+<tr>
+<td class="pageTitle" nowrap="true">Template: Rule Template for Workflow Project</td><td width="100%">
+<div align="right" id="contentPageToolbar"></div>
+</td><td width="100%" class="expandCollapseLink" align="right"><a name="mainIndex" href="./../../../index.htm"></a><script language="JavaScript" type="text/javascript" src="./../../../scripts/treebrowser.js"></script></td>
+</tr>
+</table>
+<table width="100%" border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td class="pageTitleSeparator"><img src="./../../../images/shim.gif" alt="" title="" height="1"></td>
+</tr>
+</table>
+<div class="overview">
+<table width="97%" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td width="50"><img src="./../../../images/template.gif" alt="" title=""></td><td>
+<table class="overviewTable" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td valign="top">This template should be used for project based on a discovery roadmap using business process or workflow process. The implementation of the business application will use a workflow engine.</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</div>
+<div class="sectionHeading">Relationships</div>
+<div class="sectionContent">
+<table class="sectionTable" border="0" cellspacing="0" cellpadding="0">
+<tr valign="top">
+<th class="sectionTableHeading" scope="row">Related Elements</th><td class="sectionTableCell">
+<ul>
+<li>
+<a href="./../../../practice.tech.abrd.base/workproducts/rule_description_doc_F66376F0.html" guid="_sruW2gjqEdyj5bYZ0eCR5g">Rule Description Document</a>
+</li>
+</ul>
+</td>
+</tr>
+</table>
+</div>
+<div class="sectionHeading">Main Description</div>
+<div class="sectionContent">
+<table class="sectionTable" border="0" cellspacing="0" cellpadding="0">
+<tr valign="top">
+<td class="sectionTableSingleCell"><p class="MsoNormal" style="MARGIN: 3pt 0cm">
+    This document is the analysis and design to support the implementation of a process.
+</p>
+<p class="MsoNormal" style="MARGIN: 3pt 0cm">
+    We present the rules organization, the structure of rule projects, the object model under scope, the structure of the
+    data input send by the BPM engine, the data output it receives from the rule engine, and at the end the exceptions to
+    be defined for the rule services and reported back to the BPM workflow engine.
+</p><br class="MsoNormal" style="MARGIN: 3pt 0cm" />
+<br />
+<h2 style="MARGIN: 12pt 0cm 6pt 28.8pt">
+    <a><font color="#005DA0"><em><font size="5">Physical Process Map</font></em></font></a>
+</h2>
+<p class="MsoNormal" style="MARGIN: 3pt 0cm">
+    <span style="mso-bidi-language: HE">Use&nbsp;diagram representing in BPM Notation the business process under scope. Use
+    color coded activity to represent the call to the rule service</span>
+</p><br class="MsoNormal" style="MARGIN: 3pt 0cm" />
+<br />
+<br class="MsoNormal" style="MARGIN: 3pt 0cm" />
+<br />
+<p class="MsoNormal" style="MARGIN: 3pt 0cm">
+    <span style="mso-bidi-language: HE">The following table may be used to list the process step calling a rule services as
+    detailed in this document</span>
+</p><br class="MsoNormal" style="MARGIN: 3pt 0cm" />
+<br />
+<div align="center">
+    <table class="ISISTable"     style="BORDER-RIGHT: medium none; BORDER-TOP: medium none; BORDER-LEFT: medium none; BORDER-BOTTOM: medium none; BORDER-COLLAPSE: collapse; mso-border-alt: solid silver 1.0pt; mso-yfti-tbllook: 480; mso-padding-alt: 0cm 5.4pt 0cm 5.4pt; mso-border-insideh: 1.0pt solid silver; mso-border-insidev: 1.0pt solid silver"      cellspacing="0" cellpadding="0" border="1">
+        <tbody>
+            <tr style="mso-yfti-irow: -1; mso-yfti-firstrow: yes">
+                <td                 style="BORDER-RIGHT: gray 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: gray 1pt solid; PADDING-LEFT: 5.4pt; BACKGROUND: #f3f3f3; PADDING-BOTTOM: 0cm; BORDER-LEFT: gray 1pt solid; WIDTH: 88.55pt; PADDING-TOP: 0cm; BORDER-BOTTOM: gray 1pt solid"                  valign="top" width="118">
+                    <p class="MsoNormalCxSpMiddle" style="TEXT-ALIGN: center; mso-yfti-cnfc: 1" align="center">
+                        <b style="mso-bidi-font-weight: normal"><i style="mso-bidi-font-style: normal"><span                         style="COLOR: #005da0; mso-bidi-language: HE"><font size="3"><font face="Times New Roman">Process
+                        Step</font></font></span></i></b>
+                    </p>
+                </td>
+                <td                 style="BORDER-RIGHT: gray 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: gray 1pt solid; PADDING-LEFT: 5.4pt; BACKGROUND: #f3f3f3; PADDING-BOTTOM: 0cm; BORDER-LEFT: #ece9d8; WIDTH: 88.55pt; PADDING-TOP: 0cm; BORDER-BOTTOM: gray 1pt solid; mso-border-left-alt: solid gray 1.0pt"                  valign="top" width="118">
+                    <p class="MsoNormalCxSpMiddle" style="TEXT-ALIGN: center; mso-yfti-cnfc: 1" align="center">
+                        <b style="mso-bidi-font-weight: normal"><i style="mso-bidi-font-style: normal"><span                         style="COLOR: #005da0; mso-bidi-language: HE"><font size="3"><font face="Times New Roman">Rule
+                        Service</font></font></span></i></b>
+                    </p>
+                </td>
+                <td                 style="BORDER-RIGHT: gray 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: gray 1pt solid; PADDING-LEFT: 5.4pt; BACKGROUND: #f3f3f3; PADDING-BOTTOM: 0cm; BORDER-LEFT: #ece9d8; WIDTH: 88.55pt; PADDING-TOP: 0cm; BORDER-BOTTOM: gray 1pt solid; mso-border-left-alt: solid gray 1.0pt"                  valign="top" width="118">
+                    <p class="MsoNormalCxSpMiddle" style="TEXT-ALIGN: center; mso-yfti-cnfc: 1" align="center">
+                        <b style="mso-bidi-font-weight: normal"><i style="mso-bidi-font-style: normal"><span                         style="COLOR: #005da0; mso-bidi-language: HE"><font size="3"><font                         face="Times New Roman">Input</font></font></span></i></b>
+                    </p>
+                </td>
+                <td                 style="BORDER-RIGHT: gray 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: gray 1pt solid; PADDING-LEFT: 5.4pt; BACKGROUND: #f3f3f3; PADDING-BOTTOM: 0cm; BORDER-LEFT: #ece9d8; WIDTH: 88.55pt; PADDING-TOP: 0cm; BORDER-BOTTOM: gray 1pt solid; mso-border-left-alt: solid gray 1.0pt"                  valign="top" width="118">
+                    <p class="MsoNormalCxSpMiddle" style="TEXT-ALIGN: center; mso-yfti-cnfc: 1" align="center">
+                        <b style="mso-bidi-font-weight: normal"><i style="mso-bidi-font-style: normal"><span                         style="COLOR: #005da0; mso-bidi-language: HE"><font size="3"><font                         face="Times New Roman">Output</font></font></span></i></b>
+                    </p>
+                </td>
+                <td                 style="BORDER-RIGHT: gray 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: gray 1pt solid; PADDING-LEFT: 5.4pt; BACKGROUND: #f3f3f3; PADDING-BOTTOM: 0cm; BORDER-LEFT: #ece9d8; WIDTH: 88.6pt; PADDING-TOP: 0cm; BORDER-BOTTOM: gray 1pt solid; mso-border-left-alt: solid gray 1.0pt"                  valign="top" width="118">
+                    <p class="MsoNormalCxSpMiddle" style="TEXT-ALIGN: center; mso-yfti-cnfc: 1" align="center">
+                        <b style="mso-bidi-font-weight: normal"><i style="mso-bidi-font-style: normal"><span                         style="COLOR: #005da0; mso-bidi-language: HE"><font size="3"><font                         face="Times New Roman">Exceptions</font></font></span></i></b>
+                    </p>
+                </td>
+            </tr>
+            <tr style="mso-yfti-irow: 0">
+                <td                 style="BORDER-RIGHT: silver 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: #ece9d8; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0cm; BORDER-LEFT: silver 1pt solid; WIDTH: 88.55pt; PADDING-TOP: 0cm; BORDER-BOTTOM: silver 1pt solid; BACKGROUND-COLOR: transparent; mso-border-top-alt: solid silver 1.0pt"                  valign="top" width="118">
+                    <br class="MsoNormalCxSpMiddle" />
+                    <br />
+                </td>
+                <td                 style="BORDER-RIGHT: silver 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: #ece9d8; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0cm; BORDER-LEFT: #ece9d8; WIDTH: 88.55pt; PADDING-TOP: 0cm; BORDER-BOTTOM: silver 1pt solid; BACKGROUND-COLOR: transparent; mso-border-left-alt: solid silver 1.0pt; mso-border-top-alt: solid silver 1.0pt"                  valign="top" width="118">
+                    <br class="MsoNormalCxSpMiddle" />
+                    <br />
+                </td>
+                <td                 style="BORDER-RIGHT: silver 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: #ece9d8; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0cm; BORDER-LEFT: #ece9d8; WIDTH: 88.55pt; PADDING-TOP: 0cm; BORDER-BOTTOM: silver 1pt solid; BACKGROUND-COLOR: transparent; mso-border-left-alt: solid silver 1.0pt; mso-border-top-alt: solid silver 1.0pt"                  valign="top" width="118">
+                    <br class="MsoNormalCxSpMiddle" />
+                    <br />
+                </td>
+                <td                 style="BORDER-RIGHT: silver 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: #ece9d8; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0cm; BORDER-LEFT: #ece9d8; WIDTH: 88.55pt; PADDING-TOP: 0cm; BORDER-BOTTOM: silver 1pt solid; BACKGROUND-COLOR: transparent; mso-border-left-alt: solid silver 1.0pt; mso-border-top-alt: solid silver 1.0pt"                  valign="top" width="118">
+                    <br class="MsoNormalCxSpMiddle" />
+                    <br />
+                </td>
+                <td                 style="BORDER-RIGHT: silver 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: #ece9d8; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0cm; BORDER-LEFT: #ece9d8; WIDTH: 88.6pt; PADDING-TOP: 0cm; BORDER-BOTTOM: silver 1pt solid; BACKGROUND-COLOR: transparent; mso-border-left-alt: solid silver 1.0pt; mso-border-top-alt: solid silver 1.0pt"                  valign="top" width="118">
+                    <br class="MsoNormalCxSpMiddle" />
+                    <br />
+                </td>
+            </tr>
+            <tr style="mso-yfti-irow: 1">
+                <td                 style="BORDER-RIGHT: silver 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: #ece9d8; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0cm; BORDER-LEFT: silver 1pt solid; WIDTH: 88.55pt; PADDING-TOP: 0cm; BORDER-BOTTOM: silver 1pt solid; BACKGROUND-COLOR: transparent; mso-border-top-alt: solid silver 1.0pt"                  valign="top" width="118">
+                    <br class="MsoNormalCxSpMiddle" />
+                    <br />
+                </td>
+                <td                 style="BORDER-RIGHT: silver 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: #ece9d8; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0cm; BORDER-LEFT: #ece9d8; WIDTH: 88.55pt; PADDING-TOP: 0cm; BORDER-BOTTOM: silver 1pt solid; BACKGROUND-COLOR: transparent; mso-border-left-alt: solid silver 1.0pt; mso-border-top-alt: solid silver 1.0pt"                  valign="top" width="118">
+                    <br class="MsoNormalCxSpMiddle" />
+                    <br />
+                </td>
+                <td                 style="BORDER-RIGHT: silver 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: #ece9d8; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0cm; BORDER-LEFT: #ece9d8; WIDTH: 88.55pt; PADDING-TOP: 0cm; BORDER-BOTTOM: silver 1pt solid; BACKGROUND-COLOR: transparent; mso-border-left-alt: solid silver 1.0pt; mso-border-top-alt: solid silver 1.0pt"                  valign="top" width="118">
+                    <br class="MsoNormalCxSpMiddle" />
+                    <br />
+                </td>
+                <td                 style="BORDER-RIGHT: silver 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: #ece9d8; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0cm; BORDER-LEFT: #ece9d8; WIDTH: 88.55pt; PADDING-TOP: 0cm; BORDER-BOTTOM: silver 1pt solid; BACKGROUND-COLOR: transparent; mso-border-left-alt: solid silver 1.0pt; mso-border-top-alt: solid silver 1.0pt"                  valign="top" width="118">
+                    <br class="MsoNormalCxSpMiddle" />
+                    <br />
+                </td>
+                <td                 style="BORDER-RIGHT: silver 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: #ece9d8; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0cm; BORDER-LEFT: #ece9d8; WIDTH: 88.6pt; PADDING-TOP: 0cm; BORDER-BOTTOM: silver 1pt solid; BACKGROUND-COLOR: transparent; mso-border-left-alt: solid silver 1.0pt; mso-border-top-alt: solid silver 1.0pt"                  valign="top" width="118">
+                    <br class="MsoNormalCxSpMiddle" />
+                    <br />
+                </td>
+            </tr>
+            <tr style="mso-yfti-irow: 2; mso-yfti-lastrow: yes">
+                <td                 style="BORDER-RIGHT: silver 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: #ece9d8; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0cm; BORDER-LEFT: silver 1pt solid; WIDTH: 88.55pt; PADDING-TOP: 0cm; BORDER-BOTTOM: silver 1pt solid; BACKGROUND-COLOR: transparent; mso-border-top-alt: solid silver 1.0pt"                  valign="top" width="118">
+                    <br class="MsoNormalCxSpMiddle" />
+                    <br />
+                </td>
+                <td                 style="BORDER-RIGHT: silver 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: #ece9d8; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0cm; BORDER-LEFT: #ece9d8; WIDTH: 88.55pt; PADDING-TOP: 0cm; BORDER-BOTTOM: silver 1pt solid; BACKGROUND-COLOR: transparent; mso-border-left-alt: solid silver 1.0pt; mso-border-top-alt: solid silver 1.0pt"                  valign="top" width="118">
+                    <br class="MsoNormalCxSpMiddle" />
+                    <br />
+                </td>
+                <td                 style="BORDER-RIGHT: silver 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: #ece9d8; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0cm; BORDER-LEFT: #ece9d8; WIDTH: 88.55pt; PADDING-TOP: 0cm; BORDER-BOTTOM: silver 1pt solid; BACKGROUND-COLOR: transparent; mso-border-left-alt: solid silver 1.0pt; mso-border-top-alt: solid silver 1.0pt"                  valign="top" width="118">
+                    <br class="MsoNormalCxSpMiddle" />
+                    <br />
+                </td>
+                <td                 style="BORDER-RIGHT: silver 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: #ece9d8; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0cm; BORDER-LEFT: #ece9d8; WIDTH: 88.55pt; PADDING-TOP: 0cm; BORDER-BOTTOM: silver 1pt solid; BACKGROUND-COLOR: transparent; mso-border-left-alt: solid silver 1.0pt; mso-border-top-alt: solid silver 1.0pt"                  valign="top" width="118">
+                    <br class="MsoNormalCxSpMiddle" />
+                    <br />
+                </td>
+                <td                 style="BORDER-RIGHT: silver 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: #ece9d8; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0cm; BORDER-LEFT: #ece9d8; WIDTH: 88.6pt; PADDING-TOP: 0cm; BORDER-BOTTOM: silver 1pt solid; BACKGROUND-COLOR: transparent; mso-border-left-alt: solid silver 1.0pt; mso-border-top-alt: solid silver 1.0pt"                  valign="top" width="118">
+                    <br class="MsoNormalCxSpMiddle" />
+                    <br />
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</div><br class="MsoNormal" style="MARGIN: 3pt 0cm" />
+<br />
+<h1 style="MARGIN: 0cm 0cm 12pt 21.6pt">
+    <a><font color="#005DA0">Detailed design of each rule service</font></a>
+</h1>
+<p class="ISISGuidance" style="MARGIN: 3pt 0cm 3pt 36pt">
+    Use the following table to detail each process step, with some rule description.
+</p><br class="ISISGuidance" style="MARGIN: 3pt 0cm 3pt 36pt" />
+<br />
+<div align="center">
+    <table class="ISISTable"     style="BORDER-RIGHT: medium none; BORDER-TOP: medium none; BORDER-LEFT: medium none; WIDTH: 495.9pt; BORDER-BOTTOM: medium none; BORDER-COLLAPSE: collapse; mso-border-alt: solid silver 1.0pt; mso-yfti-tbllook: 480; mso-padding-alt: 0cm 5.4pt 0cm 5.4pt; mso-border-insideh: 1.0pt solid silver; mso-border-insidev: 1.0pt solid silver"      cellspacing="0" cellpadding="0" width="661" border="1">
+        <tbody>
+            <tr style="mso-yfti-irow: -1; mso-yfti-firstrow: yes">
+                <td                 style="BORDER-RIGHT: gray 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: gray 1pt solid; PADDING-LEFT: 5.4pt; BACKGROUND: #f3f3f3; PADDING-BOTTOM: 0cm; BORDER-LEFT: gray 1pt solid; WIDTH: 495.9pt; PADDING-TOP: 0cm; BORDER-BOTTOM: gray 1pt solid"                  valign="top" width="661" colspan="2">
+                    <p class="MsoNormalCxSpFirst" style="TEXT-ALIGN: left; mso-yfti-cnfc: 1" align="left">
+                        <span style="COLOR: #005da0"><em><font size="3"><font face="Times New Roman">Business workflow<a id="XE_rule__template_for_workflow_project" name="XE_rule__template_for_workflow_project"></a>
+                        Process: &lt;name of the process&gt;</font></font></em></span>
+                    </p>
+                </td>
+            </tr>
+            <tr style="mso-yfti-irow: 0">
+                <td                 style="BORDER-RIGHT: silver 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: #ece9d8; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0cm; BORDER-LEFT: silver 1pt solid; WIDTH: 495.9pt; PADDING-TOP: 0cm; BORDER-BOTTOM: silver 1pt solid; BACKGROUND-COLOR: transparent; mso-border-top-alt: solid silver 1.0pt"                  valign="top" width="661" colspan="2">
+                    <p class="MsoNormalCxSpMiddle">
+                        <font face="Times New Roman"><b style="mso-bidi-font-weight: normal"><span                         style="FONT-SIZE: 8pt; mso-bidi-font-size: 12.0pt">Workflow Step:</span></b> <span                         style="FONT-SIZE: 8pt; mso-bidi-font-size: 12.0pt">&lt;name of the process step&gt;</span></font>
+                    </p>
+                </td>
+            </tr>
+            <tr style="mso-yfti-irow: 1">
+                <td                 style="BORDER-RIGHT: silver 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: #ece9d8; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0cm; BORDER-LEFT: silver 1pt solid; WIDTH: 495.9pt; PADDING-TOP: 0cm; BORDER-BOTTOM: silver 1pt solid; BACKGROUND-COLOR: transparent; mso-border-top-alt: solid silver 1.0pt"                  valign="top" width="661" colspan="2">
+                    <p class="MsoNormalCxSpMiddle">
+                        <font face="Times New Roman"><b style="mso-bidi-font-weight: normal"><span                         style="FONT-SIZE: 8pt; mso-bidi-font-size: 12.0pt">Rule Service Name:</span></b> <span                         style="FONT-SIZE: 8pt; mso-bidi-font-size: 12.0pt">&lt;rule app rule set name&gt;</span></font>
+                    </p>
+                </td>
+            </tr>
+            <tr style="mso-yfti-irow: 2">
+                <td                 style="BORDER-RIGHT: silver 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: #ece9d8; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0cm; BORDER-LEFT: silver 1pt solid; WIDTH: 495.9pt; PADDING-TOP: 0cm; BORDER-BOTTOM: silver 1pt solid; BACKGROUND-COLOR: transparent; mso-border-top-alt: solid silver 1.0pt"                  valign="top" width="661" colspan="2">
+                    <p class="MsoNormalCxSpMiddle">
+                        <font face="Times New Roman"><b style="mso-bidi-font-weight: normal"><span                         style="FONT-SIZE: 8pt; mso-bidi-font-size: 12.0pt">Description :</span></b> <span                         style="FONT-SIZE: 8pt; mso-bidi-font-size: 12.0pt">&lt;simple description of the service
+                        &gt;</span></font>
+                    </p>
+                </td>
+            </tr>
+            <tr style="mso-yfti-irow: 3">
+                <td                 style="BORDER-RIGHT: silver 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: #ece9d8; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0cm; BORDER-LEFT: silver 1pt solid; WIDTH: 495.9pt; PADDING-TOP: 0cm; BORDER-BOTTOM: silver 1pt solid; BACKGROUND-COLOR: transparent; mso-border-top-alt: solid silver 1.0pt"                  valign="top" width="661" colspan="2">
+                    <p class="MsoNormalCxSpMiddle">
+                        <font face="Times New Roman"><b style="mso-bidi-font-weight: normal"><span                         style="FONT-SIZE: 8pt; mso-bidi-font-size: 12.0pt">Work Item Input structure
+                        design:</span></b><span style="FONT-SIZE: 8pt; mso-bidi-font-size: 12.0pt"><span                         style="mso-spacerun: yes">&nbsp;</span> (define the structure of the work item sent to the rule
+                        engine)</span></font>
+                    </p>
+                </td>
+            </tr>
+            <tr style="HEIGHT: 27.5pt; mso-yfti-irow: 4">
+                <td                 style="BORDER-RIGHT: silver 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: #ece9d8; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0cm; BORDER-LEFT: silver 1pt solid; WIDTH: 495.9pt; PADDING-TOP: 0cm; BORDER-BOTTOM: silver 1pt solid; HEIGHT: 27.5pt; BACKGROUND-COLOR: transparent; mso-border-top-alt: solid silver 1.0pt"                  valign="top" width="661" colspan="2">
+                    <br class="MsoNormalCxSpMiddle" style="MARGIN: auto auto auto 18pt; mso-add-space: auto" />
+                    <br />
+                </td>
+            </tr>
+            <tr style="mso-yfti-irow: 5">
+                <td                 style="BORDER-RIGHT: silver 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: #ece9d8; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0cm; BORDER-LEFT: silver 1pt solid; WIDTH: 495.9pt; PADDING-TOP: 0cm; BORDER-BOTTOM: silver 1pt solid; BACKGROUND-COLOR: transparent; mso-border-top-alt: solid silver 1.0pt"                  valign="top" width="661" colspan="2">
+                    <p class="MsoNormalCxSpMiddle">
+                        <font face="Times New Roman"><b style="mso-bidi-font-weight: normal"><span                         style="FONT-SIZE: 8pt; mso-bidi-font-size: 12.0pt">JRules rule flow description</span></b></font>
+                    </p>
+                </td>
+            </tr>
+            <tr style="mso-yfti-irow: 6">
+                <td                 style="BORDER-RIGHT: silver 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: #ece9d8; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0cm; BORDER-LEFT: silver 1pt solid; WIDTH: 108.9pt; PADDING-TOP: 0cm; BORDER-BOTTOM: silver 1pt solid; BACKGROUND-COLOR: transparent; mso-border-top-alt: solid silver 1.0pt"                  valign="top" width="145">
+                    <p class="MsoNormalCxSpMiddle">
+                        <span style="FONT-SIZE: 8pt; mso-bidi-font-size: 12.0pt"><font face="Times New Roman"><span                         style="mso-spacerun: yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+                        Preprocessing:</font></span>
+                    </p>
+                </td>
+                <td                 style="BORDER-RIGHT: silver 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: #ece9d8; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0cm; BORDER-LEFT: #ece9d8; WIDTH: 387pt; PADDING-TOP: 0cm; BORDER-BOTTOM: silver 1pt solid; BACKGROUND-COLOR: transparent; mso-border-left-alt: solid silver 1.0pt; mso-border-top-alt: solid silver 1.0pt"                  valign="top" width="516">
+                    <p class="MsoNormalCxSpMiddle">
+                        <span style="FONT-SIZE: 8pt; mso-bidi-font-size: 12.0pt"><font face="Times New Roman">Verify the
+                        Work item field. If there is an error use the rule set parameter to stop the rule
+                        flow.</font></span>
+                    </p>
+                    <p class="MsoNormalCxSpMiddle">
+                        <span style="FONT-SIZE: 8pt; mso-bidi-font-size: 12.0pt"><font face="Times New Roman"><span                         style="mso-spacerun: yes">&nbsp;</span>Load the business object<span                         style="mso-spacerun: yes">&nbsp;</span> from the data source using the DAO layer</font></span>
+                    </p>
+                </td>
+            </tr>
+            <tr style="mso-yfti-irow: 7">
+                <td                 style="BORDER-RIGHT: silver 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: #ece9d8; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0cm; BORDER-LEFT: silver 1pt solid; WIDTH: 108.9pt; PADDING-TOP: 0cm; BORDER-BOTTOM: silver 1pt solid; BACKGROUND-COLOR: transparent; mso-border-top-alt: solid silver 1.0pt"                  valign="top" width="145">
+                    <p class="MsoNormalCxSpMiddle">
+                        <span style="FONT-SIZE: 8pt; mso-bidi-font-size: 12.0pt"><font face="Times New Roman"><span                         style="mso-spacerun: yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> Main / rule
+                        flow:</font></span>
+                    </p>
+                </td>
+                <td                 style="BORDER-RIGHT: silver 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: #ece9d8; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0cm; BORDER-LEFT: #ece9d8; WIDTH: 387pt; PADDING-TOP: 0cm; BORDER-BOTTOM: silver 1pt solid; BACKGROUND-COLOR: transparent; mso-border-left-alt: solid silver 1.0pt; mso-border-top-alt: solid silver 1.0pt"                  valign="top" width="516">
+                    <p class="MsoNormalCxSpMiddle">
+                        <span style="FONT-SIZE: 8pt; mso-bidi-font-size: 12.0pt"><font                         face="Times New Roman">Task_1:</font></span>
+                    </p>
+                    <p class="MsoNormalCxSpMiddle">
+                        <span style="FONT-SIZE: 8pt; mso-bidi-font-size: 12.0pt"><font                         face="Times New Roman">…</font></span>
+                    </p>
+                </td>
+            </tr>
+            <tr style="mso-yfti-irow: 8">
+                <td                 style="BORDER-RIGHT: silver 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: #ece9d8; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0cm; BORDER-LEFT: silver 1pt solid; WIDTH: 108.9pt; PADDING-TOP: 0cm; BORDER-BOTTOM: silver 1pt solid; BACKGROUND-COLOR: transparent; mso-border-top-alt: solid silver 1.0pt"                  valign="top" width="145">
+                    <p class="MsoNormalCxSpMiddle">
+                        <span style="FONT-SIZE: 8pt; mso-bidi-font-size: 12.0pt"><font face="Times New Roman"><span                         style="mso-spacerun: yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> Post
+                        processing:</font></span>
+                    </p>
+                </td>
+                <td                 style="BORDER-RIGHT: silver 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: #ece9d8; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0cm; BORDER-LEFT: #ece9d8; WIDTH: 387pt; PADDING-TOP: 0cm; BORDER-BOTTOM: silver 1pt solid; BACKGROUND-COLOR: transparent; mso-border-left-alt: solid silver 1.0pt; mso-border-top-alt: solid silver 1.0pt"                  valign="top" width="516">
+                    <p class="MsoNormalCxSpMiddle">
+                        <span style="FONT-SIZE: 8pt; mso-bidi-font-size: 12.0pt"><font face="Times New Roman">Commit the
+                        transaction if there is no error or rollback if there is at least on error</font></span>
+                    </p>
+                </td>
+            </tr>
+            <tr style="mso-yfti-irow: 9">
+                <td                 style="BORDER-RIGHT: silver 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: #ece9d8; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0cm; BORDER-LEFT: silver 1pt solid; WIDTH: 495.9pt; PADDING-TOP: 0cm; BORDER-BOTTOM: silver 1pt solid; BACKGROUND-COLOR: transparent; mso-border-top-alt: solid silver 1.0pt"                  valign="top" width="661" colspan="2">
+                    <p class="MsoNormalCxSpMiddle" style="tab-stops: 393.7pt">
+                        <font face="Times New Roman"><b style="mso-bidi-font-weight: normal"><span                         style="FONT-SIZE: 8pt; mso-bidi-font-size: 12.0pt">JRules project structure</span></b></font>
+                    </p>
+                </td>
+            </tr>
+            <tr style="mso-yfti-irow: 10">
+                <td                 style="BORDER-RIGHT: silver 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: #ece9d8; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0cm; BORDER-LEFT: silver 1pt solid; WIDTH: 108.9pt; PADDING-TOP: 0cm; BORDER-BOTTOM: silver 1pt solid; BACKGROUND-COLOR: transparent; mso-border-top-alt: solid silver 1.0pt"                  valign="top" width="145">
+                    <p class="MsoNormalCxSpMiddle">
+                        <span style="FONT-SIZE: 8pt; mso-bidi-font-size: 12.0pt"><font face="Times New Roman">Packages
+                        hierarchy</font></span>
+                    </p>
+                </td>
+                <td                 style="BORDER-RIGHT: silver 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: #ece9d8; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0cm; BORDER-LEFT: #ece9d8; WIDTH: 387pt; PADDING-TOP: 0cm; BORDER-BOTTOM: silver 1pt solid; BACKGROUND-COLOR: transparent; mso-border-left-alt: solid silver 1.0pt; mso-border-top-alt: solid silver 1.0pt"                  valign="top" width="516">
+                    <p class="MsoNormalCxSpMiddle">
+                        <span style="FONT-SIZE: 8pt"><font face="Times New Roman">Top level package name</font></span>
+                    </p>
+                    <p class="MsoNormalCxSpMiddle">
+                        <span style="FONT-SIZE: 8pt"><font face="Times New Roman"><span                         style="mso-spacerun: yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+                        Pre-Processing</font></span>
+                    </p>
+                    <p class="MsoNormalCxSpMiddle">
+                        <span style="FONT-SIZE: 8pt"><font face="Times New Roman"><span                         style="mso-spacerun: yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></font></span>
+                    </p>
+                    <p class="MsoNormalCxSpMiddle">
+                        <i style="mso-bidi-font-style: normal"><span style="FONT-SIZE: 8pt"><font                         face="Times New Roman">….</font></span></i>
+                    </p>
+                    <p class="MsoNormalCxSpMiddle">
+                        <font face="Times New Roman"><i style="mso-bidi-font-style: normal"><span                         style="FONT-SIZE: 8pt"><span style="mso-spacerun: yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> <span                         style="mso-spacerun: yes">&nbsp;</span></span></i><span                         style="FONT-SIZE: 8pt">Post-Processing</span></font>
+                    </p>
+                </td>
+            </tr>
+            <tr style="mso-yfti-irow: 11">
+                <td                 style="BORDER-RIGHT: silver 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: #ece9d8; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0cm; BORDER-LEFT: silver 1pt solid; WIDTH: 108.9pt; PADDING-TOP: 0cm; BORDER-BOTTOM: silver 1pt solid; BACKGROUND-COLOR: transparent; mso-border-top-alt: solid silver 1.0pt"                  valign="top" width="145">
+                    <p class="MsoNormalCxSpMiddle">
+                        <span style="FONT-SIZE: 8pt; mso-bidi-font-size: 12.0pt"><font face="Times New Roman">Rule set name
+                        reference</font></span>
+                    </p>
+                </td>
+                <td                 style="BORDER-RIGHT: silver 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: #ece9d8; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0cm; BORDER-LEFT: #ece9d8; WIDTH: 387pt; PADDING-TOP: 0cm; BORDER-BOTTOM: silver 1pt solid; BACKGROUND-COLOR: transparent; mso-border-left-alt: solid silver 1.0pt; mso-border-top-alt: solid silver 1.0pt"                  valign="top" width="516">
+                    <p class="MsoNormalCxSpMiddle">
+                        <span style="FONT-SIZE: 8pt; mso-bidi-font-size: 12.0pt"><font face="Times New Roman">&lt;Rule App/
+                        rule set&gt;</font></span>
+                    </p>
+                </td>
+            </tr>
+            <tr style="mso-yfti-irow: 12">
+                <td                 style="BORDER-RIGHT: silver 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: #ece9d8; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0cm; BORDER-LEFT: silver 1pt solid; WIDTH: 108.9pt; PADDING-TOP: 0cm; BORDER-BOTTOM: silver 1pt solid; BACKGROUND-COLOR: transparent; mso-border-top-alt: solid silver 1.0pt"                  valign="top" width="145">
+                    <br class="MsoNormalCxSpMiddle" />
+                    <br />
+                </td>
+                <td                 style="BORDER-RIGHT: silver 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: #ece9d8; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0cm; BORDER-LEFT: #ece9d8; WIDTH: 387pt; PADDING-TOP: 0cm; BORDER-BOTTOM: silver 1pt solid; BACKGROUND-COLOR: transparent; mso-border-left-alt: solid silver 1.0pt; mso-border-top-alt: solid silver 1.0pt"                  valign="top" width="516">
+                    <br class="MsoNormalCxSpMiddle" />
+                    <br />
+                </td>
+            </tr>
+            <tr style="mso-yfti-irow: 13">
+                <td                 style="BORDER-RIGHT: silver 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: #ece9d8; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0cm; BORDER-LEFT: silver 1pt solid; WIDTH: 495.9pt; PADDING-TOP: 0cm; BORDER-BOTTOM: silver 1pt solid; BACKGROUND-COLOR: transparent; mso-border-top-alt: solid silver 1.0pt"                  valign="top" width="661" colspan="2">
+                    <p class="MsoNormalCxSpMiddle">
+                        <b style="mso-bidi-font-weight: normal"><span                         style="FONT-SIZE: 8pt; mso-bidi-font-size: 12.0pt"><font face="Times New Roman">Work Item Output
+                        structure design:</font></span></b>
+                    </p>
+                </td>
+            </tr>
+            <tr style="mso-yfti-irow: 14">
+                <td                 style="BORDER-RIGHT: silver 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: #ece9d8; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0cm; BORDER-LEFT: silver 1pt solid; WIDTH: 495.9pt; PADDING-TOP: 0cm; BORDER-BOTTOM: silver 1pt solid; BACKGROUND-COLOR: transparent; mso-border-top-alt: solid silver 1.0pt"                  valign="top" width="661" colspan="2">
+                    <p class="ISISGuidance" style="MARGIN: 3pt 0cm 3pt 36pt">
+                        <span style="FONT-SIZE: 8pt; mso-bidi-font-size: 10.0pt"><font color="#0000ff"><font                         face="Times">It is a good practice to set some error code, context and message back to the work
+                        item so that the process engine can handle exception.</font></font></span>
+                    </p>
+                    <p class="MsoNormalCxSpFirst"                     style="MARGIN: auto auto auto 36pt; TEXT-INDENT: -18pt; mso-add-space: auto; tab-stops: list 36.0pt; mso-list: l0 level1 lfo2">
+                        <span                         style="FONT-SIZE: 8pt; FONT-FAMILY: Symbol; mso-bidi-font-size: 12.0pt; mso-fareast-font-family: Symbol; mso-bidi-font-family: Symbol"><span                          style="mso-list: Ignore">·<span                         style="FONT: 7pt 'Times New Roman'">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></span></span>
+                        <span style="FONT-SIZE: 8pt; mso-bidi-font-size: 12.0pt"><font face="Times New Roman">Error
+                        code<span style="mso-spacerun: yes">&nbsp;</span> type String</font></span>
+                    </p>
+                    <p class="MsoNormalCxSpMiddle"                     style="MARGIN: auto auto auto 36pt; TEXT-INDENT: -18pt; mso-add-space: auto; tab-stops: list 36.0pt; mso-list: l0 level1 lfo2">
+                        <span                         style="FONT-SIZE: 8pt; FONT-FAMILY: Symbol; mso-bidi-font-size: 12.0pt; mso-fareast-font-family: Symbol; mso-bidi-font-family: Symbol"><span                          style="mso-list: Ignore">·<span                         style="FONT: 7pt 'Times New Roman'">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></span></span>
+                        <span style="FONT-SIZE: 8pt; mso-bidi-font-size: 12.0pt"><font face="Times New Roman">Error
+                        message<span style="mso-spacerun: yes">&nbsp;&nbsp;</span> type String</font></span>
+                    </p>
+                    <p class="MsoNormalCxSpMiddle"                     style="MARGIN: auto auto auto 36pt; TEXT-INDENT: -18pt; mso-add-space: auto; tab-stops: list 36.0pt; mso-list: l0 level1 lfo2">
+                        <span                         style="FONT-SIZE: 8pt; FONT-FAMILY: Symbol; mso-bidi-font-size: 12.0pt; mso-fareast-font-family: Symbol; mso-bidi-font-family: Symbol"><span                          style="mso-list: Ignore">·<span                         style="FONT: 7pt 'Times New Roman'">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></span></span>
+                        <span style="FONT-SIZE: 8pt; mso-bidi-font-size: 12.0pt"><font face="Times New Roman">Error context
+                        type String</font></span>
+                    </p>
+                    <p class="MsoNormalCxSpMiddle"                     style="MARGIN: auto auto auto 36pt; TEXT-INDENT: -18pt; mso-add-space: auto; tab-stops: list 36.0pt; mso-list: l0 level1 lfo2">
+                        <span                         style="FONT-SIZE: 8pt; FONT-FAMILY: Symbol; mso-bidi-font-size: 12.0pt; mso-fareast-font-family: Symbol; mso-bidi-font-family: Symbol"><span                          style="mso-list: Ignore">·<span                         style="FONT: 7pt 'Times New Roman'">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></span></span>
+                        <span style="FONT-SIZE: 8pt; mso-bidi-font-size: 12.0pt"><font                         face="Times New Roman">….</font></span>
+                    </p>
+                </td>
+            </tr>
+            <tr style="mso-yfti-irow: 15; mso-yfti-lastrow: yes">
+                <td                 style="BORDER-RIGHT: silver 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: #ece9d8; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0cm; BORDER-LEFT: silver 1pt solid; WIDTH: 108.9pt; PADDING-TOP: 0cm; BORDER-BOTTOM: silver 1pt solid; BACKGROUND-COLOR: transparent; mso-border-top-alt: solid silver 1.0pt"                  valign="top" width="145">
+                    <p class="MsoNormalCxSpLast">
+                        <b style="mso-bidi-font-weight: normal"><span                         style="FONT-SIZE: 8pt; mso-bidi-font-size: 12.0pt"><font                         face="Times New Roman">Exceptions:</font></span></b>
+                    </p>
+                </td>
+                <td                 style="BORDER-RIGHT: silver 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: #ece9d8; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0cm; BORDER-LEFT: #ece9d8; WIDTH: 387pt; PADDING-TOP: 0cm; BORDER-BOTTOM: silver 1pt solid; BACKGROUND-COLOR: transparent; mso-border-left-alt: solid silver 1.0pt; mso-border-top-alt: solid silver 1.0pt"                  valign="top" width="516">
+                    <p class="ISISGuidance" style="MARGIN: 3pt 0cm 3pt 36pt">
+                        <span style="FONT-SIZE: 8pt; mso-bidi-font-size: 10.0pt"><font color="#0000ff"><font                         face="Times">List here the possible reporting-exception messages, for example:</font></font></span>
+                    </p>
+                    <p class="MsoNormalCxSpFirst"                     style="MARGIN: auto auto auto 36pt; TEXT-INDENT: -18pt; mso-add-space: auto; tab-stops: list 36.0pt; mso-list: l2 level1 lfo4">
+                        <span                         style="FONT-SIZE: 8pt; FONT-FAMILY: Symbol; mso-bidi-font-size: 12.0pt; mso-fareast-font-family: Symbol; mso-bidi-font-family: Symbol"><span                          style="mso-list: Ignore">·<span                         style="FONT: 7pt 'Times New Roman'">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></span></span>
+                        <span style="FONT-SIZE: 8pt; mso-bidi-font-size: 12.0pt"><font face="Times New Roman">object
+                        identifier not valid in the work item (null, "")</font></span>
+                    </p>
+                    <p class="MsoNormalCxSpMiddle"                     style="MARGIN: auto auto auto 36pt; TEXT-INDENT: -18pt; mso-add-space: auto; tab-stops: list 36.0pt; mso-list: l3 level1 lfo3">
+                        <span                         style="FONT-SIZE: 8pt; FONT-FAMILY: Symbol; mso-bidi-font-size: 12.0pt; mso-fareast-font-family: Symbol; mso-bidi-font-family: Symbol"><span                          style="mso-list: Ignore">·<span                         style="FONT: 7pt 'Times New Roman'">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></span></span>
+                        <span style="FONT-SIZE: 8pt; mso-bidi-font-size: 12.0pt"><font face="Times New Roman">object not
+                        found in the data source (DS)</font></span>
+                    </p>
+                    <p class="MsoNormalCxSpMiddle"                     style="MARGIN: auto auto auto 36pt; TEXT-INDENT: -18pt; mso-add-space: auto; tab-stops: list 36.0pt; mso-list: l3 level1 lfo3">
+                        <span                         style="FONT-SIZE: 8pt; FONT-FAMILY: Symbol; mso-bidi-font-size: 12.0pt; mso-fareast-font-family: Symbol; mso-bidi-font-family: Symbol"><span                          style="mso-list: Ignore">·<span                         style="FONT: 7pt 'Times New Roman'">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></span></span>
+                        <span style="FONT-SIZE: 8pt; mso-bidi-font-size: 12.0pt"><font face="Times New Roman">Impossible to
+                        create or update object...</font></span>
+                    </p>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</div><br class="MsoNormal" style="MARGIN: 3pt 0cm" />
+<br /></td>
+</tr>
+</table>
+</div>
+<div class="sectionHeading">Description</div>
+<div class="sectionContent">
+<table class="sectionTable" border="0" cellspacing="0" cellpadding="0">
+<tr valign="top">
+<th class="sectionTableHeading" scope="row">Attached Files</th><td class="sectionTableCell">
+<UL>
+<li>
+<a href="./../../../practice.tech.abrd.base/guidances/templates/resources/abrd_tmpl_workflowprocessanalysis.dot" target="_blank">abrd_tmpl_workflowprocessanalysis.dot</a>
+</li>
+</UL>
+</td>
+</tr>
+</table>
+</div>
+<table class="copyright" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td class="copyright"><p>
+    This program and the accompanying materials are made available under the<br />
+    <a href="http://www.eclipse.org/org/documents/epl-v10.php" target="_blank">Eclipse Public License V1.0</a>, which
+    accompanies this distribution.
+</p>
+<p>
+    <a class="elementLink" href="./../../../core.default.release_copyright.base/guidances/supportingmaterials/epf_copyright_C3031062.html" guid="_UaGfECcTEduSX6N2jUafGA">EPF Copyright</a>.
+</p></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</body>
+<script type="text/javascript" language="JavaScript">
+				contentPage.onload();
+			</script>
+</html>

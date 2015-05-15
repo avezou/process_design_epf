@@ -1,0 +1,775 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="en" xml:lang="en" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<head>
+<META http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>Task: Determine Rule Implementation</title>
+<meta name="uma.type" content="Task">
+<meta name="uma.name" content="determine_rule_implementation">
+<meta name="uma.presentationName" content="Determine Rule Implementation">
+<meta name="uma.category" content="Discipline:rule_design:Rule Design">
+<meta name="element_type" content="activity">
+<meta name="filetype" content="description">
+<meta name="role" content="Rule Analyst">
+<link rel="StyleSheet" href="./../../css/default.css" type="text/css">
+<script src="./../../scripts/ContentPageResource.js" type="text/javascript" language="JavaScript"></script><script src="./../../scripts/ContentPageSection.js" type="text/javascript" language="JavaScript"></script><script src="./../../scripts/ContentPageSubSection.js" type="text/javascript" language="JavaScript"></script><script src="./../../scripts/ContentPageToolbar.js" type="text/javascript" language="JavaScript"></script><script src="./../../scripts/contentPage.js" type="text/javascript" language="JavaScript"></script><script type="text/javascript" language="JavaScript">
+					var backPath = './../../';
+					var imgPath = './../../images/';
+					var nodeInfo=null;
+					contentPage.preload(imgPath, backPath, nodeInfo, '', true, false, false);
+				</script>
+</head>
+<body>
+<div id="breadcrumbs"></div>
+<table border="0" cellpadding="0" cellspacing="0" width="100%">
+<tr>
+<td valign="top">
+<div id="page-guid" value="_qzveUBk5Edyoe_hnDlTB5A"></div>
+<table border="0" cellspacing="0" cellpadding="0" width="100%">
+<tr>
+<td class="pageTitle" nowrap="true">Task: Determine Rule Implementation</td><td width="100%">
+<div align="right" id="contentPageToolbar"></div>
+</td><td width="100%" class="expandCollapseLink" align="right"><a name="mainIndex" href="./../../index.htm"></a><script language="JavaScript" type="text/javascript" src="./../../scripts/treebrowser.js"></script></td>
+</tr>
+</table>
+<table width="100%" border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td class="pageTitleSeparator"><img src="./../../images/shim.gif" alt="" title="" height="1"></td>
+</tr>
+</table>
+<div class="overview">
+<table width="97%" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td width="50"><img src="./../../images/task.gif" alt="" title=""></td><td>
+<table class="overviewTable" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td valign="top">This task tries to answer the question of where to implement the business rules that have been discovered.</td>
+</tr>
+<tr>
+<td>Disciplines: <a href="./../../practice.tech.abrd.base/disciplines/rule_design_B842A4A3.html" guid="_1QK4hKshEd-4oa5dU5v0Eg">Rule Design</a></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</div>
+<div class="sectionHeading">Relationships</div>
+<div class="sectionContent">
+<table class="sectionTable" border="0" cellspacing="0" cellpadding="0">
+<tr valign="top">
+<th class="sectionTableHeading" scope="row">Roles</th><td class="sectionTableCell" width="42%"><span class="sectionTableCellHeading">Primary Performer:
+								</span>
+<ul>
+<li>
+<a href="./../../core.default.role_def.base/roles/rule_analyst_BE05ACC.html" guid="_XiII4gqBEdyPCr4G1Tb79A">Rule Analyst</a>
+</li>
+<li>
+<a href="./../../core.default.role_def.base/roles/rule_architect_CCDE9256.html" guid="_JkVWIApyEdyKK5Go8zejMw">Rule Architect</a>
+</li>
+</ul>
+</td><td class="sectionTableCell"><span class="sectionTableCellHeading">Additional Performers:
+								</span></td>
+</tr>
+</table>
+</div>
+<div class="sectionHeading">Main Description</div>
+<div class="sectionContent">
+<table class="sectionTable" border="0" cellspacing="0" cellpadding="0">
+<tr valign="top">
+<td class="sectionTableSingleCell"><a id="XE_rule__determine_implementation" name="XE_rule__determine_implementation"></a> 
+<p style="MARGIN: 3pt 0cm" class="MsoNormal">
+    Project teams involved in BRMS deployment are often asking the following type of questions:
+</p>
+<ul style="MARGIN-TOP: 0cm" type="disc">
+    <li style="MARGIN: 3pt 0cm; mso-list: l4 level1 lfo5; tab-stops: list 36.0pt" class="MsoNormal">
+        When should I use BRMS versus a&nbsp;BPM?
+    </li>
+    <li style="MARGIN: 3pt 0cm; mso-list: l4 level1 lfo5; tab-stops: list 36.0pt" class="MsoNormal">
+        How do I decide what decisions should I put into a BRE?
+    </li>
+    <li style="MARGIN: 3pt 0cm; mso-list: l4 level1 lfo5; tab-stops: list 36.0pt" class="MsoNormal">
+        When should I use BRMS versus code?&nbsp;
+    </li>
+</ul>
+<p style="MARGIN: 3pt 0cm" class="MsoNormal">
+    There are definitively multiple variables which could influence the decision on where to implement rules. We can start
+    by looking at the BRMS value propositions, it should help to get a first set of variables:
+</p>
+<ul style="MARGIN-TOP: 0cm" type="disc">
+    <li style="MARGIN: 3pt 0cm; mso-list: l1 level1 lfo6; tab-stops: list 36.0pt" class="MsoNormal">
+        Adaptability – Measure the ability to change the business logic easily. The motivation can be due to short deadline
+        constraint, or frequent small changes or important change that may occur every month or quarter.
+    </li>
+    <li style="MARGIN: 3pt 0cm; mso-list: l1 level1 lfo6; tab-stops: list 36.0pt" class="MsoNormal">
+        Transparency – Represents the need to clearly implement the business logic as what was agreed upon the business
+        unit and the IT team, in a way that every parties understand the logic. This is leading to express the logic in
+        natural or close to natural language.
+    </li>
+    <li style="MARGIN: 3pt 0cm; mso-list: l1 level1 lfo6; tab-stops: list 36.0pt" class="MsoNormal">
+        Auditability – Represents the ability to trace from the business motivation to the execution of the policy to
+        better understand what was the logic behind a decision.
+    </li>
+    <li style="MARGIN: 3pt 0cm; mso-list: l1 level1 lfo6; tab-stops: list 36.0pt" class="MsoNormal">
+        Reusability – Need to share business logic across processes or applications and stay . consistent across
+        applications/transactions
+    </li>
+    <li style="MARGIN: 3pt 0cm; mso-list: l1 level1 lfo6; tab-stops: list 36.0pt" class="MsoNormal">
+        Manageability- This variable addresses the life cycle management of the business logic. Who writes what, and when,
+        and all the questions related to maintenance and evolutions of the rule-based service.
+    </li>
+</ul>
+<p style="MARGIN: 3pt 0cm" class="MsoNormal">
+    The purpose here is not to say it is not possible to support those variables in standard software development
+    practices, but more to find some good patterns on how to decide on where to implement the business logic.
+</p><br style="MARGIN: 3pt 0cm" class="MsoNormal" />
+<br />
+<p style="MARGIN: 3pt 0cm" class="MsoNormal">
+    When looking at a business rules statement software engineer can see different possible choices of implementation like:
+</p>
+<ul style="MARGIN-TOP: 0cm" type="disc">
+    <li style="MARGIN: 3pt 0cm; mso-list: l0 level1 lfo7; tab-stops: list 36.0pt" class="MsoNormal">
+        Data model: designing an object oriented object model involves supporting a lot of business rules. A statement like
+        a mortgage application can have a primary and a secondary borrower, will be supported by two classes and a 1 to 2
+        relationship. At the instantiation of those classes the control of the cardinality can be done in the application
+        logic, or the database, or the GUI structure.
+    </li>
+    <li style="MARGIN: 3pt 0cm; mso-list: l0 level1 lfo7; tab-stops: list 36.0pt" class="MsoNormal">
+        Application code: implementing the logic in function, procedural code or methods in service layer or business
+        objects.
+    </li>
+    <li style="MARGIN: 3pt 0cm; mso-list: l0 level1 lfo7; tab-stops: list 36.0pt" class="MsoNormal">
+        BPM process flow, tasks or links: BPM tools are addressing business process efficiency issue specifically on "who
+        is involved", "when they should be involved". "what they need to do". BPM supports manual human and automated
+        actors. At a glance the business logic to implement in BPM is linked to people, task, and data to process within a
+        task. When supporting purely automated tasks BPM is orchestrating the application logic and services (BPEL engine).
+        BRMS complements BPM by adding the why to a BPM task, why it behaves a certain way, why this decision is done.
+    </li>
+    <li style="MARGIN: 3pt 0cm; mso-list: l0 level1 lfo7; tab-stops: list 36.0pt" class="MsoNormal">
+        Rule engine: <span style="mso-spacerun: yes">&nbsp;</span>using predefined structure like if then else statement or
+        decision table, rule flow, decision tree, function, rule template or other high level language...
+    </li>
+    <li style="MARGIN: 3pt 0cm; mso-list: l0 level1 lfo7; tab-stops: list 36.0pt" class="MsoNormal">
+        Graphical user interface: <span style="mso-spacerun: yes">&nbsp;</span>using scripting language or server side code
+        in controller class it is possible to implement data validation type of business rules.
+    </li>
+</ul>
+<p style="MARGIN: 3pt 0cm" class="MsoNormal">
+    In the following paragraphs address each of different choices with their impact on the variables
+</p><br />
+<p style="MARGIN: 3pt 0cm" class="MsoNormal">
+    <a><font color="#0066B2"><em><font size="3">Rule in Data Model</font></em></font></a>
+</p>
+<p style="MARGIN: 3pt 0cm" class="MsoNormal">
+    <span style="mso-bidi-language: HE">Rule which is controlling the structure of the model and the reference integrity
+    should be in the physical data model, the O/R mapping layer or on the domain object model.</span>
+</p>
+<ul style="MARGIN-TOP: 0cm" type="disc">
+    <li style="MARGIN: 0cm 0cm 0pt; mso-list: l6 level1 lfo2; tab-stops: list 36.0pt" class="MsoNormal">
+        <span style="mso-bidi-font-family: Arial; mso-bidi-font-size: 10.0pt">Rule setting constraint on relationship -
+        <span style="mso-spacerun: yes">&nbsp;</span>like a loan application could only have two borrowers</span>
+    </li>
+    <li style="MARGIN: 0cm 0cm 0pt; mso-list: l6 level1 lfo2; tab-stops: list 36.0pt" class="MsoNormal">
+        <span style="mso-bidi-font-family: Arial; mso-bidi-font-size: 10.0pt">Rule on the structure of the business
+        entities - like this attribute is part of this object</span>
+    </li>
+    <li style="MARGIN: 0cm 0cm 0pt; mso-list: l6 level1 lfo2; tab-stops: list 36.0pt" class="MsoNormal">
+        <span style="mso-bidi-font-family: Arial; mso-bidi-font-size: 10.0pt">The following facts are based on a simple
+        user authentication problem, are well implemented in an object model and the supporting application code which
+        create the instance from the data (O/R mapping layer or DAO or service layer):</span>
+    </li>
+</ul>
+<p style="TEXT-INDENT: -18pt; MARGIN: 3pt 0cm 3pt 54pt; mso-list: l5 level1 lfo3; tab-stops: list 54.0pt" class="MsoNormal">
+    <span     style="FONT-FAMILY: Symbol; mso-bidi-language: HE; mso-bidi-font-family: Symbol; mso-fareast-font-family: Symbol"><span     style="mso-list: Ignore">·<span     style="FONT: 7pt 'Times New Roman'">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></span></span> <span     style="mso-bidi-language: HE">A Company has a list of users who can login to the application</span>
+</p>
+<p style="TEXT-INDENT: -18pt; MARGIN: 3pt 0cm 3pt 54pt; mso-list: l5 level1 lfo3; tab-stops: list 54.0pt" class="MsoNormal">
+    <span     style="FONT-FAMILY: Symbol; mso-bidi-language: HE; mso-bidi-font-family: Symbol; mso-fareast-font-family: Symbol"><span     style="mso-list: Ignore">·<span     style="FONT: 7pt 'Times New Roman'">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></span></span> <span     style="mso-bidi-language: HE">A Company has a list of groups of user</span>
+</p>
+<p style="TEXT-INDENT: -18pt; MARGIN: 3pt 0cm 3pt 54pt; mso-list: l5 level1 lfo3; tab-stops: list 54.0pt" class="MsoNormal">
+    <span     style="FONT-FAMILY: Symbol; mso-bidi-language: HE; mso-bidi-font-family: Symbol; mso-fareast-font-family: Symbol"><span     style="mso-list: Ignore">·<span     style="FONT: 7pt 'Times New Roman'">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></span></span> <span     style="mso-bidi-language: HE">A User is part of a group</span>
+</p>
+<p style="TEXT-INDENT: -18pt; MARGIN: 3pt 0cm 3pt 54pt; mso-list: l5 level1 lfo3; tab-stops: list 54.0pt" class="MsoNormal">
+    <span     style="FONT-FAMILY: Symbol; mso-bidi-language: HE; mso-bidi-font-family: Symbol; mso-fareast-font-family: Symbol"><span     style="mso-list: Ignore">·<span     style="FONT: 7pt 'Times New Roman'">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></span></span> <span     style="mso-bidi-language: HE">A group includes a list of Users</span>
+</p>
+<p style="TEXT-INDENT: -18pt; MARGIN: 3pt 0cm 3pt 54pt; mso-list: l5 level1 lfo3; tab-stops: list 54.0pt" class="MsoNormal">
+    <span     style="FONT-FAMILY: Symbol; mso-bidi-language: HE; mso-bidi-font-family: Symbol; mso-fareast-font-family: Symbol"><span     style="mso-list: Ignore">·<span     style="FONT: 7pt 'Times New Roman'">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></span></span> <span     style="mso-bidi-language: HE">A group has one user reference who is the creator of the group</span>
+</p>
+<p>
+    Terms and facts and derived attributes&nbsp;are the primary constituents of data models and are represented in a UML
+    class diagram, and logical data model (entities/relationship model), or a physical data model.
+</p>
+<p>
+    <span style="mso-bidi-language: HE">The following table lists the impact of this implementation on the previously
+    defined variables</span>
+</p>
+<div align="center">
+    <table     style="BORDER-BOTTOM: medium none; BORDER-LEFT: medium none; BORDER-COLLAPSE: collapse; BORDER-TOP: medium none; BORDER-RIGHT: medium none; mso-padding-alt: 0cm 5.4pt 0cm 5.4pt; mso-border-alt: solid silver 1.0pt; mso-yfti-tbllook: 480; mso-border-insideh: 1.0pt solid silver; mso-border-insidev: 1.0pt solid silver"      class="ISISTable" border="1" cellspacing="0" cellpadding="0">
+        <thead>
+            <tr style="mso-yfti-irow: -1; mso-yfti-firstrow: yes">
+                <td                 style="BORDER-BOTTOM: gray 1pt solid; BORDER-LEFT: gray 1pt solid; PADDING-BOTTOM: 0cm; PADDING-LEFT: 5.4pt; WIDTH: 4cm; PADDING-RIGHT: 5.4pt; BACKGROUND: #f3f3f3; BORDER-TOP: gray 1pt solid; BORDER-RIGHT: gray 1pt solid; PADDING-TOP: 0cm"                  valign="top" width="151">
+                    <p style="TEXT-ALIGN: center; mso-yfti-cnfc: 1" class="MsoNormalCxSpMiddle" align="center">
+                        <b style="mso-bidi-font-weight: normal"><i style="mso-bidi-font-style: normal"><span                         style="COLOR: #005da0; mso-bidi-language: HE"><font size="3"><font                         face="Times New Roman">Variables</font></font></span></i></b>
+                    </p>
+                </td>
+                <td                 style="BORDER-BOTTOM: gray 1pt solid; BORDER-LEFT: #ece9d8; PADDING-BOTTOM: 0cm; PADDING-LEFT: 5.4pt; WIDTH: 221.4pt; PADDING-RIGHT: 5.4pt; BACKGROUND: #f3f3f3; BORDER-TOP: gray 1pt solid; BORDER-RIGHT: gray 1pt solid; PADDING-TOP: 0cm; mso-border-left-alt: solid gray 1.0pt"                  valign="top" width="295">
+                    <p style="TEXT-ALIGN: center; mso-yfti-cnfc: 1" class="MsoNormalCxSpMiddle" align="center">
+                        <b style="mso-bidi-font-weight: normal"><i style="mso-bidi-font-style: normal"><span                         style="COLOR: #005da0; mso-bidi-language: HE"><font size="3"><font                         face="Times New Roman">Evaluation</font></font></span></i></b>
+                    </p>
+                </td>
+            </tr>
+        </thead>
+        <tbody>
+            <tr style="mso-yfti-irow: 0">
+                <td                 style="BORDER-BOTTOM: silver 1pt solid; BORDER-LEFT: silver 1pt solid; PADDING-BOTTOM: 0cm; BACKGROUND-COLOR: transparent; PADDING-LEFT: 5.4pt; WIDTH: 4cm; PADDING-RIGHT: 5.4pt; BORDER-TOP: #ece9d8; BORDER-RIGHT: silver 1pt solid; PADDING-TOP: 0cm; mso-border-top-alt: solid silver 1.0pt"                  valign="top" width="151">
+                    <p class="MsoNormalCxSpMiddle">
+                        <font face="Times New Roman"><span                         style="FONT-SIZE: 8pt; mso-bidi-font-size: 12.0pt">Adaptability</span></font>
+                    </p>
+                </td>
+                <td                 style="BORDER-BOTTOM: silver 1pt solid; BORDER-LEFT: #ece9d8; PADDING-BOTTOM: 0cm; BACKGROUND-COLOR: transparent; PADDING-LEFT: 5.4pt; WIDTH: 221.4pt; PADDING-RIGHT: 5.4pt; BORDER-TOP: #ece9d8; BORDER-RIGHT: silver 1pt solid; PADDING-TOP: 0cm; mso-border-left-alt: solid silver 1.0pt; mso-border-top-alt: solid silver 1.0pt"                  valign="top" width="295">
+                    <p class="MsoNormalCxSpMiddle">
+                        <span style="FONT-SIZE: 8pt; mso-bidi-language: HE; mso-bidi-font-size: 12.0pt"><font                         face="Times New Roman">Very static implementation. A change in the constraints of the object model
+                        impact, data persistence, logical data model, service and presentation layers. Change is managed on
+                        a monthly or yearly basis</font></span>
+                    </p>
+                </td>
+            </tr>
+            <tr style="mso-yfti-irow: 1">
+                <td                 style="BORDER-BOTTOM: silver 1pt solid; BORDER-LEFT: silver 1pt solid; PADDING-BOTTOM: 0cm; BACKGROUND-COLOR: transparent; PADDING-LEFT: 5.4pt; WIDTH: 4cm; PADDING-RIGHT: 5.4pt; BORDER-TOP: #ece9d8; BORDER-RIGHT: silver 1pt solid; PADDING-TOP: 0cm; mso-border-top-alt: solid silver 1.0pt"                  valign="top" width="151">
+                    <p class="MsoNormalCxSpMiddle">
+                        <font face="Times New Roman"><span                         style="FONT-SIZE: 8pt; mso-bidi-font-size: 12.0pt">Transparency</span></font>
+                    </p>
+                </td>
+                <td                 style="BORDER-BOTTOM: silver 1pt solid; BORDER-LEFT: #ece9d8; PADDING-BOTTOM: 0cm; BACKGROUND-COLOR: transparent; PADDING-LEFT: 5.4pt; WIDTH: 221.4pt; PADDING-RIGHT: 5.4pt; BORDER-TOP: #ece9d8; BORDER-RIGHT: silver 1pt solid; PADDING-TOP: 0cm; mso-border-left-alt: solid silver 1.0pt; mso-border-top-alt: solid silver 1.0pt"                  valign="top" width="295">
+                    <p class="MsoNormalCxSpMiddle">
+                        <span style="FONT-SIZE: 8pt; mso-bidi-language: HE; mso-bidi-font-size: 12.0pt"><font                         face="Times New Roman">Data model represented as UML classes diagram is doing a poor job to
+                        communicate to business. Entities diagram represents a more high level representation of the domain
+                        model, but forces the team to maintain the link between the implementation and the business
+                        representation.</font></span>
+                    </p>
+                </td>
+            </tr>
+            <tr style="mso-yfti-irow: 2">
+                <td                 style="BORDER-BOTTOM: silver 1pt solid; BORDER-LEFT: silver 1pt solid; PADDING-BOTTOM: 0cm; BACKGROUND-COLOR: transparent; PADDING-LEFT: 5.4pt; WIDTH: 4cm; PADDING-RIGHT: 5.4pt; BORDER-TOP: #ece9d8; BORDER-RIGHT: silver 1pt solid; PADDING-TOP: 0cm; mso-border-top-alt: solid silver 1.0pt"                  valign="top" width="151">
+                    <p class="MsoNormalCxSpMiddle">
+                        <font face="Times New Roman"><span                         style="FONT-SIZE: 8pt; mso-bidi-font-size: 12.0pt">Auditability</span></font>
+                    </p>
+                </td>
+                <td                 style="BORDER-BOTTOM: silver 1pt solid; BORDER-LEFT: #ece9d8; PADDING-BOTTOM: 0cm; BACKGROUND-COLOR: transparent; PADDING-LEFT: 5.4pt; WIDTH: 221.4pt; PADDING-RIGHT: 5.4pt; BORDER-TOP: #ece9d8; BORDER-RIGHT: silver 1pt solid; PADDING-TOP: 0cm; mso-border-left-alt: solid silver 1.0pt; mso-border-top-alt: solid silver 1.0pt"                  valign="top" width="295">
+                    <p class="MsoNormalCxSpMiddle">
+                        <span style="FONT-SIZE: 8pt; mso-bidi-language: HE; mso-bidi-font-size: 12.0pt"><font                         face="Times New Roman">Configuration management tool, with a strict development process and
+                        disciplines can help to trace back to the business motivation.</font></span>
+                    </p>
+                </td>
+            </tr>
+            <tr style="mso-yfti-irow: 3">
+                <td                 style="BORDER-BOTTOM: silver 1pt solid; BORDER-LEFT: silver 1pt solid; PADDING-BOTTOM: 0cm; BACKGROUND-COLOR: transparent; PADDING-LEFT: 5.4pt; WIDTH: 4cm; PADDING-RIGHT: 5.4pt; BORDER-TOP: #ece9d8; BORDER-RIGHT: silver 1pt solid; PADDING-TOP: 0cm; mso-border-top-alt: solid silver 1.0pt"                  valign="top" width="151">
+                    <p class="MsoNormalCxSpMiddle">
+                        <span style="FONT-SIZE: 8pt; mso-bidi-font-size: 12.0pt"><font                         face="Times New Roman">Reusability</font></span>
+                    </p>
+                </td>
+                <td                 style="BORDER-BOTTOM: silver 1pt solid; BORDER-LEFT: #ece9d8; PADDING-BOTTOM: 0cm; BACKGROUND-COLOR: transparent; PADDING-LEFT: 5.4pt; WIDTH: 221.4pt; PADDING-RIGHT: 5.4pt; BORDER-TOP: #ece9d8; BORDER-RIGHT: silver 1pt solid; PADDING-TOP: 0cm; mso-border-left-alt: solid silver 1.0pt; mso-border-top-alt: solid silver 1.0pt"                  valign="top" width="295">
+                    <p class="MsoNormalCxSpMiddle">
+                        <span style="FONT-SIZE: 8pt; mso-bidi-language: HE; mso-bidi-font-size: 12.0pt"><font                         face="Times New Roman">Domain Object model can be designed as reusable. But in the reality each
+                        application needs a view of the core business object model, and so part of the implemented
+                        application will be to build those view.</font></span>
+                    </p>
+                </td>
+            </tr>
+            <tr style="mso-yfti-irow: 4; mso-yfti-lastrow: yes">
+                <td                 style="BORDER-BOTTOM: silver 1pt solid; BORDER-LEFT: silver 1pt solid; PADDING-BOTTOM: 0cm; BACKGROUND-COLOR: transparent; PADDING-LEFT: 5.4pt; WIDTH: 4cm; PADDING-RIGHT: 5.4pt; BORDER-TOP: #ece9d8; BORDER-RIGHT: silver 1pt solid; PADDING-TOP: 0cm; mso-border-top-alt: solid silver 1.0pt"                  valign="top" width="151">
+                    <p class="MsoNormalCxSpMiddle">
+                        <span style="FONT-SIZE: 8pt; mso-bidi-font-size: 12.0pt"><font                         face="Times New Roman">Manageability</font></span>
+                    </p>
+                </td>
+                <td                 style="BORDER-BOTTOM: silver 1pt solid; BORDER-LEFT: #ece9d8; PADDING-BOTTOM: 0cm; BACKGROUND-COLOR: transparent; PADDING-LEFT: 5.4pt; WIDTH: 221.4pt; PADDING-RIGHT: 5.4pt; BORDER-TOP: #ece9d8; BORDER-RIGHT: silver 1pt solid; PADDING-TOP: 0cm; mso-border-left-alt: solid silver 1.0pt; mso-border-top-alt: solid silver 1.0pt"                  valign="top" width="295">
+                    <p class="MsoNormalCxSpMiddle">
+                        <span style="FONT-SIZE: 8pt; mso-bidi-language: HE; mso-bidi-font-size: 12.0pt"><font                         face="Times New Roman">Configuration management tools and strict discipline can help maintain the
+                        business logic.</font></span>
+                    </p>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</div><br style="MARGIN: 3pt 0cm" class="MsoNormal" />
+<br />
+<p style="MARGIN: 3pt 0cm" class="MsoNormal">
+    <a><font color="#0066B2"><em><font size="3">Rule in application code</font></em></font></a>
+</p>
+<p style="MARGIN: 3pt 0cm" class="MsoNormal">
+    <span style="mso-bidi-font-family: Arial; mso-bidi-font-size: 10.0pt">Implementing business rule in application code is
+    currently the most common way the IT developer is doing it. The major justifications are performance and flexibility of
+    the coding language. Using hard coded if/then/else statements isn't too flexible, but in the hands of a top notch
+    programmer it can be very fast and arguably as fast as or faster than a rule engine. Assuming the programmer has
+    unlimited time to optimize the execution for a fixed set of rules. If the ruleset changes frequently and the system
+    can't tolerate a big drop in performance, then a rule engine is the solution.</span>
+</p>
+<p style="MARGIN: 3pt 0cm" class="MsoNormal">
+    <span style="mso-bidi-font-family: Arial; mso-bidi-font-size: 10.0pt">The following example of business rules may be
+    easily implemented in code:</span>
+</p>
+<p style="MARGIN: 3pt 0cm" class="MsoNormal">
+    <span class="ISISCodeParagraphChar"><font face="Courier">verify in each items the customer bought since he is customer
+    with us there is at least one article of type T so that we can propose the new product Y with X % of discount, except
+    if the customer is from the state of New York or New Jersey</font></span><span     style="mso-bidi-font-family: Arial; mso-bidi-font-size: 10.0pt">.</span>
+</p><br style="MARGIN: 3pt 0cm" class="MsoNormal" />
+<br />
+<p style="MARGIN: 3pt 0cm" class="MsoNormal">
+    <span style="mso-bidi-font-family: Arial; mso-bidi-font-size: 10.0pt">We can implement this in a method which loops on
+    the articles bought by a given customer and do the search. At a first analysis, navigating in a collection of objects
+    and testing multiples conditions on them is easy to implement using the power of programming language.</span>
+</p>
+<p style="MARGIN: 3pt 0cm" class="MsoNormal">
+    <span style="mso-bidi-font-family: Arial; mso-bidi-font-size: 10.0pt">One thing interesting will be the hard coding of
+    the value of New York, New Jersey... If this logic change we need to add if statements in the code.</span>
+</p><br style="MARGIN: 3pt 0cm" class="MsoNormal" />
+<br />
+<p style="MARGIN: 3pt 0cm" class="MsoNormal">
+    <span style="mso-bidi-font-family: Arial; mso-bidi-font-size: 10.0pt">Other type of rules are related to the control of
+    the execution of a set of "services" to support specific use case. Dispatching, orchestration, data manipulation, … are
+    better candidate to be implemented in application code. Those rules are more static, often more complex, and
+    definitively linked to context of execution. The context may be too complex to expose to a rule engine.</span>
+</p>
+<p style="MARGIN: 3pt 0cm" class="MsoNormal">
+    <span style="mso-bidi-font-family: Arial; mso-bidi-font-size: 10.0pt">Orchestration are now very well supported by
+    BPM-BPEL engine because the developer needs to add flexibility on the service selection and invocation.<span     style="mso-spacerun: yes">&nbsp;</span></span>
+</p><br style="MARGIN: 3pt 0cm" class="MsoNormal" />
+<br />
+<p style="MARGIN: 3pt 0cm" class="MsoNormal">
+    <span style="mso-bidi-font-family: Arial; mso-bidi-font-size: 10.0pt">The evaluation of the important variables
+    is:</span>
+</p>
+<div align="center">
+    <table     style="BORDER-BOTTOM: medium none; BORDER-LEFT: medium none; BORDER-COLLAPSE: collapse; BORDER-TOP: medium none; BORDER-RIGHT: medium none; mso-padding-alt: 0cm 5.4pt 0cm 5.4pt; mso-border-alt: solid silver 1.0pt; mso-yfti-tbllook: 480; mso-border-insideh: 1.0pt solid silver; mso-border-insidev: 1.0pt solid silver"      class="ISISTable" border="1" cellspacing="0" cellpadding="0">
+        <thead>
+            <tr style="mso-yfti-irow: -1; mso-yfti-firstrow: yes">
+                <td                 style="BORDER-BOTTOM: gray 1pt solid; BORDER-LEFT: gray 1pt solid; PADDING-BOTTOM: 0cm; PADDING-LEFT: 5.4pt; WIDTH: 4cm; PADDING-RIGHT: 5.4pt; BACKGROUND: #f3f3f3; BORDER-TOP: gray 1pt solid; BORDER-RIGHT: gray 1pt solid; PADDING-TOP: 0cm"                  valign="top" width="151">
+                    <p style="TEXT-ALIGN: center; mso-yfti-cnfc: 1" class="MsoNormalCxSpMiddle" align="center">
+                        <b style="mso-bidi-font-weight: normal"><i style="mso-bidi-font-style: normal"><span                         style="COLOR: #005da0; mso-bidi-language: HE"><font size="3"><font                         face="Times New Roman">Variables</font></font></span></i></b>
+                    </p>
+                </td>
+                <td                 style="BORDER-BOTTOM: gray 1pt solid; BORDER-LEFT: #ece9d8; PADDING-BOTTOM: 0cm; PADDING-LEFT: 5.4pt; WIDTH: 334.25pt; PADDING-RIGHT: 5.4pt; BACKGROUND: #f3f3f3; BORDER-TOP: gray 1pt solid; BORDER-RIGHT: gray 1pt solid; PADDING-TOP: 0cm; mso-border-left-alt: solid gray 1.0pt"                  valign="top" width="446">
+                    <p style="TEXT-ALIGN: center; mso-yfti-cnfc: 1" class="MsoNormalCxSpMiddle" align="center">
+                        <b style="mso-bidi-font-weight: normal"><i style="mso-bidi-font-style: normal"><span                         style="COLOR: #005da0; mso-bidi-language: HE"><font size="3"><font                         face="Times New Roman">Evaluation</font></font></span></i></b>
+                    </p>
+                </td>
+            </tr>
+        </thead>
+        <tbody>
+            <tr style="mso-yfti-irow: 0">
+                <td                 style="BORDER-BOTTOM: silver 1pt solid; BORDER-LEFT: silver 1pt solid; PADDING-BOTTOM: 0cm; BACKGROUND-COLOR: transparent; PADDING-LEFT: 5.4pt; WIDTH: 4cm; PADDING-RIGHT: 5.4pt; BORDER-TOP: #ece9d8; BORDER-RIGHT: silver 1pt solid; PADDING-TOP: 0cm; mso-border-top-alt: solid silver 1.0pt"                  valign="top" width="151">
+                    <p class="MsoNormalCxSpMiddle">
+                        <font face="Times New Roman"><span                         style="FONT-SIZE: 8pt; mso-bidi-font-size: 12.0pt">Adaptability</span></font>
+                    </p>
+                </td>
+                <td                 style="BORDER-BOTTOM: silver 1pt solid; BORDER-LEFT: #ece9d8; PADDING-BOTTOM: 0cm; BACKGROUND-COLOR: transparent; PADDING-LEFT: 5.4pt; WIDTH: 334.25pt; PADDING-RIGHT: 5.4pt; BORDER-TOP: #ece9d8; BORDER-RIGHT: silver 1pt solid; PADDING-TOP: 0cm; mso-border-left-alt: solid silver 1.0pt; mso-border-top-alt: solid silver 1.0pt"                  valign="top" width="446">
+                    <p class="MsoNormalCxSpMiddle">
+                        <span style="FONT-SIZE: 8pt; mso-bidi-font-family: Arial; mso-bidi-font-size: 10.0pt"><font                         face="Times New Roman">the necessity to change code when a business rule changes is still
+                        unpleasant: software build are more efficient and cost less than before but deployment may be
+                        expensive depending of the complexity of the production environment. <span                         style="mso-spacerun: yes">&nbsp;</span></font></span>
+                    </p>
+                    <p class="MsoNormalCxSpMiddle">
+                        <span style="FONT-SIZE: 8pt; mso-bidi-font-family: Arial; mso-bidi-font-size: 10.0pt"><font                         face="Times New Roman">Changing code under time pressure usually leads to poor
+                        quality</font></span>
+                    </p><br class="MsoNormalCxSpMiddle" />
+                    <br />
+                </td>
+            </tr>
+            <tr style="mso-yfti-irow: 1">
+                <td                 style="BORDER-BOTTOM: silver 1pt solid; BORDER-LEFT: silver 1pt solid; PADDING-BOTTOM: 0cm; BACKGROUND-COLOR: transparent; PADDING-LEFT: 5.4pt; WIDTH: 4cm; PADDING-RIGHT: 5.4pt; BORDER-TOP: #ece9d8; BORDER-RIGHT: silver 1pt solid; PADDING-TOP: 0cm; mso-border-top-alt: solid silver 1.0pt"                  valign="top" width="151">
+                    <p class="MsoNormalCxSpMiddle">
+                        <font face="Times New Roman"><span                         style="FONT-SIZE: 8pt; mso-bidi-font-size: 12.0pt">Transparency</span></font>
+                    </p>
+                </td>
+                <td                 style="BORDER-BOTTOM: silver 1pt solid; BORDER-LEFT: #ece9d8; PADDING-BOTTOM: 0cm; BACKGROUND-COLOR: transparent; PADDING-LEFT: 5.4pt; WIDTH: 334.25pt; PADDING-RIGHT: 5.4pt; BORDER-TOP: #ece9d8; BORDER-RIGHT: silver 1pt solid; PADDING-TOP: 0cm; mso-border-left-alt: solid silver 1.0pt; mso-border-top-alt: solid silver 1.0pt"                  valign="top" width="446">
+                    <p class="MsoNormalCxSpMiddle">
+                        <span style="FONT-SIZE: 8pt; mso-bidi-language: HE; mso-bidi-font-size: 12.0pt"><font                         face="Times New Roman">Poor. The logic as defined by the business is split in multiple parts of the
+                        code, methods and procedures.</font></span>
+                    </p>
+                </td>
+            </tr>
+            <tr style="mso-yfti-irow: 2">
+                <td                 style="BORDER-BOTTOM: silver 1pt solid; BORDER-LEFT: silver 1pt solid; PADDING-BOTTOM: 0cm; BACKGROUND-COLOR: transparent; PADDING-LEFT: 5.4pt; WIDTH: 4cm; PADDING-RIGHT: 5.4pt; BORDER-TOP: #ece9d8; BORDER-RIGHT: silver 1pt solid; PADDING-TOP: 0cm; mso-border-top-alt: solid silver 1.0pt"                  valign="top" width="151">
+                    <p class="MsoNormalCxSpMiddle">
+                        <font face="Times New Roman"><span                         style="FONT-SIZE: 8pt; mso-bidi-font-size: 12.0pt">Auditability</span></font>
+                    </p>
+                </td>
+                <td                 style="BORDER-BOTTOM: silver 1pt solid; BORDER-LEFT: #ece9d8; PADDING-BOTTOM: 0cm; BACKGROUND-COLOR: transparent; PADDING-LEFT: 5.4pt; WIDTH: 334.25pt; PADDING-RIGHT: 5.4pt; BORDER-TOP: #ece9d8; BORDER-RIGHT: silver 1pt solid; PADDING-TOP: 0cm; mso-border-left-alt: solid silver 1.0pt; mso-border-top-alt: solid silver 1.0pt"                  valign="top" width="446">
+                    <p class="MsoNormalCxSpMiddle">
+                        <span style="FONT-SIZE: 8pt; mso-bidi-language: HE; mso-bidi-font-size: 12.0pt"><font                         face="Times New Roman">Poor. Only strict use of configuration management tools with a strict
+                        development process may help.</font></span>
+                    </p>
+                </td>
+            </tr>
+            <tr style="mso-yfti-irow: 3">
+                <td                 style="BORDER-BOTTOM: silver 1pt solid; BORDER-LEFT: silver 1pt solid; PADDING-BOTTOM: 0cm; BACKGROUND-COLOR: transparent; PADDING-LEFT: 5.4pt; WIDTH: 4cm; PADDING-RIGHT: 5.4pt; BORDER-TOP: #ece9d8; BORDER-RIGHT: silver 1pt solid; PADDING-TOP: 0cm; mso-border-top-alt: solid silver 1.0pt"                  valign="top" width="151">
+                    <p class="MsoNormalCxSpMiddle">
+                        <span style="FONT-SIZE: 8pt; mso-bidi-font-size: 12.0pt"><font                         face="Times New Roman">Reusability</font></span>
+                    </p>
+                </td>
+                <td                 style="BORDER-BOTTOM: silver 1pt solid; BORDER-LEFT: #ece9d8; PADDING-BOTTOM: 0cm; BACKGROUND-COLOR: transparent; PADDING-LEFT: 5.4pt; WIDTH: 334.25pt; PADDING-RIGHT: 5.4pt; BORDER-TOP: #ece9d8; BORDER-RIGHT: silver 1pt solid; PADDING-TOP: 0cm; mso-border-left-alt: solid silver 1.0pt; mso-border-top-alt: solid silver 1.0pt"                  valign="top" width="446">
+                    <p class="MsoNormalCxSpMiddle">
+                        <span style="FONT-SIZE: 8pt; mso-bidi-language: HE; mso-bidi-font-size: 12.0pt"><font                         face="Times New Roman">If the logic is implemented in a service layer with defined interface it may
+                        be possible to reuse part of the methods.</font></span>
+                    </p>
+                </td>
+            </tr>
+            <tr style="mso-yfti-irow: 4; mso-yfti-lastrow: yes">
+                <td                 style="BORDER-BOTTOM: silver 1pt solid; BORDER-LEFT: silver 1pt solid; PADDING-BOTTOM: 0cm; BACKGROUND-COLOR: transparent; PADDING-LEFT: 5.4pt; WIDTH: 4cm; PADDING-RIGHT: 5.4pt; BORDER-TOP: #ece9d8; BORDER-RIGHT: silver 1pt solid; PADDING-TOP: 0cm; mso-border-top-alt: solid silver 1.0pt"                  valign="top" width="151">
+                    <p class="MsoNormalCxSpMiddle">
+                        <span style="FONT-SIZE: 8pt; mso-bidi-font-size: 12.0pt"><font                         face="Times New Roman">Manageability</font></span>
+                    </p>
+                </td>
+                <td                 style="BORDER-BOTTOM: silver 1pt solid; BORDER-LEFT: #ece9d8; PADDING-BOTTOM: 0cm; BACKGROUND-COLOR: transparent; PADDING-LEFT: 5.4pt; WIDTH: 334.25pt; PADDING-RIGHT: 5.4pt; BORDER-TOP: #ece9d8; BORDER-RIGHT: silver 1pt solid; PADDING-TOP: 0cm; mso-border-left-alt: solid silver 1.0pt; mso-border-top-alt: solid silver 1.0pt"                  valign="top" width="446">
+                    <p class="MsoNormalCxSpMiddle">
+                        <font face="Times New Roman"><span                         style="FONT-SIZE: 8pt; mso-bidi-font-family: Arial; mso-bidi-font-size: 10.0pt">Developer is
+                        responsible to implement the change, and use configuration management tools and strict development
+                        disciplines.</span></font>
+                    </p>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</div><br style="MARGIN: 3pt 0cm" class="MsoNormal" />
+<br />
+<p style="MARGIN: 3pt 0cm" class="MsoNormal">
+    <a><font color="#0066B2"><em><font size="3">Rule in process map</font></em></font></a>
+</p>
+<p style="MARGIN: 3pt 0cm" class="MsoNormal">
+    <span style="mso-bidi-language: HE">Business process automation is the technology components substituting and/or
+    supplementing manual processes to manage information flow within an organization to lower costs, reduce risk, and
+    increase consistency. In this context Business rules describe the structure, operation, and strategy of an
+    organization's business process. The business process definition can be seen as a business rule. Typically a rule
+    involving routing of transactional data to a queue, a task, or a sub process will be most likely implemented in a
+    process map. Defined at the link level business rules are linked to the structure of the process flow. Once designed
+    and implemented there is few chance those rule will change. Changing a business process is most of the time risky: we
+    do not want to change thing working and involving a lot of parties and stakeholders. In fact</span> new policies,
+    regulations or business strategies may affect the rules without changing the core business processes.
+</p><br style="MARGIN: 3pt 0cm" class="MsoNormal" />
+<br />
+<p style="MARGIN: 3pt 0cm" class="MsoNormal">
+    <span style="mso-bidi-language: HE">A rule like: "<i style="mso-bidi-font-style: normal">if there is an exception in
+    the claim processing we want a supervisor to study the claim and the accumulated reasons extracted by the process so
+    far"</i> will most likely finish as guard on a process map link:</span>
+</p><br style="MARGIN: 3pt 0cm" class="MsoNormal" />
+<br />
+<p style="MARGIN: 3pt 0cm" class="MsoNormal">
+    <img alt="" src="./../../practice.tech.abrd.base/tasks/resources/brinbpm.jpg" width="313" height="348" />
+</p><br style="MARGIN: 3pt 0cm" class="MsoNormal" />
+<br />
+<p style="MARGIN: 3pt 0cm" class="MsoNormal">
+    Task 1 will most of the time call a rule engine to take decision on the claim. One of the pattern is to accumulate all
+    the possible reasons in a list. If the list include an exception or high priority reason, the process map will route to
+    the "Process Exception" task. This task can queue the work item to a supervisor queues.
+</p><br style="MARGIN: 3pt 0cm" class="MsoNormal" />
+<br />
+<p style="MARGIN: 3pt 0cm" class="MsoNormal">
+    <span style="mso-bidi-language: HE">There are a lot tasks in a business process that are decision rich, so with a lot
+    of business rule to execute before completing the task. Those rules can be executed by a rule engine. The integration
+    Rule Engine – BPM will bring the value to support those cases. But as good practice it is always possible to try to
+    re-arrange an activity diagram of a use case or a process map so that some activities are purely automatically executed
+    in a rule engine mapped as a rule flow.</span>
+</p><br style="MARGIN: 3pt 0cm" class="MsoNormal" />
+<br />
+<p style="MARGIN: 3pt 0cm" class="MsoNormal">
+    <span style="mso-bidi-language: HE">The variables evaluation:</span>
+</p>
+<div align="center">
+    <table     style="BORDER-BOTTOM: medium none; BORDER-LEFT: medium none; BORDER-COLLAPSE: collapse; BORDER-TOP: medium none; BORDER-RIGHT: medium none; mso-padding-alt: 0cm 5.4pt 0cm 5.4pt; mso-border-alt: solid silver 1.0pt; mso-yfti-tbllook: 480; mso-border-insideh: 1.0pt solid silver; mso-border-insidev: 1.0pt solid silver"      class="ISISTable" border="1" cellspacing="0" cellpadding="0">
+        <thead>
+            <tr style="mso-yfti-irow: -1; mso-yfti-firstrow: yes">
+                <td                 style="BORDER-BOTTOM: gray 1pt solid; BORDER-LEFT: gray 1pt solid; PADDING-BOTTOM: 0cm; PADDING-LEFT: 5.4pt; WIDTH: 4cm; PADDING-RIGHT: 5.4pt; BACKGROUND: #f3f3f3; BORDER-TOP: gray 1pt solid; BORDER-RIGHT: gray 1pt solid; PADDING-TOP: 0cm"                  valign="top" width="151">
+                    <p style="TEXT-ALIGN: center; mso-yfti-cnfc: 1" class="MsoNormalCxSpMiddle" align="center">
+                        <b style="mso-bidi-font-weight: normal"><i style="mso-bidi-font-style: normal"><span                         style="COLOR: #005da0; mso-bidi-language: HE"><font size="3"><font                         face="Times New Roman">Variables</font></font></span></i></b>
+                    </p>
+                </td>
+                <td                 style="BORDER-BOTTOM: gray 1pt solid; BORDER-LEFT: #ece9d8; PADDING-BOTTOM: 0cm; PADDING-LEFT: 5.4pt; WIDTH: 344.65pt; PADDING-RIGHT: 5.4pt; BACKGROUND: #f3f3f3; BORDER-TOP: gray 1pt solid; BORDER-RIGHT: gray 1pt solid; PADDING-TOP: 0cm; mso-border-left-alt: solid gray 1.0pt"                  valign="top" width="460">
+                    <p style="TEXT-ALIGN: center; mso-yfti-cnfc: 1" class="MsoNormalCxSpMiddle" align="center">
+                        <b style="mso-bidi-font-weight: normal"><i style="mso-bidi-font-style: normal"><span                         style="COLOR: #005da0; mso-bidi-language: HE"><font size="3"><font                         face="Times New Roman">Evaluation</font></font></span></i></b>
+                    </p>
+                </td>
+            </tr>
+        </thead>
+        <tbody>
+            <tr style="mso-yfti-irow: 0">
+                <td                 style="BORDER-BOTTOM: silver 1pt solid; BORDER-LEFT: silver 1pt solid; PADDING-BOTTOM: 0cm; BACKGROUND-COLOR: transparent; PADDING-LEFT: 5.4pt; WIDTH: 4cm; PADDING-RIGHT: 5.4pt; BORDER-TOP: #ece9d8; BORDER-RIGHT: silver 1pt solid; PADDING-TOP: 0cm; mso-border-top-alt: solid silver 1.0pt"                  valign="top" width="151">
+                    <p class="MsoNormalCxSpMiddle">
+                        <font face="Times New Roman"><span                         style="FONT-SIZE: 8pt; mso-bidi-font-size: 12.0pt">Adaptability</span></font>
+                    </p>
+                </td>
+                <td                 style="BORDER-BOTTOM: silver 1pt solid; BORDER-LEFT: #ece9d8; PADDING-BOTTOM: 0cm; BACKGROUND-COLOR: transparent; PADDING-LEFT: 5.4pt; WIDTH: 344.65pt; PADDING-RIGHT: 5.4pt; BORDER-TOP: #ece9d8; BORDER-RIGHT: silver 1pt solid; PADDING-TOP: 0cm; mso-border-left-alt: solid silver 1.0pt; mso-border-top-alt: solid silver 1.0pt"                  valign="top" width="460">
+                    <p class="MsoNormalCxSpMiddle">
+                        <span style="FONT-SIZE: 8pt; mso-bidi-font-family: Arial; mso-bidi-font-size: 10.0pt"><font                         face="Times New Roman">Business rules hardly coded in using BPM notation is not efficient and lead
+                        to complex map. The real design implementation is to mix BPM map and business rules-decision
+                        delegated in a process task. In this type of implementation we can leverage the best of both
+                        worlds, and the adaptability is excellent.</font></span>
+                    </p>
+                </td>
+            </tr>
+            <tr style="mso-yfti-irow: 1">
+                <td                 style="BORDER-BOTTOM: silver 1pt solid; BORDER-LEFT: silver 1pt solid; PADDING-BOTTOM: 0cm; BACKGROUND-COLOR: transparent; PADDING-LEFT: 5.4pt; WIDTH: 4cm; PADDING-RIGHT: 5.4pt; BORDER-TOP: #ece9d8; BORDER-RIGHT: silver 1pt solid; PADDING-TOP: 0cm; mso-border-top-alt: solid silver 1.0pt"                  valign="top" width="151">
+                    <p class="MsoNormalCxSpMiddle">
+                        <font face="Times New Roman"><span                         style="FONT-SIZE: 8pt; mso-bidi-font-size: 12.0pt">Transparency</span></font>
+                    </p>
+                </td>
+                <td                 style="BORDER-BOTTOM: silver 1pt solid; BORDER-LEFT: #ece9d8; PADDING-BOTTOM: 0cm; BACKGROUND-COLOR: transparent; PADDING-LEFT: 5.4pt; WIDTH: 344.65pt; PADDING-RIGHT: 5.4pt; BORDER-TOP: #ece9d8; BORDER-RIGHT: silver 1pt solid; PADDING-TOP: 0cm; mso-border-left-alt: solid silver 1.0pt; mso-border-top-alt: solid silver 1.0pt"                  valign="top" width="460">
+                    <p class="MsoNormalCxSpMiddle">
+                        <span style="FONT-SIZE: 8pt; mso-bidi-language: HE; mso-bidi-font-size: 12.0pt"><font                         face="Times New Roman">Excellent: when the integration of BPMS and BRMS is done perfectly, the
+                        business and IT team have a clear understanding of the process execution and the decision done by a
+                        task by studying the rules attached to the task.</font></span>
+                    </p>
+                </td>
+            </tr>
+            <tr style="mso-yfti-irow: 2">
+                <td                 style="BORDER-BOTTOM: silver 1pt solid; BORDER-LEFT: silver 1pt solid; PADDING-BOTTOM: 0cm; BACKGROUND-COLOR: transparent; PADDING-LEFT: 5.4pt; WIDTH: 4cm; PADDING-RIGHT: 5.4pt; BORDER-TOP: #ece9d8; BORDER-RIGHT: silver 1pt solid; PADDING-TOP: 0cm; mso-border-top-alt: solid silver 1.0pt"                  valign="top" width="151">
+                    <p class="MsoNormalCxSpMiddle">
+                        <font face="Times New Roman"><span                         style="FONT-SIZE: 8pt; mso-bidi-font-size: 12.0pt">Auditability</span></font>
+                    </p>
+                </td>
+                <td                 style="BORDER-BOTTOM: silver 1pt solid; BORDER-LEFT: #ece9d8; PADDING-BOTTOM: 0cm; BACKGROUND-COLOR: transparent; PADDING-LEFT: 5.4pt; WIDTH: 344.65pt; PADDING-RIGHT: 5.4pt; BORDER-TOP: #ece9d8; BORDER-RIGHT: silver 1pt solid; PADDING-TOP: 0cm; mso-border-left-alt: solid silver 1.0pt; mso-border-top-alt: solid silver 1.0pt"                  valign="top" width="460">
+                    <p class="MsoNormalCxSpMiddle">
+                        <span style="FONT-SIZE: 8pt; mso-bidi-language: HE; mso-bidi-font-size: 12.0pt"><font                         face="Times New Roman">Excellent: both tools has version control, and it is possible to link
+                        process map version to rule set version.</font></span>
+                    </p>
+                </td>
+            </tr>
+            <tr style="mso-yfti-irow: 3">
+                <td                 style="BORDER-BOTTOM: silver 1pt solid; BORDER-LEFT: silver 1pt solid; PADDING-BOTTOM: 0cm; BACKGROUND-COLOR: transparent; PADDING-LEFT: 5.4pt; WIDTH: 4cm; PADDING-RIGHT: 5.4pt; BORDER-TOP: #ece9d8; BORDER-RIGHT: silver 1pt solid; PADDING-TOP: 0cm; mso-border-top-alt: solid silver 1.0pt"                  valign="top" width="151">
+                    <p class="MsoNormalCxSpMiddle">
+                        <span style="FONT-SIZE: 8pt; mso-bidi-font-size: 12.0pt"><font                         face="Times New Roman">Reusability</font></span>
+                    </p>
+                </td>
+                <td                 style="BORDER-BOTTOM: silver 1pt solid; BORDER-LEFT: #ece9d8; PADDING-BOTTOM: 0cm; BACKGROUND-COLOR: transparent; PADDING-LEFT: 5.4pt; WIDTH: 344.65pt; PADDING-RIGHT: 5.4pt; BORDER-TOP: #ece9d8; BORDER-RIGHT: silver 1pt solid; PADDING-TOP: 0cm; mso-border-left-alt: solid silver 1.0pt; mso-border-top-alt: solid silver 1.0pt"                  valign="top" width="460">
+                    <p class="MsoNormalCxSpMiddle">
+                        <span style="FONT-SIZE: 8pt; mso-bidi-language: HE; mso-bidi-font-size: 12.0pt"><font                         face="Times New Roman">Rules defined in a task should be expose to the other application as a
+                        service. So reusability can be achieved. Rules in a BPM map are not really reusable.</font></span>
+                    </p>
+                </td>
+            </tr>
+            <tr style="mso-yfti-irow: 4; mso-yfti-lastrow: yes">
+                <td                 style="BORDER-BOTTOM: silver 1pt solid; BORDER-LEFT: silver 1pt solid; PADDING-BOTTOM: 0cm; BACKGROUND-COLOR: transparent; PADDING-LEFT: 5.4pt; WIDTH: 4cm; PADDING-RIGHT: 5.4pt; BORDER-TOP: #ece9d8; BORDER-RIGHT: silver 1pt solid; PADDING-TOP: 0cm; mso-border-top-alt: solid silver 1.0pt"                  valign="top" width="151">
+                    <p class="MsoNormalCxSpMiddle">
+                        <span style="FONT-SIZE: 8pt; mso-bidi-font-size: 12.0pt"><font                         face="Times New Roman">Manageability</font></span>
+                    </p>
+                </td>
+                <td                 style="BORDER-BOTTOM: silver 1pt solid; BORDER-LEFT: #ece9d8; PADDING-BOTTOM: 0cm; BACKGROUND-COLOR: transparent; PADDING-LEFT: 5.4pt; WIDTH: 344.65pt; PADDING-RIGHT: 5.4pt; BORDER-TOP: #ece9d8; BORDER-RIGHT: silver 1pt solid; PADDING-TOP: 0cm; mso-border-left-alt: solid silver 1.0pt; mso-border-top-alt: solid silver 1.0pt"                  valign="top" width="460">
+                    <p class="MsoNormalCxSpMiddle">
+                        <font face="Times New Roman"><span                         style="FONT-SIZE: 8pt; mso-bidi-font-family: Arial; mso-bidi-font-size: 10.0pt">Process logic will
+                        have a more stable life cycle, and it is managed in the BPMS. <span                         style="mso-spacerun: yes">&nbsp;</span></span></font>
+                    </p>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</div><br style="MARGIN: 3pt 0cm" class="MsoNormal" />
+<br />
+<br style="MARGIN: 3pt 0cm" class="MsoNormal" />
+<br />
+<p style="MARGIN: 3pt 0cm" class="MsoNormal">
+    <a><font color="#0066B2"><em><font size="3">Rule in a rule engine</font></em></font></a>
+</p>
+<p style="MARGIN: 3pt 0cm" class="MsoNormal">
+    <span style="mso-bidi-language: HE">Any type of rule using a forward chaining approach will best fit in any RETE rule
+    engine. To avoid long explanation a rule engine will perform very efficiently the following rules which are more
+    complex to implement in code:</span>
+</p>
+<ul style="MARGIN-TOP: 0cm" type="disc">
+    <li style="MARGIN: 3pt 0cm; mso-list: l2 level1 lfo4; tab-stops: list 36.0pt" class="MsoNormal">
+        <span style="mso-bidi-language: HE">Set parameter = A / (B ^ 2)</span>
+    </li>
+    <li style="MARGIN: 3pt 0cm; mso-list: l2 level1 lfo4; tab-stops: list 36.0pt" class="MsoNormal">
+        <span style="mso-bidi-language: HE">If parameter is above 30 then the risk is<span         style="mso-spacerun: yes">&nbsp;</span> medium</span>
+    </li>
+    <li style="MARGIN: 3pt 0cm; mso-list: l2 level1 lfo4; tab-stops: list 36.0pt" class="MsoNormal">
+        <span style="mso-bidi-language: HE">If the risk is medium then alert the manager</span>
+    </li>
+</ul>
+<p style="MARGIN: 3pt 0cm" class="MsoNormal">
+    <span style="mso-bidi-language: HE"><span style="mso-spacerun: yes">&nbsp;</span>If we enter a new value for A all the
+    depend rules will be fired. Rules can be entered in any order we want, it is less declarative than procedural
+    code.</span>
+</p><br style="MARGIN: 3pt 0cm" class="MsoNormal" />
+<br />
+<p style="MARGIN: 3pt 0cm" class="MsoNormal">
+    <span style="mso-bidi-language: HE">Backward chaining rule pattern can also been supported by a rule engine. The rule
+    system works down the tree to find the data that it requires. It will ask question to be able to infer decisions. It is
+    possible to implement backward chaining with product using pure inference by&nbsp;using a goal object.</span>
+</p><br style="MARGIN: 3pt 0cm" class="MsoNormal" />
+<br />
+<p style="MARGIN: 3pt 0cm" class="MsoNormal">
+    <span style="mso-bidi-language: HE">As we already stated one of the key factor is flexibility. We already encounter the
+    following decision: "This rule will not change"... but in fact it will do in the future or some of related one"
+    .</span>
+</p>
+<p style="MARGIN: 3pt 0cm" class="MsoNormal">
+    <span style="mso-bidi-language: HE">We can for example take a simple example of a static rule defined as</span>
+</p>
+<p style="TEXT-ALIGN: justify; MARGIN: 1.9pt 0cm 0pt 18pt" class="MsoNormal">
+    <span class="ISISCodeParagraphChar"><font face="Courier">If the status of the customer is gold and the product is
+    &lt;&gt; then apply &lt;&gt; % discount</font></span><span style="mso-bidi-language: HE">.</span>
+</p><br style="MARGIN: 3pt 0cm" class="MsoNormal" />
+<br />
+<p style="MARGIN: 3pt 0cm" class="MsoNormal">
+    <span style="mso-bidi-language: HE">This rule can be implemented within application code using some tables in a
+    database that link the product, the category of possible status and the discount to apply. But when discussing with the
+    business user to understand what is a gold customer? We can get other conditions that definitively will change over
+    time.</span>
+</p>
+<p style="MARGIN: 3pt 0cm" class="MsoNormal">
+    <span style="mso-bidi-language: HE">For example,&nbsp;a</span> <span style="mso-bidi-language: HE">gold customer is
+    initially defined as one who spends more than &lt;&gt; amount of money during the last 6 months.&nbsp;</span> <span     style="mso-bidi-language: HE">Then an exception is added.&nbsp; Product</span> <span style="mso-bidi-language: HE">X
+    was available only for 4 months, so the time period needs to be 4 months for product X.</span> <span     style="mso-bidi-language: HE">Additional qualifiers are added over time.&nbsp; Customers in certain countries are
+    ineligible. A</span><span style="mso-bidi-language: HE">&nbsp;customer must be 18 years old.&nbsp; A customer working
+    for our company or subsidiaries cannot have gold status.&nbsp; And so on.</span>
+</p><br />
+<p style="MARGIN: 3pt 0cm" class="MsoNormal">
+    <span style="mso-bidi-language: HE">The variables evaluation:</span>
+</p>
+<div align="center">
+    <table     style="BORDER-BOTTOM: medium none; BORDER-LEFT: medium none; BORDER-COLLAPSE: collapse; BORDER-TOP: medium none; BORDER-RIGHT: medium none; mso-padding-alt: 0cm 5.4pt 0cm 5.4pt; mso-border-alt: solid silver 1.0pt; mso-yfti-tbllook: 480; mso-border-insideh: 1.0pt solid silver; mso-border-insidev: 1.0pt solid silver"      class="ISISTable" border="1" cellspacing="0" cellpadding="0">
+        <thead>
+            <tr style="mso-yfti-irow: -1; mso-yfti-firstrow: yes">
+                <td                 style="BORDER-BOTTOM: gray 1pt solid; BORDER-LEFT: gray 1pt solid; PADDING-BOTTOM: 0cm; PADDING-LEFT: 5.4pt; WIDTH: 4cm; PADDING-RIGHT: 5.4pt; BACKGROUND: #f3f3f3; BORDER-TOP: gray 1pt solid; BORDER-RIGHT: gray 1pt solid; PADDING-TOP: 0cm"                  valign="top" width="151">
+                    <p style="TEXT-ALIGN: center; mso-yfti-cnfc: 1" class="MsoNormalCxSpMiddle" align="center">
+                        <b style="mso-bidi-font-weight: normal"><i style="mso-bidi-font-style: normal"><span                         style="COLOR: #005da0; mso-bidi-language: HE"><font size="3"><font                         face="Times New Roman">Variables</font></font></span></i></b>
+                    </p>
+                </td>
+                <td                 style="BORDER-BOTTOM: gray 1pt solid; BORDER-LEFT: #ece9d8; PADDING-BOTTOM: 0cm; PADDING-LEFT: 5.4pt; WIDTH: 344.65pt; PADDING-RIGHT: 5.4pt; BACKGROUND: #f3f3f3; BORDER-TOP: gray 1pt solid; BORDER-RIGHT: gray 1pt solid; PADDING-TOP: 0cm; mso-border-left-alt: solid gray 1.0pt"                  valign="top" width="460">
+                    <p style="TEXT-ALIGN: center; mso-yfti-cnfc: 1" class="MsoNormalCxSpMiddle" align="center">
+                        <b style="mso-bidi-font-weight: normal"><i style="mso-bidi-font-style: normal"><span                         style="COLOR: #005da0; mso-bidi-language: HE"><font size="3"><font                         face="Times New Roman">Evaluation</font></font></span></i></b>
+                    </p>
+                </td>
+            </tr>
+        </thead>
+        <tbody>
+            <tr style="mso-yfti-irow: 0">
+                <td                 style="BORDER-BOTTOM: silver 1pt solid; BORDER-LEFT: silver 1pt solid; PADDING-BOTTOM: 0cm; BACKGROUND-COLOR: transparent; PADDING-LEFT: 5.4pt; WIDTH: 4cm; PADDING-RIGHT: 5.4pt; BORDER-TOP: #ece9d8; BORDER-RIGHT: silver 1pt solid; PADDING-TOP: 0cm; mso-border-top-alt: solid silver 1.0pt"                  valign="top" width="151">
+                    <p class="MsoNormalCxSpMiddle">
+                        <font face="Times New Roman"><span                         style="FONT-SIZE: 8pt; mso-bidi-font-size: 12.0pt">Adaptability</span></font>
+                    </p>
+                </td>
+                <td                 style="BORDER-BOTTOM: silver 1pt solid; BORDER-LEFT: #ece9d8; PADDING-BOTTOM: 0cm; BACKGROUND-COLOR: transparent; PADDING-LEFT: 5.4pt; WIDTH: 344.65pt; PADDING-RIGHT: 5.4pt; BORDER-TOP: #ece9d8; BORDER-RIGHT: silver 1pt solid; PADDING-TOP: 0cm; mso-border-left-alt: solid silver 1.0pt; mso-border-top-alt: solid silver 1.0pt"                  valign="top" width="460">
+                    <p class="MsoNormalCxSpMiddle">
+                        <span style="FONT-SIZE: 8pt; mso-bidi-font-family: Arial; mso-bidi-font-size: 10.0pt"><font                         face="Times New Roman">Excellent, rule can change quickly and be deployed quickly too</font></span>
+                    </p>
+                </td>
+            </tr>
+            <tr style="mso-yfti-irow: 1">
+                <td                 style="BORDER-BOTTOM: silver 1pt solid; BORDER-LEFT: silver 1pt solid; PADDING-BOTTOM: 0cm; BACKGROUND-COLOR: transparent; PADDING-LEFT: 5.4pt; WIDTH: 4cm; PADDING-RIGHT: 5.4pt; BORDER-TOP: #ece9d8; BORDER-RIGHT: silver 1pt solid; PADDING-TOP: 0cm; mso-border-top-alt: solid silver 1.0pt"                  valign="top" width="151">
+                    <p class="MsoNormalCxSpMiddle">
+                        <font face="Times New Roman"><span                         style="FONT-SIZE: 8pt; mso-bidi-font-size: 12.0pt">Transparency</span></font>
+                    </p>
+                </td>
+                <td                 style="BORDER-BOTTOM: silver 1pt solid; BORDER-LEFT: #ece9d8; PADDING-BOTTOM: 0cm; BACKGROUND-COLOR: transparent; PADDING-LEFT: 5.4pt; WIDTH: 344.65pt; PADDING-RIGHT: 5.4pt; BORDER-TOP: #ece9d8; BORDER-RIGHT: silver 1pt solid; PADDING-TOP: 0cm; mso-border-left-alt: solid silver 1.0pt; mso-border-top-alt: solid silver 1.0pt"                  valign="top" width="460">
+                    <p class="MsoNormalCxSpMiddle">
+                        <span style="FONT-SIZE: 8pt; mso-bidi-language: HE; mso-bidi-font-size: 12.0pt"><font                         face="Times New Roman">Excellent: by adding meta data to implemented rule we can clearly link rule
+                        to business strategies and policies</font></span>
+                    </p>
+                </td>
+            </tr>
+            <tr style="mso-yfti-irow: 2">
+                <td                 style="BORDER-BOTTOM: silver 1pt solid; BORDER-LEFT: silver 1pt solid; PADDING-BOTTOM: 0cm; BACKGROUND-COLOR: transparent; PADDING-LEFT: 5.4pt; WIDTH: 4cm; PADDING-RIGHT: 5.4pt; BORDER-TOP: #ece9d8; BORDER-RIGHT: silver 1pt solid; PADDING-TOP: 0cm; mso-border-top-alt: solid silver 1.0pt"                  valign="top" width="151">
+                    <p class="MsoNormalCxSpMiddle">
+                        <font face="Times New Roman"><span                         style="FONT-SIZE: 8pt; mso-bidi-font-size: 12.0pt">Auditability</span></font>
+                    </p>
+                </td>
+                <td                 style="BORDER-BOTTOM: silver 1pt solid; BORDER-LEFT: #ece9d8; PADDING-BOTTOM: 0cm; BACKGROUND-COLOR: transparent; PADDING-LEFT: 5.4pt; WIDTH: 344.65pt; PADDING-RIGHT: 5.4pt; BORDER-TOP: #ece9d8; BORDER-RIGHT: silver 1pt solid; PADDING-TOP: 0cm; mso-border-left-alt: solid silver 1.0pt; mso-border-top-alt: solid silver 1.0pt"                  valign="top" width="460">
+                    <p class="MsoNormalCxSpMiddle">
+                        <span style="FONT-SIZE: 8pt; mso-bidi-language: HE; mso-bidi-font-size: 12.0pt"><font                         face="Times New Roman">Excellent and most of the rule engine has log mechanism to trace what were
+                        the rules executed on a given transaction.</font></span>
+                    </p>
+                    <p class="MsoNormalCxSpMiddle">
+                        <span style="FONT-SIZE: 8pt; mso-bidi-language: HE; mso-bidi-font-size: 12.0pt"><font                         face="Times New Roman">Rule reports are important to the business as part of
+                        documentation</font></span>
+                    </p>
+                </td>
+            </tr>
+            <tr style="mso-yfti-irow: 3">
+                <td                 style="BORDER-BOTTOM: silver 1pt solid; BORDER-LEFT: silver 1pt solid; PADDING-BOTTOM: 0cm; BACKGROUND-COLOR: transparent; PADDING-LEFT: 5.4pt; WIDTH: 4cm; PADDING-RIGHT: 5.4pt; BORDER-TOP: #ece9d8; BORDER-RIGHT: silver 1pt solid; PADDING-TOP: 0cm; mso-border-top-alt: solid silver 1.0pt"                  valign="top" width="151">
+                    <p class="MsoNormalCxSpMiddle">
+                        <span style="FONT-SIZE: 8pt; mso-bidi-font-size: 12.0pt"><font                         face="Times New Roman">Reusability</font></span>
+                    </p>
+                </td>
+                <td                 style="BORDER-BOTTOM: silver 1pt solid; BORDER-LEFT: #ece9d8; PADDING-BOTTOM: 0cm; BACKGROUND-COLOR: transparent; PADDING-LEFT: 5.4pt; WIDTH: 344.65pt; PADDING-RIGHT: 5.4pt; BORDER-TOP: #ece9d8; BORDER-RIGHT: silver 1pt solid; PADDING-TOP: 0cm; mso-border-left-alt: solid silver 1.0pt; mso-border-top-alt: solid silver 1.0pt"                  valign="top" width="460">
+                    <p class="MsoNormalCxSpMiddle">
+                        <span style="FONT-SIZE: 8pt; mso-bidi-language: HE; mso-bidi-font-size: 12.0pt"><font                         face="Times New Roman">Very good if the BRMS use rule repository and the rule analyst designed a
+                        rule sharing approach</font></span>
+                    </p>
+                </td>
+            </tr>
+            <tr style="mso-yfti-irow: 4; mso-yfti-lastrow: yes">
+                <td                 style="BORDER-BOTTOM: silver 1pt solid; BORDER-LEFT: silver 1pt solid; PADDING-BOTTOM: 0cm; BACKGROUND-COLOR: transparent; PADDING-LEFT: 5.4pt; WIDTH: 4cm; PADDING-RIGHT: 5.4pt; BORDER-TOP: #ece9d8; BORDER-RIGHT: silver 1pt solid; PADDING-TOP: 0cm; mso-border-top-alt: solid silver 1.0pt"                  valign="top" width="151">
+                    <p class="MsoNormalCxSpMiddle">
+                        <span style="FONT-SIZE: 8pt; mso-bidi-font-size: 12.0pt"><font                         face="Times New Roman">Manageability</font></span>
+                    </p>
+                </td>
+                <td                 style="BORDER-BOTTOM: silver 1pt solid; BORDER-LEFT: #ece9d8; PADDING-BOTTOM: 0cm; BACKGROUND-COLOR: transparent; PADDING-LEFT: 5.4pt; WIDTH: 344.65pt; PADDING-RIGHT: 5.4pt; BORDER-TOP: #ece9d8; BORDER-RIGHT: silver 1pt solid; PADDING-TOP: 0cm; mso-border-left-alt: solid silver 1.0pt; mso-border-top-alt: solid silver 1.0pt"                  valign="top" width="460">
+                    <p class="MsoNormalCxSpMiddle">
+                        <font face="Times New Roman"><span                         style="FONT-SIZE: 8pt; mso-bidi-font-family: Arial; mso-bidi-font-size: 10.0pt">Excellent as rules
+                        are externalized and managed as a standalone artifact. Rule configuration management is complex,
+                        and integrity between rule life cycle and rule set versioning is not a simple
+                        practice.</span></font>
+                    </p>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</div><br style="MARGIN: 3pt 0cm" class="MsoNormal" />
+<br />
+<p style="MARGIN: 3pt 0cm" class="MsoNormal">
+    <a><font color="#0066B2"><em><font size="3">Rule in a graphical user interface</font></em></font></a>
+</p>
+<p style="MARGIN: 3pt 0cm" class="MsoNormal">
+    We will base the integration on the Model-View-Controller (MVC) design pattern. The presentation tier handles the
+    client interaction by abstracting the low-level protocol details into an event-based mechanism. The view's main
+    requirement is synchronization with the model so that data displayed to the user is up to date. The controller is
+    responsible to prepare the data and manage the view flow and content. Delegating the creation of content to a rule
+    engine is possible but need to be done synchronously.
+</p><br style="MARGIN: 3pt 0cm" class="MsoNormal" />
+<br />
+<p style="MARGIN: 3pt 0cm" class="MsoNormal">
+    The business rule will be related to control the list of widget the GUI will present. A typical pattern is around
+    product catalog application or dynamic questionnaire. The rule pattern to control the content looks like:
+</p>
+<p style="MARGIN: 3pt 0cm 3pt 36pt" class="MsoNormal">
+    <i style="mso-bidi-font-style: normal">If the selection on this page was &lt;&gt; then add this &lt;&gt; to the model
+    used in view &lt;&gt;</i>
+</p>
+<p style="MARGIN: 3pt 0cm" class="MsoNormal">
+    A rule to control the flow of page looks like
+</p>
+<p style="MARGIN: 3pt 0cm 3pt 36pt" class="MsoNormal">
+    <i style="mso-bidi-font-style: normal">If the user visited page &lt;&gt; (and | or page &lt;&gt;) then next page is
+    &lt;&gt;</i>
+</p><br style="MARGIN: 3pt 0cm" class="MsoNormal" />
+<br />
+<p style="MARGIN: 3pt 0cm" class="MsoNormal">
+    Both rules may be enriched with business type decision based on data of the model.
+</p><br style="MARGIN: 3pt 0cm" class="MsoNormal" />
+<br />
+<p style="MARGIN: 3pt 0cm" class="MsoNormal">
+    In these pattern it is clear we need to keep the previous context of decision, and events the user created.<span     style="mso-spacerun: yes">&nbsp;</span> So most of the current applications are putting the business rule in the
+    controller class or in the java script of the view, but it is possible to design the controller to use a rule engine,
+    as soon as the decision needs to change. This is particularly true for e-commerce web site, where marketing campaign
+    can quickly be put in place by proposing product or product feature more dynamically.<span     style="mso-spacerun: yes">&nbsp;</span>
+</p><br /></td>
+</tr>
+</table>
+</div>
+<table class="copyright" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td class="copyright"><p>
+    This program and the accompanying materials are made available under the<br />
+    <a href="http://www.eclipse.org/org/documents/epl-v10.php" target="_blank">Eclipse Public License V1.0</a>, which
+    accompanies this distribution.
+</p>
+<p>
+    <a class="elementLink" href="./../../core.default.release_copyright.base/guidances/supportingmaterials/epf_copyright_C3031062.html" guid="_UaGfECcTEduSX6N2jUafGA">EPF Copyright</a>.
+</p></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</body>
+<script type="text/javascript" language="JavaScript">
+				contentPage.onload();
+			</script>
+</html>

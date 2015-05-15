@@ -1,0 +1,250 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="en" xml:lang="en" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<head>
+<META http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>Guideline: Define Rule Implementation</title>
+<meta name="uma.type" content="Guideline">
+<meta name="uma.name" content="define_rule_implementation">
+<meta name="uma.presentationName" content="Define Rule Implementation">
+<meta name="element_type" content="other">
+<meta name="filetype" content="description">
+<meta name="role" content="none">
+<link rel="StyleSheet" href="./../../../css/default.css" type="text/css">
+<script src="./../../../scripts/ContentPageResource.js" type="text/javascript" language="JavaScript"></script><script src="./../../../scripts/ContentPageSection.js" type="text/javascript" language="JavaScript"></script><script src="./../../../scripts/ContentPageSubSection.js" type="text/javascript" language="JavaScript"></script><script src="./../../../scripts/ContentPageToolbar.js" type="text/javascript" language="JavaScript"></script><script src="./../../../scripts/contentPage.js" type="text/javascript" language="JavaScript"></script><script type="text/javascript" language="JavaScript">
+					var backPath = './../../../';
+					var imgPath = './../../../images/';
+					var nodeInfo=null;
+					contentPage.preload(imgPath, backPath, nodeInfo,  '', false, false, false);
+				</script>
+</head>
+<body>
+<div id="breadcrumbs"></div>
+<table border="0" cellpadding="0" cellspacing="0" width="100%">
+<tr>
+<td valign="top"><a name="Top"></a>
+<div id="page-guid" value="_x-GVQIsqEd2gksNyFVJN4g"></div>
+<table border="0" cellspacing="0" cellpadding="0" width="100%">
+<tr>
+<td class="pageTitle" nowrap="true">Guideline: Define Rule Implementation</td><td width="100%">
+<div align="right" id="contentPageToolbar"></div>
+</td><td width="100%" class="expandCollapseLink" align="right"><a name="mainIndex" href="./../../../index.htm"></a><script language="JavaScript" type="text/javascript" src="./../../../scripts/treebrowser.js"></script></td>
+</tr>
+</table>
+<table width="100%" border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td class="pageTitleSeparator"><img src="./../../../images/shim.gif" alt="" title="" height="1"></td>
+</tr>
+</table>
+<div class="overview">
+<table width="97%" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td width="50"><img src="./../../../images/guidance.gif" alt="" title=""></td><td>
+<table class="overviewTable" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td valign="top"></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</div>
+<div class="sectionHeading">Relationships</div>
+<div class="sectionContent">
+<table class="sectionTable" border="0" cellspacing="0" cellpadding="0">
+<tr valign="top">
+<th class="sectionTableHeading" scope="row">Related Elements</th><td class="sectionTableCell">
+<ul>
+<li>
+<a href="./../../../practice.tech.abrd.base/tasks/prototype_rules_9FE6439.html" guid="_dds-IDmiEdy8N6BRpa8ByQ">Prototype Rules</a>
+</li>
+<li>
+<a href="./../../../practice.tech.abrd.base/disciplines/rule_design_B842A4A3.html" guid="_1QK4hKshEd-4oa5dU5v0Eg">Rule Design</a>
+</li>
+</ul>
+</td>
+</tr>
+</table>
+</div>
+<div class="sectionHeading">Main Description</div>
+<div class="sectionContent">
+<table class="sectionTable" border="0" cellspacing="0" cellpadding="0">
+<tr valign="top">
+<td class="sectionTableSingleCell"><p class="MsoNormal" style="MARGIN: 3pt 0in">
+    For the implementation of Guideline and Constraint it is important to consider what should happen when they are
+    violated. Most of the time the action part will rise an exception or a high priority issue.
+</p><br />
+<p class="MsoNormal" style="MARGIN: 3pt 0in">
+    An important item to note in computation rules is that we need to manage the actual calculation but also if there are
+    rules that are required to be managed prior to those calculations and the rules that are required to manage that are
+    included in terms of the calculation – then the entire rule set needs to be managed not only just the actual
+    computation rule. &nbsp;
+</p><br class="MsoNormal" style="MARGIN: 3pt 0in" />
+<br />
+<p class="MsoNormal" style="MARGIN: 3pt 0in">
+    Process flow rules are rules that purely direct the movement through a process flow (or workflow, etc.). It may be
+    helpful to distinguish process flow rules from the business logic rules that determine the values of the parameters on
+    which the process flow is directed.
+</p><br class="MsoNormal" style="MARGIN: 3pt 0in" />
+<br />
+<p class="MsoNormal" style="MARGIN: 3pt 0in">
+    ETL rules, or data transformation rules, are often considered separately from other business rules, although in pattern
+    they are essentially inference rules and computation rules. Data transformation rules, while important to the business,
+    are a side-effect of system implementation rather than a reflection of core business logic per se. For implementation,
+    the decision to use a rule engine for ETL rules should depend on whether the rules are static or dynamic, but also the
+    maturity of the mapping knowledge. We used rule engine to easily implement transformation rules between two data model,
+    and once the environment is more stable, some of those mapping are put back on the code.
+</p><br class="MsoNormal" style="MARGIN: 3pt 0in" />
+<br />
+<p class="MsoNormal" style="MARGIN: 3pt 0in">
+    To the industry standard we can add some other rule pattern we found in lot of business application:
+</p>
+<div align="center">
+    <table class="MsoNormalTable"     style="BORDER-RIGHT: medium none; BORDER-TOP: medium none; BORDER-LEFT: medium none; BORDER-BOTTOM: medium none; BORDER-COLLAPSE: collapse; mso-padding-alt: 0in 5.4pt 0in 5.4pt; mso-border-alt: solid silver 1.0pt; mso-yfti-tbllook: 480; mso-border-insideh: 1.0pt solid silver; mso-border-insidev: 1.0pt solid silver"      cellspacing="0" cellpadding="0" border="1">
+        <tbody>
+            <tr style="mso-yfti-irow: 0; mso-yfti-firstrow: yes">
+                <td                 style="BORDER-RIGHT: gray 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: gray 1pt solid; PADDING-LEFT: 5.4pt; BACKGROUND: #f3f3f3; PADDING-BOTTOM: 0in; BORDER-LEFT: gray 1pt solid; WIDTH: 95.4pt; PADDING-TOP: 0in; BORDER-BOTTOM: gray 1pt solid"                  valign="top" width="127">
+                    <p class="msonormalcxspmiddleCxSpFirst"                     style="MARGIN: 2pt 0in; TEXT-ALIGN: justify; mso-add-space: auto">
+                        <font size="3"><font face="Times New Roman"><b><i><span style="COLOR: #005da0">Rule
+                        Classification</span></i></b></font></font>
+                    </p>
+                </td>
+                <td                 style="BORDER-RIGHT: gray 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: gray 1pt solid; PADDING-LEFT: 5.4pt; BACKGROUND: #f3f3f3; PADDING-BOTTOM: 0in; BORDER-LEFT: #ece9d8; WIDTH: 287.6pt; PADDING-TOP: 0in; BORDER-BOTTOM: gray 1pt solid; mso-border-left-alt: solid gray 1.0pt"                  valign="top" width="383">
+                    <p class="msonormalcxspmiddleCxSpLast"                     style="MARGIN: 2pt 0in; TEXT-ALIGN: justify; mso-add-space: auto">
+                        <font size="3"><font face="Times New Roman"><b><i><span style="COLOR: #005da0">Type of
+                        application</span></i></b></font></font>
+                    </p>
+                </td>
+            </tr>
+            <tr style="HEIGHT: 6.65pt; mso-yfti-irow: 1">
+                <td                 style="BORDER-RIGHT: silver 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: #ece9d8; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0in; BORDER-LEFT: silver 1pt solid; WIDTH: 95.4pt; PADDING-TOP: 0in; BORDER-BOTTOM: silver 1pt solid; HEIGHT: 6.65pt; BACKGROUND-COLOR: transparent; mso-border-top-alt: solid silver 1.0pt"                  valign="top" width="127" rowspan="2">
+                    <p class="msonormalcxspmiddleCxSpFirst"                     style="MARGIN: 2pt 0in; TEXT-ALIGN: justify; mso-add-space: auto">
+                        <font face="Times New Roman"><b><i><span lang="EN-GB"                         style="FONT-SIZE: 8pt; mso-ansi-language: EN-GB">Compliance Rules</span></i></b></font>
+                    </p>
+                </td>
+                <td                 style="BORDER-RIGHT: silver 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: #ece9d8; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0in; BORDER-LEFT: #ece9d8; WIDTH: 287.6pt; PADDING-TOP: 0in; BORDER-BOTTOM: silver 1pt solid; HEIGHT: 6.65pt; BACKGROUND-COLOR: transparent; mso-border-left-alt: solid silver 1.0pt; mso-border-top-alt: solid silver 1.0pt"                  valign="top" width="383">
+                    <p class="msonormalcxspmiddleCxSpMiddle" style="MARGIN: 2pt 0in; mso-add-space: auto">
+                        <font face="Times New Roman"><span style="FONT-SIZE: 8pt">Rules that reject the attempted business
+                        transaction.</span></font>
+                    </p>
+                    <p class="msonormalcxspmiddleCxSpLast" style="MARGIN: 2pt 0in; mso-add-space: auto">
+                        <font face="Times New Roman"><span lang="EN-GB"                         style="FONT-SIZE: 8pt; mso-ansi-language: EN-GB">Yes/no result but completed with reason code and
+                        explanation</span></font>
+                    </p>
+                </td>
+            </tr>
+            <tr style="HEIGHT: 6.6pt; mso-yfti-irow: 2">
+                <td                 style="BORDER-RIGHT: silver 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: #ece9d8; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0in; BORDER-LEFT: #ece9d8; WIDTH: 287.6pt; PADDING-TOP: 0in; BORDER-BOTTOM: silver 1pt solid; HEIGHT: 6.6pt; BACKGROUND-COLOR: transparent; mso-border-left-alt: solid silver 1.0pt; mso-border-top-alt: solid silver 1.0pt"                  valign="top" width="383">
+                    <p class="charCxSpFirst">
+                        <span lang="EN-GB"                         style="FONT-SIZE: 8pt; FONT-FAMILY: 'Arial','sans-serif'; mso-ansi-language: EN-GB">Underwriting</span>
+                    </p>
+                    <p class="charCxSpMiddle">
+                        <span lang="EN-GB"                         style="FONT-SIZE: 8pt; FONT-FAMILY: 'Arial','sans-serif'; mso-ansi-language: EN-GB">F</span><span                         lang="EN-GB" style="FONT-SIZE: 8pt; mso-ansi-language: EN-GB"><font face="Times New Roman">raud
+                        detection</font></span>
+                    </p>
+                    <p class="charCxSpLast">
+                        <font face="Times New Roman"><span lang="EN-GB"                         style="FONT-SIZE: 8pt; mso-ansi-language: EN-GB">Data and form validation</span></font>
+                    </p>
+                </td>
+            </tr>
+            <tr style="HEIGHT: 11.05pt; mso-yfti-irow: 3">
+                <td                 style="BORDER-RIGHT: silver 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: #ece9d8; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0in; BORDER-LEFT: silver 1pt solid; WIDTH: 95.4pt; PADDING-TOP: 0in; BORDER-BOTTOM: silver 1pt solid; HEIGHT: 11.05pt; BACKGROUND-COLOR: transparent; mso-border-top-alt: solid silver 1.0pt"                  valign="top" width="127" rowspan="2">
+                    <p class="msonormalcxspmiddleCxSpFirst"                     style="MARGIN: 2pt 0in; TEXT-ALIGN: justify; mso-add-space: auto">
+                        <font face="Times New Roman"><b><span style="FONT-SIZE: 8pt">Rating</span></b></font>
+                    </p>
+                </td>
+                <td                 style="BORDER-RIGHT: silver 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: #ece9d8; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0in; BORDER-LEFT: #ece9d8; WIDTH: 287.6pt; PADDING-TOP: 0in; BORDER-BOTTOM: silver 1pt solid; HEIGHT: 11.05pt; BACKGROUND-COLOR: transparent; mso-border-left-alt: solid silver 1.0pt; mso-border-top-alt: solid silver 1.0pt"                  valign="top" width="383">
+                    <p class="msonormalcxspmiddleCxSpLast" style="MARGIN: 2pt 0in; mso-add-space: auto">
+                        <font face="Times New Roman"><span style="FONT-SIZE: 8pt">Strongly interrelated rules that compute
+                        metrics for a complex object model</span></font>
+                    </p>
+                </td>
+            </tr>
+            <tr style="HEIGHT: 11.05pt; mso-yfti-irow: 4">
+                <td                 style="BORDER-RIGHT: silver 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: #ece9d8; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0in; BORDER-LEFT: #ece9d8; WIDTH: 287.6pt; PADDING-TOP: 0in; BORDER-BOTTOM: silver 1pt solid; HEIGHT: 11.05pt; BACKGROUND-COLOR: transparent; mso-border-left-alt: solid silver 1.0pt; mso-border-top-alt: solid silver 1.0pt"                  valign="top" width="383">
+                    <p class="msonormalcxspmiddleCxSpFirst" style="MARGIN: 2pt 0in; mso-add-space: auto">
+                        <font face="Times New Roman"><span lang="EN-GB"                         style="FONT-SIZE: 8pt; mso-ansi-language: EN-GB">Scoring and rating</span></font>
+                    </p>
+                    <p class="msonormalcxspmiddleCxSpMiddle" style="MARGIN: 2pt 0in; mso-add-space: auto">
+                        <font face="Times New Roman"><span lang="EN-GB"                         style="FONT-SIZE: 8pt; mso-ansi-language: EN-GB">Contracts and allocation</span></font>
+                    </p>
+                    <p class="msonormalcxspmiddleCxSpLast" style="MARGIN: 2pt 0in; mso-add-space: auto">
+                        <font face="Times New Roman"><span lang="EN-GB"                         style="FONT-SIZE: 8pt; mso-ansi-language: EN-GB">Pure calculations on an object providing a final
+                        value (or rating).</span></font>
+                    </p>
+                </td>
+            </tr>
+            <tr style="HEIGHT: 11.05pt; mso-yfti-irow: 5">
+                <td                 style="BORDER-RIGHT: silver 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: #ece9d8; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0in; BORDER-LEFT: silver 1pt solid; WIDTH: 95.4pt; PADDING-TOP: 0in; BORDER-BOTTOM: silver 1pt solid; HEIGHT: 11.05pt; BACKGROUND-COLOR: transparent; mso-border-top-alt: solid silver 1.0pt"                  valign="top" width="127" rowspan="2">
+                    <p class="msonormalcxspmiddleCxSpFirst"                     style="MARGIN: 2pt 0in; TEXT-ALIGN: justify; mso-add-space: auto">
+                        <font face="Times New Roman"><b><span style="FONT-SIZE: 8pt">Correlation</span></b></font>
+                    </p>
+                </td>
+                <td                 style="BORDER-RIGHT: silver 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: #ece9d8; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0in; BORDER-LEFT: #ece9d8; WIDTH: 287.6pt; PADDING-TOP: 0in; BORDER-BOTTOM: silver 1pt solid; HEIGHT: 11.05pt; BACKGROUND-COLOR: transparent; mso-border-left-alt: solid silver 1.0pt; mso-border-top-alt: solid silver 1.0pt"                  valign="top" width="383">
+                    <p class="msonormalcxspmiddleCxSpLast" style="MARGIN: 2pt 0in; mso-add-space: auto">
+                        <font face="Times New Roman"><span lang="EN-GB"                         style="FONT-SIZE: 8pt; mso-ansi-language: EN-GB">Strongly interrelated rules that correlate
+                        information from a set of objects to Compute some complex metrics</span></font>
+                    </p>
+                </td>
+            </tr>
+            <tr style="HEIGHT: 11.05pt; mso-yfti-irow: 6">
+                <td                 style="BORDER-RIGHT: silver 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: #ece9d8; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0in; BORDER-LEFT: #ece9d8; WIDTH: 287.6pt; PADDING-TOP: 0in; BORDER-BOTTOM: silver 1pt solid; HEIGHT: 11.05pt; BACKGROUND-COLOR: transparent; mso-border-left-alt: solid silver 1.0pt; mso-border-top-alt: solid silver 1.0pt"                  valign="top" width="383">
+                    <p class="msonormalcxspmiddleCxSpFirst" style="MARGIN: 1.9pt 0in 0pt; mso-add-space: auto">
+                        <font face="Times New Roman"><span lang="EN-GB"                         style="FONT-SIZE: 8pt; mso-ansi-language: EN-GB">Billing and cost estimation</span></font>
+                    </p>
+                    <p class="msonormalcxspmiddleCxSpLast" style="MARGIN: 2pt 0in; mso-add-space: auto">
+                        <font face="Times New Roman"><span lang="EN-GB"                         style="FONT-SIZE: 8pt; mso-ansi-language: EN-GB">Complement by inserting information</span></font>
+                    </p>
+                </td>
+            </tr>
+            <tr style="HEIGHT: 11.05pt; mso-yfti-irow: 7">
+                <td                 style="BORDER-RIGHT: silver 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: #ece9d8; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0in; BORDER-LEFT: silver 1pt solid; WIDTH: 95.4pt; PADDING-TOP: 0in; BORDER-BOTTOM: silver 1pt solid; HEIGHT: 11.05pt; BACKGROUND-COLOR: transparent; mso-border-top-alt: solid silver 1.0pt"                  valign="top" width="127" rowspan="2">
+                    <p class="msonormalcxspmiddleCxSpFirst"                     style="MARGIN: 2pt 0in; TEXT-ALIGN: justify; mso-add-space: auto">
+                        <font face="Times New Roman"><b><span style="FONT-SIZE: 8pt">Stateful</span></b></font>
+                    </p>
+                </td>
+                <td                 style="BORDER-RIGHT: silver 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: #ece9d8; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0in; BORDER-LEFT: #ece9d8; WIDTH: 287.6pt; PADDING-TOP: 0in; BORDER-BOTTOM: silver 1pt solid; HEIGHT: 11.05pt; BACKGROUND-COLOR: transparent; mso-border-left-alt: solid silver 1.0pt; mso-border-top-alt: solid silver 1.0pt"                  valign="top" width="383">
+                    <p class="msonormalcxspmiddleCxSpLast" style="MARGIN: 2pt 0in; mso-add-space: auto">
+                        <font face="Times New Roman"><span style="FONT-SIZE: 8pt">Strongly interrelated rules that
+                        correlate events in a stateful way</span></font>
+                    </p>
+                </td>
+            </tr>
+            <tr style="HEIGHT: 42.2pt; mso-yfti-irow: 8; mso-yfti-lastrow: yes">
+                <td                 style="BORDER-RIGHT: silver 1pt solid; PADDING-RIGHT: 5.4pt; BORDER-TOP: #ece9d8; PADDING-LEFT: 5.4pt; PADDING-BOTTOM: 0in; BORDER-LEFT: #ece9d8; WIDTH: 287.6pt; PADDING-TOP: 0in; BORDER-BOTTOM: silver 1pt solid; HEIGHT: 42.2pt; BACKGROUND-COLOR: transparent; mso-border-left-alt: solid silver 1.0pt; mso-border-top-alt: solid silver 1.0pt"                  valign="top" width="383">
+                    <p class="msonormalcxspmiddleCxSpFirst" style="MARGIN: 1.9pt 0in 0pt; mso-add-space: auto">
+                        <font face="Times New Roman"><span lang="EN-GB"                         style="FONT-SIZE: 8pt; mso-ansi-language: EN-GB">Alarm filtering and correlation</span></font>
+                    </p>
+                    <p class="msonormalcxspmiddleCxSpMiddle" style="MARGIN: 1.9pt 0in 0pt; mso-add-space: auto">
+                        <font face="Times New Roman"><span lang="EN-GB"                         style="FONT-SIZE: 8pt; mso-ansi-language: EN-GB">Web page navigation</span></font>
+                    </p>
+                    <p class="msonormalcxspmiddleCxSpLast" style="MARGIN: 1.9pt 0in 0pt; mso-add-space: auto">
+                        <font face="Times New Roman"><span lang="EN-GB"                         style="FONT-SIZE: 8pt; mso-ansi-language: EN-GB">GUI customization</span></font>
+                    </p>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</div><br class="MsoNormal" style="MARGIN: 3pt 0in" /></td>
+</tr>
+</table>
+</div>
+<table class="copyright" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td class="copyright"><p>
+    This program and the accompanying materials are made available under the<br />
+    <a href="http://www.eclipse.org/org/documents/epl-v10.php" target="_blank">Eclipse Public License V1.0</a>, which
+    accompanies this distribution.
+</p>
+<p>
+    <a class="elementLink" href="./../../../core.default.release_copyright.base/guidances/supportingmaterials/epf_copyright_C3031062.html" guid="_UaGfECcTEduSX6N2jUafGA">EPF Copyright</a>.
+</p></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</body>
+<script type="text/javascript" language="JavaScript">
+				contentPage.onload();
+			</script>
+</html>

@@ -1,0 +1,288 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="en" xml:lang="en" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<head>
+<META http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>Task: Develop Business Rule Application Architecture</title>
+<meta name="uma.type" content="Task">
+<meta name="uma.name" content="develop_architecture">
+<meta name="uma.presentationName" content="Develop Business Rule Application Architecture">
+<meta name="uma.category" content="Discipline:architecture:BRMS Architecture">
+<meta name="element_type" content="activity">
+<meta name="filetype" content="description">
+<meta name="role" content="Rule Architect">
+<link rel="StyleSheet" href="./../../css/default.css" type="text/css">
+<script src="./../../scripts/ContentPageResource.js" type="text/javascript" language="JavaScript"></script><script src="./../../scripts/ContentPageSection.js" type="text/javascript" language="JavaScript"></script><script src="./../../scripts/ContentPageSubSection.js" type="text/javascript" language="JavaScript"></script><script src="./../../scripts/ContentPageToolbar.js" type="text/javascript" language="JavaScript"></script><script src="./../../scripts/contentPage.js" type="text/javascript" language="JavaScript"></script><script type="text/javascript" language="JavaScript">
+					var backPath = './../../';
+					var imgPath = './../../images/';
+					var nodeInfo=null;
+					contentPage.preload(imgPath, backPath, nodeInfo, '', true, false, false);
+				</script>
+</head>
+<body>
+<div id="breadcrumbs"></div>
+<table border="0" cellpadding="0" cellspacing="0" width="100%">
+<tr>
+<td valign="top">
+<div id="page-guid" value="_nOQHsAp6EdyPCr4G1Tb79A"></div>
+<table border="0" cellspacing="0" cellpadding="0" width="100%">
+<tr>
+<td class="pageTitle" nowrap="true">Task: Develop Business Rule Application Architecture</td><td width="100%">
+<div align="right" id="contentPageToolbar"></div>
+</td><td width="100%" class="expandCollapseLink" align="right"><a name="mainIndex" href="./../../index.htm"></a><script language="JavaScript" type="text/javascript" src="./../../scripts/treebrowser.js"></script></td>
+</tr>
+</table>
+<table width="100%" border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td class="pageTitleSeparator"><img src="./../../images/shim.gif" alt="" title="" height="1"></td>
+</tr>
+</table>
+<div class="overview">
+<table width="97%" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td width="50"><img src="./../../images/task.gif" alt="" title=""></td><td>
+<table class="overviewTable" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td valign="top">The purpose of the architecture activities is to support the following major items:<br/>&#xD;&#xA;•&#x9;Integrate the Rule Engine into the business application<br/>&#xD;&#xA;•&#x9;Deploy Business Rules Management System into the business and IT organizations.</td>
+</tr>
+<tr>
+<td>Disciplines: <a href="./../../practice.tech.abrd.base/disciplines/architecture_F3B0C284.html" guid="_1QK4gKshEd-4oa5dU5v0Eg">BRMS Architecture</a></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</div>
+<div class="sectionHeading">Purpose</div>
+<div class="sectionContent">
+<table class="sectionTable" border="0" cellspacing="0" cellpadding="0">
+<tr valign="top">
+<td class="sectionTableSingleCell">Develop the piece of the software architecture related to the execution of the rules, and their management.</td>
+</tr>
+</table>
+</div>
+<div class="sectionHeading">Relationships</div>
+<div class="sectionContent">
+<table class="sectionTable" border="0" cellspacing="0" cellpadding="0">
+<tr valign="top">
+<th class="sectionTableHeading" scope="row">Roles</th><td class="sectionTableCell" width="42%"><span class="sectionTableCellHeading">Primary Performer:
+								</span>
+<ul>
+<li>
+<a href="./../../core.default.role_def.base/roles/rule_architect_CCDE9256.html" guid="_JkVWIApyEdyKK5Go8zejMw">Rule Architect</a>
+</li>
+</ul>
+</td><td class="sectionTableCell"><span class="sectionTableCellHeading">Additional Performers:
+								</span></td>
+</tr>
+<tr valign="top">
+<th class="sectionTableHeading" scope="row">Inputs</th><td class="sectionTableCell" width="42%"><span class="sectionTableCellHeading">Mandatory:
+								</span>
+<ul>
+<li>
+<a href="./../../practice.tech.abrd.base/workproducts/decision_point_table_5C48ED46.html" guid="_SlELAAsbEdyPCr4G1Tb79A">Decision Point Table</a>
+</li>
+<li>
+<a href="./../../practice.tech.abrd.base/workproducts/logical_data_model_FD2C82CA.html" guid="_sruW2AjqEdyj5bYZ0eCR5g">Logical Data Model</a>
+</li>
+</ul>
+<ul></ul>
+</td><td class="sectionTableCell"><span class="sectionTableCellHeading">Optional:
+								</span>
+<ul>
+<li>None</li>
+</ul>
+</td>
+</tr>
+<tr valign="top">
+<th class="sectionTableHeading" scope="row">Outputs</th><td class="sectionTableCell" colspan="2">
+<ul>
+<li>
+<a href="./../../practice.tech.abrd.base/workproducts/decision_service_architecture_C5E6C6D4.html" guid="_6BE7QAp_EdyPCr4G1Tb79A">Decision Service Architecture</a>
+</li>
+</ul>
+<ul></ul>
+</td>
+</tr>
+</table>
+</div>
+<div class="sectionHeading">Main Description</div>
+<div class="sectionContent">
+<table class="sectionTable" border="0" cellspacing="0" cellpadding="0">
+<tr valign="top">
+<td class="sectionTableSingleCell"><p>
+    The architect has to address as soon as possible in the project life cycle:
+</p>
+<ul>
+    <li>
+        Integrate the Rule Engine into the business application using a service oriented design to facilitate reuse and
+        scalability. If an embedded solution is the choice for accessing the BRE the design should address the engine
+        integration at the API level.
+    </li>
+    <li>
+        Deploy Business Rules Management System into the business and IT organizations. This includes the deployment of the
+        Rule Developer IDE and Rule Analyst web based component into the IT architecture. It also addresses the change
+        management processes to design on top of the tools.<br />
+    </li>
+</ul>
+<p>
+    For a BRMS deployment architect needs to integrate the following components within the IT architecture:
+</p>
+<ul>
+    <li>
+        The Rule Engine as an executable class, callable using proprietary API or the JSR94 API. Rule Engine can be an
+        embedded component or deployed within a pool as reusable components. Java Connector Architecture can be a solution
+        to manage a pool of Rule Engines. JCA implementation offers a set of services which any deployed adapters can
+        leverage: such as security and transaction propagation.&nbsp;<br />
+    </li>
+    <li>
+        The Rule Set(s): As script file, it needs to be managed and deployed dynamically and can follow a specific life
+        cycle. It can be also packaged as a jar and available after the system startup, or hot deployed using JMX.<br />
+    </li>
+    <li>
+        The IDE, like a Rule Studio, used by the developers to implement the rules, the rule set structure and the
+        technical elements of the rule sets.<br />
+    </li>
+    <li>
+        A Web based Rule management platform to let business users and analysts being able to maintain the rules.<br />
+    </li>
+    <li>
+        A Rule testing framework to support functional testing of the rule set and non-regression tests.
+    </li>
+</ul>
+<p>
+    <img height="376" alt="" src="./../../practice.tech.abrd.base/tasks/resources/brmscomponents.jpg" width="487" />
+</p></td>
+</tr>
+</table>
+</div>
+<div class="sectionHeading">Steps</div>
+<div class="sectionContent">
+<table class="sectionTable" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td class="sectionTableSingleCell">
+<div class="stepHeading">Analyze business and technical requirements</div>
+<div class="stepContent">
+<table class="stepTable" border="0" cellspacing="0" cellpadding="0">
+<tr valign="top">
+<td></td>
+</tr>
+</table>
+</div>
+<div class="stepHeading">Design the decision service interface</div>
+<div class="stepContent">
+<table class="stepTable" border="0" cellspacing="0" cellpadding="0">
+<tr valign="top">
+<td></td>
+</tr>
+</table>
+</div>
+<div class="stepHeading">Implement the interface with POJO / EJB or .Net classes</div>
+<div class="stepContent">
+<table class="stepTable" border="0" cellspacing="0" cellpadding="0">
+<tr valign="top">
+<td></td>
+</tr>
+</table>
+</div>
+<div class="stepHeading">Add the connection code to the BRE</div>
+<div class="stepContent">
+<table class="stepTable" border="0" cellspacing="0" cellpadding="0">
+<tr valign="top">
+<td></td>
+</tr>
+</table>
+</div>
+<div class="stepHeading">Design the control parameters to add to the context of the rule execution</div>
+<div class="stepContent">
+<table class="stepTable" border="0" cellspacing="0" cellpadding="0">
+<tr valign="top">
+<td></td>
+</tr>
+</table>
+</div>
+<div class="stepHeading">Design the transaction propagation</div>
+<div class="stepContent">
+<table class="stepTable" border="0" cellspacing="0" cellpadding="0">
+<tr valign="top">
+<td></td>
+</tr>
+</table>
+</div>
+<div class="stepHeading">Design the exception reporting</div>
+<div class="stepContent">
+<table class="stepTable" border="0" cellspacing="0" cellpadding="0">
+<tr valign="top">
+<td></td>
+</tr>
+</table>
+</div>
+<div class="stepHeading">Assess Performance</div>
+<div class="stepContent">
+<table class="stepTable" border="0" cellspacing="0" cellpadding="0">
+<tr valign="top">
+<td></td>
+</tr>
+</table>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div class="sectionHeading">Key Considerations</div>
+<div class="sectionContent">
+<table class="sectionTable" border="0" cellspacing="0" cellpadding="0">
+<tr valign="top">
+<td class="sectionTableSingleCell"><p class="MsoNormal" style="MARGIN: 0in 0in 10pt">
+    <span style="mso-bidi-language: HE">Integrating the BRE into the business application involves Middleware, server
+    implementation and architecture background. Integrating BRMS into the business and IT organization involves process
+    definition, development practices and methodology skills.</span>
+</p></td>
+</tr>
+</table>
+</div>
+<div class="sectionHeading">More Information</div>
+<div class="sectionContent">
+<table class="sectionTable" border="0" cellspacing="0" cellpadding="0">
+<tr valign="top">
+<th class="sectionTableHeading" scope="row">Concepts</th><td class="sectionTableCell">
+<ul>
+<li>
+<a href="./../../core.tech.common.extend_supp/guidances/concepts/executable_arch_D4E68CBD.html" guid="_O1kAANvfEduv2KOT-Teh6w">Executable Architecture</a>
+</li>
+<li>
+<a href="./../../core.tech.common.extend_supp/guidances/concepts/software_architecture_59A08DE0.html" guid="__O7tAMVvEduLYZUGfgZrkQ">Software Architecture</a>
+</li>
+</ul>
+</td>
+</tr>
+<tr valign="top">
+<th class="sectionTableHeading" scope="row">Guidelines</th><td class="sectionTableCell">
+<ul>
+<li>
+<a href="./../../core.tech.common.extend_supp/guidances/guidelines/repres_interfaces_to_ext_systems_51A34F6E.html" guid="_0gjdYMlgEdmt3adZL5Dmdw">Representing Interfaces to External Systems</a>
+</li>
+</ul>
+</td>
+</tr>
+</table>
+</div>
+<table class="copyright" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td class="copyright"><p>
+    This program and the accompanying materials are made available under the<br />
+    <a href="http://www.eclipse.org/org/documents/epl-v10.php" target="_blank">Eclipse Public License V1.0</a>, which
+    accompanies this distribution.
+</p>
+<p>
+    <a class="elementLink" href="./../../core.default.release_copyright.base/guidances/supportingmaterials/epf_copyright_C3031062.html" guid="_UaGfECcTEduSX6N2jUafGA">EPF Copyright</a>.
+</p></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</body>
+<script type="text/javascript" language="JavaScript">
+				contentPage.onload();
+			</script>
+</html>

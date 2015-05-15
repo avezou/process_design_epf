@@ -1,0 +1,195 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="en" xml:lang="en" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<head>
+<META http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>Task: Define Rule Testing Approach</title>
+<meta name="uma.type" content="Task">
+<meta name="uma.name" content="define_ruleset_testing">
+<meta name="uma.presentationName" content="Define Rule Testing Approach">
+<meta name="uma.category" content="Discipline:rule_validation:Rule Validation">
+<meta name="element_type" content="activity">
+<meta name="filetype" content="description">
+<meta name="role" content="Rule Architect">
+<link rel="StyleSheet" href="./../../css/default.css" type="text/css">
+<script src="./../../scripts/ContentPageResource.js" type="text/javascript" language="JavaScript"></script><script src="./../../scripts/ContentPageSection.js" type="text/javascript" language="JavaScript"></script><script src="./../../scripts/ContentPageSubSection.js" type="text/javascript" language="JavaScript"></script><script src="./../../scripts/ContentPageToolbar.js" type="text/javascript" language="JavaScript"></script><script src="./../../scripts/contentPage.js" type="text/javascript" language="JavaScript"></script><script type="text/javascript" language="JavaScript">
+					var backPath = './../../';
+					var imgPath = './../../images/';
+					var nodeInfo=null;
+					contentPage.preload(imgPath, backPath, nodeInfo, '', true, false, false);
+				</script>
+</head>
+<body>
+<div id="breadcrumbs"></div>
+<table border="0" cellpadding="0" cellspacing="0" width="100%">
+<tr>
+<td valign="top">
+<div id="page-guid" value="_mDL5YGhkEd-FVuzXjnvIWA"></div>
+<table border="0" cellspacing="0" cellpadding="0" width="100%">
+<tr>
+<td class="pageTitle" nowrap="true">Task: Define Rule Testing Approach</td><td width="100%">
+<div align="right" id="contentPageToolbar"></div>
+</td><td width="100%" class="expandCollapseLink" align="right"><a name="mainIndex" href="./../../index.htm"></a><script language="JavaScript" type="text/javascript" src="./../../scripts/treebrowser.js"></script></td>
+</tr>
+</table>
+<table width="100%" border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td class="pageTitleSeparator"><img src="./../../images/shim.gif" alt="" title="" height="1"></td>
+</tr>
+</table>
+<div class="overview">
+<table width="97%" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td width="50"><img src="./../../images/task.gif" alt="" title=""></td><td>
+<table class="overviewTable" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td valign="top">Rule testing has been a crucial and intensive task within rule development, due to the nature of a lot of business rules working together.</td>
+</tr>
+<tr>
+<td>Disciplines: <a href="./../../practice.tech.abrd.base/disciplines/rule_validation_1A536E8E.html" guid="_1QK4h6shEd-4oa5dU5v0Eg">Rule Validation</a></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</div>
+<div class="sectionHeading">Relationships</div>
+<div class="sectionContent">
+<table class="sectionTable" border="0" cellspacing="0" cellpadding="0">
+<tr valign="top">
+<th class="sectionTableHeading" scope="row">Roles</th><td class="sectionTableCell" width="42%"><span class="sectionTableCellHeading">Primary Performer:
+								</span>
+<ul>
+<li>
+<a href="./../../core.default.role_def.base/roles/rule_architect_CCDE9256.html" guid="_JkVWIApyEdyKK5Go8zejMw">Rule Architect</a>
+</li>
+</ul>
+</td><td class="sectionTableCell"><span class="sectionTableCellHeading">Additional Performers:
+								</span></td>
+</tr>
+</table>
+</div>
+<div class="sectionHeading">Main Description</div>
+<div class="sectionContent">
+<table class="sectionTable" border="0" cellspacing="0" cellpadding="0">
+<tr valign="top">
+<td class="sectionTableSingleCell"><p>
+    The recommended approach is to consider a rule-set as a unit piece of functionality that gets exposed to the rest of
+    the application as a decision service (SOA pattern). Therefore it should be tested using the same strategy as for any
+    other function in the system. One criterion of rule testing lies in the level of user friendliness that should be built
+    into the test harness. Indeed, empowering business analysts with the ability to change the rules also means they should
+    be tested with their changes. Typically developers code fixtures and do automated testing using JUnit. Business
+    analysts should not write code, but should be able to put together fixtures to be tested against the rules.
+</p>
+<p>
+    How much effort should be spent on the rule test harness really depends on the application, and also importantly on the
+    IT-level of business analyst. Sometimes capturing test data in XML and having business analysts edit them is enough and
+    very cost effective. Sometimes business analysts will feel more comfortable with Excel spreadsheets, or with a full GUI
+    which would need a larger development effort to be facilitated.<br />
+    It is usually a good idea whenever possible to keep individual test case data in files that can be put under source
+    code management. This way the code base, the rules and the test cases can be kept in sync. This becomes important when
+    multiple versions of a business rule are being worked on at different stages such as active development stage, test
+    stage or production stage.<br />
+    BRMS testing fits perfectly into this strategy due to its ability to produce the same sort of test fixtures as the
+    other environments. Utilizing a tool such as JUnit as the test controller, test fixtures are stored in a test fixture
+    repository for which the JUnit can access.
+</p>
+<h5>
+    Testing Levels<br />
+</h5>
+<p>
+    The following levels of testing are usually applied during the application construction:<br />
+</p>
+<ul>
+    <li>
+        Unit Test: applied to test classes and other application elements as developers build them. In the context of a
+        BRMS, the goal of unit testing is to make sure that a rule is actually fired when expected, against the expect
+        object instances and performs the expected working memory updates.
+    </li>
+    <li>
+        Component Test: applied to test a group of elements (e.g. classes) which together represent a significant
+        application component. In the context of a BRMS, a component is typically a rule service.
+    </li>
+    <li>
+        System Test: applied to test the system performs the right business functions correctly.
+    </li>
+    <li>
+        Acceptance Test: applied to ensure users are satisfied with the system. The last stages of acceptance testing are
+        the alpha testing (testing performed internally by the company) and beta testing (testing performed by a limited
+        audience outside of the company).
+    </li>
+    <li>
+        The scope of this section is limited to unit-test (usually performed by rule developers) and component test
+        (performed by both rule developers and rule authors), where components are understood as the rule services
+        implemented by a rule engine.
+    </li>
+</ul>
+<p>
+    Once the rule service components are tested, the next levels can follow the general application testing process
+    followed by the client's QA department, who are considering the rule services as black boxes.<br />
+</p>
+<h5>
+    Testing Activities
+</h5>
+<p>
+    This section relates to why testing is performed, that is what we are trying to get out of it. The goal of testing the
+    decision service components is first and foremost to ensure the correctness of the decision rendered by the service
+    with respect to the requirements.<br />
+    Key Performance Indicators (KPIs) are used to measure how close the actual test results are from the expectations. The
+    focus of KPIs vary depending on the type of testing performed: for performance testing, the KPIs will obviously be
+    interested in the time taken to execute the rules or tasks in the rule-set, for coverage, the focus will be on the set
+    of rule fired and the set of tasks executed, and for more business-oriented testing of correctness, the focus will be
+    on the accuracy of the response.<br />
+</p>
+<h5>
+    Correctness<br />
+</h5>
+<p>
+    For a decision-rich type of application, this is where most of the testing time and effort will be spent, using all
+    types of resources from developers, to business analysts, to business rule writers and subject matter experts.<br />
+    The goal here is to ensure that for a given request configuration, the system renders a response that conforms to the
+    company business goals and policies, contractual obligations and possibly to compliance rules imposed by external
+    agencies (laws and regulations). The impact of an incorrect decision can be profound, from lawsuits for non-compliance
+    to risky financial commitments.<br />
+    Testing the correctness of a business rules application necessarily involves the participation of SMEs, who will write
+    test cases and manually produce the expected response. This is a very time and resource consuming activity which should
+    be carefully taken into account when designing the test plan for an application.<br />
+    Alternatively, some test cases can be extracted from a legacy system database. The benefit here is obvious: the
+    database provides the number and the variety of test cases needed, and also guarantees the validity of the test
+    cases.<br />
+</p>
+<h5>
+    Regression<br />
+</h5>
+<p>
+    The goal of regression testing is to uncover regression problems, that is, problems which were not present in the
+    previous version of the application but appeared in the new version after a change was introduced. Regression testing
+    for rules is used to make sure that after fixing, or updating a rule service, the functionalities which were working
+    before are still working as expected. For example, after implementing a business change request which lowers the rates
+    in the state of California, regression testing should be applied to ensure that rates remained unchanged in all other
+    states.<br />
+    Besides verifying that correctness is conserved from one version to another, regression testing is also used to verify
+    that quality (for example, execution performance) is conserved.<br />
+</p></td>
+</tr>
+</table>
+</div>
+<table class="copyright" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td class="copyright"><p>
+    This program and the accompanying materials are made available under the<br />
+    <a href="http://www.eclipse.org/org/documents/epl-v10.php" target="_blank">Eclipse Public License V1.0</a>, which
+    accompanies this distribution.
+</p>
+<p>
+    <a class="elementLink" href="./../../core.default.release_copyright.base/guidances/supportingmaterials/epf_copyright_C3031062.html" guid="_UaGfECcTEduSX6N2jUafGA">EPF Copyright</a>.
+</p></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</body>
+<script type="text/javascript" language="JavaScript">
+				contentPage.onload();
+			</script>
+</html>

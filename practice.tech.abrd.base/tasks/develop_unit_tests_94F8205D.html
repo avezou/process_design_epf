@@ -1,0 +1,143 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="en" xml:lang="en" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<head>
+<META http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>Task: Develop Rule Unit Tests</title>
+<meta name="uma.type" content="Task">
+<meta name="uma.name" content="develop_unit_tests">
+<meta name="uma.presentationName" content="Develop Rule Unit Tests">
+<meta name="uma.category" content="Discipline:rule_authoring:Rule Authoring">
+<meta name="element_type" content="activity">
+<meta name="filetype" content="description">
+<meta name="role" content="Developer">
+<link rel="StyleSheet" href="./../../css/default.css" type="text/css">
+<script src="./../../scripts/ContentPageResource.js" type="text/javascript" language="JavaScript"></script><script src="./../../scripts/ContentPageSection.js" type="text/javascript" language="JavaScript"></script><script src="./../../scripts/ContentPageSubSection.js" type="text/javascript" language="JavaScript"></script><script src="./../../scripts/ContentPageToolbar.js" type="text/javascript" language="JavaScript"></script><script src="./../../scripts/contentPage.js" type="text/javascript" language="JavaScript"></script><script type="text/javascript" language="JavaScript">
+					var backPath = './../../';
+					var imgPath = './../../images/';
+					var nodeInfo=null;
+					contentPage.preload(imgPath, backPath, nodeInfo, '', true, false, false);
+				</script>
+</head>
+<body>
+<div id="breadcrumbs"></div>
+<table border="0" cellpadding="0" cellspacing="0" width="100%">
+<tr>
+<td valign="top">
+<div id="page-guid" value="_ioCPkDzEEdyA6a_I80swHw"></div>
+<table border="0" cellspacing="0" cellpadding="0" width="100%">
+<tr>
+<td class="pageTitle" nowrap="true">Task: Develop Rule Unit Tests</td><td width="100%">
+<div align="right" id="contentPageToolbar"></div>
+</td><td width="100%" class="expandCollapseLink" align="right"><a name="mainIndex" href="./../../index.htm"></a><script language="JavaScript" type="text/javascript" src="./../../scripts/treebrowser.js"></script></td>
+</tr>
+</table>
+<table width="100%" border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td class="pageTitleSeparator"><img src="./../../images/shim.gif" alt="" title="" height="1"></td>
+</tr>
+</table>
+<div class="overview">
+<table width="97%" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td width="50"><img src="./../../images/task.gif" alt="" title=""></td><td>
+<table class="overviewTable" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td valign="top">The goal of this task is to track down anomalies in the rules such as conflicts, redundancies or overlaps.<br/>&#xD;&#xA;</td>
+</tr>
+<tr>
+<td>Disciplines: <a href="./../../practice.tech.abrd.base/disciplines/rule_authoring_ECE7B6AA.html" guid="_1QK4gqshEd-4oa5dU5v0Eg">Rule Authoring</a></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</div>
+<div class="sectionHeading">Purpose</div>
+<div class="sectionContent">
+<table class="sectionTable" border="0" cellspacing="0" cellpadding="0">
+<tr valign="top">
+<td class="sectionTableSingleCell"><br class="MsoNormal" style="MARGIN: 3pt 0cm" />
+<br /></td>
+</tr>
+</table>
+</div>
+<div class="sectionHeading">Relationships</div>
+<div class="sectionContent">
+<table class="sectionTable" border="0" cellspacing="0" cellpadding="0">
+<tr valign="top">
+<th class="sectionTableHeading" scope="row">Roles</th><td class="sectionTableCell" width="42%"><span class="sectionTableCellHeading">Primary Performer:
+								</span>
+<ul>
+<li>
+<a href="./../../core.default.role_def.base/roles/developer_C633AB7.html" guid="_0YDosMlgEdmt3adZL5Dmdw">Developer</a>
+</li>
+<li>
+<a href="./../../core.default.role_def.base/roles/rule_writer_167E3ADC.html" guid="_XiII4wqBEdyPCr4G1Tb79A">Rule Writer</a>
+</li>
+</ul>
+</td><td class="sectionTableCell"><span class="sectionTableCellHeading">Additional Performers:
+								</span></td>
+</tr>
+</table>
+</div>
+<div class="sectionHeading">Main Description</div>
+<div class="sectionContent">
+<table class="sectionTable" border="0" cellspacing="0" cellpadding="0">
+<tr valign="top">
+<td class="sectionTableSingleCell"><a id="XE_unit_tests__develop" name="XE_unit_tests__develop"></a> 
+<p class="MsoNormal" style="MARGIN: 3pt 0cm">
+    Rule Unit Testing is the process of testing a specific rule in the context of the rule set in which it is deployed.
+    Rule Unit Testing allows rule writers to:
+</p>
+<ul style="MARGIN-TOP: 0cm" type="disc">
+    <li class="MsoNormal" style="MARGIN: 3pt 0cm; mso-list: l0 level1 lfo1; tab-stops: list 36.0pt">
+        Validate each rule in the context of its rule set
+    </li>
+    <li class="MsoNormal" style="MARGIN: 3pt 0cm; mso-list: l0 level1 lfo1; tab-stops: list 36.0pt">
+        Control the rule set quality
+    </li>
+    <li class="MsoNormal" style="MARGIN: 3pt 0cm; mso-list: l0 level1 lfo1; tab-stops: list 36.0pt">
+        Conduct some impact analysis when rules are in conflict
+    </li>
+    <li class="MsoNormal" style="MARGIN: 3pt 0cm; mso-list: l0 level1 lfo1; tab-stops: list 36.0pt">
+        Helps to have non-regression tests
+    </li>
+</ul>
+<p class="MsoNormal" style="MARGIN: 3pt 0cm">
+    <span style="mso-bidi-language: HE">There is a major difference between testing a code, and a rule. A rule engine per
+    design may not put a rule in the agenda if the conditions are not matched. This means that when the rule writer write a
+    new rule, even if the data are sent to trigger the execution of this new rule it is possible that a rule fired before
+    the new one, with change the condition of the data so that this new rule will never be eligible. Developing a complete
+    set of unit test is an efficient way to see this problem, and to improve the rule set design. Some powerful BRMS
+    platform has rules consistency checking which helps to do some static analysis of those potential conflict by analyzing
+    the conditions and the actions of the rules. For sure real test cases will complete the picture.</span>
+</p><br class="MsoNormal" style="MARGIN: 3pt 0cm" />
+<br />
+<span style="FONT-SIZE: 10pt; FONT-FAMILY: Arial; mso-bidi-language: HE; mso-bidi-font-size: 12.0pt; mso-fareast-font-family: 'Times New Roman'; mso-bidi-font-family: 'Times New Roman'; mso-ansi-language: EN-US; mso-fareast-language: EN-US">Using
+a Test Driven Development approach rule writer can develop the test script preparing the data to trigger each rule,
+depending of the BRMS platform used, the script generation can be done automatically or not. What is important is develop
+reusable test case organized in test suite which include assertion statement to validate the expected results. This is
+efficient tool to put in place automatic non regression tests.</span></td>
+</tr>
+</table>
+</div>
+<table class="copyright" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td class="copyright"><p>
+    This program and the accompanying materials are made available under the<br />
+    <a href="http://www.eclipse.org/org/documents/epl-v10.php" target="_blank">Eclipse Public License V1.0</a>, which
+    accompanies this distribution.
+</p>
+<p>
+    <a class="elementLink" href="./../../core.default.release_copyright.base/guidances/supportingmaterials/epf_copyright_C3031062.html" guid="_UaGfECcTEduSX6N2jUafGA">EPF Copyright</a>.
+</p></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</body>
+<script type="text/javascript" language="JavaScript">
+				contentPage.onload();
+			</script>
+</html>

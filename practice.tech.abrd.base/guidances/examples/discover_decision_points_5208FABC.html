@@ -1,0 +1,405 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="en" xml:lang="en" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<head>
+<META http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>Example: Discover Decision Points</title>
+<meta name="uma.type" content="Example">
+<meta name="uma.name" content="discover_decision_points">
+<meta name="uma.presentationName" content="Discover Decision Points">
+<meta name="element_type" content="example">
+<meta name="filetype" content="description">
+<meta name="role" content="none">
+<link rel="StyleSheet" href="./../../../css/default.css" type="text/css">
+<script src="./../../../scripts/ContentPageResource.js" type="text/javascript" language="JavaScript"></script><script src="./../../../scripts/ContentPageSection.js" type="text/javascript" language="JavaScript"></script><script src="./../../../scripts/ContentPageSubSection.js" type="text/javascript" language="JavaScript"></script><script src="./../../../scripts/ContentPageToolbar.js" type="text/javascript" language="JavaScript"></script><script src="./../../../scripts/contentPage.js" type="text/javascript" language="JavaScript"></script><script type="text/javascript" language="JavaScript">
+					var backPath = './../../../';
+					var imgPath = './../../../images/';
+					var nodeInfo=null;
+					contentPage.preload(imgPath, backPath, nodeInfo,  '', false, false, false);
+				</script>
+</head>
+<body>
+<div id="breadcrumbs"></div>
+<table border="0" cellpadding="0" cellspacing="0" width="100%">
+<tr>
+<td valign="top"><a name="Top"></a>
+<div id="page-guid" value="_ZDdmQDSmEdyTBtGu8YeFfg"></div>
+<table border="0" cellspacing="0" cellpadding="0" width="100%">
+<tr>
+<td class="pageTitle" nowrap="true">Example: Discover Decision Points</td><td width="100%">
+<div align="right" id="contentPageToolbar"></div>
+</td><td width="100%" class="expandCollapseLink" align="right"><a name="mainIndex" href="./../../../index.htm"></a><script language="JavaScript" type="text/javascript" src="./../../../scripts/treebrowser.js"></script></td>
+</tr>
+</table>
+<table width="100%" border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td class="pageTitleSeparator"><img src="./../../../images/shim.gif" alt="" title="" height="1"></td>
+</tr>
+</table>
+<div class="overview">
+<table width="97%" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td width="50"><img src="./../../../images/example.gif" alt="" title=""></td><td>
+<table class="overviewTable" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td valign="top">Discover decision points for a loan underwriting application</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</div>
+<div class="sectionHeading">Relationships</div>
+<div class="sectionContent">
+<table class="sectionTable" border="0" cellspacing="0" cellpadding="0">
+<tr valign="top">
+<th class="sectionTableHeading" scope="row">Related Elements</th><td class="sectionTableCell">
+<ul>
+<li>
+<a href="./../../../practice.tech.abrd.base/workproducts/decision_point_table_5C48ED46.html" guid="_SlELAAsbEdyPCr4G1Tb79A">Decision Point Table</a>
+</li>
+<li>
+<a href="./../../../practice.tech.abrd.base/tasks/identify_decision_point_458DF25B.html" guid="_A2d5sCyQEd-ER8gMc_Ftrw">Identify Decision Points</a>
+</li>
+<li>
+<a href="./../../../practice.tech.abrd.base/tasks/review_decision_point_table_46341B82.html" guid="_sruWzAjqEdyj5bYZ0eCR5g">Review Decision Point Table, Business Process Map, Use Case Model</a>
+</li>
+<li>
+<a href="./../../../practice.tech.abrd.base/disciplines/rule_discovery_B6CA2738.html" guid="__u-KMLRXEd-0GaneRZjjRw">Rule Discovery</a>
+</li>
+</ul>
+</td>
+</tr>
+</table>
+</div>
+<div class="sectionHeading">Main Description</div>
+<div class="sectionContent">
+<table class="sectionTable" border="0" cellspacing="0" cellpadding="0">
+<tr valign="top">
+<td class="sectionTableSingleCell"><a id="XE_decision_point__discovery_example" name="XE_decision_point__discovery_example"></a> 
+<p style="MARGIN: 3pt 0cm" class="MsoNormal">
+    <span style="mso-bidi-language: HE">The interviews with the underwriter, subject matter expert, gives the rule
+    development team the following information:</span>
+</p>
+<ul style="MARGIN-TOP: 0cm" type="disc">
+    <li style="MARGIN: 0cm 0cm 0pt; tab-stops: list 36.0pt; mso-list: l1 level1 lfo2" class="MsoNormal">
+        The loan application contains information about the applicant (his name, his employment status, etc...) in a
+        special form called the <i style="mso-bidi-font-style: normal">1003</i> form, also known as the Uniform Residential
+        Loan Application form.
+    </li>
+    <li style="MARGIN: 0cm 0cm 0pt; tab-stops: list 36.0pt; mso-list: l1 level1 lfo2" class="MsoNormal">
+        The 1003 also contains information about the mortgage type that the applicant has selected (interest rate, term,
+        purpose, etc…) and about the property (property type, address, etc…).
+    </li>
+    <li style="MARGIN: 0cm 0cm 0pt; tab-stops: list 36.0pt; mso-list: l1 level1 lfo2" class="MsoNormal">
+        The underwriter starts by looking at the 1003 to perform some basic verification on the application, such as
+        checking that the age of the primary applicant is at least 18, or that the primary applicant is a permanent US
+        resident. If any of these conditions is not met, the application is rejected.
+    </li>
+    <li style="MARGIN: 0cm 0cm 0pt; tab-stops: list 36.0pt; mso-list: l1 level1 lfo2" class="MsoNormal">
+        If the application passes the initial validation, the underwriter then gathers the credit data for the primary
+        borrower and the co-borrower if there is one. This consists in retrieving the applicants detailed credit
+        information, such as details on their different lines of credits (e.g. credit cards, car loan, possible
+        bankruptcies) and their previous mortgage history (possible foreclosure and mortgage lates) from several external
+        services called credit bureaus. From the combined information, the underwriter calculates the value of different
+        parameters such as the <i style="mso-bidi-font-style: normal">credit score</i> and the <i         style="mso-bidi-font-style: normal">risk grade</i>.
+    </li>
+    <li style="MARGIN: 0cm 0cm 0pt; tab-stops: list 36.0pt; mso-list: l1 level1 lfo2" class="MsoNormal">
+        The company offers several loan programs relying on different risk criteria: <i         style="mso-bidi-font-style: normal">ScoreTrust</i> is the most popular program and relies on a combination of
+        credit score and mortgage lates grading.
+    </li>
+    <li style="MARGIN: 0cm 0cm 0pt; tab-stops: list 36.0pt; mso-list: l1 level1 lfo2" class="MsoNormal">
+        The credit score considered by <i style="mso-bidi-font-style: normal">the company</i> is the middle of the 3 score
+        provided by the credit agencies or the lower of the score if there is less than 2 reporting agencies available.
+    </li>
+    <li style="MARGIN: 3pt 0cm; tab-stops: list 36.0pt; mso-list: l1 level1 lfo2" class="MsoNormal">
+        Then, the underwriter reviews the <i style="mso-bidi-font-style: normal">eligibility</i> of the borrowers for the
+        selected loan program. The eligibility step is assessing: 
+        <ul style="MARGIN-TOP: 0cm" type="circle">
+            <li style="MARGIN: 3pt 0cm; tab-stops: list 72.0pt; mso-list: l1 level2 lfo2" class="MsoNormal">
+                The risk is taking in lending money to the applicants using in particular the credit score and the risk
+                grade determined from the credit information.
+            </li>
+            <li style="MARGIN: 3pt 0cm; tab-stops: list 72.0pt; mso-list: l1 level2 lfo2" class="MsoNormal">
+                The validity of the loan with respect to certain state laws or to company specific guidelines.
+            </li>
+        </ul>
+    </li>
+    <li style="MARGIN: 3pt 0cm; tab-stops: list 36.0pt; mso-list: l1 level1 lfo2" class="MsoNormal">
+        The assessment will result in either accepting the application, referring it for further (manual) review, or
+        rejecting it: 
+        <ul style="MARGIN-TOP: 0cm" type="circle">
+            <li style="MARGIN: 3pt 0cm; tab-stops: list 72.0pt; mso-list: l1 level2 lfo2" class="MsoNormal">
+                If the risk is too big, the loan application will be referred for further review (e.g. the applicants may
+                be proposed another type of loan).
+            </li>
+            <li style="MARGIN: 3pt 0cm; tab-stops: list 72.0pt; mso-list: l1 level2 lfo2" class="MsoNormal">
+                If the loan does not comply with the state guidelines or&nbsp;the company&nbsp;own guidelines, the
+                application will be rejected.
+            </li>
+            <li style="MARGIN: 3pt 0cm; tab-stops: list 72.0pt; mso-list: l1 level2 lfo2" class="MsoNormal">
+                If the risk is acceptable and the request is conform to the eligibility guidelines, the loan request is
+                accepted and a corresponding <i style="mso-bidi-font-style: normal">LTV</i> will be determined from <i                 style="mso-bidi-font-style: normal">LTV guides sheets</i> for each program.
+            </li>
+        </ul>
+    </li>
+    <li style="MARGIN: 3pt 0cm; tab-stops: list 36.0pt; mso-list: l1 level1 lfo2" class="MsoNormal">
+        During the eligibility verification step, a set of <i style="mso-bidi-font-style: normal">stipulations</i> and <i         style="mso-bidi-font-style: normal">conditions</i> messages (for example: "Cash-on-hand must be verified back to
+        the source.") are also collected and will be reported on the underwritten loan offer.
+    </li>
+</ul>
+<ul style="MARGIN-TOP: 0cm" type="disc">
+    <li style="MARGIN: 0cm 0cm 0pt; tab-stops: list 36.0pt; mso-list: l0 level1 lfo1" class="MsoNormal">
+        The next step is the <i style="mso-bidi-font-style: normal">pricing</i> activity. The purpose of this step is to
+        determine the final rate of the loan, using the rate sheet for the selected loan program and applying different
+        adjustments based on property and applicant characteristics. It is important to record the breakdown of the pricing
+        (i.e. the value of base rate, the different adjustments, etc…) for audit purpose.
+    </li>
+    <li style="MARGIN: 0cm 0cm 0pt; tab-stops: list 36.0pt; mso-list: l0 level1 lfo1" class="MsoNormal">
+        The pricing for a loan is determined using the appropriate loan program <i style="mso-bidi-font-style: normal">rate
+        sheets</i>. These rate sheets are tables which give the base rate for a given credit score, risk grade and LTV
+        (Loan To Value). The rate sheets also define the different adjustments.
+    </li>
+    <li style="MARGIN: 0cm 0cm 0pt; tab-stops: list 36.0pt; mso-list: l0 level1 lfo1" class="MsoNormal">
+        Once the loan is priced, the complete response (including the loan amount, the rate, stipulations and conditions)
+        goes to the Loan Origination System for closing.
+    </li>
+</ul><br style="MARGIN: 3pt 0cm" class="MsoNormal" />
+<br />
+<p style="MARGIN: 3pt 0cm" class="MsoNormal">
+    <span style="mso-bidi-language: HE">From these information we can draw a high level process map which will help us to
+    extract some decision points. We do not need to detail the tasks for the purpose of this sample.</span>
+</p><br style="MARGIN: 3pt 0cm" class="MsoNormal" />
+<br />
+<p style="TEXT-ALIGN: center; MARGIN: 3pt 0cm" class="MsoNormal" align="center">
+    <img alt="" src="./../../../practice.tech.abrd.base/guidances/examples/resources/loanapplicationbpm.jpg" width="357" height="600" />
+</p>
+<p style="MARGIN: 3pt 0cm" class="MsoNormal">
+    From a first study we can see that there are a lot of decisions and expertise in the data validation and eligibility
+    steps, that for sure are important decision points to work on. So the discovery roadmap will be articulate to organize
+    workshops on those two steps. In fact the others steps like "Calculate Risk grade and credit score", "select loan
+    program", and "pricing" are also candidate for rules discovery, as risk management and pricing includes a lot of
+    exceptional policies a company may want to have the flexibility to change often to adapt to competition and market
+    changes. This loan application processing sample is following a simple business process, we will design using a process
+    map. So we will use a business process oriented discovery approach to model the loan application processing.
+</p><br style="MARGIN: 3pt 0cm" class="MsoNormal" />
+<br />
+<p style="MARGIN: 3pt 0cm" class="MsoNormal">
+    The decision points table may look like:
+</p><br style="MARGIN: 3pt 0cm" class="MsoNormal" />
+<br />
+<div align="center">
+    <table     style="BORDER-BOTTOM: medium none; BORDER-LEFT: medium none; WIDTH: 601.75pt; BORDER-COLLAPSE: collapse; BORDER-TOP: medium none; BORDER-RIGHT: medium none; mso-border-alt: solid silver 1.0pt; mso-yfti-tbllook: 480; mso-padding-alt: 0cm 5.4pt 0cm 5.4pt; mso-border-insideh: 1.0pt solid silver; mso-border-insidev: 1.0pt solid silver"      class="ISISTable" border="1" cellspacing="0" cellpadding="0" width="802">
+        <tbody>
+            <tr style="HEIGHT: 15.75pt; mso-yfti-irow: -1; mso-yfti-firstrow: yes">
+                <td                 style="BORDER-BOTTOM: gray 1pt solid; BORDER-LEFT: gray 1pt solid; PADDING-BOTTOM: 0cm; PADDING-LEFT: 5.4pt; WIDTH: 55.05pt; PADDING-RIGHT: 5.4pt; BACKGROUND: #f3f3f3; HEIGHT: 15.75pt; BORDER-TOP: gray 1pt solid; BORDER-RIGHT: gray 1pt solid; PADDING-TOP: 0cm"                  valign="top" width="73">
+                    <p                     style="TEXT-ALIGN: center; mso-margin-top-alt: auto; mso-margin-bottom-alt: auto; mso-add-space: auto; mso-yfti-cnfc: 1"                      class="MsoNormalCxSpMiddle" align="center">
+                        <b><i style="mso-bidi-font-style: normal"><span                         style="FONT-FAMILY: 'Times New Roman'; COLOR: #005da0; FONT-SIZE: 12pt; mso-bidi-language: HE">Decision
+                        Point Name</span></i></b>
+                    </p>
+                </td>
+                <td                 style="BORDER-BOTTOM: gray 1pt solid; BORDER-LEFT: #ece9d8; PADDING-BOTTOM: 0cm; PADDING-LEFT: 5.4pt; WIDTH: 209.3pt; PADDING-RIGHT: 5.4pt; BACKGROUND: #f3f3f3; HEIGHT: 15.75pt; BORDER-TOP: gray 1pt solid; BORDER-RIGHT: gray 1pt solid; PADDING-TOP: 0cm; mso-border-left-alt: solid gray 1.0pt"                  valign="top" width="279">
+                    <p                     style="TEXT-ALIGN: center; mso-margin-top-alt: auto; mso-margin-bottom-alt: auto; mso-add-space: auto; mso-yfti-cnfc: 1"                      class="MsoNormalCxSpMiddle" align="center">
+                        <b><i style="mso-bidi-font-style: normal"><span                         style="FONT-FAMILY: 'Times New Roman'; COLOR: #005da0; FONT-SIZE: 12pt; mso-bidi-language: HE">Description</span></i></b>
+                    </p>
+                </td>
+                <td                 style="BORDER-BOTTOM: gray 1pt solid; BORDER-LEFT: #ece9d8; PADDING-BOTTOM: 0cm; PADDING-LEFT: 5.4pt; WIDTH: 107.7pt; PADDING-RIGHT: 5.4pt; BACKGROUND: #f3f3f3; HEIGHT: 15.75pt; BORDER-TOP: gray 1pt solid; BORDER-RIGHT: gray 1pt solid; PADDING-TOP: 0cm; mso-border-left-alt: solid gray 1.0pt"                  valign="top" width="144">
+                    <p                     style="TEXT-ALIGN: center; mso-margin-top-alt: auto; mso-margin-bottom-alt: auto; mso-add-space: auto; mso-yfti-cnfc: 1"                      class="MsoNormalCxSpMiddle" align="center">
+                        <b><i style="mso-bidi-font-style: normal"><span                         style="FONT-FAMILY: 'Times New Roman'; COLOR: #005da0; FONT-SIZE: 12pt; mso-bidi-language: HE">Source
+                        for Rule Discovery</span></i></b>
+                    </p>
+                </td>
+                <td                 style="BORDER-BOTTOM: gray 1pt solid; BORDER-LEFT: #ece9d8; PADDING-BOTTOM: 0cm; PADDING-LEFT: 5.4pt; WIDTH: 159.55pt; PADDING-RIGHT: 5.4pt; BACKGROUND: #f3f3f3; HEIGHT: 15.75pt; BORDER-TOP: gray 1pt solid; BORDER-RIGHT: gray 1pt solid; PADDING-TOP: 0cm; mso-border-left-alt: solid gray 1.0pt"                  valign="top" width="213">
+                    <p                     style="TEXT-ALIGN: center; mso-margin-top-alt: auto; mso-margin-bottom-alt: auto; mso-add-space: auto; mso-yfti-cnfc: 1"                      class="MsoNormalCxSpMiddle" align="center">
+                        <b><i style="mso-bidi-font-style: normal"><span                         style="FONT-FAMILY: 'Times New Roman'; COLOR: #005da0; FONT-SIZE: 12pt; mso-bidi-language: HE">Current</span></i></b><b><i                          style="mso-bidi-font-style: normal"><span                         style="FONT-FAMILY: 'Times New Roman'; COLOR: #005da0; FONT-SIZE: 12pt; mso-bidi-language: HE">State</span></i></b><b><i                          style="mso-bidi-font-style: normal"><span                         style="FONT-FAMILY: 'Times New Roman'; COLOR: #005da0; FONT-SIZE: 12pt; mso-bidi-language: HE">of
+                        Automation</span></i></b>
+                    </p>
+                </td>
+                <td                 style="BORDER-BOTTOM: gray 1pt solid; BORDER-LEFT: #ece9d8; PADDING-BOTTOM: 0cm; PADDING-LEFT: 5.4pt; WIDTH: 70.15pt; PADDING-RIGHT: 5.4pt; BACKGROUND: #f3f3f3; HEIGHT: 15.75pt; BORDER-TOP: gray 1pt solid; BORDER-RIGHT: gray 1pt solid; PADDING-TOP: 0cm; mso-border-left-alt: solid gray 1.0pt"                  valign="top" width="94">
+                    <p                     style="TEXT-ALIGN: center; mso-margin-top-alt: auto; mso-margin-bottom-alt: auto; mso-add-space: auto; mso-yfti-cnfc: 1"                      class="MsoNormalCxSpMiddle" align="center">
+                        <b><i style="mso-bidi-font-style: normal"><span                         style="FONT-FAMILY: 'Times New Roman'; COLOR: #005da0; FONT-SIZE: 12pt; mso-bidi-language: HE">Rule
+                        Owner -</span></i></b>
+                    </p>
+                    <p                     style="TEXT-ALIGN: center; mso-margin-top-alt: auto; mso-margin-bottom-alt: auto; mso-add-space: auto; mso-yfti-cnfc: 1"                      class="MsoNormalCxSpMiddle" align="center">
+                        <b><i style="mso-bidi-font-style: normal"><span                         style="FONT-FAMILY: 'Times New Roman'; COLOR: #005da0; FONT-SIZE: 12pt; mso-bidi-language: HE">SME</span></i></b>
+                    </p>
+                </td>
+            </tr>
+            <tr style="mso-yfti-irow: 0">
+                <td                 style="BORDER-BOTTOM: silver 1pt solid; BORDER-LEFT: silver 1pt solid; PADDING-BOTTOM: 0cm; BACKGROUND-COLOR: transparent; PADDING-LEFT: 5.4pt; WIDTH: 55.05pt; PADDING-RIGHT: 5.4pt; BORDER-TOP: #ece9d8; BORDER-RIGHT: silver 1pt solid; PADDING-TOP: 0cm; mso-border-top-alt: solid silver 1.0pt"                  valign="top" width="73">
+                    <p style="mso-margin-top-alt: auto; mso-margin-bottom-alt: auto; mso-add-space: auto"                     class="MsoNormalCxSpMiddle">
+                        <font face="Times New Roman"><span style="FONT-SIZE: 8pt; mso-bidi-font-size: 12.0pt">Data
+                        validation</span></font>
+                    </p>
+                </td>
+                <td                 style="BORDER-BOTTOM: silver 1pt solid; BORDER-LEFT: #ece9d8; PADDING-BOTTOM: 0cm; BACKGROUND-COLOR: transparent; PADDING-LEFT: 5.4pt; WIDTH: 209.3pt; PADDING-RIGHT: 5.4pt; BORDER-TOP: #ece9d8; BORDER-RIGHT: silver 1pt solid; PADDING-TOP: 0cm; mso-border-left-alt: solid silver 1.0pt; mso-border-top-alt: solid silver 1.0pt"                  valign="top" width="279">
+                    <p style="mso-margin-top-alt: auto; mso-margin-bottom-alt: auto; mso-add-space: auto"                     class="MsoNormalCxSpMiddle">
+                        <span                         style="FONT-SIZE: 8pt; mso-bidi-language: HE; mso-bidi-font-size: 12.0pt; mso-bidi-font-family: Arial"><font                          face="Times New Roman">Validate the information entered around the borrower, the amount requested,
+                        the property</font></span>
+                    </p>
+                </td>
+                <td                 style="BORDER-BOTTOM: silver 1pt solid; BORDER-LEFT: #ece9d8; PADDING-BOTTOM: 0cm; BACKGROUND-COLOR: transparent; PADDING-LEFT: 5.4pt; WIDTH: 107.7pt; PADDING-RIGHT: 5.4pt; BORDER-TOP: #ece9d8; BORDER-RIGHT: silver 1pt solid; PADDING-TOP: 0cm; mso-border-left-alt: solid silver 1.0pt; mso-border-top-alt: solid silver 1.0pt"                  valign="top" width="144">
+                    <p style="mso-margin-top-alt: auto; mso-margin-bottom-alt: auto; mso-add-space: auto"                     class="MsoNormalCxSpMiddle">
+                        <span                         style="FONT-SIZE: 8pt; mso-bidi-language: HE; mso-bidi-font-size: 12.0pt; mso-bidi-font-family: Arial"><font                          face="Times New Roman">1003 forms</font></span>
+                    </p>
+                    <p style="mso-margin-top-alt: auto; mso-margin-bottom-alt: auto; mso-add-space: auto"                     class="MsoNormalCxSpMiddle">
+                        <span                         style="FONT-SIZE: 8pt; mso-bidi-language: HE; mso-bidi-font-size: 12.0pt; mso-bidi-font-family: Arial"><font                          face="Times New Roman">Legal document per state and federal</font></span>
+                    </p>
+                </td>
+                <td                 style="BORDER-BOTTOM: silver 1pt solid; BORDER-LEFT: #ece9d8; PADDING-BOTTOM: 0cm; BACKGROUND-COLOR: transparent; PADDING-LEFT: 5.4pt; WIDTH: 159.55pt; PADDING-RIGHT: 5.4pt; BORDER-TOP: #ece9d8; BORDER-RIGHT: silver 1pt solid; PADDING-TOP: 0cm; mso-border-left-alt: solid silver 1.0pt; mso-border-top-alt: solid silver 1.0pt"                  valign="top" width="213">
+                    <p style="mso-margin-top-alt: auto; mso-margin-bottom-alt: auto; mso-add-space: auto"                     class="MsoNormalCxSpMiddle">
+                        <span                         style="FONT-SIZE: 8pt; mso-bidi-language: HE; mso-bidi-font-size: 12.0pt; mso-bidi-font-family: Arial"><font                          face="Times New Roman">Some rules are implemented in the current GUI used to enter the data In the
+                        system</font></span>
+                    </p>
+                </td>
+                <td                 style="BORDER-BOTTOM: silver 1pt solid; BORDER-LEFT: #ece9d8; PADDING-BOTTOM: 0cm; BACKGROUND-COLOR: transparent; PADDING-LEFT: 5.4pt; WIDTH: 70.15pt; PADDING-RIGHT: 5.4pt; BORDER-TOP: #ece9d8; BORDER-RIGHT: silver 1pt solid; PADDING-TOP: 0cm; mso-border-left-alt: solid silver 1.0pt; mso-border-top-alt: solid silver 1.0pt"                  valign="top" width="94">
+                    <p style="mso-margin-top-alt: auto; mso-margin-bottom-alt: auto; mso-add-space: auto"                     class="MsoNormalCxSpMiddle">
+                        <span                         style="FONT-SIZE: 8pt; mso-bidi-language: HE; mso-bidi-font-size: 12.0pt; mso-bidi-font-family: Arial"><font                          face="Times New Roman">John</font></span>
+                    </p>
+                </td>
+            </tr>
+            <tr style="mso-yfti-irow: 1">
+                <td                 style="BORDER-BOTTOM: silver 1pt solid; BORDER-LEFT: silver 1pt solid; PADDING-BOTTOM: 0cm; BACKGROUND-COLOR: transparent; PADDING-LEFT: 5.4pt; WIDTH: 55.05pt; PADDING-RIGHT: 5.4pt; BORDER-TOP: #ece9d8; BORDER-RIGHT: silver 1pt solid; PADDING-TOP: 0cm; mso-border-top-alt: solid silver 1.0pt"                  valign="top" width="73">
+                    <p style="mso-margin-top-alt: auto; mso-margin-bottom-alt: auto; mso-add-space: auto"                     class="MsoNormalCxSpMiddle">
+                        <font face="Times New Roman"><span style="FONT-SIZE: 8pt; mso-bidi-font-size: 12.0pt">Calculate
+                        Risk grade and credit score</span></font>
+                    </p>
+                </td>
+                <td                 style="BORDER-BOTTOM: silver 1pt solid; BORDER-LEFT: #ece9d8; PADDING-BOTTOM: 0cm; BACKGROUND-COLOR: transparent; PADDING-LEFT: 5.4pt; WIDTH: 209.3pt; PADDING-RIGHT: 5.4pt; BORDER-TOP: #ece9d8; BORDER-RIGHT: silver 1pt solid; PADDING-TOP: 0cm; mso-border-left-alt: solid silver 1.0pt; mso-border-top-alt: solid silver 1.0pt"                  valign="top" width="279">
+                    <p style="mso-margin-top-alt: auto; mso-margin-bottom-alt: auto; mso-add-space: auto"                     class="MsoNormalCxSpMiddle">
+                        <span                         style="FONT-SIZE: 8pt; mso-bidi-language: HE; mso-bidi-font-size: 12.0pt; mso-bidi-font-family: Arial"><font                          face="Times New Roman">calculates the value of different parameters such as the credit score and
+                        the risk grade</font></span>
+                    </p>
+                </td>
+                <td                 style="BORDER-BOTTOM: silver 1pt solid; BORDER-LEFT: #ece9d8; PADDING-BOTTOM: 0cm; BACKGROUND-COLOR: transparent; PADDING-LEFT: 5.4pt; WIDTH: 107.7pt; PADDING-RIGHT: 5.4pt; BORDER-TOP: #ece9d8; BORDER-RIGHT: silver 1pt solid; PADDING-TOP: 0cm; mso-border-left-alt: solid silver 1.0pt; mso-border-top-alt: solid silver 1.0pt"                  valign="top" width="144">
+                    <p style="mso-margin-top-alt: auto; mso-margin-bottom-alt: auto; mso-add-space: auto"                     class="MsoNormalCxSpMiddle">
+                        <span                         style="FONT-SIZE: 8pt; mso-bidi-language: HE; mso-bidi-font-size: 12.0pt; mso-bidi-font-family: Arial"><font                          face="Times New Roman">Score cards</font></span>
+                    </p>
+                    <p style="mso-margin-top-alt: auto; mso-margin-bottom-alt: auto; mso-add-space: auto"                     class="MsoNormalCxSpMiddle">
+                        <span                         style="FONT-SIZE: 8pt; mso-bidi-language: HE; mso-bidi-font-size: 12.0pt; mso-bidi-font-family: Arial"><font                          face="Times New Roman">Excel files of the underwriter</font></span>
+                    </p>
+                </td>
+                <td                 style="BORDER-BOTTOM: silver 1pt solid; BORDER-LEFT: #ece9d8; PADDING-BOTTOM: 0cm; BACKGROUND-COLOR: transparent; PADDING-LEFT: 5.4pt; WIDTH: 159.55pt; PADDING-RIGHT: 5.4pt; BORDER-TOP: #ece9d8; BORDER-RIGHT: silver 1pt solid; PADDING-TOP: 0cm; mso-border-left-alt: solid silver 1.0pt; mso-border-top-alt: solid silver 1.0pt"                  valign="top" width="213">
+                    <p style="mso-margin-top-alt: auto; mso-margin-bottom-alt: auto; mso-add-space: auto"                     class="MsoNormalCxSpMiddle">
+                        <span                         style="FONT-SIZE: 8pt; mso-bidi-language: HE; mso-bidi-font-size: 12.0pt; mso-bidi-font-family: Arial"><font                          face="Times New Roman">none</font></span>
+                    </p>
+                </td>
+                <td                 style="BORDER-BOTTOM: silver 1pt solid; BORDER-LEFT: #ece9d8; PADDING-BOTTOM: 0cm; BACKGROUND-COLOR: transparent; PADDING-LEFT: 5.4pt; WIDTH: 70.15pt; PADDING-RIGHT: 5.4pt; BORDER-TOP: #ece9d8; BORDER-RIGHT: silver 1pt solid; PADDING-TOP: 0cm; mso-border-left-alt: solid silver 1.0pt; mso-border-top-alt: solid silver 1.0pt"                  valign="top" width="94">
+                    <p style="mso-margin-top-alt: auto; mso-margin-bottom-alt: auto; mso-add-space: auto"                     class="MsoNormalCxSpMiddle">
+                        <span                         style="FONT-SIZE: 8pt; mso-bidi-language: HE; mso-bidi-font-size: 12.0pt; mso-bidi-font-family: Arial"><font                          face="Times New Roman">Jack</font></span>
+                    </p>
+                </td>
+            </tr>
+            <tr style="mso-yfti-irow: 2">
+                <td                 style="BORDER-BOTTOM: silver 1pt solid; BORDER-LEFT: silver 1pt solid; PADDING-BOTTOM: 0cm; BACKGROUND-COLOR: transparent; PADDING-LEFT: 5.4pt; WIDTH: 55.05pt; PADDING-RIGHT: 5.4pt; BORDER-TOP: #ece9d8; BORDER-RIGHT: silver 1pt solid; PADDING-TOP: 0cm; mso-border-top-alt: solid silver 1.0pt"                  valign="top" width="73">
+                    <p style="mso-margin-top-alt: auto; mso-margin-bottom-alt: auto; mso-add-space: auto"                     class="MsoNormalCxSpMiddle">
+                        <span style="FONT-SIZE: 8pt; mso-bidi-font-size: 12.0pt"><font face="Times New Roman">Select a loan
+                        program</font></span>
+                    </p>
+                </td>
+                <td                 style="BORDER-BOTTOM: silver 1pt solid; BORDER-LEFT: #ece9d8; PADDING-BOTTOM: 0cm; BACKGROUND-COLOR: transparent; PADDING-LEFT: 5.4pt; WIDTH: 209.3pt; PADDING-RIGHT: 5.4pt; BORDER-TOP: #ece9d8; BORDER-RIGHT: silver 1pt solid; PADDING-TOP: 0cm; mso-border-left-alt: solid silver 1.0pt; mso-border-top-alt: solid silver 1.0pt"                  valign="top" width="279">
+                    <p style="mso-margin-top-alt: auto; mso-margin-bottom-alt: auto; mso-add-space: auto"                     class="MsoNormalCxSpMiddle">
+                        <span                         style="FONT-SIZE: 8pt; mso-bidi-language: HE; mso-bidi-font-size: 12.0pt; mso-bidi-font-family: Arial"><font                          face="Times New Roman">Loan program can be defined as a set of conditions a borrower and the
+                        property may need to respect.</font></span>
+                    </p>
+                </td>
+                <td                 style="BORDER-BOTTOM: silver 1pt solid; BORDER-LEFT: #ece9d8; PADDING-BOTTOM: 0cm; BACKGROUND-COLOR: transparent; PADDING-LEFT: 5.4pt; WIDTH: 107.7pt; PADDING-RIGHT: 5.4pt; BORDER-TOP: #ece9d8; BORDER-RIGHT: silver 1pt solid; PADDING-TOP: 0cm; mso-border-left-alt: solid silver 1.0pt; mso-border-top-alt: solid silver 1.0pt"                  valign="top" width="144">
+                    <p style="mso-margin-top-alt: auto; mso-margin-bottom-alt: auto; mso-add-space: auto"                     class="MsoNormalCxSpMiddle">
+                        <span                         style="FONT-SIZE: 8pt; mso-bidi-language: HE; mso-bidi-font-size: 12.0pt; mso-bidi-font-family: Arial"><font                          face="Times New Roman">Program definition and stipulation</font></span>
+                    </p>
+                </td>
+                <td                 style="BORDER-BOTTOM: silver 1pt solid; BORDER-LEFT: #ece9d8; PADDING-BOTTOM: 0cm; BACKGROUND-COLOR: transparent; PADDING-LEFT: 5.4pt; WIDTH: 159.55pt; PADDING-RIGHT: 5.4pt; BORDER-TOP: #ece9d8; BORDER-RIGHT: silver 1pt solid; PADDING-TOP: 0cm; mso-border-left-alt: solid silver 1.0pt; mso-border-top-alt: solid silver 1.0pt"                  valign="top" width="213">
+                    <p style="mso-margin-top-alt: auto; mso-margin-bottom-alt: auto; mso-add-space: auto"                     class="MsoNormalCxSpMiddle">
+                        <span                         style="FONT-SIZE: 8pt; mso-bidi-language: HE; mso-bidi-font-size: 12.0pt; mso-bidi-font-family: Arial"><font                          face="Times New Roman">none</font></span>
+                    </p>
+                </td>
+                <td                 style="BORDER-BOTTOM: silver 1pt solid; BORDER-LEFT: #ece9d8; PADDING-BOTTOM: 0cm; BACKGROUND-COLOR: transparent; PADDING-LEFT: 5.4pt; WIDTH: 70.15pt; PADDING-RIGHT: 5.4pt; BORDER-TOP: #ece9d8; BORDER-RIGHT: silver 1pt solid; PADDING-TOP: 0cm; mso-border-left-alt: solid silver 1.0pt; mso-border-top-alt: solid silver 1.0pt"                  valign="top" width="94">
+                    <p style="mso-margin-top-alt: auto; mso-margin-bottom-alt: auto; mso-add-space: auto"                     class="MsoNormalCxSpMiddle">
+                        <span                         style="FONT-SIZE: 8pt; mso-bidi-language: HE; mso-bidi-font-size: 12.0pt; mso-bidi-font-family: Arial"><font                          face="Times New Roman">Julie</font></span>
+                    </p>
+                </td>
+            </tr>
+            <tr style="mso-yfti-irow: 3">
+                <td                 style="BORDER-BOTTOM: silver 1pt solid; BORDER-LEFT: silver 1pt solid; PADDING-BOTTOM: 0cm; BACKGROUND-COLOR: transparent; PADDING-LEFT: 5.4pt; WIDTH: 55.05pt; PADDING-RIGHT: 5.4pt; BORDER-TOP: #ece9d8; BORDER-RIGHT: silver 1pt solid; PADDING-TOP: 0cm; mso-border-top-alt: solid silver 1.0pt"                  valign="top" width="73">
+                    <p style="mso-margin-top-alt: auto; mso-margin-bottom-alt: auto; mso-add-space: auto"                     class="MsoNormalCxSpMiddle">
+                        <font face="Times New Roman"><span                         style="FONT-SIZE: 8pt; mso-bidi-font-size: 12.0pt">Eligibility</span></font>
+                    </p>
+                </td>
+                <td                 style="BORDER-BOTTOM: silver 1pt solid; BORDER-LEFT: #ece9d8; PADDING-BOTTOM: 0cm; BACKGROUND-COLOR: transparent; PADDING-LEFT: 5.4pt; WIDTH: 209.3pt; PADDING-RIGHT: 5.4pt; BORDER-TOP: #ece9d8; BORDER-RIGHT: silver 1pt solid; PADDING-TOP: 0cm; mso-border-left-alt: solid silver 1.0pt; mso-border-top-alt: solid silver 1.0pt"                  valign="top" width="279">
+                    <p style="mso-margin-top-alt: auto; mso-margin-bottom-alt: auto; mso-add-space: auto"                     class="MsoNormalCxSpMiddle">
+                        <span                         style="FONT-SIZE: 8pt; mso-bidi-language: HE; mso-bidi-font-size: 12.0pt; mso-bidi-font-family: Arial"><font                          face="Times New Roman">Review the eligibility of the borrower for the selected loan
+                        program</font></span>
+                    </p>
+                </td>
+                <td                 style="BORDER-BOTTOM: silver 1pt solid; BORDER-LEFT: #ece9d8; PADDING-BOTTOM: 0cm; BACKGROUND-COLOR: transparent; PADDING-LEFT: 5.4pt; WIDTH: 107.7pt; PADDING-RIGHT: 5.4pt; BORDER-TOP: #ece9d8; BORDER-RIGHT: silver 1pt solid; PADDING-TOP: 0cm; mso-border-left-alt: solid silver 1.0pt; mso-border-top-alt: solid silver 1.0pt"                  valign="top" width="144">
+                    <p style="mso-margin-top-alt: auto; mso-margin-bottom-alt: auto; mso-add-space: auto"                     class="MsoNormalCxSpMiddle">
+                        <span                         style="FONT-SIZE: 8pt; mso-bidi-language: HE; mso-bidi-font-size: 12.0pt; mso-bidi-font-family: Arial"><font                          face="Times New Roman">Underwriting policies</font></span>
+                    </p>
+                </td>
+                <td                 style="BORDER-BOTTOM: silver 1pt solid; BORDER-LEFT: #ece9d8; PADDING-BOTTOM: 0cm; BACKGROUND-COLOR: transparent; PADDING-LEFT: 5.4pt; WIDTH: 159.55pt; PADDING-RIGHT: 5.4pt; BORDER-TOP: #ece9d8; BORDER-RIGHT: silver 1pt solid; PADDING-TOP: 0cm; mso-border-left-alt: solid silver 1.0pt; mso-border-top-alt: solid silver 1.0pt"                  valign="top" width="213">
+                    <p style="mso-margin-top-alt: auto; mso-margin-bottom-alt: auto; mso-add-space: auto"                     class="MsoNormalCxSpMiddle">
+                        <span                         style="FONT-SIZE: 8pt; mso-bidi-language: HE; mso-bidi-font-size: 12.0pt; mso-bidi-font-family: Arial"><font                          face="Times New Roman">none</font></span>
+                    </p>
+                </td>
+                <td                 style="BORDER-BOTTOM: silver 1pt solid; BORDER-LEFT: #ece9d8; PADDING-BOTTOM: 0cm; BACKGROUND-COLOR: transparent; PADDING-LEFT: 5.4pt; WIDTH: 70.15pt; PADDING-RIGHT: 5.4pt; BORDER-TOP: #ece9d8; BORDER-RIGHT: silver 1pt solid; PADDING-TOP: 0cm; mso-border-left-alt: solid silver 1.0pt; mso-border-top-alt: solid silver 1.0pt"                  valign="top" width="94">
+                    <p style="mso-margin-top-alt: auto; mso-margin-bottom-alt: auto; mso-add-space: auto"                     class="MsoNormalCxSpMiddle">
+                        <span                         style="FONT-SIZE: 8pt; mso-bidi-language: HE; mso-bidi-font-size: 12.0pt; mso-bidi-font-family: Arial"><font                          face="Times New Roman">Paul</font></span>
+                    </p>
+                </td>
+            </tr>
+            <tr style="mso-yfti-irow: 4; mso-yfti-lastrow: yes">
+                <td                 style="BORDER-BOTTOM: silver 1pt solid; BORDER-LEFT: silver 1pt solid; PADDING-BOTTOM: 0cm; BACKGROUND-COLOR: transparent; PADDING-LEFT: 5.4pt; WIDTH: 55.05pt; PADDING-RIGHT: 5.4pt; BORDER-TOP: #ece9d8; BORDER-RIGHT: silver 1pt solid; PADDING-TOP: 0cm; mso-border-top-alt: solid silver 1.0pt"                  valign="top" width="73">
+                    <p style="mso-margin-top-alt: auto; mso-margin-bottom-alt: auto; mso-add-space: auto"                     class="MsoNormalCxSpMiddle">
+                        <span                         style="FONT-SIZE: 8pt; mso-bidi-language: HE; mso-bidi-font-size: 12.0pt; mso-bidi-font-family: Arial"><font                          face="Times New Roman">Pricing</font></span>
+                    </p>
+                </td>
+                <td                 style="BORDER-BOTTOM: silver 1pt solid; BORDER-LEFT: #ece9d8; PADDING-BOTTOM: 0cm; BACKGROUND-COLOR: transparent; PADDING-LEFT: 5.4pt; WIDTH: 209.3pt; PADDING-RIGHT: 5.4pt; BORDER-TOP: #ece9d8; BORDER-RIGHT: silver 1pt solid; PADDING-TOP: 0cm; mso-border-left-alt: solid silver 1.0pt; mso-border-top-alt: solid silver 1.0pt"                  valign="top" width="279">
+                    <p style="mso-margin-top-alt: auto; mso-margin-bottom-alt: auto; mso-add-space: auto"                     class="MsoNormalCxSpMiddle">
+                        <span                         style="FONT-SIZE: 8pt; mso-bidi-language: HE; mso-bidi-font-size: 12.0pt; mso-bidi-font-family: Arial"><font                          face="Times New Roman">Price the loan</font></span>
+                    </p>
+                </td>
+                <td                 style="BORDER-BOTTOM: silver 1pt solid; BORDER-LEFT: #ece9d8; PADDING-BOTTOM: 0cm; BACKGROUND-COLOR: transparent; PADDING-LEFT: 5.4pt; WIDTH: 107.7pt; PADDING-RIGHT: 5.4pt; BORDER-TOP: #ece9d8; BORDER-RIGHT: silver 1pt solid; PADDING-TOP: 0cm; mso-border-left-alt: solid silver 1.0pt; mso-border-top-alt: solid silver 1.0pt"                  valign="top" width="144">
+                    <p style="mso-margin-top-alt: auto; mso-margin-bottom-alt: auto; mso-add-space: auto"                     class="MsoNormalCxSpMiddle">
+                        <span                         style="FONT-SIZE: 8pt; mso-bidi-language: HE; mso-bidi-font-size: 12.0pt; mso-bidi-font-family: Arial"><font                          face="Times New Roman">Pricing list</font></span>
+                    </p>
+                    <p style="mso-margin-top-alt: auto; mso-margin-bottom-alt: auto; mso-add-space: auto"                     class="MsoNormalCxSpMiddle">
+                        <span                         style="FONT-SIZE: 8pt; mso-bidi-language: HE; mso-bidi-font-size: 12.0pt; mso-bidi-font-family: Arial"><font                          face="Times New Roman">Score cards</font></span>
+                    </p>
+                </td>
+                <td                 style="BORDER-BOTTOM: silver 1pt solid; BORDER-LEFT: #ece9d8; PADDING-BOTTOM: 0cm; BACKGROUND-COLOR: transparent; PADDING-LEFT: 5.4pt; WIDTH: 159.55pt; PADDING-RIGHT: 5.4pt; BORDER-TOP: #ece9d8; BORDER-RIGHT: silver 1pt solid; PADDING-TOP: 0cm; mso-border-left-alt: solid silver 1.0pt; mso-border-top-alt: solid silver 1.0pt"                  valign="top" width="213">
+                    <p style="mso-margin-top-alt: auto; mso-margin-bottom-alt: auto; mso-add-space: auto"                     class="MsoNormalCxSpMiddle">
+                        <span                         style="FONT-SIZE: 8pt; mso-bidi-language: HE; mso-bidi-font-size: 12.0pt; mso-bidi-font-family: Arial"><font                          face="Times New Roman">There is an existing application</font></span>
+                    </p>
+                </td>
+                <td                 style="BORDER-BOTTOM: silver 1pt solid; BORDER-LEFT: #ece9d8; PADDING-BOTTOM: 0cm; BACKGROUND-COLOR: transparent; PADDING-LEFT: 5.4pt; WIDTH: 70.15pt; PADDING-RIGHT: 5.4pt; BORDER-TOP: #ece9d8; BORDER-RIGHT: silver 1pt solid; PADDING-TOP: 0cm; mso-border-left-alt: solid silver 1.0pt; mso-border-top-alt: solid silver 1.0pt"                  valign="top" width="94">
+                    <p style="mso-margin-top-alt: auto; mso-margin-bottom-alt: auto; mso-add-space: auto"                     class="MsoNormalCxSpMiddle">
+                        <span                         style="FONT-SIZE: 8pt; mso-bidi-language: HE; mso-bidi-font-size: 12.0pt; mso-bidi-font-family: Arial"><font                          face="Times New Roman">Mary</font></span>
+                    </p>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</div><br style="MARGIN: 3pt 0cm" class="MsoNormal" />
+<br /></td>
+</tr>
+</table>
+</div>
+<table class="copyright" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td class="copyright"><p>
+    This program and the accompanying materials are made available under the<br />
+    <a href="http://www.eclipse.org/org/documents/epl-v10.php" target="_blank">Eclipse Public License V1.0</a>, which
+    accompanies this distribution.
+</p>
+<p>
+    <a class="elementLink" href="./../../../core.default.release_copyright.base/guidances/supportingmaterials/epf_copyright_C3031062.html" guid="_UaGfECcTEduSX6N2jUafGA">EPF Copyright</a>.
+</p></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</body>
+<script type="text/javascript" language="JavaScript">
+				contentPage.onload();
+			</script>
+</html>

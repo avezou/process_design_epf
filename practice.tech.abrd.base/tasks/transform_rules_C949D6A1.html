@@ -1,0 +1,379 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="en" xml:lang="en" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<head>
+<META http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>Task: Transform Rules</title>
+<meta name="uma.type" content="Task">
+<meta name="uma.name" content="transform_rules">
+<meta name="uma.presentationName" content="Transform Rules">
+<meta name="uma.category" content="Discipline:rule_analysis:Rule Analysis">
+<meta name="element_type" content="activity">
+<meta name="filetype" content="description">
+<meta name="role" content="Rule Analyst">
+<link rel="StyleSheet" href="./../../css/default.css" type="text/css">
+<script src="./../../scripts/ContentPageResource.js" type="text/javascript" language="JavaScript"></script><script src="./../../scripts/ContentPageSection.js" type="text/javascript" language="JavaScript"></script><script src="./../../scripts/ContentPageSubSection.js" type="text/javascript" language="JavaScript"></script><script src="./../../scripts/ContentPageToolbar.js" type="text/javascript" language="JavaScript"></script><script src="./../../scripts/contentPage.js" type="text/javascript" language="JavaScript"></script><script type="text/javascript" language="JavaScript">
+					var backPath = './../../';
+					var imgPath = './../../images/';
+					var nodeInfo=null;
+					contentPage.preload(imgPath, backPath, nodeInfo, '', true, false, false);
+				</script>
+</head>
+<body>
+<div id="breadcrumbs"></div>
+<table border="0" cellpadding="0" cellspacing="0" width="100%">
+<tr>
+<td valign="top">
+<div id="page-guid" value="_8mZw8DmhEdy8N6BRpa8ByQ"></div>
+<table border="0" cellspacing="0" cellpadding="0" width="100%">
+<tr>
+<td class="pageTitle" nowrap="true">Task: Transform Rules</td><td width="100%">
+<div align="right" id="contentPageToolbar"></div>
+</td><td width="100%" class="expandCollapseLink" align="right"><a name="mainIndex" href="./../../index.htm"></a><script language="JavaScript" type="text/javascript" src="./../../scripts/treebrowser.js"></script></td>
+</tr>
+</table>
+<table width="100%" border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td class="pageTitleSeparator"><img src="./../../images/shim.gif" alt="" title="" height="1"></td>
+</tr>
+</table>
+<div class="overview">
+<table width="97%" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td width="50"><img src="./../../images/task.gif" alt="" title=""></td><td>
+<table class="overviewTable" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td valign="top">Transform the rule to avoid ambiguity and make them more atomic</td>
+</tr>
+<tr>
+<td>Disciplines: <a href="./../../practice.tech.abrd.base/disciplines/rule_analysis_E249D69A.html" guid="_1QK4gashEd-4oa5dU5v0Eg">Rule Analysis</a></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</div>
+<div class="sectionHeading">Purpose</div>
+<div class="sectionContent">
+<table class="sectionTable" border="0" cellspacing="0" cellpadding="0">
+<tr valign="top">
+<td class="sectionTableSingleCell"><p class="MsoNormal" style="MARGIN: 3pt 0cm">
+    The goal of the this task is to transform the rule in an artifact the business user can understand, and rule writer can
+    understand, implement, test and maintain.
+</p></td>
+</tr>
+</table>
+</div>
+<div class="sectionHeading">Relationships</div>
+<div class="sectionContent">
+<table class="sectionTable" border="0" cellspacing="0" cellpadding="0">
+<tr valign="top">
+<th class="sectionTableHeading" scope="row">Roles</th><td class="sectionTableCell" width="42%"><span class="sectionTableCellHeading">Primary Performer:
+								</span>
+<ul>
+<li>
+<a href="./../../core.default.role_def.base/roles/rule_analyst_BE05ACC.html" guid="_XiII4gqBEdyPCr4G1Tb79A">Rule Analyst</a>
+</li>
+</ul>
+</td><td class="sectionTableCell"><span class="sectionTableCellHeading">Additional Performers:
+								</span></td>
+</tr>
+<tr valign="top">
+<th class="sectionTableHeading" scope="row">Inputs</th><td class="sectionTableCell" width="42%"><span class="sectionTableCellHeading">Mandatory:
+								</span>
+<ul>
+<li>
+<a href="./../../practice.tech.abrd.base/workproducts/fact_model_98CA2C53.html" guid="_csL3wHrMEd2o_5d3MWaNxQ">Fact Model</a>
+</li>
+<li>
+<a href="./../../practice.tech.abrd.base/workproducts/logical_data_model_FD2C82CA.html" guid="_sruW2AjqEdyj5bYZ0eCR5g">Logical Data Model</a>
+</li>
+<li>
+<a href="./../../practice.tech.abrd.base/workproducts/rule_description_doc_F66376F0.html" guid="_sruW2gjqEdyj5bYZ0eCR5g">Rule Description Document</a>
+</li>
+</ul>
+<ul></ul>
+</td><td class="sectionTableCell"><span class="sectionTableCellHeading">Optional:
+								</span>
+<ul>
+<li>None</li>
+</ul>
+</td>
+</tr>
+<tr valign="top">
+<th class="sectionTableHeading" scope="row">Outputs</th><td class="sectionTableCell" colspan="2">
+<ul>
+<li>
+<a href="./../../practice.tech.abrd.base/workproducts/fact_model_98CA2C53.html" guid="_csL3wHrMEd2o_5d3MWaNxQ">Fact Model</a>
+</li>
+<li>
+<a href="./../../practice.tech.abrd.base/workproducts/logical_data_model_FD2C82CA.html" guid="_sruW2AjqEdyj5bYZ0eCR5g">Logical Data Model</a>
+</li>
+<li>
+<a href="./../../practice.tech.abrd.base/workproducts/rule_description_doc_F66376F0.html" guid="_sruW2gjqEdyj5bYZ0eCR5g">Rule Description Document</a>
+</li>
+</ul>
+<ul></ul>
+</td>
+</tr>
+</table>
+</div>
+<div class="sectionHeading">Main Description</div>
+<div class="sectionContent">
+<table class="sectionTable" border="0" cellspacing="0" cellpadding="0">
+<tr valign="top">
+<td class="sectionTableSingleCell"><p>
+    Rule Analyst has to study the rule discovered and try to transform it so that the implementation and the management of
+    the rule will be more easy. This includes transforming the rule in atomic element using a syntax without ambiguity,
+    remove redundant rules, conflicting rules, and finally try to redefine the scope of the rule by searching by
+    non-handled cases.&nbsp;
+</p>
+<p>
+    At this stage rule analyst can build some rule template which&nbsp;are built from rules that have the same set of
+    conditions with some little variations: adding new value in test condition, or new condition.
+</p></td>
+</tr>
+</table>
+</div>
+<div class="sectionHeading">Steps</div>
+<div class="sectionContent">
+<table class="sectionTable" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td class="sectionTableSingleCell">
+<div class="stepHeading">Refine Rule as Atomic</div>
+<div class="stepContent">
+<table class="stepTable" border="0" cellspacing="0" cellpadding="0">
+<tr valign="top">
+<td><p class="MsoNormal" style="MARGIN: 3pt 0cm; mso-list: l0 level2 lfo1; tab-stops: list 72.0pt" type="disc">
+    <span     style="FONT-SIZE: 10pt; FONT-FAMILY: Arial; mso-fareast-font-family: 'Times New Roman'; mso-ansi-language: EN-US; mso-fareast-language: EN-US; mso-bidi-language: AR-SA">A
+    rule is atomic if it cannot be further decomposed without losing meaning. Atomicity is desired for understandability,
+    ease of maintenance</span>
+</p>
+<div style="MARGIN-TOP: 0cm; MARGIN-LEFT: 2em" type="disc">
+    <ul style="MARGIN-TOP: 0cm" type="disc">
+        <li class="MsoNormal" style="MARGIN: 3pt 0cm; mso-list: l0 level2 lfo1; tab-stops: list 72.0pt">
+            Make sure each rule has one result
+        </li>
+        <li class="MsoNormal" style="MARGIN: 3pt 0cm; mso-list: l0 level2 lfo1; tab-stops: list 72.0pt">
+            When expressed an inference rule or an action enabler, do not allow ANDs on the right hand side; break the rule
+        </li>
+        <li style="LIST-STYLE-TYPE: none">
+            <ul style="MARGIN-TOP: 0cm" type="disc">
+                <li class="MsoNormal" style="MARGIN: 3pt 0cm; mso-list: l0 level3 lfo1; tab-stops: list 108.0pt">
+                    IF A THEN do(B) AND do(C)<span style="mso-spacerun: yes">&nbsp;&nbsp;</span> can be rewritten as two
+                    rules IF A THEN do(B) and IF A THEN do(C)
+                </li>
+            </ul>
+        </li>
+        <li class="MsoNormal" style="MARGIN: 3pt 0cm; mso-list: l0 level2 lfo1; tab-stops: list 72.0pt">
+            When expressing an inference rule or an action enabler, do not allow ORs on the left hand side; break the rule
+        </li>
+        <li style="LIST-STYLE-TYPE: none">
+            <ul style="MARGIN-TOP: 0cm" type="disc">
+                <li class="MsoNormal" style="MARGIN: 3pt 0cm; mso-list: l0 level3 lfo1; tab-stops: list 108.0pt">
+                    IF A OR B THEN do(C) can be rewritten as two rules IF A THEN do(C) and IF B THEN do(C)
+                </li>
+            </ul>
+        </li>
+        <li class="MsoNormal" style="MARGIN: 3pt 0cm; mso-list: l0 level2 lfo1; tab-stops: list 72.0pt">
+            When expressing constraints and guidelines, do not allow for ANDs
+        </li>
+        <li style="LIST-STYLE-TYPE: none">
+            <ul style="MARGIN-TOP: 0cm" type="disc">
+                <li class="MsoNormal" style="MARGIN: 3pt 0cm; mso-list: l0 level3 lfo1; tab-stops: list 108.0pt">
+                    A driver must be 25 years old or older AND must have good credit rating
+                </li>
+                <li class="MsoNormal" style="MARGIN: 3pt 0cm; mso-list: l0 level3 lfo1; tab-stops: list 108.0pt">
+                    A driver must be 25 years old or older; a driver must have good credit rating
+                </li>
+            </ul>
+        </li>
+        <li class="MsoNormal" style="MARGIN: 3pt 0cm; mso-list: l0 level2 lfo1; tab-stops: list 72.0pt">
+            Make sure that each rule contains only necessary conditions; don't over-constrain the rule applicability
+        </li>
+    </ul>
+</div></td>
+</tr>
+</table>
+</div>
+<div class="stepHeading">Remove redundant rules</div>
+<div class="stepContent">
+<table class="stepTable" border="0" cellspacing="0" cellpadding="0">
+<tr valign="top">
+<td><p class="MsoNormal" style="MARGIN: 3pt 0cm 3pt 18pt">
+    This step is important to avoid developing complex rule sets. Redundant rules are
+</p>
+<div style="MARGIN-TOP: 0cm; MARGIN-LEFT: 2em" type="disc">
+    <ul style="MARGIN-TOP: 0cm" type="disc">
+        <li class="MsoNormal" style="MARGIN: 3pt 0cm; mso-list: l0 level2 lfo1; tab-stops: list 72.0pt">
+            Duplicated rules
+        </li>
+        <li class="MsoNormal" style="MARGIN: 3pt 0cm; mso-list: l0 level2 lfo1; tab-stops: list 72.0pt">
+            Duplicated through some transformations (renaming, inversion of conditions, etc.)
+        </li>
+        <li class="MsoNormal" style="MARGIN: 3pt 0cm; mso-list: l0 level2 lfo1; tab-stops: list 72.0pt">
+            Redundancies among rules that create a common data value or a common truth value, or initiate a common action
+        </li>
+    </ul>
+</div>
+<p class="MsoNormal" style="MARGIN: 3pt 0cm">
+    <span lang="EN-CA" style="mso-ansi-language: EN-CA"><span style="mso-spacerun: yes">&nbsp;&nbsp;&nbsp;&nbsp;</span>
+    This step is made simpler if we make the rules atomic, for otherwise, we will be lost in the equivalence of complex
+    logical formulas (e.g. If NOT (A AND B) is equivalent to<span style="mso-spacerun: yes">&nbsp;</span> IF (NOT A) OR
+    (NOT B)). There are for sure more subtle forms of redundancy: IF A AND B THEN C is equivalent to IF (NOT C) THEN (NOT
+    A) OR (NOT B). Some time changing the order of conditions can help to highlight same rules: <span     style="mso-spacerun: yes">&nbsp;</span>IF A AND B THEN C is the same as IF B AND A THEN C</span>
+</p></td>
+</tr>
+</table>
+</div>
+<div class="stepHeading">Remove inconsistency rules</div>
+<div class="stepContent">
+<table class="stepTable" border="0" cellspacing="0" cellpadding="0">
+<tr valign="top">
+<td><p>
+    <span     style="FONT-SIZE: 10pt; FONT-FAMILY: Arial; mso-fareast-font-family: 'Times New Roman'; mso-ansi-language: EN-US; mso-fareast-language: EN-US; mso-bidi-language: AR-SA">Overlapping
+    rules are partially redundant because they are not semantically equivalent but they point to problems: One rule may say
+    IF A AND B THEN C, the other says IF A THEN C. The question is, is B really needed to infer C? One of the two rules
+    should be eliminated.</span>
+</p>
+<p>
+    It is also possible to get semantically equivalent conditions, contradictory conclusions: two rules like IF A THEN B;
+    and IF A THEN NOT(B) are leading us to have two conflicting rules, probably coming from two different sources.
+    Typically, this is symptomatic of the fact that we are missing some necessary conditions in either rule (or both, e.g.:
+    IF A AND C THEN B; IF A AND D THEN NOT(B))
+</p>
+<p>
+    Another standard case is around the same conclusions derived from contradictory conditions: rules like IF A THEN B;
+    <span style="mso-spacerun: yes">&nbsp;</span>and IF NOT (A) THEN B: Logically, this means that the conclusions should
+    always be true. This is symptomatic of the fact that the condition is really not relevant to the conclusion
+</p><br />
+<br /></td>
+</tr>
+</table>
+</div>
+<div class="stepHeading">Ensure completeness among rules</div>
+<div class="stepContent">
+<table class="stepTable" border="0" cellspacing="0" cellpadding="0">
+<tr valign="top">
+<td><p class="MsoNormal" style="MARGIN: 3pt 0cm; mso-list: l0 level1 lfo1; tab-stops: list 36.0pt">
+    We are often considering three kinds of completeness:
+</p>
+<div style="MARGIN-TOP: 0cm; MARGIN-LEFT: 2em" type="disc">
+    <ul style="MARGIN-TOP: 0cm" type="disc">
+        <li class="MsoNormal" style="MARGIN: 3pt 0cm; mso-list: l0 level2 lfo1; tab-stops: list 72.0pt">
+            Make sure that all the possibilities are covered for a given rule pattern. If you have a rule that says "loans
+            for value greater than 250,000 $ should be approved by the branch manager", it does not tell us who must/can
+            approve loans of value less than 250,000 $
+        </li>
+        <li class="MsoNormal" style="MARGIN: 3pt 0cm; mso-list: l0 level2 lfo1; tab-stops: list 72.0pt">
+            Make sure that all derived data in the object model has corresponding computation or inference rules. This
+            involves computed attributes, qualifications (e.g. customer status, account type, etc.)
+        </li>
+        <li class="MsoNormal" style="MARGIN: 3pt 0cm; mso-list: l0 level2 lfo1; tab-stops: list 72.0pt">
+            Make sure that integrity and cardinality constraints are somehow represented. Either in the object model or in
+            rules
+        </li>
+    </ul>
+</div></td>
+</tr>
+</table>
+</div>
+<div class="stepHeading">Analyze rule volatility</div>
+<div class="stepContent">
+<table class="stepTable" border="0" cellspacing="0" cellpadding="0">
+<tr valign="top">
+<td><span style="FONT-SIZE: 10pt; FONT-FAMILY: Arial; mso-fareast-font-family: 'Times New Roman'; mso-ansi-language: EN-US; mso-fareast-language: EN-US; mso-bidi-language: AR-SA">This
+a good timing to ask the business user how often the rule will change once we did the rule transformation.</span></td>
+</tr>
+</table>
+</div>
+<div class="stepHeading">Understand rule dependencies, rule sharing</div>
+<div class="stepContent">
+<table class="stepTable" border="0" cellspacing="0" cellpadding="0">
+<tr valign="top">
+<td><p class="MsoNormal" style="MARGIN: 3pt 0cm; mso-list: l0 level1 lfo1; tab-stops: list 36.0pt">
+    A rule R1 depends on a rule R2 if the enforcement of R2 results into a situation where R1 is relevant (or needs to be
+    enforced). A simple common example, is a rule R2 which is creating new data, or is modifying existing data that is
+    tested by R1.
+</p><br class="MsoNormal" style="MARGIN: 3pt 0cm; mso-list: l0 level1 lfo1; tab-stops: list 36.0pt" />
+<br />
+<p class="MsoNormal" style="MARGIN: 3pt 0cm; mso-list: l0 level1 lfo1; tab-stops: list 36.0pt">
+    Understanding dependencies help determine the likely "execution" sequence of rules. The execution sequence is useful
+    for rule analysis to detect undesirable dependencies to plan rule testing. For the implementation the execution
+    sequence is useful to understand how the results will look like: some rule engine tools&nbsp;will determine that
+    sequence automatically, and on the fly (chaining). If we implement business rules in a procedural fashion, we need to
+    understand the execution sequence to enforce it
+</p>
+<p class="MsoNormal" style="MARGIN: 3pt 0cm; mso-list: l0 level1 lfo1; tab-stops: list 36.0pt">
+    <span lang="EN-CA" style="mso-ansi-language: EN-CA">Some of the undesirable dependencies include circular dependencies
+    leading to infinite loops. Others will cause us to re-evaluate rule jurisdiction</span>
+</p><br class="MsoNormal" style="MARGIN: 3pt 0cm; mso-list: l0 level1 lfo1; tab-stops: list 36.0pt" />
+<br />
+<p class="MsoNormal" style="MARGIN: 3pt 0cm; mso-list: l0 level1 lfo1; tab-stops: list 36.0pt">
+    <span lang="EN-CA" style="mso-ansi-language: EN-CA">When the work is done the last step is to look at how rule can be
+    shared between process flow. Rule sharing is an important step of the analysis. It can be done once we have progressed
+    in the rule set implementation. Rule re-factoring activity can help on implementing some rule sharing pattern.</span>
+</p></td>
+</tr>
+</table>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div class="sectionHeading">Illustrations</div>
+<div class="sectionContent">
+<table class="sectionTable" border="0" cellspacing="0" cellpadding="0">
+<tr valign="top">
+<th class="sectionTableHeading" scope="row">Examples</th><td class="sectionTableCell">
+<ul>
+<li>
+<a href="./../../practice.tech.abrd.base/guidances/examples/rule_atomicity_FBD9D573.html" guid="_K6-3kDmnEdy8N6BRpa8ByQ">Rule Atomicity</a>
+</li>
+</ul>
+</td>
+</tr>
+</table>
+</div>
+<div class="sectionHeading">Key Considerations</div>
+<div class="sectionContent">
+<table class="sectionTable" border="0" cellspacing="0" cellpadding="0">
+<tr valign="top">
+<td class="sectionTableSingleCell">This activity will also be done during the implementation of the rule set, but it is started during the analysis, so we are
+detailing it in this context.</td>
+</tr>
+</table>
+</div>
+<div class="sectionHeading">More Information</div>
+<div class="sectionContent">
+<table class="sectionTable" border="0" cellspacing="0" cellpadding="0">
+<tr valign="top">
+<th class="sectionTableHeading" scope="row">Guidelines</th><td class="sectionTableCell">
+<ul>
+<li>
+<a href="./../../practice.tech.abrd.base/guidances/guidelines/boolean_logic_83969317.html" guid="_x_5XgH9iEd26h9j0X6pKmw">Boolean logic or algebra</a>
+</li>
+</ul>
+</td>
+</tr>
+</table>
+</div>
+<table class="copyright" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td class="copyright"><p>
+    This program and the accompanying materials are made available under the<br />
+    <a href="http://www.eclipse.org/org/documents/epl-v10.php" target="_blank">Eclipse Public License V1.0</a>, which
+    accompanies this distribution.
+</p>
+<p>
+    <a class="elementLink" href="./../../core.default.release_copyright.base/guidances/supportingmaterials/epf_copyright_C3031062.html" guid="_UaGfECcTEduSX6N2jUafGA">EPF Copyright</a>.
+</p></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</body>
+<script type="text/javascript" language="JavaScript">
+				contentPage.onload();
+			</script>
+</html>

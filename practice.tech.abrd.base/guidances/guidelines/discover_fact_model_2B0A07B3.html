@@ -1,0 +1,160 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="en" xml:lang="en" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<head>
+<META http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>Guideline: Discover fact model</title>
+<meta name="uma.type" content="Guideline">
+<meta name="uma.name" content="discover_fact_model">
+<meta name="uma.presentationName" content="Discover fact model">
+<meta name="element_type" content="other">
+<meta name="filetype" content="description">
+<meta name="role" content="none">
+<link rel="StyleSheet" href="./../../../css/default.css" type="text/css">
+<script src="./../../../scripts/ContentPageResource.js" type="text/javascript" language="JavaScript"></script><script src="./../../../scripts/ContentPageSection.js" type="text/javascript" language="JavaScript"></script><script src="./../../../scripts/ContentPageSubSection.js" type="text/javascript" language="JavaScript"></script><script src="./../../../scripts/ContentPageToolbar.js" type="text/javascript" language="JavaScript"></script><script src="./../../../scripts/contentPage.js" type="text/javascript" language="JavaScript"></script><script type="text/javascript" language="JavaScript">
+					var backPath = './../../../';
+					var imgPath = './../../../images/';
+					var nodeInfo=null;
+					contentPage.preload(imgPath, backPath, nodeInfo,  '', false, false, false);
+				</script>
+</head>
+<body>
+<div id="breadcrumbs"></div>
+<table border="0" cellpadding="0" cellspacing="0" width="100%">
+<tr>
+<td valign="top"><a name="Top"></a>
+<div id="page-guid" value="_8_mWgH3GEd2sJcA0evSBQw"></div>
+<table border="0" cellspacing="0" cellpadding="0" width="100%">
+<tr>
+<td class="pageTitle" nowrap="true">Guideline: Discover fact model</td><td width="100%">
+<div align="right" id="contentPageToolbar"></div>
+</td><td width="100%" class="expandCollapseLink" align="right"><a name="mainIndex" href="./../../../index.htm"></a><script language="JavaScript" type="text/javascript" src="./../../../scripts/treebrowser.js"></script></td>
+</tr>
+</table>
+<table width="100%" border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td class="pageTitleSeparator"><img src="./../../../images/shim.gif" alt="" title="" height="1"></td>
+</tr>
+</table>
+<div class="overview">
+<table width="97%" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td width="50"><img src="./../../../images/guidance.gif" alt="" title=""></td><td>
+<table class="overviewTable" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td valign="top">From all the information captured during the discovery activities, we can identify the Terms and Facts used by the business. Terms and facts are important for designing all future data models.<br/>&#xD;&#xA;<br/>&#xD;&#xA;<br/>&#xD;&#xA;<br/>&#xD;&#xA;</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</div>
+<div class="sectionHeading">Relationships</div>
+<div class="sectionContent">
+<table class="sectionTable" border="0" cellspacing="0" cellpadding="0">
+<tr valign="top">
+<th class="sectionTableHeading" scope="row">Related Elements</th><td class="sectionTableCell">
+<ul>
+<li>
+<a href="./../../../practice.tech.abrd.base/tasks/extract_rule_meaning_C06825E.html" guid="_o19QgF2BEd2T6cNSe41mOg">Extract Rule Meaning</a>
+</li>
+<li>
+<a href="./../../../practice.tech.abrd.base/disciplines/rule_analysis_E249D69A.html" guid="_1QK4gashEd-4oa5dU5v0Eg">Rule Analysis</a>
+</li>
+</ul>
+</td>
+</tr>
+</table>
+</div>
+<div class="sectionHeading">Main Description</div>
+<div class="sectionContent">
+<table class="sectionTable" border="0" cellspacing="0" cellpadding="0">
+<tr valign="top">
+<td class="sectionTableSingleCell"><p>
+    A term may describe business concept as defined by the business. So a term is related to the language of the people
+    within the company. A term used in one group may differ in its meaning within another group. Term in SBVR is a concept
+    and can be declined as noun concept or verb concept.Term represents a unit of knowledge with a unique combination of
+    characteristics. In Object Oriented Analysis we will map to a Class.
+</p>
+<p>
+    Fact is a combination of terms that describes what business people know about their business. Fact may describe the
+    relationship between terms, like an Insurance Policy is a form of Contract, or it may describe the interactions between
+    terms (collaboration).
+</p>
+<p>
+    Taking as an example a rule description like:
+</p>
+<blockquote dir="ltr" style="MARGIN-RIGHT: 0px">
+    <p>
+        <em>Ask for an audit if&nbsp; one of the treatment includes an emergency room treatment or an ambulance transfer
+        done on a day after the accident</em>.
+    </p>
+</blockquote>
+<p>
+    The analysis team can extract the following business terms: audit, treatment, emergency room, ambulance transfer, day
+    of accident, accident. Discussing with a claim processor we can extract the following facts:
+</p>
+<ul>
+    <li>
+        <div         style="MARGIN-TOP: 4.32pt; MARGIN-BOTTOM: 0pt; VERTICAL-ALIGN: baseline; DIRECTION: ltr; unicode-bidi: embed; TEXT-ALIGN: left; language: en-US; mso-line-break-override: restrictions; punctuation-wrap: simple">
+            A&nbsp;car accident is declared in a claim
+        </div>
+    </li>
+    <li>
+        <div         style="MARGIN-TOP: 4.32pt; MARGIN-BOTTOM: 0pt; VERTICAL-ALIGN: baseline; DIRECTION: ltr; unicode-bidi: embed; TEXT-ALIGN: left; language: en-US; mso-line-break-override: restrictions; punctuation-wrap: simple">
+            Claim has a type, and a date of loss
+        </div>
+    </li>
+    <li>
+        <div         style="MARGIN-TOP: 4.32pt; MARGIN-BOTTOM: 0pt; VERTICAL-ALIGN: baseline; DIRECTION: ltr; unicode-bidi: embed; TEXT-ALIGN: left; language: en-US; mso-line-break-override: restrictions; punctuation-wrap: simple">
+            There&nbsp;may be&nbsp;some injuries,
+        </div>
+    </li>
+    <li>
+        <div         style="MARGIN-TOP: 4.32pt; MARGIN-BOTTOM: 0pt; VERTICAL-ALIGN: baseline; DIRECTION: ltr; unicode-bidi: embed; TEXT-ALIGN: left; language: en-US; mso-line-break-override: restrictions; punctuation-wrap: simple">
+            Medical treatments are done by medical providers
+        </div>
+    </li>
+    <li>
+        <div         style="MARGIN-TOP: 4.32pt; MARGIN-BOTTOM: 0pt; VERTICAL-ALIGN: baseline; DIRECTION: ltr; unicode-bidi: embed; TEXT-ALIGN: left; language: en-US; mso-line-break-override: restrictions; punctuation-wrap: simple">
+            The medical provider issues medical bill
+        </div>
+    </li>
+    <li>
+        <div         style="MARGIN-TOP: 4.32pt; MARGIN-BOTTOM: 0pt; VERTICAL-ALIGN: baseline; DIRECTION: ltr; unicode-bidi: embed; TEXT-ALIGN: left; language: en-US; mso-line-break-override: restrictions; punctuation-wrap: simple">
+            A medical bill includes the description of the medical treatment done on the patient
+        </div>
+    </li>
+</ul>
+<p style="MARGIN-TOP: 4.32pt; MARGIN-BOTTOM: 0pt; VERTICAL-ALIGN: baseline; DIRECTION: ltr; unicode-bidi: embed; TEXT-ALIGN: left; language: en-US; mso-line-break-override: restrictions; punctuation-wrap: simple">
+    Insurance wants to verify the treatment done, and limit the payments on what is defined in the policy and the legal
+    engagements.
+</p><br style="MARGIN-TOP: 4.32pt; MARGIN-BOTTOM: 0pt; VERTICAL-ALIGN: baseline; DIRECTION: ltr; unicode-bidi: embed; TEXT-ALIGN: left; language: en-US; mso-line-break-override: restrictions; punctuation-wrap: simple" />
+<br />
+<p style="MARGIN-TOP: 4.32pt; MARGIN-BOTTOM: 0pt; VERTICAL-ALIGN: baseline; DIRECTION: ltr; unicode-bidi: embed; TEXT-ALIGN: left; language: en-US; mso-line-break-override: restrictions; punctuation-wrap: simple">
+    <span style="mso-bidi-language: HE">Later on in the project the facts have to be analyzed to understand how the
+    software application will support it. It can be through implementing the logic, the GUI layout, structuring&nbsp;the
+    different&nbsp;data models or just staying in documentation.</span>
+</p></td>
+</tr>
+</table>
+</div>
+<table class="copyright" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td class="copyright"><p>
+    This program and the accompanying materials are made available under the<br />
+    <a href="http://www.eclipse.org/org/documents/epl-v10.php" target="_blank">Eclipse Public License V1.0</a>, which
+    accompanies this distribution.
+</p>
+<p>
+    <a class="elementLink" href="./../../../core.default.release_copyright.base/guidances/supportingmaterials/epf_copyright_C3031062.html" guid="_UaGfECcTEduSX6N2jUafGA">EPF Copyright</a>.
+</p></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</body>
+<script type="text/javascript" language="JavaScript">
+				contentPage.onload();
+			</script>
+</html>

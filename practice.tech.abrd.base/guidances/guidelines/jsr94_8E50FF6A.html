@@ -1,0 +1,325 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="en" xml:lang="en" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<head>
+<META http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>Guideline: JSR94</title>
+<meta name="uma.type" content="Guideline">
+<meta name="uma.name" content="jsr94">
+<meta name="uma.presentationName" content="JSR94">
+<meta name="element_type" content="other">
+<meta name="filetype" content="description">
+<meta name="role" content="none">
+<link rel="StyleSheet" href="./../../../css/default.css" type="text/css">
+<script src="./../../../scripts/ContentPageResource.js" type="text/javascript" language="JavaScript"></script><script src="./../../../scripts/ContentPageSection.js" type="text/javascript" language="JavaScript"></script><script src="./../../../scripts/ContentPageSubSection.js" type="text/javascript" language="JavaScript"></script><script src="./../../../scripts/ContentPageToolbar.js" type="text/javascript" language="JavaScript"></script><script src="./../../../scripts/contentPage.js" type="text/javascript" language="JavaScript"></script><script type="text/javascript" language="JavaScript">
+					var backPath = './../../../';
+					var imgPath = './../../../images/';
+					var nodeInfo=null;
+					contentPage.preload(imgPath, backPath, nodeInfo,  '', false, false, false);
+				</script>
+</head>
+<body>
+<div id="breadcrumbs"></div>
+<table border="0" cellpadding="0" cellspacing="0" width="100%">
+<tr>
+<td valign="top"><a name="Top"></a>
+<div id="page-guid" value="_IuFgEIm-Ed2dvb7--2nAHw"></div>
+<table border="0" cellspacing="0" cellpadding="0" width="100%">
+<tr>
+<td class="pageTitle" nowrap="true">Guideline: JSR94</td><td width="100%">
+<div align="right" id="contentPageToolbar"></div>
+</td><td width="100%" class="expandCollapseLink" align="right"><a name="mainIndex" href="./../../../index.htm"></a><script language="JavaScript" type="text/javascript" src="./../../../scripts/treebrowser.js"></script></td>
+</tr>
+</table>
+<table width="100%" border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td class="pageTitleSeparator"><img src="./../../../images/shim.gif" alt="" title="" height="1"></td>
+</tr>
+</table>
+<div class="overview">
+<table width="97%" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td width="50"><img src="./../../../images/guidance.gif" alt="" title=""></td><td>
+<table class="overviewTable" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td valign="top">JSR-94  is an industry standard that defines how Java programs deployed in JSE or JEE can acquire and interact with a rule engine. Being able to change engine implementation is a nice design approach, but as of today this specification is limited by the fact that there is still no standard to exchange rule definition between engines. So rule written for one engine can not be used by another one. W3C is working on the final specification of Rule Interchange Format.</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</div>
+<div class="sectionHeading">Relationships</div>
+<div class="sectionContent">
+<table class="sectionTable" border="0" cellspacing="0" cellpadding="0">
+<tr valign="top">
+<th class="sectionTableHeading" scope="row">Related Elements</th><td class="sectionTableCell">
+<ul>
+<li>
+<a href="./../../../practice.tech.abrd.base/disciplines/architecture_F3B0C284.html" guid="_1QK4gKshEd-4oa5dU5v0Eg">BRMS Architecture</a>
+</li>
+<li>
+<a href="./../../../practice.tech.abrd.base/tasks/integrate_bre_B4CC01BC.html" guid="_6-p2EH_BEd2YWI_0AZcMOA">Integrate BRE within Service Layer</a>
+</li>
+</ul>
+</td>
+</tr>
+</table>
+</div>
+<div class="sectionHeading">Main Description</div>
+<div class="sectionContent">
+<table class="sectionTable" border="0" cellspacing="0" cellpadding="0">
+<tr valign="top">
+<td class="sectionTableSingleCell"><p>
+    The goal of this <a href="http://jcp.org/aboutJava/communityprocess/review/jsr094/index.html" target="_blank">specification</a> aims to make the client code for simple rule-based applications less dependent on
+    rule engine vendor-specific classes. The basic interactions with a rule engine are typically parsing the rules in scope
+    of a rule set, adding object references to one engine, firing the rules and getting results from the engine.<br />
+    JSR94 defines a rule set as a <em>rule execution set</em> which can be loaded from external resources like URIs, Input
+    streams, XML streams and readers. A rule execution set is a collection of rules. Another important JSR94 concept is the
+    <em>rule session</em> which is a runtime connection between a client and a rule engine. A rule session is associated
+    with a single rule execution set, consumes rule engine resources and must be explicitly released when the client no
+    longer requires it. Session can be stateless or stateful. Stateless executes a rule execution set with a list of input
+    objects in one call. Stateful is designed to maintain a long time conversation between the client and the engine and
+    provides mechanism to assert / retract input object to the session.<br />
+</p>
+<p>
+    The client code may run on server layer like a servlet controller, in a service tier part of an EJB or POJO, or in a
+    standalone JSE JVM. The <em>javax.rules</em> API divides interaction with rule engines into administrative and runtime
+    interactions. The basic operations supported by JSR-94 are:<br />
+    • Acquiring a rule session for a registered rule execution set.<br />
+    • Deploying and undeploying rulesets into a rule engine instance<br />
+    • Querying simple metadata about a ruleset<br />
+    • Executing a ruleset in either a stateful or stateless mode<br />
+</p>
+<h5>
+    The client code for run time execution
+</h5>
+<p>
+    <br />
+    From the client point of view the interaction with a rule engine is done using the rule session. But the first part is
+    to get an instance of the rule engine implementation. The service provider manager helps to get a rule service provider
+    which in turn helps to get rule run time and rule administration implementations. Every specific implementation exposes
+    an uniquely identifier for the service provider URL.
+</p>
+<p class="codeSample">
+    <br />
+    // Get the rule service provider from the provider manager<br />
+    Class.forName("ilog.rules.bres.jsr94.IlrRuleServiceProvider");
+</p>
+<p class="codeSample">
+    RuleServiceProvider serviceProvider = RuleServiceProviderManager.getRuleServiceProvider(“ilog.rules.bres.jsr94”);
+</p>
+<p>
+    • For the reference implementation the URL is org.jsp.jsr94.ri.RuleServiceProvider<br />
+    • For JRules the is ilog.rules.bres.jsr94.IlrRuleServiceProvider, and the service provider name is
+    ilog.rules.bres.jsr94<br />
+    • For JBoss-drools the is org.drools.jsr94.rules.RuleServiceProviderImpl and the service provider name is
+    http://drools.org.<br />
+    The code above is used for JSE deployment, as in JEE environment runtime clients should resolve the RuleRuntime and
+    RuleAdministrator services directly using JNDI lookup.
+</p>
+<p class="codeSample">
+    Javax.naming.InitialContext initialContext = new InitialContext();<br />
+    RuleRuntime ruleRuntime =<br />
+    (RuleRuntime) PortableRemoveObject.narrow(<br />
+    initialContext.lookup("org.jcp.jsr94.ri.RuleRuntime"),RuleRuntime.class );
+</p>
+<p>
+    In JSE we can use an inversion of control pattern and get those URL references from a properties file or a file
+    descriptor.<br />
+    The next step is to get a rule engine run time.
+</p>
+<p class="codeSample">
+    <br />
+    // Get a RuleRuntime and invoke the rule execution.<br />
+    RuleRuntime ruleRuntime = serviceProvider.getRuleRuntime();
+</p>
+<p>
+    <br />
+    The RuleRuntime interface exposes the method to create a rule session given a previously registered RuleExecutionSet
+    URI. It is possible to execute the rule engine in stateless or stateful mode using different type of rule session. We
+    need to specify the rule execution set URI and the session type.
+</p>
+<p class="codeSample">
+    <br />
+    StatelessRuleSession statelessRuleSession = (StatelessRuleSession) ruleRuntime.createRuleSession(ruleExecutionSetURI,
+    rulesessionProperties,RuleRuntime.STATELESS_SESSION_TYPE);
+</p>
+<p>
+    The second parameter is optional and is used to add some additional properties to the session. In JRules it is used to
+    give the references to the rule set parameters and to specify if the RuleSession is a J2SE POJO rule session or a J2EE
+    POJO rule session:
+</p>
+<p class="codeSample">
+    <br />
+    Map rulesessionProperties = new HashMap(); rulesessionProperties.put("loan", loan);<br />
+    rulesessionProperties.put("borrower", borrower);<br />
+</p>
+<p>
+    A stateless rules session exposes a stateless rule execution API to an underlying rules engine with two different
+    methods to call the execution of the rule:
+</p>
+<p class="codeSample">
+    <br />
+    public java.util.List executeRules(java.util.List objects)<br />
+    throws InvalidRuleSessionException,java.rmi.RemoteException
+</p>
+<p>
+    <br />
+    The list of objects set as parameters will be inserted in the engine's working memory. The list returned includes all
+    the objects created by the executed rules. The only things we can retrieve with JSR94 from an execution are the objects
+    in the working memory. The second API uses a filter of objects the client code can supply to select those objects that
+    should be returned from the rule engine.<br />
+</p>
+<h4>
+    Filtering objects
+</h4>
+<p>
+    To filter out objects from the list of returned objects from the rule execution call, the client code needs to provide
+    an implementation of the ObjectFilter interface. The implementing class receives callback methods that allow filtering
+    out objects as desired. Here is a simple filter class that removes any loan which does not have messages.
+</p>
+<p class="codeSample">
+    <br />
+    public class MyObjectFilter implements ObjectFilter {<br />
+    <br />
+    @Override<br />
+    public Object filter(Object obj) {<br />
+    if (obj instanceof Loan) {<br />
+    Loan loan = (Loan)obj;<br />
+    if (loan.getMessages().size() != 0)<br />
+    return obj;<br />
+    }<br />
+    return null;<br />
+    }<br />
+</p>
+<h4>
+    Get rule execution set meta data
+</h4>
+<p>
+    <br />
+    RuleRuntime can also being used to get the list of URIs that currently have rule execution set registered with them
+    using the API List listURIs=ruleRuntime.getRegistrations();<br />
+    The other object involved is the RuleExecutionSetMetadata interface which exposes metadata about a Rule Execution Set
+    to runtime clients of a RuleSession like the name, URI and description of the rule execution set.
+</p>
+<p class="codeSample">
+    <br />
+    RuleExecutionSetMetadata metadata=statelessRuleSession<br />
+    .getRuleExecutionSetMetadata();<br />
+    metadata.getName();<br />
+    metadata.getDescription();<br />
+    metadata.getUri()<br />
+</p>
+<h4>
+    Stateful session
+</h4>
+<p>
+    <br />
+    Client code can use stateful session to conduct long running conversation with the engine, and control the working
+    memory with new facts. Input Objects can be progressively added to the StatefulRuleSession through the addObject
+    method. Output Objects can be progressively retrieved though the getObject method.<br />
+</p>
+<p class="codeSample">
+    StatefulRuleSession statefulRuleSession= (StatefulRuleSession) getRuleRuntime()<br />
+    .createRuleSession(ruleExecutionSetURI, getProperties(loan, borrower),RuleRuntime.STATEFUL_SESSION_TYPE);<br />
+    //first call the normal execution<br />
+    statefulRuleSession.executeRules();<br />
+    Loan l2 = new Loan(250000,240,7.25);<br />
+    Handle hdl=statefulRuleSession.addObject(l2);<br />
+    statefulRuleSession.executeRules();
+</p>
+<p>
+    <br />
+    Objects that have been added to the StatefulRuleSession must be removed and updated using the removeObject and
+    updateObject methods. A client must test for the existence of an added Object using the containsObject method. The
+    removeObject, updateObject, and containsObject methods must all use a javax.rules.Handle implementation&nbsp;instances
+    to refer to and identify Object instances. Handle are used to ensure that Object instances can be unambiguously
+    identified in the event of multiple class loaders being used or the StatefulRuleSession being serialized. The addObject
+    methods returns a Handle instance for an Object added to a StatefulRuleSession, so that it can be used in the remove
+    API for example.<br />
+    In JRules Ruleset parameters and objects added to the RuleSession when it is created are uniquely identified by an
+    instance of the IlrRuleSessionHandle class.
+</p>
+<h4>
+    <br />
+    Administrate rule execution set
+</h4>
+<p>
+    <br />
+    Administrative tasks supported by the API javax.rules.admin include instantiating the rule engine and loading rules. To
+    get the rule administrator we use the service provider such as: RuleAdministrator ruleAdministrator =
+    serviceProvider.getRuleAdministrator();<br />
+    <br />
+    The RuleAdministrator allows RuleExecutionSet instances to be registered against a URI for use from the runtime API, as
+    well as methods to retrieve a RuleExecutionSetProvider and a LocalRuleExecutionSetProvider implementation. The
+    RuleExecutionSetProvider interface defines methods to create a RuleExecutionSet from a number of Serializable sources
+</p>
+<p class="codeSample">
+    LocalRuleExecutionSetProvider ruleExecutionSetProvider =
+    ruleAdministrator.getLocalRuleExecutionSetProvider(null);<br />
+    RuleExecutionSet ruleSet = ruleExecutionSetProvider.createRuleExecutionSet( inputStream, null );<br />
+    ruleAdministrator.registerRuleExecutionSet( ruleSet.getName(),ruleSet,null );<br />
+</p>
+<p>
+    The local rule execution set provider sends a local execution set to a remote engine using serialization and
+    marshaling. The API get(Local)RuleExecutionSetProvider takes an argument of type Map, which is documented as
+    "additional properties" and used for setting the JNDI properties. The source for the rule can come from
+    non-Serializable resources, such as binary InputStreams or character-based Readers. Registering the execution set to a
+    URI helps to create session to an execution set. The rules registered using the rules admin API are the only rules
+    accessible to the runtime clients.<br />
+    The following code gets the name and description of the execution set deployed:
+</p>
+<p class="codeSample">
+    <br />
+    ruleSet.getDescription();<br />
+    ruleSet.getName();<br />
+</p>
+<p>
+    getName() in the case of JRules Rule Execution server deployment returns the rule set path. From the rules set we can
+    get all the rules in a list and then for each rule its name and description.<br />
+    Rule.getName()returns in the case of JRules a string which specify the language name and the name space for this rule,
+    like for example “IRL/validation/maximum_amount-brl.irl”. The rule.getDescription() returns the rule in the language of
+    the rule engine vendor. For JRules it is the Ilog rule language such as:
+</p>
+<p class="codeSample">
+    <br />
+    package validation {<br />
+    &nbsp;&nbsp;&nbsp; rule maximum_amount {<br />
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; property status = "new";<br />
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; when {<br />
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;miniloan.Loan() from loan;<br />
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; evaluate (loan.amount &gt; 1000000);<br />
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; } then {<br />
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; loan.addToMessages("The loan cannot exceed
+    1,000,000");<br />
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; loan.reject();<br />
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; }<br />
+    &nbsp;&nbsp;&nbsp; }<br />
+    }<br />
+    <br />
+    <br />
+    &nbsp;
+</p></td>
+</tr>
+</table>
+</div>
+<table class="copyright" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td class="copyright"><p>
+    This program and the accompanying materials are made available under the<br />
+    <a href="http://www.eclipse.org/org/documents/epl-v10.php" target="_blank">Eclipse Public License V1.0</a>, which
+    accompanies this distribution.
+</p>
+<p>
+    <a class="elementLink" href="./../../../core.default.release_copyright.base/guidances/supportingmaterials/epf_copyright_C3031062.html" guid="_UaGfECcTEduSX6N2jUafGA">EPF Copyright</a>.
+</p></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</body>
+<script type="text/javascript" language="JavaScript">
+				contentPage.onload();
+			</script>
+</html>

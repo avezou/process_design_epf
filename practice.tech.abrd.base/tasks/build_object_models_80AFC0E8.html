@@ -1,0 +1,183 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="en" xml:lang="en" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<head>
+<META http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>Task: Build Object Models</title>
+<meta name="uma.type" content="Task">
+<meta name="uma.name" content="build_object_models">
+<meta name="uma.presentationName" content="Build Object Models">
+<meta name="uma.category" content="Discipline:rule_design:Rule Design">
+<meta name="element_type" content="activity">
+<meta name="filetype" content="description">
+<meta name="role" content="Developer">
+<link rel="StyleSheet" href="./../../css/default.css" type="text/css">
+<script src="./../../scripts/ContentPageResource.js" type="text/javascript" language="JavaScript"></script><script src="./../../scripts/ContentPageSection.js" type="text/javascript" language="JavaScript"></script><script src="./../../scripts/ContentPageSubSection.js" type="text/javascript" language="JavaScript"></script><script src="./../../scripts/ContentPageToolbar.js" type="text/javascript" language="JavaScript"></script><script src="./../../scripts/contentPage.js" type="text/javascript" language="JavaScript"></script><script type="text/javascript" language="JavaScript">
+					var backPath = './../../';
+					var imgPath = './../../images/';
+					var nodeInfo=null;
+					contentPage.preload(imgPath, backPath, nodeInfo, '', true, false, false);
+				</script>
+</head>
+<body>
+<div id="breadcrumbs"></div>
+<table border="0" cellpadding="0" cellspacing="0" width="100%">
+<tr>
+<td valign="top">
+<div id="page-guid" value="_ZffcIDmiEdy8N6BRpa8ByQ"></div>
+<table border="0" cellspacing="0" cellpadding="0" width="100%">
+<tr>
+<td class="pageTitle" nowrap="true">Task: Build Object Models</td><td width="100%">
+<div align="right" id="contentPageToolbar"></div>
+</td><td width="100%" class="expandCollapseLink" align="right"><a name="mainIndex" href="./../../index.htm"></a><script language="JavaScript" type="text/javascript" src="./../../scripts/treebrowser.js"></script></td>
+</tr>
+</table>
+<table width="100%" border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td class="pageTitleSeparator"><img src="./../../images/shim.gif" alt="" title="" height="1"></td>
+</tr>
+</table>
+<div class="overview">
+<table width="97%" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td width="50"><img src="./../../images/task.gif" alt="" title=""></td><td>
+<table class="overviewTable" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td valign="top"></td>
+</tr>
+<tr>
+<td>Disciplines: <a href="./../../practice.tech.abrd.base/disciplines/rule_design_B842A4A3.html" guid="_1QK4hKshEd-4oa5dU5v0Eg">Rule Design</a></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</div>
+<div class="sectionHeading">Purpose</div>
+<div class="sectionContent">
+<table class="sectionTable" border="0" cellspacing="0" cellpadding="0">
+<tr valign="top">
+<td class="sectionTableSingleCell">This&nbsp;task focuses on the creation of the domain object model used by the rule engine.</td>
+</tr>
+</table>
+</div>
+<div class="sectionHeading">Relationships</div>
+<div class="sectionContent">
+<table class="sectionTable" border="0" cellspacing="0" cellpadding="0">
+<tr valign="top">
+<th class="sectionTableHeading" scope="row">Roles</th><td class="sectionTableCell" width="42%"><span class="sectionTableCellHeading">Primary Performer:
+								</span>
+<ul>
+<li>
+<a href="./../../core.default.role_def.base/roles/developer_C633AB7.html" guid="_0YDosMlgEdmt3adZL5Dmdw">Developer</a>
+</li>
+</ul>
+</td><td class="sectionTableCell"><span class="sectionTableCellHeading">Additional Performers:
+								</span></td>
+</tr>
+</table>
+</div>
+<div class="sectionHeading">Main Description</div>
+<div class="sectionContent">
+<table class="sectionTable" border="0" cellspacing="0" cellpadding="0">
+<tr valign="top">
+<td class="sectionTableSingleCell"><p class="MsoNormal" style="MARGIN: 3pt 0in">
+    <span style="mso-bidi-language: HE">Depending of the technology used there is different approach to this task. The
+    domain object model at the enterprise level will represent a complex data model a rule architect does not want to
+    expose as-is to the rule engine and the rule authoring environment. Navigating a complex graph of objects will bring
+    unnecessary complexity for the rule writer. So we recommend to always try to use a view of the enterprise domain object
+    model. For example in Financial Industry the business domain&nbsp;data model defined in MISMO (<a href="http://www.mismo.org/"><font color="#005DA0">www.mismo.org</font></a>), brings a lot of value for an enterprise
+    willing to define a common ontology for their data models. But exposing the MISMO model as it is within a BRMS rule
+    authoring IDE will put too much complexity. As the Architect is responsible to design decision service reusable cross
+    application, it may make sense to consider view of this object model in the context of the service.</span>
+</p>
+<p class="MsoNormal" style="MARGIN: 3pt 0in">
+    <span style="mso-bidi-language: HE">For the application the view can be defined in two entities:</span>
+</p>
+<ul style="MARGIN-TOP: 0in" type="disc">
+    <li class="MsoNormal" style="MARGIN: 3pt 0in; mso-list: l0 level1 lfo1; tab-stops: list .5in">
+        <span style="mso-bidi-language: HE">the Domain Object Model using java or xml schema as the underling
+        technology</span>
+    </li>
+    <li class="MsoNormal" style="MARGIN: 3pt 0in; mso-list: l0 level1 lfo1; tab-stops: list .5in">
+        <span style="mso-bidi-language: HE">or out of the box object view, like ILOG-Business Object Model element. The BOM
+        is mandatory to write rule on, but it&nbsp;can be created from an existing java model or XSD or created
+        top-down.</span>
+    </li>
+</ul>
+<p class="MsoNormal" style="MARGIN: 3pt 0in">
+    <span style="mso-bidi-language: HE">If the model does not exist in the application, or at the enterprise level we still
+    recommend to develop the domain model, using an UML designer and code generation tools.</span>
+</p><br class="MsoNormal" style="MARGIN: 3pt 0in" />
+<br />
+<p class="MsoNormal" style="MARGIN: 3pt 0in">
+    <span style="mso-bidi-font-weight: bold; mso-bidi-font-style: italic">It is also important to consider designing a java
+    model or XSD schema which is closed to the business concepts used by the rule but built as a view of the domain object
+    model (We called that the Rule Business Object Pattern or RBO): in the example of standard object model like MISMO or
+    ACORD, it makes sense to do not expose all the class definition, attributes and enumerated to avoid exposing a complex
+    rule language to the business user. This view will be instantiated by the application business logic in the context of
+    preparing the data for the rule services</span>
+</p><br class="MsoNormal" style="MARGIN: 3pt 0in" />
+<br />
+<p class="MsoNormal" style="MARGIN: 3pt 0in">
+    When designing a Domain Object model one of the challenges is to determine what should be an entity and what should be
+    an attribute of the entity.<span style="mso-spacerun: yes">&nbsp;</span> This is why knowledge engineers like the
+    Enterprise Ontology as a start point for developing these concepts.<span style="mso-spacerun: yes">&nbsp;</span> The
+    Enterprise Ontology describes the major entities and concepts that apply to all enterprises and it provides a very good
+    starting point for the establishment of static object models and data models.
+</p>
+<p class="MsoNormal" style="MARGIN: 3pt 0in">
+    The difference between a class and an entity type is that classes have both data and behaviors whereas entity types
+    just have data. A normal entity depicts one concept.
+</p>
+<p class="MsoNormal" style="MARGIN: 3pt 0in">
+    Use multiple different UML class diagram to represent entities and their relations. Then enhance them to have a
+    complete class diagram from which you should be able to generate java code or XSD.
+</p><br class="MsoNormal" style="MARGIN: 3pt 0in" />
+<br />
+<p class="MsoNormal" style="MARGIN: 3pt 0in">
+    Capture Meta data about each entity: business name, business definition, super type or subtype, number of occurrences,
+    primary key, and alternate keys.
+</p><br class="MsoNormal" style="MARGIN: 3pt 0in" />
+<br />
+<p class="MsoNormal" style="MARGIN: 3pt 0in">
+    <span style="mso-bidi-language: HE">It is possible to consider designing a Domain Model using Interface, and then apply
+    different type of implementation according to different execution pattern or platforms. For example we can design
+    a;</span>
+</p>
+<ul style="MARGIN-TOP: 0in" type="disc">
+    <li class="MsoNormal" style="MARGIN: 3pt 0in; mso-list: l1 level1 lfo2; tab-stops: list .5in">
+        <a id="1030902" name="1030902"><span style="mso-bidi-language: HE">Staged deployment with different execution
+        classes</span></a>
+    </li>
+    <li class="MsoNormal" style="MARGIN: 3pt 0in; mso-list: l1 level1 lfo2; tab-stops: list .5in">
+        <a id="1030906" name="1030906"><span style="mso-bidi-language: HE">Dynamic model (XML based or dynamic classes)
+        versus static model</span></a>
+    </li>
+    <li class="MsoNormal" style="MARGIN: 3pt 0in; mso-list: l1 level1 lfo2; tab-stops: list .5in">
+        <a id="1030907" name="1030907"><span style="mso-bidi-language: HE">Production/test models (active objects versus
+        mock objects)</span></a>
+    </li>
+</ul><a id="XE_object_model__build" name="XE_object_model__build"></a></td>
+</tr>
+</table>
+</div>
+<table class="copyright" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td class="copyright"><p>
+    This program and the accompanying materials are made available under the<br />
+    <a href="http://www.eclipse.org/org/documents/epl-v10.php" target="_blank">Eclipse Public License V1.0</a>, which
+    accompanies this distribution.
+</p>
+<p>
+    <a class="elementLink" href="./../../core.default.release_copyright.base/guidances/supportingmaterials/epf_copyright_C3031062.html" guid="_UaGfECcTEduSX6N2jUafGA">EPF Copyright</a>.
+</p></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</body>
+<script type="text/javascript" language="JavaScript">
+				contentPage.onload();
+			</script>
+</html>

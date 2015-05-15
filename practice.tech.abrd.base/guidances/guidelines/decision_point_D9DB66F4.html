@@ -1,0 +1,135 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="en" xml:lang="en" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<head>
+<META http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>Guideline: Decision Point Discovery Guidance</title>
+<meta name="uma.type" content="Guideline">
+<meta name="uma.name" content="decision_point">
+<meta name="uma.presentationName" content="Decision Point Discovery Guidance">
+<meta name="element_type" content="other">
+<meta name="filetype" content="description">
+<meta name="role" content="none">
+<link rel="StyleSheet" href="./../../../css/default.css" type="text/css">
+<script src="./../../../scripts/ContentPageResource.js" type="text/javascript" language="JavaScript"></script><script src="./../../../scripts/ContentPageSection.js" type="text/javascript" language="JavaScript"></script><script src="./../../../scripts/ContentPageSubSection.js" type="text/javascript" language="JavaScript"></script><script src="./../../../scripts/ContentPageToolbar.js" type="text/javascript" language="JavaScript"></script><script src="./../../../scripts/contentPage.js" type="text/javascript" language="JavaScript"></script><script type="text/javascript" language="JavaScript">
+					var backPath = './../../../';
+					var imgPath = './../../../images/';
+					var nodeInfo=null;
+					contentPage.preload(imgPath, backPath, nodeInfo,  '', false, false, false);
+				</script>
+</head>
+<body>
+<div id="breadcrumbs"></div>
+<table border="0" cellpadding="0" cellspacing="0" width="100%">
+<tr>
+<td valign="top"><a name="Top"></a>
+<div id="page-guid" value="_yNUigIMUEd-68ahhmSUqHw"></div>
+<table border="0" cellspacing="0" cellpadding="0" width="100%">
+<tr>
+<td class="pageTitle" nowrap="true">Guideline: Decision Point Discovery Guidance</td><td width="100%">
+<div align="right" id="contentPageToolbar"></div>
+</td><td width="100%" class="expandCollapseLink" align="right"><a name="mainIndex" href="./../../../index.htm"></a><script language="JavaScript" type="text/javascript" src="./../../../scripts/treebrowser.js"></script></td>
+</tr>
+</table>
+<table width="100%" border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td class="pageTitleSeparator"><img src="./../../../images/shim.gif" alt="" title="" height="1"></td>
+</tr>
+</table>
+<div class="overview">
+<table width="97%" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td width="50"><img src="./../../../images/guidance.gif" alt="" title=""></td><td>
+<table class="overviewTable" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td valign="top"></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</div>
+<div class="sectionHeading">Relationships</div>
+<div class="sectionContent">
+<table class="sectionTable" border="0" cellspacing="0" cellpadding="0">
+<tr valign="top">
+<th class="sectionTableHeading" scope="row">Related Elements</th><td class="sectionTableCell">
+<ul>
+<li>
+<a href="./../../../practice.tech.abrd.base/tasks/identify_decision_point_458DF25B.html" guid="_A2d5sCyQEd-ER8gMc_Ftrw">Identify Decision Points</a>
+</li>
+</ul>
+</td>
+</tr>
+</table>
+</div>
+<div class="sectionHeading">Main Description</div>
+<div class="sectionContent">
+<table class="sectionTable" border="0" cellspacing="0" cellpadding="0">
+<tr valign="top">
+<td class="sectionTableSingleCell"><p>
+    Decision points are point of variability in the business process which makes decision on information data given as
+    input. A decision is a choice or a selection, is made after considerations, and results in action. When implementing
+    decision with software we are looking at operational decisions related to operations like eligibility, validation,
+    calculation, risk assessment, opportunity, etc... Those decisions involve worker's or subject matter experts'
+    knowledge. The logic for making a decision should not be locked and therefore can be externalized to a business rule
+    management system. The analysis of decision points start by the process analyst / business analyst working with Subject
+    Matter Experts to understand how decision are done on a piece of information.&nbsp;This analysis activity is done by
+    doing the process modeling, or the business use case modeling. The search for mental thinking verbs like analyze,
+    check, validate, evaluate, verify in the description of an activity can help identifying decision point, as well as
+    looking and understand how data&nbsp;are built. Looking at a business entity life cycle helps also identifying the
+    decisions applied to change its state.<br />
+</p>
+<p>
+    The type of decision will most likely be a reject or accept of the business event or flag it for future processing
+    downstream in the business process. The decision may also include some computational expressions to assign value to
+    attribute of the business transaction.
+</p>
+<p>
+    When there is a human task and conditional node you can expect to find decision point there. A human task can also
+    being sub decomposed in an automatic task which performs the main stream of decisioning and an exception task&nbsp;done
+    by a human expert. In most business process there is the existence of validation step to ensure data quality: those
+    steps are source for business rules.
+</p>
+<p>
+    <br />
+    It is recommended to define the interface of each decision point and then consider the implementation choice later.
+    Using rule engine technology is the best choice when business users want to change the business logic over time, to
+    enforce auditability, to trace the decisions done on a given business event. During the inception phase the project
+    team is doing business modeling activities which aim at describing the business process and decisions applied to any
+    business events supported by the application. Decision points are extracted at that moment and logged in the decision
+    point table
+</p>
+<p>
+    When designing by services, a decision service is business service making decisions, so linked to decision points. A
+    decision service can serve multiple decision points in a process, if they are sequentially related. Most likely a
+    decision point will be mapped to one decision service. The implementation can use a BRMS rule engine, to support ease
+    of change and adaptability. Decision service can be implemented in traditional software language, but will most likely
+    be more efficient in rule engine language, because over time new decision criteria will be done.<br />
+    <br />
+    The process of designing, implementing decision service should not be thought as a one shot deal. This is a process
+    which has to be managed over time, and well supported by a BRMS with the governance processes.
+</p><br />
+<br /></td>
+</tr>
+</table>
+</div>
+<table class="copyright" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td class="copyright"><p>
+    This program and the accompanying materials are made available under the<br />
+    <a href="http://www.eclipse.org/org/documents/epl-v10.php" target="_blank">Eclipse Public License V1.0</a>, which
+    accompanies this distribution.
+</p>
+<p>
+    <a class="elementLink" href="./../../../core.default.release_copyright.base/guidances/supportingmaterials/epf_copyright_C3031062.html" guid="_UaGfECcTEduSX6N2jUafGA">EPF Copyright</a>.
+</p></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</body>
+<script type="text/javascript" language="JavaScript">
+				contentPage.onload();
+			</script>
+</html>
