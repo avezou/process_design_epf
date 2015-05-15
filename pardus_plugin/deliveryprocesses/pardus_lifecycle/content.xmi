@@ -270,12 +270,6 @@ experienced developers related to the issues and the software requirements are b
     <refinedDescription>The first version of the software requirements is reviewed and refined by the Project Leader, system engineer and Technical
 Coordinator&lt;br /></refinedDescription>
   </org.eclipse.epf.uma:DescriptorDescription>
-  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-7ZFXGU4XlsAHbpXbGAgYpQ" name="implement_solution,_MPuFgPUBEeSTdOKYqDx6gQ" guid="-7ZFXGU4XlsAHbpXbGAgYpQ">
-    <refinedDescription>&lt;span&#xD;
-style=&quot;WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FLOAT: none; COLOR: rgb(0,0,0); TEXT-ALIGN: left; FONT: 13px arial, helvetica, sans-serif, kanji2; WIDOWS: 1; DISPLAY: inline !important; LETTER-SPACING: normal; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; -webkit-text-stroke-width: 0px&quot;>&#xD;
-Usually, this task is focused on a specific implementation&amp;nbsp;element, such as a class or component, but it does not need&#xD;
-to be.&lt;/span></refinedDescription>
-  </org.eclipse.epf.uma:DescriptorDescription>
   <org.eclipse.epf.uma:DescriptorDescription xmi:id="-yRlYtNO2QJo-Rl3cqNgBwg" name="developer,_MP5EoPUBEeSTdOKYqDx6gQ" guid="-yRlYtNO2QJo-Rl3cqNgBwg">
     <refinedDescription>Developers are responsible for the software requirements fo the project, sofware design, software develoment, unit testing,
 system integration, and packaging.</refinedDescription>
@@ -1416,5 +1410,333 @@ style=&quot;LIST-STYLE-TYPE: disc; MARGIN-BOTTOM: 0px; WHITE-SPACE: normal; WORD
         Other files that are transformed into the executable system&#xD;
     &lt;/li>&#xD;
 &lt;/ul></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-5ATjBKv5TKcC47q_-Z4tbA" name="implement_solution,_nMI8QPsuEeSTNeNPX-T0yQ" guid="-5ATjBKv5TKcC47q_-Z4tbA">
+    <refinedDescription>&lt;span&#xD;
+style=&quot;WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FLOAT: none; COLOR: rgb(0,0,0); TEXT-ALIGN: left; FONT: 13px arial, helvetica, sans-serif, kanji2; WIDOWS: 1; DISPLAY: inline !important; LETTER-SPACING: normal; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; -webkit-text-stroke-width: 0px&quot;>&#xD;
+Usually, this task is focused on a specific implementation&amp;nbsp;element, such as a class or component, but it does not need&#xD;
+to be.&lt;/span></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-72K1bqq6Aqs4S4i0RLgNrg" name="developer,_nMKxcPsuEeSTNeNPX-T0yQ" guid="-72K1bqq6Aqs4S4i0RLgNrg">
+    <refinedDescription>Developers are responsible for the software requirements fo the project, sofware design, software develoment, unit testing,
+system integration, and packaging.</refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-_L7g5HYCVpZWBusFQmKkMg" name="project_leader,_nMKxcvsuEeSTNeNPX-T0yQ" guid="-_L7g5HYCVpZWBusFQmKkMg">
+    <refinedDescription>&lt;p>
+    Project Leader is the follower of these works and the reporter to the upper unit (Operational&lt;br />
+    Coordinator ve T echnical Coordinator) at the same time.
+&lt;/p>
+&lt;p>
+    The Project Leader is responsible for determining the software requirements of the project and making competitor
+    analysis, software design, software development, unit testing, system intergration and packaging.
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-gJc6u8ztGWBQv28zblv-pQ" name="low_level_design,_nMLYhPsuEeSTNeNPX-T0yQ" guid="-gJc6u8ztGWBQv28zblv-pQ">
+    <refinedDescription>&lt;p>&#xD;
+    Low level design includes:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        Classes&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Associations between classes&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Member and non-member functions&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Member variable&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-q1waOz5F1zVWf_aHCTe7Iw" name="high_level_design,_nMLYivsuEeSTNeNPX-T0yQ" guid="-q1waOz5F1zVWf_aHCTe7Iw">
+    <refinedDescription>&lt;p>&#xD;
+    High level design includes:&lt;br />&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        Architecture&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Components&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Interfaces&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Networks&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        High level data flow&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Optional: Classes&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-8RKyH8S_vNC41oEr6cmSlQ" name="requirements_specifications_document,_nMLYjPsuEeSTNeNPX-T0yQ" guid="-8RKyH8S_vNC41oEr6cmSlQ">
+    <keyConsiderations>&lt;ul&#xD;
+style=&quot;LIST-STYLE-TYPE: disc; MARGIN-BOTTOM: 0px; WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; COLOR: rgb(0,0,0); TEXT-ALIGN: left; FONT: 13px arial, helvetica, sans-serif, kanji2; PADDING-LEFT: 0px; MARGIN-LEFT: 30px; WIDOWS: 1; MARGIN-TOP: 0px; LETTER-SPACING: normal; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; -webkit-text-stroke-width: 0px&quot;>&#xD;
+    &lt;li style=&quot;FONT-SIZE: 10pt; FONT-FAMILY: arial, helvetica, sans-serif, kanji2; TEXT-ALIGN: left&quot;>&#xD;
+        When you document system-wide requirements, ensure that the needs of all of the stakeholders are represented. In&#xD;
+        particular, include the needs of those who are responsible for maintaining or supporting the system after it is&#xD;
+        delivered.&#xD;
+    &lt;/li>&#xD;
+    &lt;li style=&quot;FONT-SIZE: 10pt; FONT-FAMILY: arial, helvetica, sans-serif, kanji2; TEXT-ALIGN: left&quot;>&#xD;
+        Typically, there are some overlaps and gray areas between system-wide requirements and other requirements work&#xD;
+        products. For example, the authorization behavior of a system can be specified as use cases or as statements within&#xD;
+        system-wide requirements. The overall driving need is that no important requirements are missed or duplicated, and&#xD;
+        that there is an agreed upon approach for capturing and processing every type of requirement.&#xD;
+    &lt;/li>&#xD;
+    &lt;li style=&quot;FONT-SIZE: 10pt; FONT-FAMILY: arial, helvetica, sans-serif, kanji2; TEXT-ALIGN: left&quot;>&#xD;
+        System-wide requirements originate from many places. Documenting the source of the requirement is particularly&#xD;
+        important when you separate externally mandated requirements.&#xD;
+    &lt;/li>&#xD;
+    &lt;li style=&quot;FONT-SIZE: 10pt; FONT-FAMILY: arial, helvetica, sans-serif, kanji2; TEXT-ALIGN: left&quot;>&#xD;
+        Requirements are often thought of as &quot;Qualitative&quot; (specifying a quality or desirable characteristic) versus&#xD;
+        &quot;Quantitative&quot; (specifying a quantity). Qualitative requirements can sometimes be elaborated into quantitative&#xD;
+        requirements.&#xD;
+    &lt;/li>&#xD;
+    &lt;li style=&quot;FONT-SIZE: 10pt; FONT-FAMILY: arial, helvetica, sans-serif, kanji2; TEXT-ALIGN: left&quot;>&#xD;
+        A good quality requirement is one that you can verify, either through testing or some other objective evaluation.&#xD;
+    &lt;/li>&#xD;
+    &lt;li style=&quot;FONT-SIZE: 10pt; FONT-FAMILY: arial, helvetica, sans-serif, kanji2; TEXT-ALIGN: left&quot;>&#xD;
+        You must evaluate system-wide requirements for cost, schedule impact, and level of contribution to business goals.&#xD;
+        Based on your evaluation, the system-wide requirements should be iteratively challenged, defended, and amended.&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></keyConsiderations>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-2Xvpc95aI73swsNSijfGfw" name="implementation,_nMLYjvsuEeSTNeNPX-T0yQ" guid="-2Xvpc95aI73swsNSijfGfw">
+    <refinedDescription>&lt;p&#xD;
+style=&quot;WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; COLOR: rgb(0,0,0); TEXT-ALIGN: left; FONT: 13px arial, helvetica, sans-serif, kanji2; WIDOWS: 1; LETTER-SPACING: normal; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; -webkit-text-stroke-width: 0px&quot;>&#xD;
+    This artifact is the collection of one or more of these elements:&#xD;
+&lt;/p>&#xD;
+&lt;ul&#xD;
+style=&quot;LIST-STYLE-TYPE: disc; MARGIN-BOTTOM: 0px; WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; COLOR: rgb(0,0,0); TEXT-ALIGN: left; FONT: 13px arial, helvetica, sans-serif, kanji2; PADDING-LEFT: 0px; MARGIN-LEFT: 30px; WIDOWS: 1; MARGIN-TOP: 0px; LETTER-SPACING: normal; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; -webkit-text-stroke-width: 0px&quot;>&#xD;
+    &lt;li style=&quot;FONT-SIZE: 10pt; FONT-FAMILY: arial, helvetica, sans-serif, kanji2; TEXT-ALIGN: left&quot;>&#xD;
+        Source code files&#xD;
+    &lt;/li>&#xD;
+    &lt;li style=&quot;FONT-SIZE: 10pt; FONT-FAMILY: arial, helvetica, sans-serif, kanji2; TEXT-ALIGN: left&quot;>&#xD;
+        Data files&#xD;
+    &lt;/li>&#xD;
+    &lt;li style=&quot;FONT-SIZE: 10pt; FONT-FAMILY: arial, helvetica, sans-serif, kanji2; TEXT-ALIGN: left&quot;>&#xD;
+        Build scripts&#xD;
+    &lt;/li>&#xD;
+    &lt;li style=&quot;FONT-SIZE: 10pt; FONT-FAMILY: arial, helvetica, sans-serif, kanji2; TEXT-ALIGN: left&quot;>&#xD;
+        Other files that are transformed into the executable system&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-NqekT3b2RoXXHm7Q6IdlaA" name="dev_test,_nMTUUfsuEeSTNeNPX-T0yQ" guid="-NqekT3b2RoXXHm7Q6IdlaA">
+    <refinedDescription>&lt;span&#xD;
+style=&quot;WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FLOAT: none; COLOR: rgb(0,0,0); TEXT-ALIGN: left; FONT: 13px arial, helvetica, sans-serif, kanji2; WIDOWS: 1; DISPLAY: inline !important; LETTER-SPACING: normal; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; -webkit-text-stroke-width: 0px&quot;>&#xD;
+This artifact covers all of the steps to validate a specific aspect of an implementation element.&lt;/span></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-ycf0U4NZQ8rE1Q9uO-AuUQ" name="implement_solution,_xgZaUPsuEeSTNeNPX-T0yQ" guid="-ycf0U4NZQ8rE1Q9uO-AuUQ">
+    <refinedDescription>&lt;span&#xD;
+style=&quot;WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FLOAT: none; COLOR: rgb(0,0,0); TEXT-ALIGN: left; FONT: 13px arial, helvetica, sans-serif, kanji2; WIDOWS: 1; DISPLAY: inline !important; LETTER-SPACING: normal; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; -webkit-text-stroke-width: 0px&quot;>&#xD;
+Usually, this task is focused on a specific implementation&amp;nbsp;element, such as a class or component, but it does not need&#xD;
+to be.&lt;/span></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-aUFcg76g4WxhPy-PydsOPg" name="developer,_xgaBYPsuEeSTNeNPX-T0yQ" guid="-aUFcg76g4WxhPy-PydsOPg">
+    <refinedDescription>Developers are responsible for the software requirements fo the project, sofware design, software develoment, unit testing,
+system integration, and packaging.</refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-cIdH1nIYCZMyqKAnuQFqmg" name="project_leader,_xgaBYvsuEeSTNeNPX-T0yQ" guid="-cIdH1nIYCZMyqKAnuQFqmg">
+    <refinedDescription>&lt;p>
+    Project Leader is the follower of these works and the reporter to the upper unit (Operational&lt;br />
+    Coordinator ve T echnical Coordinator) at the same time.
+&lt;/p>
+&lt;p>
+    The Project Leader is responsible for determining the software requirements of the project and making competitor
+    analysis, software design, software development, unit testing, system intergration and packaging.
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-AT5ZwJS17jphGBQvYoibrA" name="requirements_specifications_document,_xgaBbPsuEeSTNeNPX-T0yQ" guid="-AT5ZwJS17jphGBQvYoibrA">
+    <keyConsiderations>&lt;ul&#xD;
+style=&quot;LIST-STYLE-TYPE: disc; MARGIN-BOTTOM: 0px; WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; COLOR: rgb(0,0,0); TEXT-ALIGN: left; FONT: 13px arial, helvetica, sans-serif, kanji2; PADDING-LEFT: 0px; MARGIN-LEFT: 30px; WIDOWS: 1; MARGIN-TOP: 0px; LETTER-SPACING: normal; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; -webkit-text-stroke-width: 0px&quot;>&#xD;
+    &lt;li style=&quot;FONT-SIZE: 10pt; FONT-FAMILY: arial, helvetica, sans-serif, kanji2; TEXT-ALIGN: left&quot;>&#xD;
+        When you document system-wide requirements, ensure that the needs of all of the stakeholders are represented. In&#xD;
+        particular, include the needs of those who are responsible for maintaining or supporting the system after it is&#xD;
+        delivered.&#xD;
+    &lt;/li>&#xD;
+    &lt;li style=&quot;FONT-SIZE: 10pt; FONT-FAMILY: arial, helvetica, sans-serif, kanji2; TEXT-ALIGN: left&quot;>&#xD;
+        Typically, there are some overlaps and gray areas between system-wide requirements and other requirements work&#xD;
+        products. For example, the authorization behavior of a system can be specified as use cases or as statements within&#xD;
+        system-wide requirements. The overall driving need is that no important requirements are missed or duplicated, and&#xD;
+        that there is an agreed upon approach for capturing and processing every type of requirement.&#xD;
+    &lt;/li>&#xD;
+    &lt;li style=&quot;FONT-SIZE: 10pt; FONT-FAMILY: arial, helvetica, sans-serif, kanji2; TEXT-ALIGN: left&quot;>&#xD;
+        System-wide requirements originate from many places. Documenting the source of the requirement is particularly&#xD;
+        important when you separate externally mandated requirements.&#xD;
+    &lt;/li>&#xD;
+    &lt;li style=&quot;FONT-SIZE: 10pt; FONT-FAMILY: arial, helvetica, sans-serif, kanji2; TEXT-ALIGN: left&quot;>&#xD;
+        Requirements are often thought of as &quot;Qualitative&quot; (specifying a quality or desirable characteristic) versus&#xD;
+        &quot;Quantitative&quot; (specifying a quantity). Qualitative requirements can sometimes be elaborated into quantitative&#xD;
+        requirements.&#xD;
+    &lt;/li>&#xD;
+    &lt;li style=&quot;FONT-SIZE: 10pt; FONT-FAMILY: arial, helvetica, sans-serif, kanji2; TEXT-ALIGN: left&quot;>&#xD;
+        A good quality requirement is one that you can verify, either through testing or some other objective evaluation.&#xD;
+    &lt;/li>&#xD;
+    &lt;li style=&quot;FONT-SIZE: 10pt; FONT-FAMILY: arial, helvetica, sans-serif, kanji2; TEXT-ALIGN: left&quot;>&#xD;
+        You must evaluate system-wide requirements for cost, schedule impact, and level of contribution to business goals.&#xD;
+        Based on your evaluation, the system-wide requirements should be iteratively challenged, defended, and amended.&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></keyConsiderations>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-rVr_jW8Kb3cAE70pV1YwJw" name="implementation,_xgaBbvsuEeSTNeNPX-T0yQ" guid="-rVr_jW8Kb3cAE70pV1YwJw">
+    <refinedDescription>&lt;p&#xD;
+style=&quot;WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; COLOR: rgb(0,0,0); TEXT-ALIGN: left; FONT: 13px arial, helvetica, sans-serif, kanji2; WIDOWS: 1; LETTER-SPACING: normal; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; -webkit-text-stroke-width: 0px&quot;>&#xD;
+    This artifact is the collection of one or more of these elements:&#xD;
+&lt;/p>&#xD;
+&lt;ul&#xD;
+style=&quot;LIST-STYLE-TYPE: disc; MARGIN-BOTTOM: 0px; WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; COLOR: rgb(0,0,0); TEXT-ALIGN: left; FONT: 13px arial, helvetica, sans-serif, kanji2; PADDING-LEFT: 0px; MARGIN-LEFT: 30px; WIDOWS: 1; MARGIN-TOP: 0px; LETTER-SPACING: normal; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; -webkit-text-stroke-width: 0px&quot;>&#xD;
+    &lt;li style=&quot;FONT-SIZE: 10pt; FONT-FAMILY: arial, helvetica, sans-serif, kanji2; TEXT-ALIGN: left&quot;>&#xD;
+        Source code files&#xD;
+    &lt;/li>&#xD;
+    &lt;li style=&quot;FONT-SIZE: 10pt; FONT-FAMILY: arial, helvetica, sans-serif, kanji2; TEXT-ALIGN: left&quot;>&#xD;
+        Data files&#xD;
+    &lt;/li>&#xD;
+    &lt;li style=&quot;FONT-SIZE: 10pt; FONT-FAMILY: arial, helvetica, sans-serif, kanji2; TEXT-ALIGN: left&quot;>&#xD;
+        Build scripts&#xD;
+    &lt;/li>&#xD;
+    &lt;li style=&quot;FONT-SIZE: 10pt; FONT-FAMILY: arial, helvetica, sans-serif, kanji2; TEXT-ALIGN: left&quot;>&#xD;
+        Other files that are transformed into the executable system&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-hKPY8yXdBTYwpYFsN-lQGQ" name="dev_test,_xinA0fsuEeSTNeNPX-T0yQ" guid="-hKPY8yXdBTYwpYFsN-lQGQ">
+    <refinedDescription>&lt;span&#xD;
+style=&quot;WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FLOAT: none; COLOR: rgb(0,0,0); TEXT-ALIGN: left; FONT: 13px arial, helvetica, sans-serif, kanji2; WIDOWS: 1; DISPLAY: inline !important; LETTER-SPACING: normal; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; -webkit-text-stroke-width: 0px&quot;>&#xD;
+This artifact covers all of the steps to validate a specific aspect of an implementation element.&lt;/span></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-p3bHsXOxeOECETOiDS1pow" name="implement_solution,_yJbJMPsuEeSTNeNPX-T0yQ" guid="-p3bHsXOxeOECETOiDS1pow">
+    <refinedDescription>&lt;span&#xD;
+style=&quot;WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FLOAT: none; COLOR: rgb(0,0,0); TEXT-ALIGN: left; FONT: 13px arial, helvetica, sans-serif, kanji2; WIDOWS: 1; DISPLAY: inline !important; LETTER-SPACING: normal; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; -webkit-text-stroke-width: 0px&quot;>&#xD;
+Usually, this task is focused on a specific implementation&amp;nbsp;element, such as a class or component, but it does not need&#xD;
+to be.&lt;/span></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-1z0ZB08q5Trp6_HZOg-R5Q" name="implement_solution,_yvayMPsuEeSTNeNPX-T0yQ" guid="-1z0ZB08q5Trp6_HZOg-R5Q">
+    <refinedDescription>&lt;span&#xD;
+style=&quot;WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FLOAT: none; COLOR: rgb(0,0,0); TEXT-ALIGN: left; FONT: 13px arial, helvetica, sans-serif, kanji2; WIDOWS: 1; DISPLAY: inline !important; LETTER-SPACING: normal; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; -webkit-text-stroke-width: 0px&quot;>&#xD;
+Usually, this task is focused on a specific implementation&amp;nbsp;element, such as a class or component, but it does not need&#xD;
+to be.&lt;/span></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-_j1KeTxC-xCxKut8MOZKnA" name="developer,_yvayMfsuEeSTNeNPX-T0yQ" guid="-_j1KeTxC-xCxKut8MOZKnA">
+    <refinedDescription>Developers are responsible for the software requirements fo the project, sofware design, software develoment, unit testing,
+system integration, and packaging.</refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-96srYtOqZx6OiwlfUNErrw" name="project_leader,_yvayM_suEeSTNeNPX-T0yQ" guid="-96srYtOqZx6OiwlfUNErrw">
+    <refinedDescription>&lt;p>
+    Project Leader is the follower of these works and the reporter to the upper unit (Operational&lt;br />
+    Coordinator ve T echnical Coordinator) at the same time.
+&lt;/p>
+&lt;p>
+    The Project Leader is responsible for determining the software requirements of the project and making competitor
+    analysis, software design, software development, unit testing, system intergration and packaging.
+&lt;/p></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-hxQV7D450lBEDrrnnkdtAg" name="low_level_design,_yvayOfsuEeSTNeNPX-T0yQ" guid="-hxQV7D450lBEDrrnnkdtAg">
+    <refinedDescription>&lt;p>&#xD;
+    Low level design includes:&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        Classes&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Associations between classes&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Member and non-member functions&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Member variable&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-ODIL-BF_xQ61QbjFREmeYw" name="high_level_design,_yvayP_suEeSTNeNPX-T0yQ" guid="-ODIL-BF_xQ61QbjFREmeYw">
+    <refinedDescription>&lt;p>&#xD;
+    High level design includes:&lt;br />&#xD;
+&lt;/p>&#xD;
+&lt;ul>&#xD;
+    &lt;li>&#xD;
+        Architecture&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Components&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Interfaces&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Networks&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        High level data flow&#xD;
+    &lt;/li>&#xD;
+    &lt;li>&#xD;
+        Optional: Classes&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-qIg31Bu6t234PqowCW3sxA" name="requirements_specifications_document,_yvayQfsuEeSTNeNPX-T0yQ" guid="-qIg31Bu6t234PqowCW3sxA">
+    <keyConsiderations>&lt;ul&#xD;
+style=&quot;LIST-STYLE-TYPE: disc; MARGIN-BOTTOM: 0px; WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; COLOR: rgb(0,0,0); TEXT-ALIGN: left; FONT: 13px arial, helvetica, sans-serif, kanji2; PADDING-LEFT: 0px; MARGIN-LEFT: 30px; WIDOWS: 1; MARGIN-TOP: 0px; LETTER-SPACING: normal; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; -webkit-text-stroke-width: 0px&quot;>&#xD;
+    &lt;li style=&quot;FONT-SIZE: 10pt; FONT-FAMILY: arial, helvetica, sans-serif, kanji2; TEXT-ALIGN: left&quot;>&#xD;
+        When you document system-wide requirements, ensure that the needs of all of the stakeholders are represented. In&#xD;
+        particular, include the needs of those who are responsible for maintaining or supporting the system after it is&#xD;
+        delivered.&#xD;
+    &lt;/li>&#xD;
+    &lt;li style=&quot;FONT-SIZE: 10pt; FONT-FAMILY: arial, helvetica, sans-serif, kanji2; TEXT-ALIGN: left&quot;>&#xD;
+        Typically, there are some overlaps and gray areas between system-wide requirements and other requirements work&#xD;
+        products. For example, the authorization behavior of a system can be specified as use cases or as statements within&#xD;
+        system-wide requirements. The overall driving need is that no important requirements are missed or duplicated, and&#xD;
+        that there is an agreed upon approach for capturing and processing every type of requirement.&#xD;
+    &lt;/li>&#xD;
+    &lt;li style=&quot;FONT-SIZE: 10pt; FONT-FAMILY: arial, helvetica, sans-serif, kanji2; TEXT-ALIGN: left&quot;>&#xD;
+        System-wide requirements originate from many places. Documenting the source of the requirement is particularly&#xD;
+        important when you separate externally mandated requirements.&#xD;
+    &lt;/li>&#xD;
+    &lt;li style=&quot;FONT-SIZE: 10pt; FONT-FAMILY: arial, helvetica, sans-serif, kanji2; TEXT-ALIGN: left&quot;>&#xD;
+        Requirements are often thought of as &quot;Qualitative&quot; (specifying a quality or desirable characteristic) versus&#xD;
+        &quot;Quantitative&quot; (specifying a quantity). Qualitative requirements can sometimes be elaborated into quantitative&#xD;
+        requirements.&#xD;
+    &lt;/li>&#xD;
+    &lt;li style=&quot;FONT-SIZE: 10pt; FONT-FAMILY: arial, helvetica, sans-serif, kanji2; TEXT-ALIGN: left&quot;>&#xD;
+        A good quality requirement is one that you can verify, either through testing or some other objective evaluation.&#xD;
+    &lt;/li>&#xD;
+    &lt;li style=&quot;FONT-SIZE: 10pt; FONT-FAMILY: arial, helvetica, sans-serif, kanji2; TEXT-ALIGN: left&quot;>&#xD;
+        You must evaluate system-wide requirements for cost, schedule impact, and level of contribution to business goals.&#xD;
+        Based on your evaluation, the system-wide requirements should be iteratively challenged, defended, and amended.&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></keyConsiderations>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-CMfzmHSZWoZYZwFLIb_mPA" name="implementation,_yvayQ_suEeSTNeNPX-T0yQ" guid="-CMfzmHSZWoZYZwFLIb_mPA">
+    <refinedDescription>&lt;p&#xD;
+style=&quot;WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; COLOR: rgb(0,0,0); TEXT-ALIGN: left; FONT: 13px arial, helvetica, sans-serif, kanji2; WIDOWS: 1; LETTER-SPACING: normal; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; -webkit-text-stroke-width: 0px&quot;>&#xD;
+    This artifact is the collection of one or more of these elements:&#xD;
+&lt;/p>&#xD;
+&lt;ul&#xD;
+style=&quot;LIST-STYLE-TYPE: disc; MARGIN-BOTTOM: 0px; WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; COLOR: rgb(0,0,0); TEXT-ALIGN: left; FONT: 13px arial, helvetica, sans-serif, kanji2; PADDING-LEFT: 0px; MARGIN-LEFT: 30px; WIDOWS: 1; MARGIN-TOP: 0px; LETTER-SPACING: normal; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; -webkit-text-stroke-width: 0px&quot;>&#xD;
+    &lt;li style=&quot;FONT-SIZE: 10pt; FONT-FAMILY: arial, helvetica, sans-serif, kanji2; TEXT-ALIGN: left&quot;>&#xD;
+        Source code files&#xD;
+    &lt;/li>&#xD;
+    &lt;li style=&quot;FONT-SIZE: 10pt; FONT-FAMILY: arial, helvetica, sans-serif, kanji2; TEXT-ALIGN: left&quot;>&#xD;
+        Data files&#xD;
+    &lt;/li>&#xD;
+    &lt;li style=&quot;FONT-SIZE: 10pt; FONT-FAMILY: arial, helvetica, sans-serif, kanji2; TEXT-ALIGN: left&quot;>&#xD;
+        Build scripts&#xD;
+    &lt;/li>&#xD;
+    &lt;li style=&quot;FONT-SIZE: 10pt; FONT-FAMILY: arial, helvetica, sans-serif, kanji2; TEXT-ALIGN: left&quot;>&#xD;
+        Other files that are transformed into the executable system&#xD;
+    &lt;/li>&#xD;
+&lt;/ul></refinedDescription>
+  </org.eclipse.epf.uma:DescriptorDescription>
+  <org.eclipse.epf.uma:DescriptorDescription xmi:id="-FRXiTbyLKMvjyKd9vnsQzw" name="dev_test,_yvkjMfsuEeSTNeNPX-T0yQ" guid="-FRXiTbyLKMvjyKd9vnsQzw">
+    <refinedDescription>&lt;span&#xD;
+style=&quot;WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FLOAT: none; COLOR: rgb(0,0,0); TEXT-ALIGN: left; FONT: 13px arial, helvetica, sans-serif, kanji2; WIDOWS: 1; DISPLAY: inline !important; LETTER-SPACING: normal; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; -webkit-text-stroke-width: 0px&quot;>&#xD;
+This artifact covers all of the steps to validate a specific aspect of an implementation element.&lt;/span></refinedDescription>
   </org.eclipse.epf.uma:DescriptorDescription>
 </xmi:XMI>
